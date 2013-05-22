@@ -1,29 +1,43 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>A Brand New nanoc Site - <%= @item[:title] %></title>
-    <link rel="stylesheet" href="/style.css">
+    <head>
+        <meta charset="utf-8">
+        <title>morr.cc | <%= @item[:title] %></title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
 
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
-  </head>
-  <body>
-    <div id="main">
-      <%= yield %>
-    </div>
-    <div id="sidebar">
-      <h2>Documentation</h2>
-      <ul>
-        <li><a href="http://nanoc.ws/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.ws/docs/tutorial/">Getting Started</a></li>
-      </ul>
-      <h2>Community</h2>
-      <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
-        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
-        <li><a href="http://github.com/nanoc/nanoc/wiki/">Wiki</a></li>
-      </ul>
-    </div>
-  </body>
+        <!-- you don't need to keep this, but it's cool for stats! -->
+        <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+    </head>
+    <body>
+        <div id="header">
+            <a href="/">morr.cc</a>
+            <ul>
+                <% toplevel.each do |item| %>
+                <li><%= link_to item %></li>
+                <ul>
+                <% item.children.chronologic.reverse.each do |subitem| %>
+                <li><%= link_to subitem %>
+                <% if subitem[:published] %>
+                (<%= subitem[:published] %>)
+                <% end %>
+                </li>
+                <% end %>
+                </ul>
+                <% end %>
+            </ul>
+        </div>
+        <div id="main">
+            <h1><%= @item[:title] %></h1>
+            <% if @item[:published] %>
+                <p><%= @item[:published] %></p>
+            <% end %>
+            <% if @item[:tags] %>
+                <%= @item[:tags].split(",").map do |tag|
+                tag = tag.strip
+                "<a href=\"/tag/#{tag}/\">#{tag}</a>"
+                end.join(", ") %>
+            <% end %>
+            <%= yield %>
+        </div>
+    </body>
 </html>
