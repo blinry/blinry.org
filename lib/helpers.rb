@@ -1,5 +1,5 @@
 def toplevel
-    @items['/'].children.select{|i| i[:title]}
+    @items['/'].children.select{|i| i[:title]}.sort_by{|i| i[:order]}
 end
 
 def link_to item

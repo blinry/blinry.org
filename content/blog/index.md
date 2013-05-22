@@ -1,5 +1,6 @@
 ---
 title: Blog
+order: 2
 ---
 
 What here?
