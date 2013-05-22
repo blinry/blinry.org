@@ -9,12 +9,20 @@ preprocess do
     end
 end
 
+compile '/assets/style/*/' do
+    filter :sass, syntax: :scss
+end
+
 compile '*' do
     unless item.binary?
         filter :erb
         filter :kramdown
         layout 'default'
     end
+end
+
+route '/assets/style/*/' do
+    item.identifier.chop + '.css'
 end
 
 route '*' do
