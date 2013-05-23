@@ -9,10 +9,10 @@
 }
 
 $primary: #aea;
-$sidebar-width: 16em;
+$sidebar-width: 20%;
 $header-height: 5em;
-$spacing: 1em;
-$vspacing: 2em;
+$spacing: 5%;
+$vspacing: 2%;
 $small-spacing: $spacing/2;
 
 p {
@@ -26,10 +26,17 @@ p {
 
 #sidebar {
     float: left;
+}
+
+#metabar {
+    float: right;
+}
+
+#sidebar, #metabar {
     padding: 0 $vspacing;
     width: $sidebar-width;
     img {
-        width: $sidebar-width/2;
+        width: 50%;
         display: block;
         margin: auto;
         margin-top: 3em;
@@ -55,12 +62,15 @@ p {
     }
     li {
         list-style-type: none;
+        a {
+            font-size: 0.9em;
+        }
     }
 }
 
 #main {
     margin-left: $sidebar-width + 2*$vspacing;
-    margin-right: $vspacing;
+    margin-right: $sidebar-width + 2*$vspacing;
     max-width: 40em;
     border: 1px solid white;
     h1 {
