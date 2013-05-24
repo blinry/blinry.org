@@ -32,6 +32,7 @@ $spacing: 1.5em;
 * {
     margin: 0;
     padding: 0;
+    font-size: inherit;
 }
 
 a {
@@ -55,27 +56,25 @@ code {
 #header {
     margin-bottom: $spacing;
     text-align: center;
-    padding-bottom: 0.3em;
-    border-bottom: 3px black solid;
     > a {
         display: inline-block;
     }
     img {
         vertical-align: middle;
-        height: 3em;
+        height: 4em;
         margin-bottom: 0.5em;
-        margin-right: 0.5em;
     }
     ul {
-        display: inline;
         font-size: 1.2em;
         font-weight: bold;
         margin-left: 1em;
-        display: inline-block;
+        display: block;
         margin: auto;
+        padding-bottom: 0.5em;
+        border-bottom: 3px black solid;
     }
     li {
-        display: inline;
+        display: inline-block;
         list-style-type: none;
         margin: 0 0.5em;
     }
@@ -95,10 +94,10 @@ code {
     }
     p {
         -hyphens: auto;
-       -moz-hyphens: auto;
-       -o-hyphens: auto;
-       -webkit-hyphens: auto;
-       -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -o-hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
         text-align: justify;
     }
     p, ul, ol, pre {
@@ -111,6 +110,9 @@ code {
         width: 100%;
         display: block;
     }
+    h1 {
+        font-size: 2em;
+    }
     .content {
         margin-top: $spacing;
         a {
@@ -119,91 +121,3 @@ code {
         }
     }
 }
-
-/*
-* {
-    padding: 0;
-    margin: 0;
-    font-family: serif;
-    font-weight: normal;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-}
-
-body {
-}
-
-p {
-   -moz-hyphens: auto;
-   -o-hyphens: auto;
-   -webkit-hyphens: auto;
-   -ms-hyphens: auto;
-   -hyphens: auto;
-   text-align: justify;
-}
-
-#header {
-    display: inline-block;
-    h1 {
-        display: inline;
-    }
-    img {
-        width: 80px;
-        vertical-align: middle;
-    }
-    ul {
-        display: inline;
-        li {
-            display: inline;
-            list-style-type: none;
-            padding: 0 10px;
-            a {
-                border-radius: 5px;
-                display: inline-block;
-                padding: 5px;
-                font-size: 1.2em;
-            }
-            a:hover {
-                background: #d99;
-                color: white;
-            }
-        }
-        li.current a {
-            background: red;
-            color: white;
-        }
-    }
-}
-
-#content {
-    font-size: 16pt;
-    color: #333;
-    line-height: 150%;
-    h1 {
-        font-size: 2em;
-        margin-top: 1.5em;
-    }
-    .meta {
-        font-size: 0.8em;
-        color: #fff;
-    }
-    p, ol, ul {
-        margin-bottom: 1em;
-    }
-    li {
-        margin-left: 2em;
-    }
-    a {
-        color: #00c;
-    }
-    h1 a {
-        color: black;
-    }
-    img {
-        width: 100%;
-    }
-}
-*/
