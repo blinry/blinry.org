@@ -1,11 +1,8 @@
 ---
-title: Blog
-headless: true
-order: 2
+title: Archive
+order: 4
 ---
 
 <% @item.children.chronologic.reverse.each do |item| %>
-<% render "article", {:item => item} do %>
-<%= item.compiled_content %>
-<% end %>
+<%= item[:published] %> -- <%= link_to item %>
 <% end %>

@@ -1,6 +1,6 @@
 ---
 title: Projects
-order: 3
+order: 2
 ---
 
 <% @item.children.each do |item| %>

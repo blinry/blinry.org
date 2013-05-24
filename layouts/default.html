@@ -4,10 +4,10 @@
         <%= render "head" %>
     </head>
     <body>
-        <div id="sidebar">
-            <%= render "sidebar" %>
+        <div id="header">
+            <%= render "header" %>
         </div>
-        <div id="main">
+        <div id="content">
             <% render "article" do %>
                 <%= yield %>
             <% end %>

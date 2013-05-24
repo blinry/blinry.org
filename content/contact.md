@@ -1,6 +1,6 @@
 ---
 title: Contact
-order: 4
+order: 3
 ---
 
 - Mail/XMPP: sebastian@morr.cc
