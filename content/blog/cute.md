@@ -4,4 +4,4 @@ published: 2013-05-22
 tags: aaaw, pics
 ---
 
-![aaaw](/images/bild.png)
+![aaaw](/assets/images/bild.png)

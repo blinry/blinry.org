@@ -1,0 +1,12 @@
+<% unless @item[:headless] %>
+<h1><%= @item[:title] %></h1>
+<% if @item[:published] %>
+<span class="meta"><%= @item[:published] %>
+<% end %> <% if @item[:tags] %> /
+<%= @item[:tags].split(",").map do |tag|
+tag = tag.strip
+"<a href=\"/tag/#{tag}/\">#{tag}</a>"
+end.join(", ") %>
+<% end %> </span>
+<% end %>
+<%= yield %>

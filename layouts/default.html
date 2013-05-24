@@ -1,41 +1,16 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>morr.cc | <%= @item[:title] %></title>
-        <link rel="stylesheet" href="/assets/style/style.css">
-
-        <!-- you don't need to keep this, but it's cool for stats! -->
-        <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+        <%= render "head" %>
     </head>
     <body>
         <div id="sidebar">
-            <a href="/"><img src="/assets/images/m.png"></a>
-
-            <% toplevel.each do |item| %>
-                <h2><%= link_to item %></h2>
-                <% if item.children.size > 0 %>
-                    <ul>
-                    <% item.children.chronologic.reverse.each do |subitem| %>
-                        <li><%= link_to subitem %>
-                        </li>
-                    <% end %>
-                    </ul>
-                <% end %>
-            <% end %>
+            <%= render "sidebar" %>
         </div>
         <div id="main">
-            <h1><%= @item[:title] %></h1>
-            <% if @item[:published] %>
-                <p><%= @item[:published] %></p>
+            <% render "article" do %>
+                <%= yield %>
             <% end %>
-            <% if @item[:tags] %>
-                <%= @item[:tags].split(",").map do |tag|
-                tag = tag.strip
-                "<a href=\"/tag/#{tag}/\">#{tag}</a>"
-                end.join(", ") %>
-            <% end %>
-            <%= yield %>
         </div>
     </body>
 </html>

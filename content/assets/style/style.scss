@@ -1,18 +1,17 @@
+$primary: #aea;
+
 * {
     padding: 0;
     margin: 0;
     font-family: sans;
-    font-size: 12pt;
     text-decoration: none;
     font-weight: normal;
-    color: black;
 }
 
 body {
     padding: 40px;
+    background: beige;
 }
-
-$primary: #aea;
 
 p {
    -moz-hyphens: auto;
@@ -43,6 +42,7 @@ p {
         }
     }
     h2 {
+        font-size: 1em;
         margin-top: 10px;
         background: darken($primary, 20%);
         :hover {
@@ -64,12 +64,20 @@ p {
 }
 
 #main {
+    font-size: 1em;
+    color: #222;
+    line-height: 150%;
     max-width: 40em;
-    padding: 20px;
+    padding: 0 40px;
     margin-left: 200px;
+    padding-top: 35px;
     h1 {
-        font-size: 2em;
-        margin-bottom: 1em;
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+    .meta {
+        font-size: 0.8em;
+        color: grey;
     }
     p, ol, ul {
         margin-bottom: 1em;

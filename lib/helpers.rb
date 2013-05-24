@@ -1,3 +1,5 @@
+include Nanoc::Helpers::Rendering
+
 def toplevel
     @items['/'].children.select{|i| i[:title]}.sort_by{|i| i[:order]}
 end

@@ -25,6 +25,14 @@ route '/assets/style/*/' do
     item.identifier.chop + '.css'
 end
 
+route '/blog/' do
+    "/index.html"
+end
+
+route '/' do
+    "/fubar.html"
+end
+
 route '*' do
     if item.binary?
         item.identifier.chop + '.' + item[:extension]
