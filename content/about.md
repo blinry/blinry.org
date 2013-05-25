@@ -17,4 +17,4 @@ On this blog I publish things I create and share stuff I like.
 
 This site is written in [Markdown](http://daringfireball.net/projects/markdown/) and compiled to HTML5 by the awesome [nanoc](http://nanoc.ws).
 
-The fonts are [Linux Libertine](http://www.linuxlibertine.org/), which I use for its superior *ffi* ligature in modern browsers, and the `monospace` font [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html).
+The fonts are [Linux Libertine](http://www.linuxlibertine.org/), which I use for its superior *ffi* ligature in cool browsers, and the `monospace` font [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html).
