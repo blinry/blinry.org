@@ -1,5 +1,11 @@
 <meta charset="utf-8">
-<title><%= @item[:title] %> | Sebastian Morr</title>
+<title>
+    <% if @item.path == "/" %>
+        Sebastian Morr's blog about technology, art, and life
+    <% else %>
+        <%= @item[:title] %> | Sebastian Morr's blog
+    <% end %>
+</title>
 <link rel="stylesheet" href="/assets/style/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes">
 <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">

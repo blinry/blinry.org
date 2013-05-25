@@ -28,6 +28,8 @@ end
 route '*' do
     if item.binary?
         item.identifier.chop + '.' + item[:extension]
+    elsif item[:published]
+        "/"+item[:published].to_s.gsub("-","/")+item.identifier + 'index.html'
     else
         item.identifier + 'index.html'
     end
