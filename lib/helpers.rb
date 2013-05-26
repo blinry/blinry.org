@@ -1,5 +1,9 @@
 include Nanoc::Helpers::Rendering
 
+def blog
+    @items.select{|i| i[:published]}.chronologic.reverse
+end
+
 def toplevel
     @items['/'].children.select{|i| i[:title]}.sort_by{|i| i[:order]}
 end

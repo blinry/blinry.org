@@ -1,11 +1,26 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <%= render "head" %>
+        <meta charset="utf-8">
+        <title>
+            <% if @item.path == "/" %>
+                Sebastian Morr's blog about technology, art, and life
+            <% else %>
+                <%= @item[:title] %> | Sebastian Morr's blog
+            <% end %>
+        </title>
+        <link rel="stylesheet" href="/assets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes">
+        <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+        <link rel="shortcut icon" href="/favicon.ico">
     </head>
     <body>
         <div id="header">
-            <%= render "header" %>
+            <a href="/"><img src="/assets/images/m-logo-red.svg" alt="morr.cc"></a>
+
+            <ul>
+                <% toplevel.each do |item| %><li<%= " class=\"current\"" if item == @item %>><%= link_to item %></li><% end %><li><form action="http://google.de/search" method="get"><input name="q" placeholder="Search..."><input type="hidden" name="as_sitesearch" value="morr.cc"></form></li>
+            </ul>
         </div>
         <div id="content">
             <% render "article" do %>
@@ -13,7 +28,13 @@
             <% end %>
         </div>
         <div id="footer">
-            <%= render "footer" %>
+            <code>
+            $ fortune<br>
+            <%=
+                cat, text = `fortune -ce wisdom science riddles perl paradoxum magic love linux kids humorists goedel fortunes food education definitions computers art archlinux calvin futurama hitchhiker portal portal2 tbbt`.split("%", 2)
+                "<span title=\"(#{cat.split('/')[-1]}\">#{text}</span>"
+            %>
+            </code>
         </div>
     </body>
 </html>
