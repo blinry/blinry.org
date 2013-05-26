@@ -3,9 +3,7 @@ title: About
 order: 1
 ---
 
-My name is Sebastian Morr, I'm a computer science student from Germany.
-
-On this blog I publish things I create and share stuff I like.
+My name is Sebastian Morr, I'm a computer science student from Germany. On this blog I publish things I create and share stuff I like.
 
 ## Contact
 

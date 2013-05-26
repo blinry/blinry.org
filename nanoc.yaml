@@ -80,3 +80,17 @@ deploy:
   default:
     kind: rsync
     dst: "morr.cc:/web/blog"
+    options: [
+      '--group',
+      '--links',
+      '--perms',
+      '--partial',
+      '--progress',
+      '--recursive',
+      '--times',
+      '--verbose',
+      '--compress',
+      '--exclude=".hg"',
+      '--exclude=".svn"',
+      '--exclude=".git"',
+      '--chmod=u=rwX,go=rX' ]
