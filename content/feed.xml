@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>blog.morr.cc</title>
+    <subtitle><%= subtitle %></subtitle>
+    <link href="<%= domain %>feed/" rel="self" />
+    <link href="<%= domain %>" />
+    <id><%= domain %></id>
+    <updated><%= Time.now.xmlschema %></updated>
+
+    <% blog.each do |item| %>
+        <entry>
+            <title><%= item[:title] %></title>
+            <link href="<%= domain.chop %><%= item.path %>" />
+            <id><%= domain.chop %><%= item.path %></id>
+            <updated><%= item[:published].xmlschema %></updated>
+            <author>
+                <name>Sebastian Morr</name>
+                <email>sebastian@morr.cc</email>
+            </author>
+            <content type="html"><![CDATA[
+                <%= item.compiled_content %>
+            ]]></content>
+        </entry>
+    <% end %>
+</feed>

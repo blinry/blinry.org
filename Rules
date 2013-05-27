@@ -7,10 +7,19 @@ preprocess do
         identifier = "/tag/#{tag}/"
         @items << Nanoc::Item.new(content, {:title  => title}, identifier)
     end
+    @items.each do |item|
+        if item[:published]
+            item[:published] = DateTime.parse(item[:published].to_s)
+        end
+    end
 end
 
 compile '/assets/style/' do
     filter :sass, syntax: :scss
+end
+
+compile '/feed/' do
+    filter :erb
 end
 
 compile '*' do

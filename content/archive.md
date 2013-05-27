@@ -1,6 +1,6 @@
 ---
 title: Archive
-order: 4
+order: 2
 ---
 
 <%= blog.enum %>

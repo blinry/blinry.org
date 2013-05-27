@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>
             <% if @item.path == "/" %>
-                Sebastian Morr's blog about technology, art, and life
+                <%= subtitle %>
             <% else %>
                 <%= @item[:title] %> | Sebastian Morr's blog
             <% end %>

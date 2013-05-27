@@ -5,6 +5,8 @@ order: 1
 
 My name is Sebastian Morr, I'm a computer science student from Germany. On this blog I publish things I create and share stuff I like.
 
+You can subscribe to new posts using the [Atom feed](/feed/).
+
 ## Contact
 
 - Email: <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc ([PGP key](http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x457598F2A624F8B6))

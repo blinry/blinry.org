@@ -2,7 +2,7 @@
 <div class="article">
 <h1><%= link_to @item %></h1>
 <% if @item[:published] %>
-<div class="meta"><%= @item[:published] %>
+<div class="meta"><%= @item[:published].strftime("%Y-%m-%d") %>
 <% if @item[:tags] %> /
 <%= tags_for(@item) %>
 <% end %>

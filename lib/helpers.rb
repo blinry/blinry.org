@@ -31,7 +31,7 @@ class Array
     end
     def enum
         map { |item|
-            "#{item[:published]} -- #{link_to item} / <span class=\"meta\">#{tags_for item}</span>"
+            "#{item[:published].strftime("%Y-%m-%d")} -- #{link_to item} / <span class=\"meta\">#{tags_for item}</span>"
         }.join("\n\n")
     end
 end
@@ -40,4 +40,12 @@ def with_tag tag
     @items.select do |item|
         item[:tags] and item[:tags].split(",").map{|t| t.strip}.include? tag
     end
+end
+
+def subtitle
+    "Sebastian Morr's blog about technology, art, and life"
+end
+
+def domain
+    "https://blog.morr.cc/"
 end
