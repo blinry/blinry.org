@@ -36,8 +36,12 @@ $spacing: 1.5em;
 }
 
 a {
-    color: inherit;
     text-decoration: none;
+    color: blue;
+}
+
+a:visited{
+    color: darkblue;
 }
 
 body {
@@ -47,6 +51,7 @@ body {
     font-family: "Linux Libertine", serif;
     font-size: 1.4em;
     overflow-y: scroll;
+    color: #111;
 }
 
 code {
@@ -56,27 +61,26 @@ code {
 #header {
     margin-bottom: $spacing;
     text-align: center;
-    > a {
+    padding-bottom: 0.5em;
+    border-bottom: 3px black solid;
+    a {
         display: inline-block;
+        color: inherit;
     }
     img {
         vertical-align: middle;
-        height: 4em;
-        margin-bottom: 0.5em;
+        height: 3em;
+        padding: 0.5em;
     }
     ul {
         font-size: 1.2em;
         font-weight: bold;
-        margin-left: 0.5em;
         display: inline-block;
     }
     li {
         display: inline-block;
         list-style-type: none;
-        margin: 0 0.5em;
-    }
-    a {
-        text-decoration: none;
+        margin: 0em 0.5em;
     }
     input {
         width: 5em;
@@ -86,10 +90,6 @@ code {
 
 .article {
     margin-bottom: 2*$spacing;
-    .meta {
-        font-size: 0.8em;
-        color: #666;
-    }
     p {
         -hyphens: auto;
         -moz-hyphens: auto;
@@ -105,18 +105,29 @@ code {
         margin-left: 1em;
     }
     img {
-        width: 100%;
+        max-width: 100%;
         display: block;
+        margin: auto;
     }
     h1 {
         font-size: 2em;
         font-weight: normal;
+        a {
+            color: inherit;
+        }
     }
     .content {
         margin-top: $spacing;
         a {
-            color: darkblue;
             text-decoration: underline;
+        }
+    }
+    .meta {
+        font-size: 0.8em;
+        color: #666;
+        a {
+            color: inherit;
+            text-decoration: none;
         }
     }
 }

@@ -4,10 +4,7 @@
 <% if @item[:published] %>
 <div class="meta"><%= @item[:published] %>
 <% if @item[:tags] %> /
-<%= @item[:tags].split(",").map do |tag|
-tag = tag.strip
-"<a href=\"/tag/#{tag}/\">#{tag}</a>"
-end.join(", ") %>
+<%= tags_for(@item) %>
 <% end %>
 </div>
 <% end %>

@@ -1,6 +1,7 @@
 ---
 title: History of morr.cc
 published: 2013-05-26
+tags: meta
 ---
 
 ## 2005: Plain HTML
@@ -9,7 +10,7 @@ Sometime around 2005, I tought myself HTML (with the formerly great site [SELFHT
 
 ## 2006-2007: CSS, XHTML and m4
 
-From the second iteration onwards, I have backups. In 2006, I learned CSS and XHTMl and created this site that borrowed heavily from the [W3C's "Chocolate" Core Style](http://www.w3.org/StyleSheets/Core/stylebot.html?family=6&doc=XML). The "0b5cur3 933k 53c7!0n" contained things like forkbombs, a Geek Code and UNIX russian roulette. It was created by hand.
+From the second iteration onwards, I have backups. In 2006, I learned CSS and XHTML and created this site that borrowed heavily from the [W3C's "Chocolate" Core Style](http://www.w3.org/StyleSheets/Core/stylebot.html?family=6&doc=XML). The "0b5cur3 933k 53c7!0n" contained things like forkbombs, a Geek Code and UNIX russian roulette. It was created by hand.
 
 ![](/files/homepage-2007-05-07.png)
 
@@ -17,7 +18,7 @@ I got annoyed copying headers and stuff, and started using Makefiles and m4 macr
 
 ![](/files/homepage-2007-07-05.png)
 
-The end of 2007 saw a redesign, I wrote about Free Software and added the infamous Simpsons quote page.
+The end of 2007 saw a redesign:
 
 ![](/files/homepage-2008-04-02.png)
 
