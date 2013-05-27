@@ -2,26 +2,31 @@ $spacing: 1.5em;
 
 @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_Rah.ttf");
+    src: url("/assets/fonts/LinLibertine_R.woff");
 }
 
 @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_RBah.ttf");
+    src: url("/assets/fonts/LinLibertine_RB.woff");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_RIah.ttf");
+    src: url("/assets/fonts/LinLibertine_RI.woff");
     font-style: italic;
 }
 
 @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_RBIah.ttf");
+    src: url("/assets/fonts/LinLibertine_RBI.woff");
     font-weight: bold;
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("/assets/fonts/Inconsolata.otf");
 }
 
 * {
@@ -43,17 +48,31 @@ body {
     overflow-y: scroll;
 }
 
+code {
+    font-family: "Inconsolata", monospace;
+}
+
 #header {
     margin-bottom: $spacing;
+    text-align: center;
+    padding-bottom: 0.3em;
+    border-bottom: 3px black solid;
+    > a {
+        display: inline-block;
+    }
     img {
         vertical-align: middle;
-        height: 4em;
+        height: 3em;
+        margin-bottom: 0.5em;
+        margin-right: 0.5em;
     }
     ul {
         display: inline;
         font-size: 1.2em;
         font-weight: bold;
         margin-left: 1em;
+        display: inline-block;
+        margin: auto;
     }
     li {
         display: inline;
@@ -62,6 +81,10 @@ body {
     }
     a {
         text-decoration: none;
+    }
+    input {
+        width: 4em;
+        font-family: "Linux Libertine", serif;
     }
 }
 
