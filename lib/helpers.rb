@@ -5,7 +5,7 @@ def blog
 end
 
 def toplevel
-    @items['/'].children.select{|i| i[:title]}.sort_by{|i| i[:order]}
+    @items['/'].children.select{|i| i[:title] and not i[:hidden]}.sort_by{|i| i[:order]}
 end
 
 def link_to item
@@ -47,5 +47,5 @@ def subtitle
 end
 
 def domain
-    "https://blog.morr.cc/"
+    "http://blog.morr.cc/"
 end
