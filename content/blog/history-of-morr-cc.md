@@ -1,6 +1,6 @@
 ---
 title: History of morr.cc
-published: 2013-05-26
+published: 2013-05-28
 tags: meta
 ---
 

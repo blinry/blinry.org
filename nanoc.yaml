@@ -93,4 +93,6 @@ deploy:
       '--exclude=".hg"',
       '--exclude=".svn"',
       '--exclude=".git"',
-      '--chmod=u=rwX,go=rX' ]
+      '--chmod=u=rwX,go=rX',
+      '--delete-after'
+    ]
