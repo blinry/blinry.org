@@ -112,9 +112,13 @@ code {
     h1 {
         font-size: 2em;
         font-weight: normal;
+        letter-spacing: -1px;
         a {
             color: inherit;
         }
+    }
+    h2 {
+        font-size: 1.1em;
     }
     .content {
         margin-top: $spacing;
