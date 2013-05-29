@@ -98,10 +98,10 @@ code {
         -ms-hyphens: auto;
         text-align: justify;
     }
-    p, ul, ol, pre, h2, h3, h4, hr {
+    p, ul, ol, pre, h2, h3, h4, hr, .video, .video43 {
         margin-bottom: 1em;
     }
-    li {
+    li, pre {
         margin-left: 1em;
     }
     img {
@@ -119,6 +119,24 @@ code {
     }
     h2 {
         font-size: 1.1em;
+    }
+    .video, .video43 {
+        position: relative;
+        height: 0;
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    }
+    .video {
+        padding-bottom: 50%; /* 19:9 */
+    }
+    .video43 {
+        padding-bottom: 75%; /* 4:3 */
     }
     .content {
         margin-top: $spacing;
