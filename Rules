@@ -34,8 +34,8 @@ route '/assets/style/' do
     item.identifier.chop + '.css'
 end
 
-route '/blog/*/' do
-    item.identifier[5..-1] + 'index.html'
+route '/articles/*/' do
+    item.identifier[9..-1] + 'index.html'
 end
 
 route '*' do
