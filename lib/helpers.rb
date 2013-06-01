@@ -31,7 +31,10 @@ class Array
     end
     def enum
         map { |item|
-            "#{item[:published].strftime("%Y-%m-%d")} -- #{link_to item} / <span class=\"meta\">#{tags_for item}</span>"
+            entry = "#{item[:published].strftime("%Y-%m-%d")} -- #{link_to item}"
+            if item[:tags]
+                entry << " / <span class=\"meta\">#{tags_for item}</span>"
+            end
         }.join("\n\n")
     end
 end
