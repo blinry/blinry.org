@@ -8,7 +8,7 @@ tags: software, life
 
 ## Short history
 
-I've been keeping text files about personal stuff since 2007. It started with a diary, but expanded to several text files very soon (*todo*, *ideas*, *quotes*, ...). They contained indented lists, I had Vim macros in place to fold and unfold them (a format I now call *[vimgirl](http://github.com/blinry/vimgirl)*).
+I've been keeping text files about personal stuff since 2007. It started with a diary, but expanded to several text files soon (*todo*, *ideas*, *quotes*, ...). They contained indented lists, I had Vim macros in place to fold and unfold them (a format I now call *[vimgirl](http://github.com/blinry/vimgirl)*).
 
 Over the time, I discovered more uses for my directory of text files: GTD lists, brainstorming sessions, command line tricks, lent stuff, all kinds of collections - heck, I even kept my appointments in nested plain text files at some point, which worked surprisingly well.
 
@@ -24,7 +24,7 @@ Vimboy also has a "manual link mode", where you have to use [square brackets] to
 
 I've named my wiki *BrainDump* because I've come to see it as exactly this: A storage extension for my brain. Once information is *dumped*, it's safe, doesn't bother you anymore and you can look it up when you need it later. This frees up your mind for *important* stuff.
 
-When switching to Vimboy, the file's format changed to something like Markdown, although formatting really is completely up to you.
+When switching to Vimboy, the file's format changed to something like Markdown, although formatting is completely up to you.
 
 I'm using BrainDump as: *An address book, howtos for myself, my dress sizes, travel packing list, time & goal tracking, geek codes et cetera, chores planning and speedruns, notetaking in classes, idea management, project overviews, online accounts list, quotes, lists of things I want to read/watch/eat/play, recipes, diary, decision making, ratings of cheese/chocolate/wine.*
 
@@ -32,7 +32,7 @@ A shell script called `wiki` supports fast creation and access to wiki pages, I 
 
 ## RoboBoy
 
-*[RoboBoy](https://github.com/blinry/roboboy)* is a recent addition to the \*boy family: An Android application you can use to sync your wiki between main computer and smartphone using Git. It's quite hard to set up right now and has its quirks, but I like *always taking my brain extension with me* ™.
+*[RoboBoy](https://github.com/blinry/roboboy)* is a recent addition to the \*boy family: An Android application you can use to sync your wiki among main computer and smartphone using Git. It's quite hard to set up right now and has its quirks, but I like *always taking my brain extension with me* ™.
 
 ![Screenshot of RoboBoy](/files/roboboy-screenshot.png)
 
@@ -42,4 +42,4 @@ Finally, [webboy](http://github.com/blinry/webboy) is a Markdown-formatted-Vimbo
 
 ## Conclusion
 
-If you never kept a personal wiki, I encourage you to try it! If you dare to use the \*boy suite, feedback is very welcome. Detailed documentation for the tools mentioned can be found on their GitHub pages.
+If you never kept a personal wiki, I encourage you to try it! If you dare to use the \*boy suite, feedback is very welcome. You can find detailed documentation for the tools mentioned on their GitHub pages.
