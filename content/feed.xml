@@ -6,6 +6,7 @@
     <subtitle><%= subtitle %></subtitle>
     <link href="<%= domain %>feed/" rel="self" />
     <link href="<%= domain %>" />
+    <icon><%= domain %>favicon.ico</icon>
     <id><%= domain %></id>
     <updated><%= Time.now.xmlschema %></updated>
 
