@@ -26,7 +26,7 @@ I've named my wiki *BrainDump* because I've come to see it as exactly this: A st
 
 When switching to Vimboy, the file's format changed to something like Markdown, although formatting is completely up to you.
 
-I'm using BrainDump as: *An address book, howtos for myself, my dress sizes, travel packing list, time & goal tracking, geek codes et cetera, chores planning and speedruns, notetaking in classes, idea management, project overviews, online accounts list, quotes, lists of things I want to read/watch/eat/play, recipes, diary, decision making, ratings of cheese/chocolate/wine.*
+I'm using BrainDump as: *An address book, howtos for myself, my clothing sizes, travel packing list, time & goal tracking, geek codes et cetera, chores planning and speedruns, notetaking in classes, idea management, project overviews, online accounts list, quotes, lists of things I want to read/watch/eat/play, recipes, diary, decision making, ratings of cheese/chocolate/wine.*
 
 A shell script called `wiki` supports fast creation and access to wiki pages, I have tab completion in place, too. For full text search, I use [`ack`](http://beyondgrep.com/).
 
