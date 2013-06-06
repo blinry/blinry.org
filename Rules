@@ -2,7 +2,7 @@
 
 preprocess do
     tags.each do |tag|
-        content = '<%= with_tag("'+tag+'").chronologic.enum %>'
+        content = '<%= with_tag("'+tag+'").chronologic.reverse.enum %>'
         title = "Posts with tag '#{tag}'"
         identifier = "/tag/#{tag}/"
         @items << Nanoc::Item.new(content, {:title  => title}, identifier)
