@@ -5,7 +5,7 @@ preprocess do
         content = '<%= with_tag("'+tag+'").chronologic.reverse.enum %>'
         title = "Posts with tag '#{tag}'"
         identifier = "/tag/#{tag}/"
-        @items << Nanoc::Item.new(content, {:title  => title}, identifier)
+        @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
     end
     @items.each do |item|
         if item[:published]

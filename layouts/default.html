@@ -9,6 +9,19 @@
                 <%= @item[:title] %> · Sebastian Morr's blog
             <% end %>
         </title>
+        <meta name="author" content="Sebastian Morr">
+        <% if @item[:published] %>
+        <meta name="date" content="<%= @item[:published].strftime("%Y-%m-%d") %>">
+        <% end %>
+
+        <% if @item[:noindex] %>
+            <meta name="robots" content="noindex">
+        <% end %>
+
+        <% if @item.path != "/" %>
+        <meta name="keywords" content="<%= @item[:tags] %>">
+        <% end %>
+
         <link rel="stylesheet" href="/assets/style.css">
         <link rel="alternate" type="application/atom+xml" href="/feed/">
         <meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes">
