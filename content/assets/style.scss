@@ -159,4 +159,8 @@ code {
     font-size: 0.8em;
     border-top: 3px solid black;
     padding-top: 0.5em;
+    code {
+        display: block;
+        margin-top: 1em;
+    }
 }
