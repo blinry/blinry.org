@@ -121,6 +121,6 @@ Herausforderungen werden hierbei Steuerungskommandos (Pos1, Pfeiltasten) und She
 
 Ein nice-to-have feature wäre ein Webinterface, um nutsh nicht lokal installieren zu müssen.
 
-*Soweit die erste Beschreibung. Das Thema kam ganz gut an, ich werde sehen, dass möglichst große Teile des Systems verallgemeinere, um es wissenschaftlich wiederverwertbar zu machen.*
+*Soweit die erste Beschreibung. Das Thema kam ganz gut an, ich werde sehen, dass ich möglichst große Teile des Systems verallgemeinere, um es wissenschaftlich wiederverwertbar zu machen.*
 
 *Nächster Schritt ist dann eine mündliche Themenvorstellung in zwei Wochen, bevor die Arbeit angemeldet wird.*
