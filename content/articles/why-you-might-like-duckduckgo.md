@@ -22,7 +22,7 @@ DDG does not collect any information about you. It does not build up a search hi
 
 First, DDG cannot give information about you to law enforcement, because no information exists. You don't have to fear "accidents" or malicious hackers, too.
 
-Second, it helps to reducd the *filter bubble effect*. Because Google knows what you like, it will display results that comply with your beliefs on the top. You are trapped in a "bubble" and will never see other opinions. Do you want this?
+Second, it helps to reduce the *filter bubble effect*. Because Google knows what you like, it will display results that comply with your beliefs on the top. You are trapped in a "bubble" and will never see other opinions. Do you want this?
 
 For an illustrated explanation of this topic, see [dontbubble.us](http://dontbubble.us/).
 
@@ -54,7 +54,7 @@ This is especially awesome when DDG is the default search engine for your addres
 
 You can navigate your search results with "j" and "k", like in Vim, and follow a link with "l". Of course, you can also use the arrow keys.
 
-In the settings, you can set "Advertisements" to "Off". In this case, they kindly ask you to support them on the microdonation plattform Flattr. Awesome move.
+In the settings, you can set "Advertisements" to "Off". In this case, they kindly ask you to support them on the microdonation platform Flattr. Awesome move.
 
 When you want to go directly to the first hit, use "I'm feeling *ducky*" in the dropdown menu or simply prefix your search with "! " or "\\".
 
