@@ -23,6 +23,15 @@ def tags_for item
     end.join(", ")
 end
 
+def description_for item
+    m = item.raw_content.split("\n").first.match(/^\*(.*)\*/)
+    if m.nil?
+        nil
+    else
+        m[1].gsub(/\[(.*)\]\(.*\)/, "\\1").gsub(/--/, "-")
+    end
+end
+
 class Array
     def chronologic
         sort_by do |item|
