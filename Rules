@@ -27,6 +27,9 @@ compile '*' do
         filter :erb
         filter :kramdown
         layout 'default'
+        if item[:title]
+            filter :tidy
+        end
     end
 end
 
