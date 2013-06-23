@@ -14,7 +14,7 @@ To be short: Simplicity, security, speed.
 
 You can look at [this blog's source code](https://github.com/blinry/blog-morr-cc) on GitHub.
 
-- The [`content`](https://github.com/blinry/blog-morr-cc/tree/master/content) folder contains the blog posts (in `articles`), assets related to the layout (in `assets`), images and other files referenced from the blog posts (in `files`), and some top-level pages and files. Texts are written in the [*Markdown*](http://daringfireball.net/projects/markdown/) format, a simple markup language that is even comfortable to read as plain text (for example, look at [this post's source](https://github.com/blinry/blog-morr-cc/blob/master/content/articles/how-to-blog-with-nanoc.md)). Each post has a header containing at least a title, the date of publication, and some tags in [*YAML*](https://en.wikipedia.org/wiki/YAML) format.
+- The [`content`](https://github.com/blinry/blog-morr-cc/tree/master/content) folder contains the blog posts (in `articles`), assets related to the layout (in `assets`), images and other files referenced from the blog posts (in `files`), and some top-level pages and files. Texts are written in the [*Markdown*](http://daringfireball.net/projects/markdown/) format, a simple markup language that is even comfortable to read as plain text (for example, look at [this post's source](https://raw.github.com/blinry/blog-morr-cc/master/content/articles/how-to-blog-with-nanoc.md)). Each post has a header containing at least a title, the date of publication, and some tags in [*YAML*](https://en.wikipedia.org/wiki/YAML) format.
 
 - The [`layouts`](https://github.com/blinry/blog-morr-cc/tree/master/layouts) folder contains some HTML templates with [*eRuby*](https://en.wikipedia.org/wiki/ERuby) tags.
 
