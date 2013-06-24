@@ -111,6 +111,11 @@ code {
         font-size: 0.75em;
         white-space: pre-wrap;
     }
+    blockquote {
+        margin-left: 1em;
+        margin-right: 1em;
+        font-style: italic;
+    }
     img {
         max-width: 100%;
         max-height: 25em;
