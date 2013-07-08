@@ -4,6 +4,8 @@ published: 2013-07-08T14:36+0200
 tags: german, thesis
 ---
 
+*Heute mit: PDF-Präsentations-Software, ehrlichem Feedback, Zeitplanung, Anfängen des Shell-Wrappers und dem Führen eines Logbuchs.*
+
 ## Themenvorstellung
 
 Letzten Montag habe ich den Themenvorstellungs-Vortrag vor meiner Erstprüferin und einigen Institutsmitarbeitern gehalten. Ich verlinke hier nochmal die [endgültige Fassung der Präsentation](/files/ba-themenvorstellung.pdf) mit mehr Zwischenschritten und leicht umsortierten Folien.
