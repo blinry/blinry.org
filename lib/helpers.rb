@@ -17,10 +17,22 @@ def tags
 end
 
 def tags_for item
-    item[:tags].split(",").map do |tag|
-        tag = tag.strip
-        "<a href=\"/tag/#{tag}/\">#{tag}</a>"
-    end.join(", ")
+    if item[:tags]
+        item[:tags].split(",").map do |tag|
+            tag = tag.strip
+            "<a href=\"/tag/#{tag}/\">#{tag}</a>"
+        end.join(", ")
+    else
+        []
+    end
+end
+
+def lang_for item
+    if tags_for(item).include? "german"
+        "de"
+    else
+        "en"
+    end
 end
 
 def description_for item
