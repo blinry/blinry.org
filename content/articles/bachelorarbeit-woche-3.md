@@ -10,7 +10,7 @@ tags: german, thesis
 
 Ich war letzte Woche in der Unibibliothek. Wissen ist Macht!
 
-Coole Entdeckung waren insbesondere die Tagungsbände der *International Conference on Interactive Digital Storytelling*, von der ich noch nie etwas gehört hatte. Außerdem das klassische "Drachenbuch" über Compilerbau sowie Grundlagen über Mensch-Computer-Interaktion und Computer-Didaktik. Wird mich bestimmt alles die ein oder andere gute Idee bringen.
+Coole Entdeckung waren insbesondere die Tagungsbände der *International Conference on Interactive Digital Storytelling*, von der ich noch nie etwas gehört hatte. Außerdem das klassische "Drachenbuch" über Compilerbau sowie Grundlagen über Mensch-Computer-Interaktion und Computer-Didaktik. Wird mich bestimmt alles auf die ein oder andere gute Idee bringen.
 
 ## Erste Skripting-Versuche
 
