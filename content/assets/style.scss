@@ -98,7 +98,7 @@ code {
         -ms-hyphens: auto;
         text-align: justify;
     }
-    p, ul, ol, pre, h2, h3, h4, hr, .video, .video43 {
+    p, ul, ol, pre, h2, h3, h4, hr, dl, .video, .video43 {
         margin-bottom: 1em;
     }
     li, pre {
@@ -115,6 +115,12 @@ code {
         margin-left: 1em;
         margin-right: 1em;
         font-style: italic;
+    }
+    dt {
+        font-weight: bold;
+    }
+    dd {
+        margin-left: 1em;
     }
     img {
         max-width: 100%;
