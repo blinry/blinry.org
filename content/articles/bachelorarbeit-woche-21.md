@@ -24,7 +24,7 @@ Ich möchte euch folgende LaTeX-Pakete empfehlen, auf die ich beim Schreiben ges
 
 ## Nitpicker
 
-Das *Nitpicker tool* beschreibt sich als "overly picky language style checker". Es überprüft formale englische Texte automatisch auf häufige grammatikalische, semantische und Rechtschreibfehler (verdammte *passive voice* ;-). Ich habe das Tool in einem Lightning Talk auf einem der letzten Kongresse kennengelernt und finde es inzwischen unersetzlich, um die gröbsten Schnitzer aus Texten rauszubügeln, bevor man es Menschen zu Lesen gibt. Benutzt es!
+Das [*Nitpicker tool*](http://nitpickertool.com/) beschreibt sich als "overly picky language style checker". Es überprüft formale englische Texte automatisch auf häufige grammatikalische, semantische und Rechtschreibfehler (verdammte *passive voice* ;-). Ich habe das Tool in einem Lightning Talk auf einem der letzten Kongresse kennengelernt und finde es inzwischen unersetzlich, um die gröbsten Schnitzer aus Texten rauszubügeln, bevor man es Menschen zu Lesen gibt. Benutzt es!
 
 Fun fact: Das Nitpicker tool wird durch Katzenbilder angetrieben: [1](https://twitter.com/blinry/status/342322384080084992), [2](https://twitter.com/blinry/status/396338026164396032).
 
