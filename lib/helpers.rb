@@ -5,7 +5,7 @@ def blog
 end
 
 def toplevel
-    [@items['/']].concat(@items['/'].children)
+    @items['/'].children.select{|i| i[:title] and not i[:hidden]}
 end
 
 def link_to item

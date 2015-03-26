@@ -47,7 +47,7 @@
                 $ fortune<br>
                 <%=
                                                                                                                                           cat, text = `fortune -ce`.split("%", 2)
-                                                                                                                                          "<span title=\"(#{cat.split('/')[-1]}\">#{CGI::escapeHTML(text)}</span>"
+                                                                                                                                          "<span title=\"#{cat.split('/')[-1]}\">#{CGI::escapeHTML(text)}</span>"
                                                                                                                                       %>
             </code>
         </div>
