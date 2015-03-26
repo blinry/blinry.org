@@ -5,7 +5,7 @@ def blog
 end
 
 def toplevel
-    @items['/'].children.select{|i| i[:title] and not i[:hidden]}.sort_by{|i| i[:order]}
+    [@items['/']].concat(@items['/'].children)
 end
 
 def link_to item
@@ -20,7 +20,7 @@ def tags_for item
     if item[:tags]
         item[:tags].split(",").map do |tag|
             tag = tag.strip
-            "<a href=\"/tag/#{tag}/\">#{tag}</a>"
+            "<a href=\"/blog/tag/#{tag}/\">#{tag}</a>"
         end.join(", ")
     else
         []
@@ -35,7 +35,7 @@ def lang_for item
     end
 end
 
-def description_for item
+def abstract_for item
     m = item.raw_content.split("\n").first.match(/^\*(.*)\*/)
     if m.nil?
         nil

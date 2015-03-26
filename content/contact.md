@@ -1,6 +1,5 @@
 ---
-title: About
-order: 1
+title: Contact
 ---
 
 My name is Sebastian Morr, I'm a computer science student from Germany. On this blog I publish things I create and share stuff I like.

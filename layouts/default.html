@@ -11,21 +11,16 @@
         </title>
         <meta name="author" content="Sebastian Morr">
         <% if @item[:published] %>
-        <meta name="date" content="<%= @item[:published].strftime("%Y-%m-%d") %>">
+            <meta name="date" content="<%= @item[:published].strftime("%Y-%m-%d") %>">
         <% end %>
 
         <% if @item[:noindex] %>
             <meta name="robots" content="noindex">
         <% end %>
 
-        <% if @item.path != "/" %>
-        <meta name="keywords" content="<%= @item[:tags] %>">
+        <% unless abstract_for(@item).nil? %>
+            <meta name="description" content="<%= abstract_for(@item).gsub(/"/, "") %>">
         <% end %>
-
-        <% unless description_for(@item).nil? %>
-        <meta name="description" content="<%= description_for(@item).gsub(/"/, "") %>">
-        <% end %>
-        <meta name="keywords" content="<%= @item[:tags] %>">
 
         <link rel="stylesheet" href="/assets/style.css">
         <link rel="alternate" type="application/atom+xml" href="/feed/">
@@ -49,11 +44,11 @@
         <div id="footer">
             <p>Comments? Send a tweet to <a href="https://twitter.com/blinry">@blinry</a> or visit the <a href="/about/">about page</a>. Thanks for reading! &mdash; <a href="/feed/">Feed?</a></p>
             <code>
-            $ fortune<br>
-            <%=
-                cat, text = `fortune -ce wisdom science riddles perl paradoxum magic love linux kids humorists goedel fortunes food education definitions computers art archlinux calvin futurama hitchhiker portal portal2 tbbt`.split("%", 2)
-                "<span title=\"(#{cat.split('/')[-1]}\">#{CGI::escapeHTML(text)}</span>"
-            %>
+                $ fortune<br>
+                <%=
+                                                                                                                                          cat, text = `fortune -ce`.split("%", 2)
+                                                                                                                                          "<span title=\"(#{cat.split('/')[-1]}\">#{CGI::escapeHTML(text)}</span>"
+                                                                                                                                      %>
             </code>
         </div>
     </body>

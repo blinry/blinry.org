@@ -98,8 +98,12 @@ code {
         -ms-hyphens: auto;
         text-align: justify;
     }
-    p, ul, ol, pre, h2, h3, h4, hr, dl, .video, .video43 {
+    p, ul, ol, pre, hr, dl, .video, .video43 {
         margin-bottom: 1em;
+    }
+    h2, h3, h4 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
     }
     li, pre {
         margin-left: 1em;

@@ -3,8 +3,8 @@
 preprocess do
     tags.each do |tag|
         content = '<%= with_tag("'+tag+'").chronologic.reverse.enum %>'
-        title = "Posts with tag '#{tag}'"
-        identifier = "/tag/#{tag}/"
+        title = "Blog posts with tag '#{tag}'"
+        identifier = "/blog/tag/#{tag}/"
         @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
     end
     @items.each do |item|
@@ -37,15 +37,9 @@ route '/assets/style/' do
     item.identifier.chop + '.css'
 end
 
-route '/articles/*/' do
-    item.identifier[9..-1] + 'index.html'
-end
-
 route '*' do
     if item.binary?
         item.identifier.chop + '.' + item[:extension]
-    elsif item[:published]
-        "/"+item[:published].to_s.gsub("-","/")+item.identifier + 'index.html'
     else
         item.identifier + 'index.html'
     end
