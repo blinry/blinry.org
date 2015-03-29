@@ -1,17 +1,16 @@
-<% unless @item[:headless] %>
 <div class="article">
-<h1><%= link_to @item %></h1>
-<% if @item[:published] %>
-<div class="meta"><%= @item[:published].strftime("%Y-%m-%d") %> / <a href="/about/">Sebastian Morr</a>
-<% if @item[:tags] %> /
-<%= tags_for(@item) %>
-<% end %>
+    <div class="article-header">
+        <% unless @item[:headless] %>
+            <h1><%= link_to @item %></h1>
+            <% if @item[:published] %>
+                <div class="meta"><%= @item[:published].strftime("%Y-%m-%d") %> / <a href="/about/">Sebastian Morr</a>
+                    <% if @item[:tags] %> /
+                        <%= tags_for(@item) %>
+                    <% end %>
+                </div>
+            <% end %>
+        <% end %>
+    </div>
+
+    <%= yield %>
 </div>
-<% end %>
-<% end %>
-<div class="content">
-<%= yield %>
-</div>
-<% unless @item[:headless] %>
-</div>
-<% end %>
