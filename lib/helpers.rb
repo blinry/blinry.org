@@ -1,11 +1,15 @@
 include Nanoc::Helpers::Rendering
 
 def blog
-    @items.select{|i| i[:published]}.chronologic.reverse
+    @items.select{|i| i.identifier =~ /\/blog\/./ and i[:published]}.chronologic.reverse
+end
+
+def projects
+    @items.select{|i| i.identifier =~ /\/projects\/./}.chronologic.reverse
 end
 
 def toplevel
-    @items['/'].children.select{|i| i[:title] and not i[:hidden]}
+    @items['/'].children.select{|i| i[:title] and not i[:hidden]}.sort_by{|i| i[:order]}
 end
 
 def link_to item
@@ -52,10 +56,15 @@ class Array
     end
     def enum
         map { |item|
-            entry = "#{item[:published].strftime("%Y-%m-%d")} -- #{link_to item}"
+            entry = ""
+            if item[:published]
+                entry << item[:published].strftime("%Y-%m-%d") << " -- "
+            end
+            entry << link_to(item)
             if item[:tags]
                 entry << " / <span class=\"meta\">#{tags_for item}</span>"
             end
+            entry
         }.join("\n\n")
     end
 end
