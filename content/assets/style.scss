@@ -189,6 +189,37 @@ code {
             padding-bottom: 1em;
         }
     }
+    .project {
+        display: block;
+        float: left;
+        width: 14.5em;
+        height: 22em;
+        margin: 0.5em;
+        img {
+            width: 14.5em;
+            height: 14.5em;
+            align: left;
+            margin: 0;
+            object-fit: cover;
+            object-position: 0% 0%;
+        }
+        a {
+            text-decoration: none;
+            color: #111;
+            display: block;
+        }
+        h2 {
+            margin-top: 0.5em;
+            margin-bottom: -0.1em;
+        }
+        .meta {
+            margin-top: 0em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            text-align: left;
+        }
+    }
 }
 
 .more {
@@ -197,6 +228,7 @@ code {
 }
 
 #footer {
+    clear: both;
     font-size: 0.8em;
     border-top: 3px solid black;
     padding-top: 0.5em;

@@ -18,7 +18,7 @@ compile '/assets/style/' do
     filter :sass, syntax: :scss
 end
 
-compile '/feed/' do
+compile '/blog/feed/' do
     filter :erb
 end
 

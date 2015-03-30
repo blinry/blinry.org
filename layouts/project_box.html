@@ -1,0 +1,12 @@
+<div class="project">
+    <a href="<%= @item.path %>">
+        <img src="<%= @item.path %><%= @item[:thumbnail] %>">
+        <h2><%= @item[:title] %></h2>
+        <div class="meta">
+            <% if @item[:published] %>
+            <%= @item[:published].year %>
+            <% end %>
+        </div>
+        <p><%= @item[:abstract] %></p>
+    </a>
+</div>

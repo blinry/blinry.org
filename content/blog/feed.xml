@@ -2,7 +2,7 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>blog.morr.cc</title>
+    <title>morr.cc/blog/</title>
     <subtitle><%= subtitle %></subtitle>
     <link href="<%= domain %>feed/" rel="self" />
     <link href="<%= domain %>" />

@@ -1,9 +1,8 @@
 ---
 title: nordlicht
-thumbnail: /files/nordlicht.png
-abstract: Fubarfuuuu fuuuuuuuuuuuuuuu
+thumbnail: nordlicht-logo.png
+abstract: Convert videos to colorful barcodes which help with navigation.
 published: 2013-07-14
-tags: software
 url: http://github.com/blinry/nordlicht
 ---
 

@@ -5,7 +5,7 @@ def blog
 end
 
 def projects
-    @items.select{|i| i.identifier =~ /\/projects\/./}.chronologic.reverse
+    @items.select{|i| i.identifier =~ /\/projects\/./ and i[:title]}.chronologic.reverse
 end
 
 def toplevel
@@ -57,6 +57,9 @@ class Array
     def enum
         map { |item|
             entry = ""
+            if item[:cover]
+                entry << "<img src=\"#{item.path}cover.png\">"
+            end
             if item[:published]
                 entry << item[:published].strftime("%Y-%m-%d") << " -- "
             end
