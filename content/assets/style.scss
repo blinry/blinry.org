@@ -60,25 +60,25 @@ code {
 
 #header {
     margin-bottom: $spacing;
-    padding-bottom: 1em;
-    a {
-        display: inline-block;
-        color: inherit;
-    }
     img {
         vertical-align: bottom;
         height: 3em;
-        padding-right: 0.5em;
     }
     ul {
         font-size: 1.2em;
         font-weight: bold;
         display: inline-block;
+        margin-left: 0.5em;
     }
     li {
         display: inline-block;
+        margin: 0em 0.2em;
         list-style-type: none;
-        padding: 0em 0.5em;
+        a {
+            display: inline;
+            color: inherit;
+            padding: 0em 0.3em;
+        }
     }
     li:hover {
         background: #eee;
@@ -86,10 +86,6 @@ code {
     li.current {
         color: white;
         background: #111;
-    }
-    input {
-        width: 4em;
-        font-family: "Linux Libertine", serif;
     }
 }
 
