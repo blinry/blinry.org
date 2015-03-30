@@ -79,7 +79,7 @@ watcher:
 deploy:
   default:
     kind: rsync
-    dst: "morr.cc:/web/blog"
+    dst: "morr.cc:/web/default"
     options: [
       '--group',
       '--links',
@@ -90,9 +90,6 @@ deploy:
       '--times',
       '--verbose',
       '--compress',
-      '--exclude=".hg"',
-      '--exclude=".svn"',
-      '--exclude=".git"',
       '--chmod=u=rwX,go=rX',
       '--delete-after'
     ]
