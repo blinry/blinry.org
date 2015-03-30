@@ -1,5 +1,5 @@
 <div class="project">
-    <a href="<%= @item.path %>">
+    <a href="<%= if @item[:url] then @item[:url] else "#" end %>">
         <img src="<%= @item.path %><%= @item[:thumbnail] %>">
         <h2><%= @item[:title] %></h2>
         <div class="meta">
@@ -7,6 +7,6 @@
             <%= @item[:published].year %>
             <% end %>
         </div>
-        <p><%= @item[:abstract] %></p>
+        <%= abstract_for(@item) %>
     </a>
 </div>

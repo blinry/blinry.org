@@ -40,12 +40,7 @@ def lang_for item
 end
 
 def abstract_for item
-    m = item.raw_content.split("\n").first.match(/^\*(.*)\*/)
-    if m.nil?
-        nil
-    else
-        m[1].gsub(/\[(.*)\]\(.*\)/, "\\1").gsub(/--/, "-")
-    end
+    return item.compiled_content.split("\n").find{|line| not line.empty?}
 end
 
 class Array

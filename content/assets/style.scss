@@ -60,6 +60,9 @@ code {
 
 #header {
     margin-bottom: $spacing;
+    > a {
+        margin-right: 0.5em;
+    }
     img {
         vertical-align: bottom;
         height: 3em;
@@ -68,11 +71,10 @@ code {
         font-size: 1.2em;
         font-weight: bold;
         display: inline-block;
-        margin-left: 0.5em;
     }
     li {
         display: inline-block;
-        margin: 0em 0.2em;
+        margin: 0.2em 0.2em 0 0.2em;
         list-style-type: none;
         a {
             display: inline;
@@ -183,6 +185,7 @@ code {
     }
     .intro {
         font-size: 110%;
+        margin: 2em 0;
         img {
             float: left;
             max-width: 100%;
@@ -191,15 +194,19 @@ code {
             padding-bottom: 1em;
         }
     }
+    #projects {
+        margin: -1em;
+        padding-top: 1em;
+    }
     .project {
         display: block;
         float: left;
-        width: 14.5em;
+        width: 13.5em;
         height: 22em;
-        margin: 0.5em;
+        margin: 1em;
         img {
-            width: 14.5em;
-            height: 14.5em;
+            width: 13.5em;
+            height: 13.5em;
             align: left;
             margin: 0;
             object-fit: cover;

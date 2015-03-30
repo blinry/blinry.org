@@ -2,9 +2,7 @@
 title: RoboBoy
 published: 2013-04-11
 thumbnail: cover.png
-abstract: Synchronized Vimboy-style wiki on your Android phone
+url: http://github.com/blinry/roboboy
 ---
 
-asdf
-
-![](cover.png)
+Brings a Vimboy-style wiki (see below) on your Android phone.
