@@ -61,7 +61,6 @@ code {
 #header {
     margin-bottom: $spacing;
     padding-bottom: 1em;
-    border-bottom: 3px black solid;
     a {
         display: inline-block;
         color: inherit;
@@ -79,7 +78,14 @@ code {
     li {
         display: inline-block;
         list-style-type: none;
-        margin: 0em 0.5em;
+        padding: 0em 0.5em;
+    }
+    li:hover {
+        background: #eee;
+    }
+    li.current {
+        color: white;
+        background: #111;
     }
     input {
         width: 4em;
