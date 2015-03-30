@@ -16,3 +16,7 @@ headless: true
 <%= item.compiled_content %>
 <% end %>
 <% end %>
+
+<div class="more">
+<a href="/blog/">← Previous entries</a>
+</div>
