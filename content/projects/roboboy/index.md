@@ -1,7 +1,6 @@
 ---
 title: RoboBoy
 published: 2013-04-11
-thumbnail: cover.png
 url: http://github.com/blinry/roboboy
 ---
 
