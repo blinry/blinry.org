@@ -1,6 +1,7 @@
 ---
 title: Projects
 order: 3
+headless: true
 ---
 
 Over the years, I've worked on quite a few software projects. Here is an overview of the most important ones:

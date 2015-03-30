@@ -1,6 +1,7 @@
 ---
 title: About
 order: 1
+headless: true
 ---
 
 ## Contact
