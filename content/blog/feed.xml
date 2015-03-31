@@ -2,8 +2,7 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>morr.cc/blog/</title>
-    <subtitle><%= subtitle %></subtitle>
+    <title>Sebastian Morr's blog</title>
     <link href="<%= domain %><%= @item.path[1..-1] %>" rel="self" />
     <link href="<%= domain %>" />
     <icon><%= domain %>favicon.ico</icon>

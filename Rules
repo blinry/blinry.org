@@ -25,6 +25,9 @@ compile '/blog/feed/' do
     filter :erb
 end
 
+compile '/googlec25b04cecd642132/' do
+end
+
 compile '*' do
     unless item.binary?
         filter :erb
@@ -38,6 +41,10 @@ end
 
 route '/assets/style/' do
     item.identifier.chop + '.css'
+end
+
+route '/googlec25b04cecd642132/' do
+    item.identifier.chop + '.html'
 end
 
 route '*' do
