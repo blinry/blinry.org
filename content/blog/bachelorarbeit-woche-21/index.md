@@ -30,7 +30,7 @@ Fun fact: Das Nitpicker tool wird durch Katzenbilder angetrieben: [1](https://tw
 
 ## Motivation
 
-![Symbolbild: Research paper vs Internet](/files/research-paper-vs-internet.jpg)
+![Symbolbild: Research paper vs Internet](research-paper-vs-internet.jpg)
 
 Beim eigentlichen Schreiben fiel es mir teilweise sehr schwer, konzentriert zu bleiben und nicht herumzuprokrastinieren. Irgendwann kramte ich einen Motivationstrick heraus, den ich auch schon beim Lernen für Klausuren erfolgreich angewendet habe: Die *Pomodoro technique*. Die funktioniert so:
 
