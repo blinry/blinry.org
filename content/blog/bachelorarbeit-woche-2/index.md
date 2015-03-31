@@ -54,7 +54,7 @@ Der Prototyp ist ja in Go geschrieben, was Nebenläufigkeit sehr einfach macht. 
 
 ## Erkennen des eingegebenen Befehls
 
-Dazu habe ich [letztes Mal](/bachelorarbeit-woche-0/) schon etwas geschrieben: Ich fange ab, wenn der Benutzer *Return* drückt, und sende stattdessen *"Ctrl-E Space Ctrl-U ☃ Backspace Ctrl-Y ☃ Backspace Backspace Return"*. Das setzt den Cursor ans Ende der Zeile, fügt ein Leerzeichen ein (damit es, falls die Zeile vorher leer war, etwas zu löschen gibt), löscht die Zeile und kopiert sie in die Zwischenablage, schreibt ein spezielles Unicode-Zeichen als Marker, löscht den Marker wieder, fügt die Zwischenablage ein, sendet den zweiten Marker, und löscht diesen Marker und das Leerzeichen und sendet den Befehl. Auf diese Weise steht das eingegebene Kommando sauber zwischen den beiden Markern.
+Dazu habe ich [letztes Mal](/blog/bachelorarbeit-woche-0/) schon etwas geschrieben: Ich fange ab, wenn der Benutzer *Return* drückt, und sende stattdessen *"Ctrl-E Space Ctrl-U ☃ Backspace Ctrl-Y ☃ Backspace Backspace Return"*. Das setzt den Cursor ans Ende der Zeile, fügt ein Leerzeichen ein (damit es, falls die Zeile vorher leer war, etwas zu löschen gibt), löscht die Zeile und kopiert sie in die Zwischenablage, schreibt ein spezielles Unicode-Zeichen als Marker, löscht den Marker wieder, fügt die Zwischenablage ein, sendet den zweiten Marker, und löscht diesen Marker und das Leerzeichen und sendet den Befehl. Auf diese Weise steht das eingegebene Kommando sauber zwischen den beiden Markern.
 
 Das mit den Schneemännern ist natürlich nur eine vorläufige Lösung.
 

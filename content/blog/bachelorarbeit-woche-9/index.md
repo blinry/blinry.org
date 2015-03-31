@@ -4,7 +4,7 @@ published: 2013-09-04T10:31+0200
 tags: german, thesis
 ---
 
-Der [letze Eintrag](/bachelorarbeit-woche-3/) ist nun schon eine ganze Weile her, höchste Zeit für ein Statusupdate!
+Der [letze Eintrag](/blog/bachelorarbeit-woche-3/) ist nun schon eine ganze Weile her, höchste Zeit für ein Statusupdate!
 
 ## Sprache
 
@@ -160,7 +160,7 @@ Ich habe noch anderthalb Wochen bis zum Beginn des Vorkurses, in denen ich Inhal
 
 Ich bin gespannt!
 
-Zum Abschluss noch die kurze Lektion aus dem [letzen Blogpost](/bachelorarbeit-woche-3/) in *nutsh*:
+Zum Abschluss noch die kurze Lektion aus dem [letzen Blogpost](/blog/bachelorarbeit-woche-3/) in *nutsh*:
 
     def common_mistakes {
         if command == "1s" {

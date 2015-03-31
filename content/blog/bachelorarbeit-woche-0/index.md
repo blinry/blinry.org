@@ -44,6 +44,6 @@ Probleme bereiten noch mehrzeilige Befehle. Wie ich allgemein den Beginn des Pro
 
 ## Logbuch
 
-Ich mache hervorragende Erfahrungen damit, beim Arbeiten stets die Seite "Bachelorarbeit" meines [privaten Wikis](/keeping-a-personal-wiki/) offenzuhaben und Ideen, Probleme, wichtige Codeschnipsel, Quellen und Resultate mit Timestamps reinzuschreiben. Das hilft hervorragend gegen „Wo war ich stehengeblieben...?“, und macht mir selbst viele Dinge klarer. Ich hoffe, dass es das spätere Zusammenschreiben wesentlich vereinfacht, weil einfach vieles schon in schriftlicher Form vorliegt.
+Ich mache hervorragende Erfahrungen damit, beim Arbeiten stets die Seite "Bachelorarbeit" meines [privaten Wikis](/blog/keeping-a-personal-wiki/) offenzuhaben und Ideen, Probleme, wichtige Codeschnipsel, Quellen und Resultate mit Timestamps reinzuschreiben. Das hilft hervorragend gegen „Wo war ich stehengeblieben...?“, und macht mir selbst viele Dinge klarer. Ich hoffe, dass es das spätere Zusammenschreiben wesentlich vereinfacht, weil einfach vieles schon in schriftlicher Form vorliegt.
 
 Dieses "Führen eines Logbuches" erleichtert auch das Schreiben dieser Blogposts ungemein, weil ich einfach nur den ganzen Kladderadatsch seit dem letzten Post durchgucken und zusammenfassen muss ;-)

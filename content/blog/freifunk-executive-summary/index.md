@@ -14,7 +14,7 @@ Für mich, der neu dazukommt, ist die Organisation der Community zunächst befre
 
 Üblicherweise machen die Freifunk-Router zwei WLAN-Netze auf: Eines im Access Point-Modus, damit sich Endgeräte drauf verbinden können, eines im Ad-Hoc-Modus, zur Vernetzung mit anderen Routern.
 
-Früher benutzte Freifunk das [OLSR-Routingprotokoll](https://de.wikipedia.org/wiki/Optimized_Link_State_Routing), welches permanent die gesamte Netzwerktopologie auf alle Knoten verteilt. Das skalierte wohl nicht so gut, weshalb einige Freifunker eine einfachere Alternative entwickelten: [B.A.T.M.A.N](https://de.wikipedia.org/wiki/B.A.T.M.A.N.) ("Better Approach To Mobile Adhoc Networking"). Ein Knoten ruft regelmäßig ins Netz, dass er da ist und merkt sich für jeden anderen Knoten, aus welcher Richtung er die meisten dieser Broadcast-Nachrichten empfangen hat. In diese Richtung werden dann Pakete geschickt, die für diesen Knoten bestimmt sind. Fertig.
+Früher benutzte Freifunk das [OLSR-Routingprotokoll](https://de.wikipedia.org/wiki/Optimized_Link_State_Routing), welches permanent die gesamte Netzwerktopologie auf alle Knoten verteilt. Das skalierte wohl nicht so gut, weshalb einige Freifunker eine einfachere Alternative entwickelten: [B.A.T.M.A.N](https://en.wikipedia.org/wiki/B.A.T.M.A.N.) ("Better Approach To Mobile Adhoc Networking"). Ein Knoten ruft regelmäßig ins Netz, dass er da ist und merkt sich für jeden anderen Knoten, aus welcher Richtung er die meisten dieser Broadcast-Nachrichten empfangen hat. In diese Richtung werden dann Pakete geschickt, die für diesen Knoten bestimmt sind. Fertig.
 
 Es gibt übrigens einen regelmäßigen Wettbewerb, in dem Mesh-Routing-Protokolle gegeneinander antreten, [*Battle Mesh*](http://www.battlemesh.org/) ;-)
 
