@@ -4,7 +4,7 @@
 
     <title>morr.cc/blog/</title>
     <subtitle><%= subtitle %></subtitle>
-    <link href="<%= domain %>feed/" rel="self" />
+    <link href="<%= domain %><%= @item.path[1..-1] %>" rel="self" />
     <link href="<%= domain %>" />
     <icon><%= domain %>favicon.ico</icon>
     <id><%= domain %></id>
@@ -14,7 +14,7 @@
         <entry>
             <title><%= item[:title] %></title>
             <link href="<%= domain.chop %><%= item.path %>" />
-            <id><%= domain.chop %><%= item.path %></id>
+            <id><%= item.path.split("/").last %></id>
             <updated><%= item[:published].xmlschema %></updated>
             <author>
                 <name>Sebastian Morr</name>

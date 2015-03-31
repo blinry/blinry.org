@@ -74,9 +74,9 @@ def with_tag tag
 end
 
 def subtitle
-    "Sebastian Morr's blog about technology, art, and life"
+    "morr.cc"
 end
 
 def domain
-    "http://blog.morr.cc/"
+    "http://morr.cc/"
 end
