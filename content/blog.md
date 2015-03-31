@@ -4,6 +4,6 @@ order: 2
 headless: true
 ---
 
-Listed here are all blog entries, newest first. You can click on a tag behind a title to filter for that topic:
+Here's a list of all blog entries, newest first. Click on a tag to filter for that topic:
 
 <%= blog.enum %>

@@ -11,6 +11,9 @@ preprocess do
         if item[:published]
             item[:published] = DateTime.parse(item[:published].to_s)
         end
+        if item[:updated]
+            item[:updated] = DateTime.parse(item[:updated].to_s)
+        end
     end
 end
 

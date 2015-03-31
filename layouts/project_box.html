@@ -4,7 +4,10 @@
         <h2><%= @item[:title] %></h2>
         <div class="meta">
             <% if @item[:published] %>
-            <%= @item[:published].year %>
+                <%= @item[:published].year %>
+            <% end %>
+            <% if @item[:status] == "active" %>
+                – now
             <% end %>
         </div>
         <%= abstract_for(@item) %>
