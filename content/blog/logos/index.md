@@ -8,16 +8,16 @@ tags: german, art, logo
 
 Die Logos habe ich mit dem Vektorgrafik-Programm [Inkscape](http://www.inkscape.org/?lang=de) erstellt.
 
-![Ubucon-Logo](/files/ubucon-logo.png)
+![Ubucon-Logo](ubucon-logo.png)
 
-![Ubucon-Ringe](/files/ubucon-ringe.png)
+![Ubucon-Ringe](ubucon-ringe.png)
 
 Zwei Logos für die Ubucon 2008. Die Ubucon ist eine Konferenz über *Ubuntu*, eine Linux-Distribution. Entstanden im August 2008.
 
-![Abi 09 Logo](/files/abi09-logo.png)
+![Abi 09 Logo](abi09-logo.png)
 
 Logo für das Abi-Shirt meines Jahrganges. Und nein, das Motto war nicht meine Idee. Entstanden im Mai 2009.
 
-![Piratenpartei Braunschweig](/files/pp-bs-logo.png)
+![Piratenpartei Braunschweig](pp-bs-logo.png)
 
 Mein Vorschlag für das Logo der Braunschweiger Piraten. Entstanden Ende Juli 2010.

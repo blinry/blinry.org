@@ -14,6 +14,6 @@ Google. *"has 36 cube a solution?"* ... Ja, der Cube könne gelöst werden, aber
 
 Wenig später (ich untertreibe, wir waren beide schon ziemlich müde) stand er vor uns. So sieht Stolz in seiner reinsten Form aus:
 
-![Gelöster 36 Cube](/files/36cube.jpg)
+![Gelöster 36 Cube](36cube.jpg)
 
 Hab gerade mein Programm nochmal angepasst und durchlaufen lassen, es gibt sogar 96 verschiedene Lösungen!

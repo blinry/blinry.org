@@ -6,4 +6,4 @@ tags: german, art
 
 *Dieses Kerlchen entstand Mitte 2009. Es begann als Kritzelei auf einem meiner typischen Kritzelpapiere, und gefiel mir so gut, dass ich es später als Vektorgrafik umsetzte.*
 
-![Screamie](/files/screamie.png)
+![Screamie](screamie.png)

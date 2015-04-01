@@ -48,7 +48,7 @@ Bisher löse ich das über Timer: Wenn ein Befehl länger als *x* Millisekunden 
 
 Der Prototyp ist ja in Go geschrieben, was Nebenläufigkeit sehr einfach macht. In der folgenden Abbildung ist jedes Oval ein Thread (genauer: eine Go-Routine), die Kommunikation läuft über *Channels*, die man sich so ähnlich vorstellen kann wie UNIX-Pipes.
 
-![Aufbau des CLI-Moduls](/files/ba-cli-aufbau.jpg)
+![Aufbau des CLI-Moduls](ba-cli-aufbau.jpg)
 
 *startProcess* ganz unten kommuniziert mit dem Kommandozeilen-Prozess. Über zwei Channels gehen *Runen* (Unicode-Zeichen) rein und raus. Die Ausgabe wird von *tokenize* gelesen, wo sie in Tokens zerlegt wird (Zeichenketten mit Typ, die Token-Typen sind "command", "output" und "prompt"). Über den "runes"-Channel gehen die interaktiv geschriebenen Zeichen hoch. Die *CLI* macht damit dann High-Level-Kram. *inputStdin* pumpt vom Benutzer geschriebene Zeichen nach *filterInput*, auch von der CLI kommen Strings (z.B. Befehle, die Bedingungen überprüfen). *filterInput* macht schließlich die beschriebene Enter-Ersetzung und gibt das Resultat an den Prozess weiter. Es gibt eine zentrale "state"-Ressource (States sind "cmdinput", "cmdecho", "output" und "prompt").
 
@@ -89,4 +89,4 @@ Diese Woche möchte ich hautpsächlich zwei Dinge tun: Zum einen Literaturrecher
 
 Und zum Schluss noch: Das passiert, wenn man zu sehr auf seinen Bytes herumkloppt und irgendwie einen "Drucken"-Befehl dabei erzeugt, der versucht, die Steuerzeichen einer Vim-Sitzung auszudrucken:
 
-![Bytes auf Papier!](/files/ba-printout.jpg)
+![Bytes auf Papier!](ba-printout.jpg)

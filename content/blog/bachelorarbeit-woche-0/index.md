@@ -8,7 +8,7 @@ tags: german, thesis
 
 ## Themenvorstellung
 
-Letzten Montag habe ich den Themenvorstellungs-Vortrag vor meiner Erstprüferin und einigen Institutsmitarbeitern gehalten. Ich verlinke hier nochmal die [endgültige Fassung der Präsentation](/files/ba-themenvorstellung.pdf) mit mehr Zwischenschritten und leicht umsortierten Folien.
+Letzten Montag habe ich den Themenvorstellungs-Vortrag vor meiner Erstprüferin und einigen Institutsmitarbeitern gehalten. Ich verlinke hier nochmal die [endgültige Fassung der Präsentation](ba-themenvorstellung.pdf) mit mehr Zwischenschritten und leicht umsortierten Folien.
 
 Zur Präsentation des PDFs habe ich [*pdfpc*](http://davvil.github.io/pdfpc/) ("PDF presenter console") benutzt, das einem die verbleibende Zeit, die nächste Folie, den Forschritt innerhalb der Präsentation sowie Notizen anzeigen kann, das eine Folienübersichts- und eine Schwarz-schalt-Funktion hat und das insbesondere mit den "Zwischenschritten" innerhalb von *LaTeX-beamer*-Präsentationen klarkommt. Sehr empfehlenswert!
 
