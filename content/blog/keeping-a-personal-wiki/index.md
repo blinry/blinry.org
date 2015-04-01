@@ -18,7 +18,7 @@ Then, nothing happened. Then, I created Vimboy.
 
 *[Vimboy](http://github.com/blinry/vimboy)* is a Vim plugin that does almost nothing. You have a folder with text files, and when one file mentions the name of another file, it automatically links there. Plus, you get a mapping for quickly deleting the current file, and pressing *return* creates a new page named after your visual selection/the word you are on. That's it.
 
-![Screenshot of Vimboy](/files/vimboy-screenshot.png)
+![Screenshot of Vimboy](vimboy-screenshot.png)
 
 Vimboy also has a "manual link mode", where you have to use [square brackets] to create links, but since a very special incident where autolinking created an UBERAWESOME association, I recommend automatic links.
 
@@ -34,7 +34,7 @@ A shell script called `wiki` supports fast creation and access to wiki pages, I 
 
 *[RoboBoy](https://github.com/blinry/roboboy)* is a recent addition to the \*boy family: An Android application you can use to sync your wiki among main computer and smartphone using Git. It's quite hard to set up right now and has its quirks, but I like *always taking my brain extension with me* ™.
 
-![Screenshot of RoboBoy](/files/roboboy-screenshot.png)
+![Screenshot of RoboBoy](roboboy-screenshot.png)
 
 ## webboy
 

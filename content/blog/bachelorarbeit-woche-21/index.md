@@ -6,7 +6,7 @@ tags: german, thesis
 
 Am Donnerstag habe ich die Bachelorstudiengangsabschlussbescheinigung abgegeben, yay! Die letzten Wochen war noch recht viel zu tun, weshalb ich das Gefühl hatte, mir keine Zeit für einen ausführlichen Blogpost nehmen zu können. Heute berichte ich von der Arbeit selbst, in einem kommenden Post dann noch vom Abschlussvortrag.
 
-Hier kommt zunächst die [Arbeit als PDF](/files/nut-shell.pdf) mit anklickbaren Querverweisen. Im Original sind die Seitenabstände anders, um zweiseitig schöner auszusehen. Der LaTeX-Sourcecode ist [auf GitHub](https://github.com/blinry/bachelor-thesis). Wer dieses Blog verfolgt hat, ist mit dem Inhalts bereit größtenteils vertraut. Neu sind Beschreibung und Auswertung der Evaluation.
+Hier kommt zunächst die [Arbeit als PDF](nut-shell.pdf) mit anklickbaren Querverweisen. Im Original sind die Seitenabstände anders, um zweiseitig schöner auszusehen. Der LaTeX-Sourcecode ist [auf GitHub](https://github.com/blinry/bachelor-thesis). Wer dieses Blog verfolgt hat, ist mit dem Inhalts bereit größtenteils vertraut. Neu sind Beschreibung und Auswertung der Evaluation.
 
 Ich war überrascht und etwas enttäuscht, dass sich am Institut niemand die Zeit nahm, die Arbeit nochmal inhaltlich durchzugehen und zu kritisieren. Während ich mitbekommen habe, dass an anderen Instituten die Abschlussarbeiten oft zu einem guten Teil das Werk des Betreuers sind, war ich hier fast vollständig auf mich allein gestellt. Es war einerseits ganz schön, so autonom arbeiten zu können, andererseits bin ich sicher, dass die Arbeit bei einer intensiveren inhaltlichen Betreuung noch deutlich besser, formaler und tiefgehender hätte werden können.
 

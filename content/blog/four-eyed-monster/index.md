@@ -6,4 +6,4 @@ tags: german, art, photo
 
 *Ein interessanter optischer Effekt, der damit spielt, dass Gesichtswahrnehmnung im Gehirn irgendwie besonders verdrahtet ist.*
 
-![Four Eyed Monster](/files/four-eyed-monster.png)
+![Four Eyed Monster](four-eyed-monster.png)

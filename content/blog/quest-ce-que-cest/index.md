@@ -6,4 +6,4 @@ tags: german, photo, riddle
 
 *Wer's weiß, kriegt nen Preis.*
 
-![Fingerzeig](/files/fingerzeig.jpg)
+![Fingerzeig](fingerzeig.jpg)

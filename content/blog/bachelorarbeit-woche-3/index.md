@@ -4,7 +4,7 @@ published: 2013-07-30T22:52+0200
 tags: german, thesis
 ---
 
-![Literatur](/files/ba-literatur.jpg)
+![Literatur](ba-literatur.jpg)
 
 ## Literatur
 
