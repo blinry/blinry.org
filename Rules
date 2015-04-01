@@ -28,6 +28,9 @@ end
 compile '/googlec25b04cecd642132/' do
 end
 
+compile '*/view/' do
+end
+
 compile '*' do
     unless item.binary?
         filter :erb
