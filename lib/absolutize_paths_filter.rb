@@ -4,7 +4,11 @@ class AbsolutizePathsFilter < Nanoc3::Filter
 
     def run(content, params={})
         content.gsub(/\]\(([^\/].+?)\)/) do
-            "](#{@item.path+$1})"
+            if $1.include?'://'
+                "](#{$1})"
+            else
+                "](#{@item.path+$1})"
+            end
         end
     end
 end
