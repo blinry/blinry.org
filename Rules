@@ -25,6 +25,12 @@ end
 compile '*/view/' do
 end
 
+compile '*/thumbnail/' do
+    unless item[:extension] == "svg"
+        filter :thumbnailize, :width => 300
+    end
+end
+
 compile '*' do
     unless item.binary?
         filter :erb
