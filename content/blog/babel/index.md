@@ -37,5 +37,5 @@ name[/\d*-/] = ""
 name[/\.jpg/] = ""
 %>
 ## <%= name %>
-[<img src="<%= image %>" alt="<%= name %>" title="<%= name %>">](<%= image %>)
+[![<%= name %>](<%= image %>)](<%= image %>)
 <% end %>
