@@ -1,15 +1,19 @@
 <div class="project">
-    <a href="<%= if @item[:url] then @item[:url] else "#" end %>">
-        <img src="<%= @item.path %>thumbnail.png">
-        <h2><%= @item[:title] %></h2>
-        <div class="meta">
-            <% if @item[:published] %>
-                <%= @item[:published].year %>
-            <% end %>
-            <% if @item[:status] == "active" %>
-                – now
-            <% end %>
+    <a href="<%= if @item[:url] then @item[:url] else @item.path end %>">
+        <img src="<%= thumbnail_for(@item) %>">
+        <div class="info">
+            <h2><%= @item[:title] %></h2>
+            <div class="meta">
+                <% if @item[:published] %>
+                    <%= @item[:published].year %>
+                <% end %>
+                <% if @item[:status] == "active" %>
+                    – now
+                <% end %>
+                <% if @item[:tags] %> /
+                    <%= tags_for(@item) %>
+                <% end %>
+            </div>
         </div>
-        <%= abstract_for(@item) %>
     </a>
 </div>

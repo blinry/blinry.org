@@ -197,25 +197,37 @@ code {
     #projects {
         margin: -1em;
         padding-top: 1em;
+        overflow: auto;
     }
     .project {
+        position: relative;
+        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+        font-size: 0.66em;
         display: block;
+        overflow: hidden;
         float: left;
         width: 13.5em;
-        height: 22em;
+        height: 13.5em;
         margin: 1em;
         img {
             width: 13.5em;
-            height: 13.5em;
+            height: 10em;
             align: left;
             margin: 0;
             object-fit: cover;
-            object-position: 0% 0%;
+            object-position: 50% 50%;
         }
         a {
             text-decoration: none;
             color: #111;
-            display: block;
+        }
+        .info {
+            box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+            padding: 0.5em;
+            background: rgba(255,255,255,1);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
         h2 {
             margin-top: 0.5em;

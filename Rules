@@ -1,12 +1,6 @@
 #!/usr/bin/env ruby
 
 preprocess do
-    tags.each do |tag|
-        content = '<%= with_tag("'+tag+'").chronologic.reverse.enum %>'
-        title = "Blog posts with tag '#{tag}'"
-        identifier = "/blog/tag/#{tag}/"
-        @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
-    end
     @items.each do |item|
         if item[:published]
             item[:published] = DateTime.parse(item[:published].to_s)
@@ -21,7 +15,7 @@ compile '/assets/style/' do
     filter :sass, syntax: :scss
 end
 
-compile '/blog/feed/' do
+compile '/feed/' do
     filter :erb
 end
 

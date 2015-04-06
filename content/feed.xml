@@ -9,7 +9,7 @@
     <id><%= domain %></id>
     <updated><%= Time.now.xmlschema %></updated>
 
-    <% blog.each do |item| %>
+    <% things.each do |item| %>
         <entry>
             <title><%= item[:title] %></title>
             <link href="<%= domain.chop %><%= item.path %>" />

@@ -11,7 +11,34 @@ headless: true
 <p>Here's how to <a href="/about/">contact</a> me. And now, let's get started with the latest blog entries:</p>
 </div>
 
-<% blog[0..4].each do |item| %>
+<%
+categories = ["software", "documents", "art"]
+buckets = {}
+categories.each do |c|
+    buckets[c] = []
+end
+buckets["The Rest"] = []
+things.each do |t|
+    c = categories.find{|c| has_tag(t,c)}
+    if not c
+        c = "The Rest"
+    end
+    buckets[c] << t
+end
+
+categories << "The Rest"
+%>
+
+<% categories.each do |cat| %>
+<h1><%= cat %></h1>
+<div id="projects">
+<% buckets[cat].chronologic.reverse.each do |item| %>
+<%= render "project_box", {:item => item} %>
+<% end %>
+</div>
+<% end %>
+
+<!-- <% things[0..4].each do |item| %>
 <% render "article", {:item => item} do %>
 <%= item.compiled_content %>
 <% end %>
@@ -19,4 +46,4 @@ headless: true
 
 <div class="more">
 <a href="/blog/">← Previous entries</a>
-</div>
+</div> -->

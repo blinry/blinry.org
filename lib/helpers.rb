@@ -1,15 +1,11 @@
 include Nanoc::Helpers::Rendering
 
-def blog
-    @items.select{|i| i.identifier =~ /\/blog\/./ and i[:published]}.chronologic.reverse
-end
-
-def projects
-    @items.select{|i| i.identifier =~ /\/projects\/./ and i[:title]}.chronologic.reverse
+def things
+    @items.select{|i| i[:published]}.chronologic.reverse
 end
 
 def toplevel
-    @items['/'].children.select{|i| i[:title] and not i[:hidden]}.sort_by{|i| i[:order]}
+    @items['/'].children.select{|i| i[:title] and i[:order] and not i[:hidden]}.sort_by{|i| i[:order]}
 end
 
 def link_to item
@@ -40,7 +36,30 @@ def lang_for item
 end
 
 def abstract_for item
-    return item.compiled_content.split("\n").find{|line| not line.empty?}
+    #abstract = item.compiled_content.split("\n").find{|line| not line.empty?}
+    abstract = item.raw_content.split("\n").find{|line| not line.empty?}
+    max_len = 30*2
+    if abstract.size > max_len
+        abstract[0..max_len-1]+"…"
+    else
+        abstract
+    end
+end
+
+def thumbnail_for item
+    if not item[:thumbnail]
+        thumbnail = @items.find{|i| i.path == item.path+"thumbnail.png"}
+        if thumbnail
+            return thumbnail.path
+        else
+            thumbnail = @items.find{|i| i.path[Regexp.new(item.path+".*\.(png|jpg|svg|gif)")]}
+            if thumbnail
+                return thumbnail.path
+            else
+                return ""
+            end
+        end
+    end
 end
 
 class Array
@@ -71,6 +90,10 @@ def with_tag tag
     @items.select do |item|
         item[:tags] and item[:tags].split(",").map{|t| t.strip}.include? tag
     end
+end
+
+def has_tag item, tag
+    item[:tags] and item[:tags].split(",").map{|t| t.strip}.include? tag
 end
 
 def subtitle

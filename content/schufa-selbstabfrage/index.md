@@ -6,7 +6,7 @@ tags: german, privacy
 
 Dadurch, dass es mir bei einer Online-Bestellung untersagt wurde, per Rechnung zu bezahlen, wurde ich auf die SCHUFA aufmerksam. Das ist ein Unternehmen, das auf den Personendaten von drei Vierteln der Deutschen sitzt und für jeden davon einschätzt, wie wahrscheinlich es ist, dass er seine Rechnung nicht bezahlt.
 
-Im Sinne von [§ 34 Abs. 1 BDSG](http://www.gesetze-im-internet.de/bdsg_1990/__34.html) kann aber auch jeder Einzelne abfragen, was die so über einen wissen. Die SCHUFA bietet - vorbildlich! - sogar ein eigenes [Formular](https://www.meineschufa.de/download/SCHUFA_Infoblatt-DU-Antrag-deutsch.pdf) dafür an. Das füllt man aus, schickt es ab, und wartet drei Wochen.
+Im Sinne von [§ 34 Abs. 1 BDSG](http://www.gesetze-im-internet.de/bdsg_1990/__34.html) kann aber auch jeder Einzelne abfragen, was die so über einen wissen. Die SCHUFA bietet - vorbildlich! - sogar ein eigenes [Formular](https://www.meineschufa.de/download.php?file=SCHUFA_Infoblatt-DU-Antrag-deutsch.pdf) dafür an. Das füllt man aus, schickt es ab, und wartet drei Wochen.
 
 Vor ein paar Tagen kam die Antwort. Und, was wissen die nun über mich? Naja, Name, Geburtsdatum und -ort sowie Adresse. Eine "SCHUFA-Kundennummer" habe ich auch.
 
