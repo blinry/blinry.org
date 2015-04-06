@@ -1,7 +1,7 @@
 <div class="article">
     <% unless @item[:headless] %>
     <div class="article-header">
-        <h1><%= link_to @item %></h1>
+        <h1><%= link_to(@item) %></h1>
         <% if @item[:published] %>
             <div class="meta"><%= @item[:published].strftime("%Y-%m-%d") %> / <a href="/about/">Sebastian Morr</a>
                 <% if @item[:tags] %> /

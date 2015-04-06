@@ -1,17 +1,14 @@
-<div class="project">
+<div class="box">
     <a href="<%= if @item[:url] then @item[:url] else @item.path end %>">
-        <img src="<%= thumbnail_for(@item) %>">
+        <img src="<%= thumbnail_for(@item) %>" alt="">
         <div class="info">
             <h2><%= @item[:title] %></h2>
             <div class="meta">
                 <% if @item[:published] %>
                     <%= @item[:published].year %>
                 <% end %>
-                <% if @item[:status] == "active" %>
-                    – now
-                <% end %>
                 <% if @item[:tags] %> /
-                    <%= tags_for(@item) %>
+                    <%= tags_for(@item, false) %>
                 <% end %>
             </div>
         </div>

@@ -8,6 +8,9 @@ preprocess do
         if item[:updated]
             item[:updated] = DateTime.parse(item[:updated].to_s)
         end
+        if item[:tags]
+            item[:tags] = item[:tags].split(",").map{|t| t.strip}
+        end
     end
 end
 

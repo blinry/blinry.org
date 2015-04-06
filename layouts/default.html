@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="<%= lang_for(@item) %>">
+<html lang="<%= @item.lang %>">
     <head>
         <meta charset="utf-8">
         <title>
-            <% if @item.path == "/" %>
-                <%= subtitle %>
-            <% else %>
-                <%= @item[:title] %> · Sebastian Morr's blog
+            <% if @item.path != "/" %>
+                <%= @item[:title] %> ·
             <% end %>
+            Sebastian Morr's homepage
         </title>
         <meta name="author" content="Sebastian Morr">
         <% if @item[:published] %>
