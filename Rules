@@ -12,6 +12,12 @@ preprocess do
             item[:tags] = item[:tags].split(",").map{|t| t.strip}
         end
     end
+    tags.each do |tag|
+        content = '<%= box(with_tag("'+tag+'")) %>'
+        title = "Things with tag '#{tag}'"
+        identifier = "/tag/#{tag}/"
+        @items << Nanoc::Item.new(content, {:title => title}, identifier)
+    end
 end
 
 compile '/assets/style/' do

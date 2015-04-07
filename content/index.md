@@ -13,9 +13,5 @@ headless: true
 
 <% categories.each do |name, items| %>
 <h1><%= name %></h1>
-<div class="boxes">
-<% items.each do |item| %>
-<%= render "box", {:item => item} %>
-<% end %>
-</div>
+<%= box(items) %>
 <% end %>

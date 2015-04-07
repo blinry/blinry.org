@@ -20,22 +20,22 @@ def link_to item
     "<a href=\"#{item.path}\">#{item[:title]}</a>"
 end
 
+def tags
+    things.select{|i| i[:tags]}.map{|i| i[:tags]}.flatten.uniq
+end
+
 def tags_for item, link=true
-    if item[:tags]
-        item[:tags].map do |tag|
-            if link
-                "<a href=\"/tag/#{tag}/\">#{tag}</a>"
-            else
-                tag
-            end
-        end.join(", ")
-    else
-        ""
-    end
+    item[:tags].map do |tag|
+        if link
+            "<a href=\"/tag/#{tag}/\">#{tag}</a>"
+        else
+            tag
+        end
+    end.join(", ")
 end
 
 def lang_for item
-    if item[:tags].include? "german"
+    if item[:tags] and item[:tags].include? "german"
         "de"
     else
         "en"
@@ -81,4 +81,15 @@ end
 
 def domain
     "http://morr.cc/"
+end
+
+def box(items)
+    puts "boxes"
+    ret = "<div class=\"boxes\">"
+    items.each do |item|
+        ret << render("box", {:item => item})
+        #ret << " BOX "
+    end
+    ret << "</div>"
+    ret
 end
