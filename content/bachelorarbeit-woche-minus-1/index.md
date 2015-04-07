@@ -4,7 +4,7 @@ published: 2013-06-24T18:21+0200
 tags: german, thesis
 ---
 
-Nanu? Im [letzten Blogpost](/blog/bachelorarbeit-woche-minus-2/) schrieb ich doch noch, diese Woche würde die Arbeit angemeldet? Ja, aber wegen Terminüberschneidungen wurde das noch eine Woche nach hinten geschoben. Also, Woche -1. Was habe ich gemacht?
+Nanu? Im [letzten Blogpost](/bachelorarbeit-woche-minus-2/) schrieb ich doch noch, diese Woche würde die Arbeit angemeldet? Ja, aber wegen Terminüberschneidungen wurde das noch eine Woche nach hinten geschoben. Also, Woche -1. Was habe ich gemacht?
 
 ## Präsentation zur Themenvorstellung
 

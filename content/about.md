@@ -17,4 +17,4 @@ This site is written in [Markdown](http://daringfireball.net/projects/markdown/)
 
 The fonts are [Linux Libertine](http://www.linuxlibertine.org/), which I use for its superior *ffi* ligature in cool browsers, and the `monospace` font [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html).
 
-You can subscribe to new posts using the [Atom feed](/blog/feed/).
+You can subscribe to new posts using the [Atom feed](/feed/).

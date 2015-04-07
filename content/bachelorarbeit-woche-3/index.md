@@ -14,7 +14,7 @@ Coole Entdeckung waren insbesondere die Tagungsbände der *International Confere
 
 ## Erste Skripting-Versuche
 
-Ich habe um die `cli`-API von [letzter Woche](/blog/bachelorarbeit-woche-2/) eine dünne Schicht von Methoden gelegt, die es mir ermöglichen, einfache Tutorials zu verfassen. Dabei entstand eine primitive *interne* domänen-spezifische Sprache, das heißt, sie ist Untermenge einer "normalen" Mehrzwecksprache. In meinem Fall heißt das, ich kann ein Programm in der Programmiersprache Go schreiben, wobei ich nur ganz bestimmte Methoden und bestimmte Sprachelemente benutze, und mich dabei meiner Vision der *nutsh*-Sprache, in der die Tutorials verfasst werden sollen, langsam annähere.
+Ich habe um die `cli`-API von [letzter Woche](/bachelorarbeit-woche-2/) eine dünne Schicht von Methoden gelegt, die es mir ermöglichen, einfache Tutorials zu verfassen. Dabei entstand eine primitive *interne* domänen-spezifische Sprache, das heißt, sie ist Untermenge einer "normalen" Mehrzwecksprache. In meinem Fall heißt das, ich kann ein Programm in der Programmiersprache Go schreiben, wobei ich nur ganz bestimmte Methoden und bestimmte Sprachelemente benutze, und mich dabei meiner Vision der *nutsh*-Sprache, in der die Tutorials verfasst werden sollen, langsam annähere.
 
 Hier ist ein Beispiel:
 

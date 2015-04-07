@@ -4,7 +4,7 @@ published: 2013-06-23T13:41+0200
 tags: meta
 ---
 
-*This is a follow-up to "[History of morr.cc](/blog/history-of-morr-cc/)". I'd like to show you how this blog is created using the fantastic static site generator "nanoc".*
+*This is a follow-up to "[History of morr.cc](/history-of-morr-cc/)". I'd like to show you how this blog is created using the fantastic static site generator "nanoc".*
 
 ## Why would you want static sites?
 
@@ -14,7 +14,7 @@ To be short: Simplicity, security, speed.
 
 You can look at [this blog's source code](https://github.com/blinry/blog-morr-cc) on GitHub.
 
-- The [`content`](https://github.com/blinry/blog-morr-cc/tree/master/content) folder contains the blog posts (in `articles`), assets related to the layout (in `assets`), images and other files referenced from the blog posts (in `files`), and some top-level pages and files. Texts are written in the [*Markdown*](http://daringfireball.net/projects/markdown/) format, a simple markup language that is even comfortable to read as plain text (for example, look at [this post's source](https://raw.githubusercontent.com/blinry/morr.cc/master/content/blog/how-to-blog-with-nanoc/index.md)). Each post has a header containing at least a title, the date of publication, and some tags in [*YAML*](https://en.wikipedia.org/wiki/YAML) format.
+- The [`content`](https://github.com/blinry/blog-morr-cc/tree/master/content) folder contains the blog posts (in `articles`), assets related to the layout (in `assets`), images and other files referenced from the blog posts (in `files`), and some top-level pages and files. Texts are written in the [*Markdown*](http://daringfireball.net/projects/markdown/) format, a simple markup language that is even comfortable to read as plain text (for example, look at [this post's source](https://raw.githubusercontent.com/blinry/morr.cc/master/content/how-to-blog-with-nanoc/index.md)). Each post has a header containing at least a title, the date of publication, and some tags in [*YAML*](https://en.wikipedia.org/wiki/YAML) format.
 
 - The [`layouts`](https://github.com/blinry/blog-morr-cc/tree/master/layouts) folder contains some HTML templates with [*eRuby*](https://en.wikipedia.org/wiki/ERuby) tags.
 

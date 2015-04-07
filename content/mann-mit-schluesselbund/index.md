@@ -13,7 +13,7 @@ Auf dem weiteren Weg nach oben ging meine Fantasie mit mir durch.
 Ein neuer Mieter hätte wohl gewusst, welche Schlüssel er da ausgehändigt bekommen hat - es sei denn, ihm wäre ein großer Haufen Schlüssel für die Haustür, die Wohnungstür, den Keller, den Zimmertresor, das Bad und die beiden Nachtschränke hingeworfen worden - und es wäre sein *allererster* Tag. Nee.
 
 War der Mann vielleicht ein Einbrecher, der den Besitzer der Wohnung überfallen und ihm seinen Schlüsselbund abgenommen hatte, und dann natürlich nicht wusste, wofür die einzelnen Schlüssel waren? Und zur Tarnung eine Tüte Brötchen geholt hatte, um Leute wie mich zu täuschen?
-Naja, in meine Wohnung wäre er so immerhin [nicht gekommen](/blog/fingerabdruck-klingel/).
+Naja, in meine Wohnung wäre er so immerhin [nicht gekommen](/fingerabdruck-klingel/).
 
 Oder war er zu Gast bei einem Freund oder - noch pikanter - bei einer Dame? Während sie noch schlief, hatte er sich die Schlüssel genommen und war rausgeschlichen, um ihr mit einer Tüte Croissants das Herz zu erweichen und den Magen zu füllen?
 

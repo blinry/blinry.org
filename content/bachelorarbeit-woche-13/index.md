@@ -6,7 +6,7 @@ tags: german, thesis
 
 ## Blick zurück
 
-So, der [Vorkurs](/blog/bachelorarbeit-woche-11/) lief gut, die Teilnehmer schienen mir recht glücklich mit der Nut Shell, ich habe viel positives Feedback bekommen. Ich habe eine kleine Umfrage durchgeführt, um Spaß und Lernfortschritt quantifizieren zu können, die Ergebnisse werde ich in den kommenden Wochen hier veröffentlichen.
+So, der [Vorkurs](/bachelorarbeit-woche-11/) lief gut, die Teilnehmer schienen mir recht glücklich mit der Nut Shell, ich habe viel positives Feedback bekommen. Ich habe eine kleine Umfrage durchgeführt, um Spaß und Lernfortschritt quantifizieren zu können, die Ergebnisse werde ich in den kommenden Wochen hier veröffentlichen.
 
 ## Blick nach vorn
 
