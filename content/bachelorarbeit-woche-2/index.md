@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit: Woche 2"
 published: 2013-07-22T11:33+0200
-tags: german, thesis
+tags: german, thesis, report
 ---
 
 *Heute mit Kommandozeilen-Tokenizern, Test Driven Development und Bytes auf Papier.*

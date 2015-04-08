@@ -1,9 +1,8 @@
 ---
 title: nordlicht
+subtitle: Colorful video barcodes for navigation
 published: 2013-07-14
 url: http://nordlicht.github.io
 status: active
-tags: software
+tags: project, software
 ---
-
-Converts videos to colorful barcodes, video player integrations are planned.

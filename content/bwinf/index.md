@@ -1,7 +1,7 @@
 ---
 title: Bundeswettbewerb Informatik
 published: 2010-04-11T00:00+0200
-tags: german, cs
+tags: german, document
 ---
 
 *Ich habe bisher an drei Runden des Bundeswettbewerbs Informatik teilgenommen. Hier möchte ich meine Lösungen veröffentlichen, vielleicht können kommende Teilnehmer daraus lernen.*

@@ -1,7 +1,7 @@
 ---
 title: How to blog with nanoc
 published: 2013-06-23T13:41+0200
-tags: meta
+tags: meta, tech
 ---
 
 *This is a follow-up to "[History of morr.cc](/history-of-morr-cc/)". I'd like to show you how this blog is created using the fantastic static site generator "nanoc".*

@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit: Woche 3"
 published: 2013-07-30T22:52+0200
-tags: german, thesis
+tags: german, thesis, report
 ---
 
 ![Literatur](ba-literatur.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "28C3: Tag 4"
 published: 2011-12-30T20:37+0100
-tags: german, travel
+tags: german, travel, report
 ---
 
 Programm heute: bup, ein auf Git basierendes Backup-System. Im Rahmen der Lightning Talks gab es ein paar Vorträge über die r0ket, unter anderem nochmal ein leicht verbessertes Massively-Multiplayer-Pong, bei dem ich jetzt mitspielen konnte. Ein anderes Team hat ein Dating-Programm geschrieben, dass einem ein gutes Dutzend Fragen stellt (Lieblings-Texteditor, etc.) und dann gut passende Partner vermittelt. Anschließend ein Workshop über Festplattenverschlüsselung, leider war der Host nicht da. Wir haben aber schnell angefangen, uns untereinander über Verschlüsselungstechniken zu unterhalten. Ein Talk, der erklärte, wie sich Quanteninformation von herkömmlichen Informationen unterscheiden: Qubits (Quanten-Bits) haben zwei Eigenschaften, von denen man jeweils nur eine messen kann, und dabei auch noch den Zustand des Qubits verändert. Das wurde schön anschaulich mithilfe von Socken erklärt. :-)

@@ -1,7 +1,7 @@
 ---
 title: Kunstprojekt "Babel"
 published: 2005-09-06
-tags: german, photo
+tags: german, art, photo
 ---
 
 Diese Fotoserie entstand in der zehnen Klasse. Es stellt in achtzehn Bildern zwischenmenschliche Beziehungen mit Büchern dar.

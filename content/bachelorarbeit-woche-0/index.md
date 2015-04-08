@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit: Woche 0"
 published: 2013-07-08T14:36+0200
-tags: german, thesis
+tags: german, thesis, report
 ---
 
 *Heute mit: PDF-Präsentations-Software, ehrlichem Feedback, Zeitplanung, Anfängen des Shell-Wrappers und dem Führen eines Logbuchs.*

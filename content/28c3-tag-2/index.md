@@ -1,7 +1,7 @@
 ---
 title: "28C3: Tag 2"
 published: 2011-12-29T04:12+0100
-tags: german, travel
+tags: german, travel, report
 ---
 
 Heute berichte ich sehr spät, Mitternacht ist schon vorbei. Irgendwie habe ich mir heute keine Zeit zwischendurch genommen. Ich sitze in Saal 1 und sehe den Jeopardy-Leuten beim Aufbauen zu.

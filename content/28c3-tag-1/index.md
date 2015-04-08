@@ -1,7 +1,7 @@
 ---
 title: "28C3: Tag 1"
 published: 2011-12-28T01:26+0100
-tags: german, travel
+tags: german, travel, report
 ---
 
 Nachmittag. Ich hab mir einen gemütlichen Platz im Basement gesucht, mit Strom- und Kabelnetzversorgung und kann ein bisschen dokumentieren. Heute morgen bin ich gegen Zehn im bcc aufgeschlagen. Vor dem Gebäude wehen Pesthörnchen-Flaggen (google it), eine einige Meter hohe "Fairy Dust"-Rakete wurde aufgebaut. Innerhalb einer Minute habe ich mein ausgedrucktes Ticket gegen ein Armbändchen eingetauscht und konnte mich daran machen, das Kongressgebäude zu erkunden. In den letzten Jahren hat man immer von langen Warteschlangen vor dem Eingang gehört, dieses Problem gehört wohl der Vergangenheit an.

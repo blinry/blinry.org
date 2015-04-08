@@ -1,7 +1,7 @@
 ---
 title: Google-Rekursion
 published: 2010-08-19T00:00+0200
-tags: german, fun, tech
+tags: german, fun
 ---
 
 Du kennst bestimmt die Korrekturfunktion von Google. Wenn du ein Wort falsch schreibst, schlägt die Suchmaschine eifrig vor: "Meinten Sie: ...?" Da kannst du dann draufklicken und Google sucht nach dem korrigierten Wort. So weit so praktisch. Ich verwende die Funktion gerne, wenn ich mir nicht sicher bin, wie ein Wort geschrieben wird.

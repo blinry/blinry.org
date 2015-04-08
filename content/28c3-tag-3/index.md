@@ -1,7 +1,7 @@
 ---
 title: "28C3: Tag 3"
 published: 2011-12-30T05:06+0100
-tags: german, travel
+tags: german, travel, report
 ---
 
 Der durchschnittliche Congressteilnehmer, den ich hier mal [Christian](http://www.beliebte-vornamen.de/jahrgang/j1980) nennen möchte, ist männlich (hier ist ein gefühlter Frauenanteil von 5 Prozent) und um die 30. Pferdeschwänze sieht man viele, sie bilden aber nicht die Mehrheit, Christian hat kurze braune Haare. Eine Brille hat er auch nicht. Christian ist eher schlacksig. Er bewegt sich schnell und bleibt gerne abrupt in den Fluren stehen. In seinem Rucksack führt er eine Club-Mate und ein mit Stickern verziertes Thinkpad-Notebook mit sich, auf dem Linux mit einem Tiling-Window-Manager läuft. Christian trägt einen schwarzen Pullover und eine Bluejeans. Er bleibt tendenziell eher in seiner vertrauten Gruppe, ist auf Ansprache aber sehr freundlich und hilfsbereit.  

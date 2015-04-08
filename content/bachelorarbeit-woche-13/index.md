@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit: Woche 13"
 published: 2013-10-05T10:33+0200
-tags: german, thesis
+tags: german, thesis, report
 ---
 
 ## Blick zurück

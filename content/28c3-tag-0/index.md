@@ -1,7 +1,7 @@
 ---
 title: "28C3: Tag 0"
 published: 2011-12-27T16:03+0100
-tags: german, travel
+tags: german, travel, report
 ---
 
 Mit einem prall gestopften großen Rucksack und einem kleinem Rucksack, in dem ein süßer Stoffbär sitzt, mache ich mich auf den Weg zu meinem ersten Chaos Communication Congress, dem 28C3. Das Packen war am Ende doch noch hektisch geworden, ich führe mindestens 9 Kabel und 6 Geräte mit, zur fachlichen Lektüre eine alte Ausgabe der *Unix Power Tools*, ein legendäres Buch über die grundlegenden Werkzeuge, die auch auf der Linux-Kommandozeile zum Einsatz kommen. Die Fahrt zu meinem ersten Zwischenhalt habe ich genutzt, um ein grobes Programm für die kommenden Tage zusammenzustecken. Wow, coole Sachen dabei, viel Foodhacking (Hackerbrause selbst brauen!), und ich freue mich besonders auf den Vortrag über die r0ket, ein kleines Stück frei programmierbarer Hardware mit kleinem Display und Knöpfen (eines der Logos des CCC ist die Rakete *Fairy Dust*). Bekanntheiten wie Cory Doctrow und Dan Kaminsky muss man auch live sehen, ansonsten lautet mein Maßstab: Auf das konzentrieren, was man nicht ohnehin hinterher in den Stream-Aufzeichnungen sehen kann.

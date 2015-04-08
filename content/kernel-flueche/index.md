@@ -1,7 +1,7 @@
 ---
 title: Kernel-Flüche
 published: 2010-07-30
-tags: german, fun, tech
+tags: german, fun
 ---
 
 *Wusstest du, dass sich im Linux-Kernel ganz schön viele Flüche befinden? Sehr unterhaltsam!*

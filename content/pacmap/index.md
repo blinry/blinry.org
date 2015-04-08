@@ -2,7 +2,7 @@
 title: "informatiCup 2012: PacMap"
 tags: cs, software
 published: 2012-03-23
-tags: software
+tags: software, document, talk
 ---
 
 PacMap is a little Android game that combines elements of Geocaching with those of crossword puzzles.

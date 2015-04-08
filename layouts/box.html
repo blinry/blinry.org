@@ -1,8 +1,15 @@
 <div class="box">
     <a href="<%= if @item[:url] then @item[:url] else @item.path end %>">
-        <img src="<%= thumbnail_for(@item) %>" alt="">
+        <div class="img">
+            <img src="<%= thumbnail_for(@item) %>" alt="">
+        </div>
         <div class="info">
             <h2><%= @item[:title] %></h2>
+            <!--
+            <% if @item[:subtitle] %>
+                <h3><%= @item[:subtitle]%>.</h3>
+            <% end %>
+            -->
             <div class="meta">
                 <% if @item[:published] %>
                     <%= @item[:published].year %>

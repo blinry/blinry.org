@@ -6,7 +6,7 @@ class Thumbnailize < Nanoc::Filter
         system(
             'convert',
             '-resize',
-            params[:width].to_s,
+            params[:width].to_s+"x"+params[:width].to_s+"^",
             filename,
             output_filename
         )

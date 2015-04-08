@@ -2,9 +2,22 @@ include Nanoc::Helpers::Rendering
 
 def categories
     c = {}
-    c["Software"] = with_tag("software")
-    c["Art"] = with_tag("art")
-    c["Unsorted"] = things - c.values.flatten.uniq
+    cats = {
+        "Meta" => "meta",
+        "Software" => "project",
+        "Documents" => "document",
+        "Design" => "art",
+        "Reports" => "report",
+        "Tech" => "tech",
+    }
+    cats.each do |name, tag|
+        used = c.values.flatten.uniq
+        c[name] = with_tag(tag) - used
+    end
+    used = c.values.flatten.uniq
+    c["Silly Stuff"] = with_tag("fun") + with_tag("story") + with_tag("text") - used
+    used = c.values.flatten.uniq
+    c["Unsorted"] = things - used
     c
 end
 
@@ -84,11 +97,9 @@ def domain
 end
 
 def box(items)
-    puts "boxes"
     ret = "<div class=\"boxes\">"
     items.each do |item|
         ret << render("box", {:item => item})
-        #ret << " BOX "
     end
     ret << "</div>"
     ret
