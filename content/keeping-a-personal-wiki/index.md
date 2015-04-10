@@ -2,6 +2,7 @@
 title: Keeping a personal wiki
 published: 2013-06-05T18:18+0200
 tags: software, life, tech
+fav: true
 ---
 
 *In this article, I'd like to show you which tools I use to keep a personal wiki and what I do with it.*

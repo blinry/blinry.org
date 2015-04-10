@@ -1,36 +1,40 @@
 include Nanoc::Helpers::Rendering
 
 def categories
+    $categories ||= calculate_categories
+end
+
+def calculate_categories
     c = {}
     cats = {
-        "Meta" => "meta",
         "Software" => "project",
         "Documents" => "document",
-        "Design" => "art",
-        "Reports" => "report",
-        "Tech" => "tech",
+        "Design" => "art"
     }
     cats.each do |name, tag|
         used = c.values.flatten.uniq
         c[name] = with_tag(tag) - used
     end
     used = c.values.flatten.uniq
-    c["Silly Stuff"] = with_tag("fun") + with_tag("story") + with_tag("text") - used
-    used = c.values.flatten.uniq
-    c["Unsorted"] = things - used
+    c["Blog"] = things - used
     c
 end
 
 def things
+    $things ||= calculate_things
+end
+
+def favs
+    things.select{|i| i[:fav]}.sort_by{|i| i[:fav]}
+end
+
+def calculate_things
     @items['/'].children.select{|i| i[:published]}.sort_by{|i| i[:published]}.reverse
 end
 
-def toplevel
-    @items['/'].children.select{|i| i[:order] }.sort_by{|i| i[:order]}
-end
-
-def link_to item
-    "<a href=\"#{item.path}\">#{item[:title]}</a>"
+def link_to item, text=nil
+    text = item[:title] if text.nil?
+    "<a href=\"#{item.path}\">#{text}</a>"
 end
 
 def tags
@@ -56,7 +60,6 @@ def lang_for item
 end
 
 def abstract_for item
-    #abstract = item.compiled_content.split("\n").find{|line| not line.empty?}
     abstract = item.raw_content.split("\n").find{|line| not line.empty?}
     max_len = 30*2
     if abstract.size > max_len

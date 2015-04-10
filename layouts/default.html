@@ -28,7 +28,7 @@
             <a href="/"><img src="/assets/images/m-logo-red.svg" alt="morr.cc"></a>
 
             <ul>
-                <% toplevel.each do |item| %><li<%= " class=\"current\"" if @item.path.include?(item.path) %>><%= link_to item %></li><% end %>
+                <% categories.each do |name, items| item = @items["/#{name.downcase}/"] %><li<%= " class=\"current\"" if @item.path == item.path %>><%= link_to(item, name) %></li><% end %>
             </ul>
         </div>
         <div id="content">
@@ -38,13 +38,6 @@
         </div>
         <div id="footer">
             <p>Comments? Send a tweet to <a href="https://twitter.com/blinry">@blinry</a> or visit the <a href="/about/">about page</a>. Thanks for reading! &mdash; <a href="/feed/">Feed?</a></p>
-            <code>
-                $ fortune<br>
-                <%=
-                                                                                                                                          cat, text = `fortune -ce wisdom science riddles perl paradoxum magic love linux kids humorists goedel fortunes food education definitions computers art archlinux calvin futurama portal portal2 tbbt sherlock`.split("%", 2)
-                                                                                                                                          "<span title=\"(#{cat.split('/')[-1]}\">#{CGI::escapeHTML(text)}</span>"
-                                                                                                                                      %>
-            </code>
         </div>
     </body>
 </html>

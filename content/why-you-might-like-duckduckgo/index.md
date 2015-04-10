@@ -2,6 +2,7 @@
 title: Why you might like DuckDuckGo
 published: 2013-06-18T00:25+0200
 tags: tech
+fav: true
 ---
 
 *[DuckDuckGo](https://duckduckgo.com) is an alternative search engine. I've made it my default search recently. Let me tell you about the differences to Google, Bing and the like -- and why you should care.*

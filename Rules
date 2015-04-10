@@ -16,7 +16,13 @@ preprocess do
         content = '<%= box(with_tag("'+tag+'")) %>'
         title = "Things with tag '#{tag}'"
         identifier = "/tag/#{tag}/"
-        @items << Nanoc::Item.new(content, {:title => title}, identifier)
+        @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
+    end
+    categories.each do |name, items|
+        content = "<%= box(categories[\"#{name}\"]) %>"
+        title = "#{name}"
+        identifier = "/#{name.downcase}/"
+        @items << Nanoc::Item.new(content, {:title => title, :headless => true}, identifier)
     end
 end
 
