@@ -2,6 +2,7 @@
 title: "Bachelorarbeit: Woche -1"
 published: 2013-06-24T18:21+0200
 tags: german, thesis, report
+imgtitle: "jorago, CC-BY-NC-SA 3.0, http://jorago.deviantart.com/art/Broken-nut-shell-281776516"
 ---
 
 Nanu? Im [letzten Blogpost](/bachelorarbeit-woche-minus-2/) schrieb ich doch noch, diese Woche würde die Arbeit angemeldet? Ja, aber wegen Terminüberschneidungen wurde das noch eine Woche nach hinten geschoben. Also, Woche -1. Was habe ich gemacht?

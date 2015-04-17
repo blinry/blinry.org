@@ -2,6 +2,7 @@
 title: "Rätsel: Wie viele Beine?"
 published: 2010-04-17T00:00+0100
 tags: german, text
+imgtitle: "Loadmaster, CC-BY-SA 3.0, https://commons.wikimedia.org/wiki/File:ChildrenLegs-0783.jpg"
 ---
 
 *Eine Rätselaufgabe, die meine Tante mir vor einiger Zeit stellte. Und meine Antwort.*

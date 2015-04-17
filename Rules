@@ -29,6 +29,10 @@ preprocess do
     title = "Archive"
     identifier = "/archive/"
     @items << Nanoc::Item.new(content, {:title => title}, identifier)
+
+    # rebuild these variables for each compilation
+    $categories = nil
+    $things = nil
 end
 
 compile '/assets/style/' do

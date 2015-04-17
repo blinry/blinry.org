@@ -2,6 +2,7 @@
 title: Freifunk, executive summary
 published: 2014-01-29T12:22+0100
 tags: german, tech
+imgtitle: "freifunk.net, CC-BY-SA 2.5, https://de.wiktionary.org/wiki/Datei:Freifunk.net.svg"
 ---
 
 Ich habe mir vor zwei Wochen [*Freifunk*](http://freifunk.net/) genauer angeguckt, und möchte euch hier mal zusammenfassen, was ich gelernt habe. Die Grundidee ist, in einer Stadt viele WLAN-Router aufzustellen, die sich untereinander vermeshen und so ein dezentrales (unzensier- und -drosselbares) Kommunikationsmedium bilden.

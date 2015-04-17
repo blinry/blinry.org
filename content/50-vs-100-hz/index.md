@@ -2,6 +2,7 @@
 title: 50 vs. 100 Hertz
 published: 2010-09-02T12:17+0200
 tags: german, tech
+imgtitle: "Peregrine Fisher & nr1jack, CC-BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Motion_interpolation_example.jpg"
 ---
 
 *Bei mir steht seit letzter Woche ein neuer Fernseher. Bei meiner intensiven Beschäftigung mit Fernsehtechnik in der letzten Zeit hatte ich ein paar "Aha"-Erlebnisse, die ich mit dir teilen möchte. Als erstes erkläre ich, was der Unterschied zwischen Bildschirmen mit 50 und 100 Hertz ist, denn da gibt es eine kleine Überraschung.*

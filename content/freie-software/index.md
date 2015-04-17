@@ -2,6 +2,7 @@
 title: "Freie Software: Eine Analogie"
 published: 2007-05-07
 tags: german, software, tech
+imgtitle: "David Monniaux, CC-BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Cooks_050918_154402.jpg"
 ---
 
 Mithilfe einer Analogie kann man sehr anschaulich erklären, was Freie Software ist. Es werden nur wenige alltägliche Elemente benötigt, an denen man jedoch viele Sachverhalte erklären kann. Gerade für technisch weniger Versierte sollte dieses Modell hilfreich sein.

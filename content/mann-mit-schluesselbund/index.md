@@ -2,6 +2,7 @@
 title: Der Mann mit dem Schlüsselbund
 published: 2010-09-04T11:30+0200
 tags: german, story
+imgtitle: "TheEgyptian, CC-BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Leather_key_chain.JPG"
 ---
 
 Als ich heute vom Brötchenholen wiederkam, stand vor der Tür zum Gebäude ein Mann, den ich noch nie gesehen hatte. Auch er hatte eine Brötchentüte in der Hand und fummelte mit einem Schlüsselbund herum. Offenbar probierte er jeden Schlüssel aus und fand nicht den richtigen.
