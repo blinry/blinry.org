@@ -1,5 +1,5 @@
 ---
-title: "Bachelorarbeit: Woche 11"
+title: "Bachelorarbeit, Woche 11: Vorkurs beginnt!"
 published: 2013-09-16T11:37+0200
 tags: german, thesis, report
 ---

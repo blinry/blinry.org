@@ -34,19 +34,32 @@ end
 
 def link_to item, text=nil
     text = item[:title] if text.nil?
-    "<a href=\"#{item.path}\">#{text}</a>"
+    "<a href=\"#{link_for(item)}\">#{text}</a>"
 end
 
 def tags
     things.select{|i| i[:tags]}.map{|i| i[:tags]}.flatten.uniq
 end
 
+def link_for item
+    if item[:url]
+        item[:url]
+    else
+        item.path
+    end
+end
+
 def tags_for item, link=true
     item[:tags].map do |tag|
-        if link
-            "<a href=\"/tag/#{tag}/\">#{tag}</a>"
+        if tag == "german"
+            text = "<img class=\"flag\" src=\"/assets/images/de.svg\" alt=\"german\" />"
         else
-            tag
+            text = tag
+        end
+        if link
+            "<a href=\"/tag/#{tag}/\">#{text}</a>"
+        else
+            text
         end
     end.join(", ")
 end
@@ -75,7 +88,7 @@ end
 
 def thumbnail_for item
     if not item[:thumbnail]
-        thumbnail = @items.find{|i| i.path == item.path+"thumbnail.png"}
+        thumbnail = @items.find{|i| i.path =~ Regexp.new("^"+Regexp.escape(item.path)+"thumbnail\.(png|jpg|svg|gif)$")}
         if thumbnail
             return thumbnail.path
         else

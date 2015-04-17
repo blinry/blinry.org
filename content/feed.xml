@@ -12,7 +12,7 @@
     <% things.each do |item| %>
         <entry>
             <title><%= item[:title] %></title>
-            <link href="<%= domain.chop %><%= item.path %>" />
+            <link href="<%= if item[:url] then item[:url] else domain.chop+item.path end %>" />
             <id><%= item.path.split("/").last %></id>
             <updated><%= item[:published].xmlschema %></updated>
             <author>

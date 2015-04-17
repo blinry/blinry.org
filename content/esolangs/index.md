@@ -5,7 +5,7 @@ tags: document, talk
 fav: true
 ---
 
-This was a fun overview paper written in the seminar *Programming languages through the ages*. I was very lucky to receive the topic *Esoteric Programming Languages*, and was quite committed in the paper.
+This was a fun overview paper written in the seminar *Programming languages through the ages*. I was very lucky to receive the awesome topic *Esoteric Programming Languages* :-)
 
 - [Paper](esolangs.pdf)
 - [Talk](presentation.pdf)

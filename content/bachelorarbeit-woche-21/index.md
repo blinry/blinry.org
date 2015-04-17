@@ -1,5 +1,5 @@
 ---
-title: "Bachelorarbeit: Woche 21"
+title: "Bachelorarbeit, Woche 21: LaTeX-Tipps und Abgabe!"
 published: 2013-11-30T07:32+0100
 tags: german, thesis, report
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Bachelorarbeit: Woche -2"
+title: "Bachelorarbeit, Woche -2: Grundidee"
 published: 2013-06-11T19:50+0200
 tags: german, thesis, report
 ---

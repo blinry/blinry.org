@@ -188,7 +188,7 @@ code {
         height: 9em;
         margin: 0.75em;
         overflow: hidden;
-        img {
+        > a > img {
             width: 100%;
             height: 6.5em;
             object-fit: cover;
@@ -221,6 +221,11 @@ code {
         > a {
             height: 100%;
         }
+    }
+    .flag {
+        height: 0.6em;
+        width: auto;
+        display: inline;
     }
 }
 

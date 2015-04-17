@@ -1,5 +1,5 @@
 ---
-title: "Bachelorarbeit: Woche 9"
+title: "Bachelorarbeit, Woche 9: DSL-Syntax"
 published: 2013-09-04T10:31+0200
 tags: german, thesis, report
 ---
