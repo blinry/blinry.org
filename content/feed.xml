@@ -20,6 +20,9 @@
                 <email>sebastian@morr.cc</email>
             </author>
             <content type="html"><![CDATA[
+                <% if item[:url] %>
+                URL: <a href="<%= item[:url] %>"><%= item[:url] %></a>
+                <% end %>
                 <%= item.compiled_content %>
             ]]></content>
         </entry>
