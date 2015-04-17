@@ -8,7 +8,7 @@ headless: true
 
 <p>Hey there! My name is Sebastian Morr, I’m studying computer science at TU Braunschweig, Germany. On this site I publish things I create and share stuff I like.</p>
 
-<p>Here's how to <a href="/about/">contact</a> me. And now, let's get started with the latest blog entries:</p>
+<p>Here's how to <a href="/about/">contact</a> me. And now, let's look at some things you can find here:</p>
 </div>
 
 # Newest things
@@ -19,4 +19,7 @@ headless: true
 
 <%= box((favs-things[0..2])[0..5]) %>
 
-For more things, click on the categories at the top.
+For more things, have a look at the categories:<br/>
+<%= categories.map{|name, things| link_to(@items["/#{name.downcase}/"]) }.join(", ") %>.
+
+You can also find a list of all things in the <%= link_to(@items["/archive/"]) %>.

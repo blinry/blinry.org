@@ -16,7 +16,7 @@ def calculate_categories
         c[name] = with_tag(tag) - used
     end
     used = c.values.flatten.uniq
-    c["Blog"] = things - used
+    c["Texts"] = things - used
     c
 end
 
@@ -61,11 +61,15 @@ end
 
 def abstract_for item
     abstract = item.raw_content.split("\n").find{|line| not line.empty?}
-    max_len = 30*2
-    if abstract.size > max_len
-        abstract[0..max_len-1]+"…"
+    if abstract
+        max_len = 30*2
+        if abstract.size > max_len
+            abstract[0..max_len-1]+"…"
+        else
+            abstract
+        end
     else
-        abstract
+        ""
     end
 end
 

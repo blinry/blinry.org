@@ -24,6 +24,11 @@ preprocess do
         identifier = "/#{name.downcase}/"
         @items << Nanoc::Item.new(content, {:title => title, :headless => true}, identifier)
     end
+
+    content = "<%= box(things) %>"
+    title = "Archive"
+    identifier = "/archive/"
+    @items << Nanoc::Item.new(content, {:title => title}, identifier)
 end
 
 compile '/assets/style/' do
