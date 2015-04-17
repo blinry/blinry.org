@@ -1,8 +1,6 @@
 ---
 title: nom
-subtitle: Lose weight with self-quantification and negative feedback
 published: 2014-07-30
-status: active
 url: http://github.com/blinry/nom
 tags: project, software
 ---

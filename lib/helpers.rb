@@ -16,7 +16,7 @@ def calculate_categories
         c[name] = with_tag(tag) - used
     end
     used = c.values.flatten.uniq
-    c["Texts"] = things - used
+    c["Blog"] = things - used
     c
 end
 

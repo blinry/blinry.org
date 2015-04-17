@@ -2,7 +2,6 @@
 title: Why you might like DuckDuckGo
 published: 2013-06-18T00:25+0200
 tags: tech
-fav: true
 imgtitle: "(C) DuckDuckGo, displayed under fair use, https://en.wikipedia.org/wiki/File:DuckDuckGo_Logo_(mid_2014).svg"
 ---
 

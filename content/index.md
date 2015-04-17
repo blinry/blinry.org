@@ -4,7 +4,7 @@ headless: true
 ---
 
 <div class="intro">
-<img src="/assets/images/avatar.png" alt="Simpson-style avatar">
+<img src="/assets/images/avatar.png" alt="Simpson-style avatar" />
 
 <p>Hey there! My name is Sebastian Morr, I’m studying computer science at TU Braunschweig, Germany. On this site I publish things I create and share stuff I like.</p>
 
