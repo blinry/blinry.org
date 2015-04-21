@@ -1,16 +1,16 @@
 ---
-title: Kiel-Panorama
+title: Kiel Panorama
 published: 2010-07-05
-tags: german, art, foto
+tags: art, foto
 fav: true
 ---
 
-*Dieses Panoramafoto entstand im Sommer 2010 bei einem Urlaub in Kiel. Ich mag den langsamen Übergang von der natürlichen, grünen Strandlandschaft ins industrielle, menschengemachte, gigantische Schiffsdock.*
+*This panorama photo was taken in summer 2010 on a vacation in Kiel. I like how the natural, green beach slowly fades into the industrial, human made, gigantic ship dock.*
 
-**Achtung**, das Teil ist 21 MB groß. Kann ne Weile laden.
+**Warning**: This image is 21 MB large. It could take a while to load.
 
-Aktiviere zunächst den Vollbildmodus (F11), dann klick auf den Link unten. Aus dramaturgischen Gründen ist das Bild gespiegelt. Scrolle mit den Pfeiltasten langsam nach rechts! Viel Spaß!
+First activate your fullscreen mode (F11), then click on the link below. The picture is mirrored for dramaturgic reasons. Slowly scroll to the right using your arrow keys. Have fun!
 
-[Öffnen](view/)
+[Open](view/)
 
-Die Fotos wurden mit Hilfe der grandiosen Software [Hugin](http://hugin.sf.net) zusammengefügt.
+This was made from multiple photos that were stitched together using the awesome software [Hugin](http://hugin.sf.net).
