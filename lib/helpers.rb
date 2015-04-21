@@ -6,17 +6,12 @@ end
 
 def calculate_categories
     c = {}
-    cats = {
-        "Software" => "project",
-        "Documents" => "document",
-        "Design" => "art"
-    }
-    cats.each do |name, tag|
-        used = c.values.flatten.uniq
-        c[name] = with_tag(tag) - used
-    end
-    used = c.values.flatten.uniq
-    c["Blog"] = things - used
+
+    c["Software"] = with_tag("project")
+    c["Documents"] = (with_tag("document") + with_tag("talk")).uniq.sort_by{|i| i[:published]}.reverse - c.values.flatten
+    c["Design"] = with_tag("art") - c.values.flatten
+    c["Blog"] = things - c.values.flatten
+
     c
 end
 
