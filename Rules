@@ -22,13 +22,13 @@ preprocess do
         content = "<%= box(categories[\"#{name}\"]) %>"
         title = "#{name}"
         identifier = "/#{name.downcase}/"
-        @items << Nanoc::Item.new(content, {:title => title, :headless => true}, identifier)
+        @items << Nanoc::Item.new(content, {:title => title, :headless => true, :noindex => true}, identifier)
     end
 
     content = "<%= box(things) %>"
     title = "Archive"
     identifier = "/archive/"
-    @items << Nanoc::Item.new(content, {:title => title}, identifier)
+    @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
 
     # rebuild these variables for each compilation
     $categories = nil
