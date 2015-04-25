@@ -82,7 +82,9 @@ def abstract_for item
 end
 
 def thumbnail_for item
-    if not item[:thumbnail]
+    if item[:thumbnail]
+        item.path+item[:thumbnail]
+    else
         thumbnail = @items.find{|i| i.path =~ Regexp.new("^"+Regexp.escape(item.path)+"thumbnail\.(png|jpg|svg|gif)$")}
         if thumbnail
             return thumbnail.path
