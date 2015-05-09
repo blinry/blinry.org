@@ -7,5 +7,5 @@ fav: true
 
 This was a fun overview paper written in the seminar *Programming languages through the ages*. I was very lucky to receive the awesome topic *Esoteric Programming Languages* :-)
 
-- [Paper](esolangs.pdf)
+- [Paper](esolangs.pdf) ([LaTeX source](http://github.com/blinry/esolangs))
 - [Talk](presentation.pdf)
