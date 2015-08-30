@@ -1,29 +1,6 @@
 $spacing: 1.5em;
-$offblack: #111;
-
-@font-face {
-    font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_R.woff");
-}
-
-@font-face {
-    font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_RB.woff");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_RI.woff");
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Linux Libertine";
-    src: url("/assets/fonts/LinLibertine_RBI.woff");
-    font-weight: bold;
-    font-style: italic;
-}
+$offblack: #3a4145;
+$grey: #222;
 
 @font-face {
     font-family: "Inconsolata";
@@ -38,38 +15,41 @@ $offblack: #111;
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #57a3e8;
+    transition: all 0.2s ease;
 }
 
-a:visited{
-    color: darkblue;
+a:hover {
+    color: $grey;
 }
 
 body {
     margin: 0 auto;
     padding: $spacing;
-    max-width: 30em;
-    font-family: "Linux Libertine", serif;
-    font-size: 1.4em;
+    max-width: 36em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6em;
     overflow-y: scroll;
     color: $offblack;
 }
 
 code {
     font-family: "Inconsolata", monospace;
+    font-size: 1.3em;
 }
 
 #header {
     margin-bottom: $spacing;
+    color: $grey;
     > a {
         margin-right: 0.5em;
     }
     img {
         vertical-align: bottom;
-        height: 3em;
+        height: 4em;
     }
     ul {
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-weight: bold;
         display: inline-block;
     }
@@ -77,6 +57,7 @@ code {
         display: inline-block;
         margin: 0.2em 0.2em 0 0.2em;
         list-style-type: none;
+        transition: all 0.2s ease;
         a {
             display: inline;
             color: inherit;
@@ -88,7 +69,7 @@ code {
     }
     li.current {
         color: white;
-        background: $offblack;
+        background: $grey;
     }
 }
 
@@ -105,12 +86,19 @@ code {
     p, ul, ol, pre, hr, dl {
         margin-bottom: 1em;
     }
+    h1 {
+        letter-spacing: -1px;
+    }
+    h1, h2, h3, h4 {
+        color: $grey;
+        line-height: 1;
+    }
     h2, h3, h4 {
         margin-top: 1.5em;
         margin-bottom: 0.5em;
     }
     li, pre {
-        margin-left: 1em;
+        margin-left: 2em;
     }
     li {
         margin-bottom: 0.5em;
@@ -132,41 +120,33 @@ code {
     }
     img {
         max-width: 100%;
-        max-height: 25em;
+        max-height: 30em;
         display: block;
         margin: auto;
     }
     h1 {
-        font-size: 2em;
-        font-weight: normal;
-        letter-spacing: -1px;
+        font-size: 2.2em;
         a {
             color: inherit;
-            text-decoration: none;
         }
     }
     h2 {
         font-size: 1.1em;
     }
-    a {
-        text-decoration: underline;
-    }
     .meta {
         font-size: 0.8em;
         margin-bottom: $spacing/0.8;
-        color: #666;
+        color: #9eabb3;
         a {
             color: inherit;
-            text-decoration: none;
         }
     }
     .intro {
-        font-size: 110%;
-        margin: 2em 0;
+        margin: 4em 0;
         img {
             float: left;
             max-width: 100%;
-            max-height: 8em;
+            max-height: 11em;
             padding-right: 1em;
             padding-bottom: 1em;
         }
@@ -174,8 +154,9 @@ code {
     .boxes {
         margin: -0.75em;
         padding-top: 1em;
-        padding-bottom: 2em;
+        padding-bottom: 4em;
         overflow: auto;
+        transition: all 0.2s ease;
     }
     .box:hover {
         box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.8);
@@ -184,13 +165,14 @@ code {
         position: relative;
         box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
         float: left;
-        width: 9em;
-        height: 9em;
+        width: 11em;
+        height: 11em;
         margin: 0.75em;
         overflow: hidden;
+        transition: all 0.2s ease;
         > a > img {
             width: 100%;
-            height: 6.5em;
+            height: 8.5em;
             object-fit: cover;
             object-position: 50% 50%;
         }
@@ -204,19 +186,16 @@ code {
             box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
             background: white;
             h2 {
-                font-size: 0.9em;
+                font-size: 1.0em;
                 color: $offblack;
                 margin-top: 0;
                 margin-bottom: 0;
             }
             .meta {
-                font-size: 0.6em;
+                font-size: 0.8em;
                 margin-top: 0;
                 margin-bottom: 0;
             }
-        }
-        a {
-            text-decoration: none;
         }
         > a {
             height: 100%;
@@ -232,6 +211,6 @@ code {
 #footer {
     clear: both;
     font-size: 0.8em;
-    border-top: 3px solid $offblack;
+    border-top: 3px solid $grey;
     padding-top: 0.5em;
 }
