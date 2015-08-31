@@ -86,12 +86,10 @@ code {
     p, ul, ol, pre, hr, dl {
         margin-bottom: 1em;
     }
-    h1 {
-        letter-spacing: -1px;
-    }
     h1, h2, h3, h4 {
         color: $grey;
         line-height: 1;
+        font-family: "Bree Serif", serif;
     }
     h2, h3, h4 {
         margin-top: 1.5em;
@@ -187,6 +185,7 @@ code {
             background: white;
             h2 {
                 font-size: 1.0em;
+                font-family: "Open Sans", sans-serif;
                 color: $offblack;
                 margin-top: 0;
                 margin-bottom: 0;
