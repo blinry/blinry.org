@@ -1,7 +1,7 @@
 ---
 title: "Dozentensprüche"
 published: 2011-07-17
-updated: 2015-03-20
+updated: 2015-09-11
 tags: german, fun, quotes
 ---
 
@@ -63,6 +63,9 @@ Koslowski
 - "Was ist das hier? Der Satz ist mir zu lang."
 - "Der Angreifer heißt U, für 'Uschi' -- die Folien sind noch aus seeligen Zensursula-Zeiten."
 - "Ich hab jetzt Bob wieder rechts hingeschrieben, wie sich das gehört."
+- (Terminfindung) "Also, 8-Uhr-Sachen mach ich nicht" (Streicht Zeile in Terminplan durch)
+- "Einen Moment Geduld. Das kann nur endlich lange dauern."
+- "Wenn ich einen Körper habe, kann ich darüber Polynome bilden."
 
 Fekete
 ------
@@ -168,12 +171,16 @@ Balke
 - "Das ist von Vendor zu Vendor verschieden!"
 - (DELETE FROM heroes...) "Schade für Superman, aber toller Trigger!"
 - "Ich geh mal davon aus, dass Sie alle Studenten sind. Naja, draußen is’ kalt ..."
+- [Reads a quote] "Now we know that [the author] can write very long sentences, but what does it mean?"
+- "With semantic search, we could formulate queries like 'beautiful pictures of Angela Merkel'. Well, beauty is in the eye of the beholder. She's married, right?"
+- (Folie: "A frog is not a sunset")
 
 RDB-Wichtel
 -----------
 
 - (Erfindung von SQL) "Der kam aus der Wirtschaft, dementsprechend konnte er nicht viel mit Logik anfangen..."
 - "Diese Relation, die ich jetzt aus Versehen durchgestrichen habe ..."
+- "Convey what you want to convey in a simple way."
 
 Struckmann
 ----------
@@ -193,6 +200,7 @@ Studenten
 - Student 1: "Wie wird denn die Klausur aussehen?" - Student 2: "Weißer Hintergrund, schwarze Schrift?"
 - Student: "Ich hab schonmal Grafikeffekte programmiert!" - Magnor: "Womit?" - Student: "Notepad?" - Magnor: "..... Okay."
 - (Hausaufgabenabgabe endet mit Beginn der Vorlesung, aber niemand kommt zu spät) Student: "Ich bin enttäuscht, ich bin extra mit dem Auto gekommen, um die Leute leiden zu sehen..."
+- "Woher kommt denn dieses Pfeil-Zeichen in meinem Quelltext?" - "Das ist dein Mauszeiger."
 
 Rüffler
 -------
@@ -278,3 +286,12 @@ Neumann-Brosig
 - "Das war ein Physiker-Argument, aber es stimmt trotzdem."
 - (Begeistert) "Also ist das gleich..." (Geknickt) "Die Tafel ist zu Ende."
 - "Mein Lieblingssatz: 'Das passt noch irgendwo hin'"
+
+Neumann
+-------
+
+- "Prüfung ist leicht, wenn man's kann."
+- (Buchvorstellung) "Da haben sich zwei Leute mal drangesetzt... Drei Leute. Vier Leute? Einige Leute haben sich mal drangesetzt..."
+- "Die topologischen Transformationen habe ich Ihnen hier mal anhand der deutschen Grenze dargestellt - damit's ein bisschen witziger wird."
+- "Ich hatte ja nur endlich viel Zeit zum Programmieren des Algorithmus'. Und auch nur endlich viel Lust."
+- "Wir haben dann folgendes getan... Also, wenn ich 'wir' sage, meine ich, dass ich Herrn X motiviert habe, es zu tun, und er hat dann die Arbeit gemacht."
