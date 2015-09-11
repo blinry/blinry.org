@@ -8,7 +8,7 @@ def calculate_categories
     c = {}
 
     c["Software"] = with_tag("project")
-    c["Documents"] = (with_tag("document") + with_tag("talk")).uniq.sort_by{|i| i[:published]}.reverse - c.values.flatten
+    c["Documents"] = newest_first((with_tag("document") + with_tag("talk")).uniq) - c.values.flatten
     c["Design"] = with_tag("art") - c.values.flatten
     c["Blog"] = things - c.values.flatten
 
@@ -24,7 +24,7 @@ def favs
 end
 
 def calculate_things
-    @items['/'].children.select{|i| i[:published]}.sort_by{|i| i[:published]}.reverse
+    newest_first(@items['/'].children.select{|i| i[:published]})
 end
 
 def link_to item, text=nil
@@ -120,4 +120,8 @@ def box(items)
     end
     ret << "</div>"
     ret
+end
+
+def newest_first(items)
+    items.sort_by{|i| i[:updated] || i[:published]}.reverse
 end

@@ -37,7 +37,11 @@
                 <h1><%= @item[:title] %></h1>
                 <div class="meta">
                     <% if @item[:published] %>
-                        <%= @item[:published].strftime("%Y-%m-%d") %> / <a href="/about/">Sebastian Morr</a>
+                        <%= @item[:published].strftime("%Y-%m-%d") %>
+                        <% if @item[:updated] %>
+                            (last update: <%= @item[:updated].strftime("%Y-%m-%d") %>)
+                        <% end %>
+                        / <a href="/about/">Sebastian Morr</a>
                         <% if @item[:tags] %>
                             / <%= tags_for(@item) %>
                         <% end %>

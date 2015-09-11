@@ -1,5 +1,4 @@
 ---
-
 title: "Bachelorarbeit, Woche 0: Themenvorstellung und Prototyping"
 published: 2013-07-08T14:36+0200
 tags: german, thesis, report
