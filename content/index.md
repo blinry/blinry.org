@@ -11,15 +11,19 @@ headless: true
 <p>Here's how to <a href="/about/">contact</a> me. And now, let's look at some things you can find here:</p>
 </div>
 
-# Newest things
+# Newest content
 
 <%= box(things[0..2]) %>
 
-# My favorite things
+# Most popular content
 
 <%= box((favs-things[0..2])[0..5]) %>
 
-For more things, have a look at the categories:<br/>
+# All other content
+
+<%= box((things-things[0..2]-((favs-things[0..2])[0..5]))) %>
+
+For a better overview, the content content is divided in these categories:<br/>
 <%= categories.map{|name, things| link_to(@items["/#{name.downcase}/"]) }.join(", ") %>.
 
-You can also find a list of all things in the <%= link_to(@items["/archive/"]) %>.
+You can also find a chronologic list of all content in the <%= link_to(@items["/archive/"]) %>.

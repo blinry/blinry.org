@@ -14,7 +14,7 @@ preprocess do
     end
     tags.each do |tag|
         content = '<%= box(with_tag("'+tag+'")) %>'
-        title = "Things with tag '#{tag}'"
+        title = "Content with tag '#{tag}'"
         identifier = "/tag/#{tag}/"
         @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
     end
