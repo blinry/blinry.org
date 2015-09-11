@@ -35,3 +35,11 @@ imgtitle: "Bundesarchiv, Bild 183-T0425-0005, Jürgen Sindermann, CC-BY-SA 3.0 d
 - Ein Bahngleis ist ne harte Droge: Ein Zug und du bist tot...
 - Liebe ist nur ein Wort. Quark auch.
 - Neulich hab ich mal einen Chemie-Witz erzählt. Keine Reaktion.
+- Meine Freundin meint, ich wäre neugierig... zumindestens steht das in ihrem Tagebuch.
+- Wenn Atheismus eine Religion ist, dann ist "Aus" auch ein Fernsehsender.
+- Kann ich mein Leben mal kurz speichern und was ausprobieren?
+
+- A balanced diet is a chocolade in *both* hands.
+- If I agreed with you, we'd both be wrong.
+- I stepped on a corn flake - now I'm a cereal killer.
+- If this sentence is true, then Santa Claus exists.

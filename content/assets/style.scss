@@ -108,7 +108,9 @@ code {
     blockquote {
         margin-left: 1em;
         margin-right: 1em;
-        font-style: italic;
+        small {
+            font-style: italic;
+        }
     }
     dt {
         font-weight: bold;
