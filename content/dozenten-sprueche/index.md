@@ -82,7 +82,7 @@ Bode
 
 - "Sozusagen."
 - (Hört falsche Lösungsidee) "Nee, da hätte ich Kopfschmerzen"
-- (Hausaufgabenrückgabe, auf dem Tisch liegen die Mappen mit den Hausaufgaben: "Ich hab ALLES dabei, was ich habe!"
+- (Hausaufgabenrückgabe, auf dem Tisch liegen die Mappen mit den Hausaufgaben:) "Ich hab ALLES dabei, was ich habe!"
 
 Biegel
 ------
