@@ -51,7 +51,7 @@ end
 
 compile '*/thumbnail/' do
     unless item[:extension] == "svg"
-        filter :thumbnailize, :width => 300
+        filter :thumbnailize, :width => 200
     end
 end
 
