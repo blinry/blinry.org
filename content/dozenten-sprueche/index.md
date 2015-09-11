@@ -60,7 +60,7 @@ Koslowski
 - "Hier dürfen Sie mal das Wort 'trivial' benutzen. Das ist Ihnen ja sonst bis zum Master verboten."
 - "Hier brauchen wir eine trusted authority -- ein Oxymoron ersten Grades..."
 - "Wo kriegen wir denn unsere Primzahlen her? Das 'große Buch der Primzahlen' gibt's leider nicht."
-- "Was ist das hier? Der Satz ist mier zu lang."
+- "Was ist das hier? Der Satz ist mir zu lang."
 - "Der Angreifer heißt U, für 'Uschi' -- die Folien sind noch aus seeligen Zensursula-Zeiten."
 - "Ich hab jetzt Bob wieder rechts hingeschrieben, wie sich das gehört."
 
@@ -200,7 +200,7 @@ Rüffler
 - "Durch die Spannungsquelle dürfen Sie nicht gehen! Das ist verboten!"
 - "Ich nehme jetzt eine Vereinfachung vor: Statt 500 Ohm nehmen wir hier 800 Ohm."
 - (p-n-Übergang) "P steht, wie wir alle wissen, für... 'Löcher'!"
-- (Schreibt: 0.8_10 = 0.1101_2 "Das Gleich enthält halt ne kleine Ungenauigkeit..."
+- (Schreibt: 0.8_10 = 0.1101_2) "Das Gleich enthält halt ne kleine Ungenauigkeit..."
 - (Student:) "Machen wir jetzt Aufgabe b oder a?" – "Wir machen noch gar nichts, wir gucken uns das Ganze erstmal einleitend an."
 - "Sehen wir nachher jetzt sehen wir jetzt nachher gleich!"
 
