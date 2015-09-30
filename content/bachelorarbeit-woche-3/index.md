@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche 3: Erstes Skripting"
 published: 2013-07-30T22:52+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 ![Literatur](ba-literatur.jpg)

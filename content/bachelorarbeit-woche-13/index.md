@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche 13: Gliederung"
 published: 2013-10-05T10:33+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 ## Blick zurück

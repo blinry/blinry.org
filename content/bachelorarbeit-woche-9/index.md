@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche 9: DSL-Syntax"
 published: 2013-09-04T10:31+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 Der [letze Eintrag](/bachelorarbeit-woche-3/) ist nun schon eine ganze Weile her, höchste Zeit für ein Statusupdate!

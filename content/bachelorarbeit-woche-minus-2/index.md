@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche -2: Grundidee"
 published: 2013-06-11T19:50+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 *In den kommenden Monaten möchte ich hier über den Entstehungsprozess meiner Bachelorarbeit berichten. Das soll mich zu einer strukturierten, kontinuierlichen Arbeitsweise motivieren -- und vielleicht ist es auch ganz unterhaltsam zu lesen, in welche Fallen und Probleme ich so laufe. :-P*

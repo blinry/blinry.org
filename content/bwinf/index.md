@@ -1,24 +1,10 @@
 ---
 title: Bundeswettbewerb Informatik
-published: 2010-04-11T00:00+0200
+published: 2008-11-16T00:00+0200
+updated: 2010-04-11T00:00+0200
 tags: german, document
 ---
 
-*Ich habe bisher an drei Runden des Bundeswettbewerbs Informatik teilgenommen. Hier möchte ich meine Lösungen veröffentlichen, vielleicht können kommende Teilnehmer daraus lernen.*
+Ich habe an drei Runden des Bundeswettbewerbs Informatik teilgenommen (in den Jahren 2009 und 2010). Hier möchte ich meine Lösungen veröffentlichen, vielleicht können kommende Teilnehmer daraus lernen. 2010 war ich außerdem Teilnehmer der Endrunde.
 
-## [1. Runde des 27. BwInf](bwinf27-1.pdf)
-
-- Aufgabe 2: Tankomatik
-- Aufgabe 3: Alle Alpen
-- Aufgabe 5: Bürgerampel
-
-## [1. Runde des 28. BwInf](bwinf28-1.pdf)
-
-- Aufgabe 2: Handytasten
-- Aufgabe 3: Wegfehler
-- Aufgabe 5: EU-WAN
-
-## [2. Runde des 28. BwInf](bwinf28-2.pdf)
-
-- Aufgabe 1: Universeller Öffnungscode
-- Aufgabe 2: Das Turmrestaurant
+<%= titlepage("bwinf27-1", "1. Runde des 27. BWINF") %><%= titlepage("bwinf28-1", "1. Runde des 28. BWINF") %><%= titlepage("bwinf28-2", "2. Runde des 28. BWINF") %>

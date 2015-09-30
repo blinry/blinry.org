@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche 21: LaTeX-Tipps und Abgabe!"
 published: 2013-11-30T07:32+0100
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 Am Donnerstag habe ich die Bachelorstudiengangsabschlussbescheinigung abgegeben, yay! Die letzten Wochen war noch recht viel zu tun, weshalb ich das Gefühl hatte, mir keine Zeit für einen ausführlichen Blogpost nehmen zu können. Heute berichte ich von der Arbeit selbst, in einem kommenden Post dann noch vom Abschlussvortrag.

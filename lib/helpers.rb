@@ -8,7 +8,7 @@ def calculate_categories
     c = {}
 
     c["Software"] = with_tag("project")
-    c["Documents"] = newest_first((with_tag("document") + with_tag("talk")).uniq) - c.values.flatten
+    c["Documents"] = newest_first((with_tag("document") + with_tag("talk") + with_tag("paper")).uniq) - c.values.flatten
     c["Design"] = with_tag("art") - c.values.flatten
     c["Blog"] = things - c.values.flatten
 
@@ -85,17 +85,21 @@ def thumbnail_for item
     if item[:thumbnail]
         item.path+item[:thumbnail]
     else
-        thumbnail = @items.find{|i| i.path =~ Regexp.new("^"+Regexp.escape(item.path)+"thumbnail\.(png|jpg|svg|gif)$")}
-        if thumbnail
-            return thumbnail.path
-        else
-            thumbnail = @items.find{|i| i.path[Regexp.new(item.path+".*\.(png|jpg|svg|gif)")]}
-            if thumbnail
-                return thumbnail.path
-            else
-                return ""
-            end
-        end
+        candidates = item.children
+
+        images = candidates.select{|c| c.path =~ Regexp.new("\.(png|jpg|svg|gif)$")}
+        thumbnail = images.find{|i| i.path =~ Regexp.new("/thumbnail\....$")}
+        return thumbnail.path if thumbnail
+
+        pdfs = candidates.select{|c| c.path =~ Regexp.new("\.pdf$")}
+        thumbnail = pdfs.find{|p| p.path =~ Regexp.new("talk")}
+        return thumbnail.path(:rep => :titlepage) if thumbnail
+
+        return images.first.path unless images.empty?
+
+        return pdfs.first.path(:rep => :titlepage) unless pdfs.empty?
+
+        return ""
     end
 end
 
@@ -124,4 +128,8 @@ end
 
 def newest_first(items)
     items.sort_by{|i| i[:updated] || i[:published]}.reverse
+end
+
+def titlepage file, title
+    "[![#{title}](#{file}-titlepage.svg)](#{file}.pdf){:.titlepage title=\"#{title}\"}"
 end

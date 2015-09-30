@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche -1: Zukunftspläne"
 published: 2013-06-24T18:21+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 imgtitle: "jorago, CC-BY-NC-SA 3.0, http://jorago.deviantart.com/art/Broken-nut-shell-281776516"
 ---
 

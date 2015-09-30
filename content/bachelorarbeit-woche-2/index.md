@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche 2: Maschinenraum"
 published: 2013-07-22T11:33+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 *Heute mit Kommandozeilen-Tokenizern, Test Driven Development und Bytes auf Papier.*

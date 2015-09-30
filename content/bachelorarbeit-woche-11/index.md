@@ -1,7 +1,7 @@
 ---
 title: "Bachelorarbeit, Woche 11: Vorkurs beginnt!"
 published: 2013-09-16T11:37+0200
-tags: german, thesis, report
+tags: german, bachelor,report
 ---
 
 Nur ganz kurz: Heute beginnt der Vorkurs! Ich bin so gespannt, ob alles klappt! Die letzen Wochen habe ich wirklich viel geschuftet, damit heute alles schön ist.

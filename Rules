@@ -67,6 +67,12 @@ compile '*' do
     end
 end
 
+compile '*', :rep => :titlepage do
+    if item[:extension] == "pdf"
+        filter :titlepageize
+    end
+end
+
 route '/assets/style/' do
     item.identifier.chop + '.css'
 end
@@ -80,6 +86,14 @@ route '*' do
         item.identifier.chop + '.' + item[:extension]
     else
         item.identifier + 'index.html'
+    end
+end
+
+route '*', :rep => :titlepage do
+    if item[:extension] == "pdf"
+        item.identifier.chop + '-titlepage.svg'
+    else
+        nil
     end
 end
 

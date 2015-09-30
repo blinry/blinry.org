@@ -202,8 +202,8 @@ Studenten
 - (Hausaufgabenabgabe endet mit Beginn der Vorlesung, aber niemand kommt zu spät) Student: "Ich bin enttäuscht, ich bin extra mit dem Auto gekommen, um die Leute leiden zu sehen..."
 - "Woher kommt denn dieses Pfeil-Zeichen in meinem Quelltext?" - "Das ist dein Mauszeiger."
 
-Rüffler
--------
+Rüffer
+------
 
 - "Durch die Spannungsquelle dürfen Sie nicht gehen! Das ist verboten!"
 - "Ich nehme jetzt eine Vereinfachung vor: Statt 500 Ohm nehmen wir hier 800 Ohm."
