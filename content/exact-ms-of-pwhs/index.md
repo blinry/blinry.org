@@ -1,7 +1,7 @@
 ---
 title: "Exact Minkowski Sums of Polygons With Holes"
 published: 2015-02-22
-updated: 2015-04-28
+updated: 2015-10-01
 tags: paper
 ---
 
