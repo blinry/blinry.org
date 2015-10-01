@@ -93,11 +93,11 @@ def thumbnail_for item
 
         pdfs = candidates.select{|c| c.path =~ Regexp.new("\.pdf$")}
         thumbnail = pdfs.find{|p| p.path =~ Regexp.new("talk")}
-        return thumbnail.path(:rep => :titlepage) if thumbnail
+        return thumbnail.rep_named(:titlepage).path if thumbnail
 
         return images.first.path unless images.empty?
 
-        return pdfs.first.path(:rep => :titlepage) unless pdfs.empty?
+        return pdfs.first.rep_named(:titlepage).path unless pdfs.empty?
 
         return ""
     end
@@ -130,6 +130,8 @@ def newest_first(items)
     items.sort_by{|i| i[:updated] || i[:published]}.reverse
 end
 
-def titlepage file, title
-    "[![#{title}](#{file}-titlepage.svg)](#{file}.pdf){:.titlepage title=\"#{title}\"}"
+def titlepage file, title, url=nil
+    file = file.split(".").first
+    link = url || "#{file}.pdf"
+    "[![#{title}](#{file}-titlepage.svg)](#{link}){:.titlepage title=\"#{title}\"}"
 end

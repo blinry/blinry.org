@@ -68,7 +68,7 @@ compile '*' do
 end
 
 compile '*', :rep => :titlepage do
-    if item[:extension] == "pdf"
+    if item[:extension] =~ Regexp.new("pdf$")
         filter :titlepageize
     end
 end
@@ -90,7 +90,7 @@ route '*' do
 end
 
 route '*', :rep => :titlepage do
-    if item[:extension] == "pdf"
+    if item[:extension] =~ Regexp.new("pdf$")
         item.identifier.chop + '-titlepage.svg'
     else
         nil

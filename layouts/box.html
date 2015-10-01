@@ -11,7 +11,7 @@
             <h2><%= @item[:title] %></h2>
             <div class="meta">
                 <% if @item[:published] %>
-                    <%= @item[:published].year %><% if @item[:updated] %>–<%= @item[:updated].year %><% end %>
+                    <%= @item[:published].year %><% if @item[:updated] and @item[:published].year != @item[:updated].year %>–<%= @item[:updated].year %><% end %>
                 <% end %>
                 <% if @item[:tags] %> /
                     <%= tags_for(@item, false) %>
