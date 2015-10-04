@@ -86,6 +86,9 @@ code {
     p, ul, ol, pre, hr, dl {
         margin-bottom: 1em;
     }
+    h1 {
+        margin-top: $spacing;
+    }
     h1, h2, h3, h4 {
         color: $grey;
         line-height: 1;
@@ -168,8 +171,8 @@ code {
     }
     .boxes {
         margin: -0.75em;
-        padding-top: 1em;
-        padding-bottom: 4em;
+        padding-top: 1.75em;
+        padding-bottom: 2.75em;
         overflow: auto;
         transition: all 0.2s ease;
     }
