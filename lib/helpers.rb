@@ -129,9 +129,3 @@ end
 def newest_first(items)
     items.sort_by{|i| i[:updated] || i[:published]}.reverse
 end
-
-def titlepage file, title, url=nil
-    file = file.split(".").first
-    link = url || "#{file}.pdf"
-    "[![#{title}](#{file}-titlepage.svg)](#{link}){:.titlepage title=\"#{title}\"}"
-end
