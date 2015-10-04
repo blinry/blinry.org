@@ -44,3 +44,6 @@ Ein paar über viele Jahre gesammelte Zitate. Die englischen findest du [hier](/
 
 > Mit der Zeit wird aus Gras Milch.  
 > --- *aus China*
+
+> Jeder ist nützlich, und sei es nur als schlechtes Beispiel.  
+> --- *unbekannt*
