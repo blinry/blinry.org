@@ -29,7 +29,7 @@
             <a href="/"><img src="/assets/images/m-logo-red.svg" alt="morr.cc"></a>
 
             <ul>
-                <% categories.each do |name, items| item = @items["/#{name.downcase}/"] %><li<%= " class=\"current\"" if @item.path == item.path %>><%= link_to(item, name) %></li><% end %>
+                <% items = categories.keys; items = ["About"] + items + ["Archive"]; items.each do |name| item = @items["/#{name.downcase}/"] %><li<%= " class=\"current\"" if @item.path == item.path %>><%= link_to(item, name) %></li><% end %>
             </ul>
         </div>
         <div id="content">
