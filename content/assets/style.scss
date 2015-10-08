@@ -236,3 +236,26 @@ code {
     font-size: 0.8em;
     padding-top: 0.5em;
 }
+
+@media screen and (max-width: 1000px) {
+    #nav {
+        float: none;
+        width: 100%;
+        max-width: 36em;
+        margin-right: 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        ul {
+            display: inline;
+        }
+        li {
+            display: inline;
+        }
+    }
+    #content {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
