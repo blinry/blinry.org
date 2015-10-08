@@ -59,9 +59,12 @@
             <%= yield %>
 
             <% if @item[:tags] %>
-                <h1>Similar content:</h1>
+                <% items = similar(@item) %>
+                    <% if items.size > 0 %>
+                        <h1>Similar content:</h1>
 
-                <%= box(newest_first(similar(@item)[0..2])) %>
+                        <%= box(newest_first(items[0..2])) %>
+                    <% end %>
             <% end %>
         </div>
     </body>
