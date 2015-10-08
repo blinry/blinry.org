@@ -25,12 +25,19 @@
         <link rel="shortcut icon" href="/favicon.ico">
     </head>
     <body>
-        <div id="header">
+        <div id="nav">
             <a href="/"><img src="/assets/images/m-logo-red.svg" alt="morr.cc"></a>
 
-            <ul>
-                <% items = categories.keys; items = ["About"] + items + ["Archive"]; items.each do |name| item = @items["/#{name.downcase}/"] %><li<%= " class=\"current\"" if @item.path == item.path %>><%= link_to(item, name) %></li><% end %>
-            </ul>
+            <% groups = [["About"], categories.keys, ["Archive", "Feed"]]; groups.each do |group| %>
+                <ul>
+                    <% group.each do |name| item = @items["/#{name.downcase}/"] %>
+                        <li<%= " class=\"current\"" if @item.path == item.path %>>
+                            <%= link_to(item, name) %>
+                        </li>
+                    <% end %>
+                </ul>
+            <% end %>
+            <!--<p id="about">Comments? Send a tweet to <a href="https://twitter.com/blinry">@blinry</a> or visit the <a href="/about/">about page</a>. Thanks for reading! &mdash; <a href="/feed/">Feed?</a></p>-->
         </div>
         <div id="content">
             <% unless @item[:headless] %>
@@ -56,9 +63,6 @@
 
                 <%= box(newest_first(similar(@item)[0..2])) %>
             <% end %>
-        </div>
-        <div id="footer">
-            <p>Comments? Send a tweet to <a href="https://twitter.com/blinry">@blinry</a> or visit the <a href="/about/">about page</a>. Thanks for reading! &mdash; <a href="/feed/">Feed?</a></p>
         </div>
     </body>
 </html>

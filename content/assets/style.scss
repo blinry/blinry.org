@@ -26,7 +26,7 @@ a:hover {
 body {
     margin: 0 auto;
     padding: $spacing;
-    max-width: 36em;
+    max-width: 48em;
     font-family: "Open Sans", sans-serif;
     line-height: 1.6em;
     overflow-y: scroll;
@@ -38,8 +38,13 @@ code {
     font-size: 1.3em;
 }
 
-#header {
-    margin-bottom: $spacing;
+#nav {
+    float: left;
+    width: 8em;
+    margin-top: 3em;
+    margin-right: 4em;
+    //position: fixed;
+    text-align: right;
     color: $grey;
     > a {
         margin-right: 0.5em;
@@ -49,13 +54,12 @@ code {
         height: 4em;
     }
     ul {
+        margin-top: 1em;
+        margin-right: 0.5em;
         font-size: 1.1em;
         font-weight: bold;
-        display: inline-block;
     }
     li {
-        display: inline-block;
-        margin: 0.2em 0.2em 0 0.2em;
         list-style-type: none;
         transition: all 0.2s ease;
         a {
@@ -63,11 +67,11 @@ code {
             color: inherit;
             padding: 0em 0.3em;
         }
+        a:hover {
+            background: #eee;
+        }
     }
-    li:hover {
-        background: #eee;
-    }
-    li.current {
+    li.current a {
         color: white;
         background: $grey;
     }
@@ -75,6 +79,9 @@ code {
 
 #content {
     margin-bottom: 2*$spacing;
+    margin-top: 3em;
+    max-width: 36em;
+    float: right;
     p {
         -hyphens: auto;
         -moz-hyphens: auto;
@@ -85,9 +92,6 @@ code {
     }
     p, ul, ol, pre, hr, dl {
         margin-bottom: 1em;
-    }
-    h1 {
-        margin-top: $spacing;
     }
     h1, h2, h3, h4 {
         color: $grey;
@@ -160,7 +164,7 @@ code {
         }
     }
     .intro {
-        margin: 4em 0;
+        margin-bottom: 4em;
         img {
             float: left;
             max-width: 100%;
@@ -228,9 +232,7 @@ code {
     }
 }
 
-#footer {
-    clear: both;
+#about {
     font-size: 0.8em;
-    border-top: 3px solid $grey;
     padding-top: 0.5em;
 }
