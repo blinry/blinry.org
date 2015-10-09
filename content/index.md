@@ -19,11 +19,8 @@ headless: true
 
 <%= box((favs-things[0..2])[0..5]) %>
 
-# All other content
+<% categories.each do |name, items| %>
+# <%= name %>
 
-<%= box((things-things[0..2]-((favs-things[0..2])[0..5]))) %>
-
-For a better overview, the content content is divided in these categories:<br/>
-<%= categories.map{|name, things| link_to(@items["/#{name.downcase}/"]) }.join(", ") %>.
-
-You can also find a chronologic list of all content in the <%= link_to(@items["/archive/"]) %>.
+<%= box(items) %>
+<% end %>
