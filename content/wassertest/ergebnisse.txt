@@ -1,0 +1,44 @@
+Name;Bezugsquelle;EUR/L;Gesamtnote;Bewertung A;Note A;Bewertung B;Note B
+Christinen Carat;Real;0.54;97;Ganz leicht trocken, sonst nix.;14;Nix!;3
+Surf;Norma;0.13;95;Sehr schön neutral, nicht trocken, richtig gut!;13.5;Schmeckt nach nix, frisch;3
+Nestle Pure Life;Real;0.33;93;Sehr schön neutral;13;Bisschen kratzig, ansonsten lecker und neutral;3
+Elitess Marinius-Quelle;Penny;0.13;87;Alte Pizza, erfrischend-neutral, nicht ganz geschmacklos, mysteriös;11;Süß, weich, rund, gut;3
+Quellbrunn Claudius-Quelle;Aldi;0.13;85;Gar nichts, ganz bisschen trocken;13;Frisch und weich, ganz bisschen süß;2
+Fiji;Edeka;3.38;83;Wie Alkohol, aber ohne scharf im Hals zu sein. Igitt. Richtig süß. Nicht für jeden Tag. Lustig.;15;Plastik? Gummi? Starker Eigengeschmack, eingeweichtes Gummibärchen;1
+babylove;dm;1.67;83;Bisschen Geschmack. Eigentlich ganz lecker;10;Rein und neutral und weich;3
+ja!;Sky;0.13;83;Bisschen metallisch;10;Wirklich NIX! Erfrischend und weich! Wie ein Quellfluss durch eine grüße Wiese!;3
+Apollinaris Vio;Penny;0.33;83;Schön neutral, “aber jo weiß ich auch nicht”;10;Nix. Nix ist gut.;3
+Vitalbrunnen Naturalis;Netto;0.13;82;Gar nix;12;Ganz leicht metallisch, sonst sehr neutral;2
+Gut und Günstig;Edeka;0.13;80;Erfrischend. Neutral. Nix.;9;Etwas säuerlich, aber sonst nix;3
+Vilsa;Real;0.46;78;Sauer, trocken, insgesamt neutral und frisch;11;Etwas sauer, sonst gut;2
+Saskia;Lidl;0.13;75;Neutral, bisschen süßlich, gut!;10;Bisschen süßlich, nicht besonders erfrischend;2
+Unser Norden;Sky;0.39;75;Nix.;10;Ganz leicht sauer, sonst lecker und weich;2
+Urstromtaler Naturell;Netto;0.33;75;Charakterlos;10;Ziemlich langweilig, neutral;2
+Black Forest;Real;0.59;73;Erfrischend, neutral;12;Sehr süß! Weich;1
+Vittel;Penny;0.39;73;Sehr sauer;7;Ziemlich ziemlich neutral, ganz leicht angenehm säuerlich;3
+Sawell;Netto;0.25;73;Bisschen süß, bisschen trocken;7;Erfrischend, lecker? Gaaanz bisschen süß?;3
+Tip;Real;0.13;72;Erfrischend, bisschen sauer;9;Frisch, leicht metallig aber gar nicht schlecht. Weich.;2
+Bismarck;Real;0.65;70;Vielleicht süßlicher Geschmack, nicht so erfrischend;11;Vorgeschmack süß, Nachgeschmack etwas sauer, interessant?;1
+Volvic;Real;0.59;65;Pieksig auf der Zunge, unangenehm, schon neutral;7;Süß und abgekocht, nichts auf Dauer, aber so ganz erträglich;2
+Adelholzener;Real;0.65;62;Schwach metallisch, nicht erfrischend;6;Süß und recht neutral. Leiiicht oszillierend in alle Richtungen. Spannend.;2
+Harzer Bergbrunnen extra still;Real Getränkemarkt;0.26;57;Geschmacksneutral, säuerlich;7;Etwas scharf, erfrischend, etwas sauer, sonst ohne Eigenschaften;1
+Magnus;Edeka;0.56;57;Hart, Kalk. Wie das Schwimmbad bei Oma.;7;Etwas staubig, kratzt im Hals, sauer Nachgeschmack, sonst angenehm neutral;1
+Frische Brise Reinbecker Klosterquelle;Sky;0.25;48;Bisschen metallisch;7;Leicht abgestanden, metallisch;0
+Leitungswasser;(Schleswig-Holstein);0.00165;42;Erst neutral, Nachgeschmack RICHTIG EKELIG;0;Ein Hauch süß, Baby-Wasser;2
+Contrex;Penny;0.49;37;Sauer und Stumpf. Könnte nicht viel von trinken.;6;Sauer, staubig, schlecht.;-1
+Aqua Nordic;Edeka;0.33;37;Salzig, metallisch;6;Langweilig, neutral, “hart”, Nachgeschmack ist metallisch;-1
+evian;Real;0.59;33;Bisschen metallisch und trocken, sonst kein Charakter;5;Leicht metallisch, kratzig;-1
+Bleib Gesund;Rossmann;0.69;33;Bisschen trocken, nicht erfrischend, bisschen süßlich. Nicht gut als Wasser.;5;Nicht erfrischend, etwas salzig, staubig;-1
+Vitrex;Edeka;0.33;32;Ih! Sauer, scharf, schmeckt mir nicht;2;Staubig, etwas sauer, etwas metallisch;0
+Real Quality;Real;0.23;28;Sauer, trocken, abgestanden, nicht gut;6;Bisschen sauer-metallisch, abgestanden;-2
+Aqua Mia;REWE;0.33;28;Richtig staubig;1;Abgestanden, etwas süß.;0
+Quellbrunn Werretaler-Quelle;Aldi;0.22;27;Irgendwie süß, schwebt auf der Zunge. Nicht erfrischend genug.;8;Ekelig metallisch, bah. Bisschen süß.;-3
+Harzer Bergbrunnen still;Real Getränkemarkt;0.48;27;Sauer halt;3;Stark sauer! Aber nicht uninteressant!;-1
+Carolinen natur-elle;Real;0.46;22;Total salzig;4;Rostnagel, Nachgeschmack ekelig;-2
+Extaler Mineralquell;Real;0.34;22;Sehr neutral, ganz bisschen säuerlich, bisschen trocken, pritzelt;4;Leicht sauer, stark metallisch;-2
+Hella;Real;0.51;22;Staubig muffig, aber nicht doll;4;Stark metallisch, langweilig?;-2
+Vöslauer;dm;0.65;18;Nicht viel von, metallisch;3;Unangenehm metallisch;-2
+Christinen Naturelle;dm;1.10;15;Saures abgestandenes Mineralwasser. Kohlensäure-Geschmack.;2;Sauer mineralwasserig. Bäh.;-2
+Gerolsteiner;Edeka;0.59;12;Richtig sauer;1;Etwas metallisch, etwas sauer;-2
+Carolinen;Real;0.60;3;Oh! Süüüüß!! Ne, das mag ich nicht in großer Menge. Trocken.;1;Ganz starker Eigengeschmack, salzig und metallisch;-3
+Staatl. Fachingen;Real Getränkemarkt;0.96;0;(unbewertet);;(unbewertet);
