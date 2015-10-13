@@ -11,7 +11,13 @@
         <meta name="author" content="Sebastian Morr">
         <% if @item[:published] %>
             <meta name="date" content="<%= @item[:published].strftime("%Y-%m-%d") %>">
+
+            <% a = abstract_for(@item) %>
+            <% if a %>
+                <meta name="description" content="<%= a %>">
+            <% end %>
         <% end %>
+
 
         <% if @item[:noindex] %>
             <meta name="robots" content="noindex">

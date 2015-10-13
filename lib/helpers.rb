@@ -68,17 +68,10 @@ def lang_for item
 end
 
 def abstract_for item
-    abstract = item.raw_content.split("\n").find{|line| not line.empty?}
-    if abstract
-        max_len = 30*2
-        if abstract.size > max_len
-            abstract[0..max_len-1]+"…"
-        else
-            abstract
-        end
-    else
-        ""
-    end
+    content = item.raw_content.dup
+    content.gsub!(/\[([^\]]*)\]\([^)]*\)/,"\\1") # remove links
+    content.gsub!(/[*"]/,"") # remove italic and bold markers and quotations
+    abstract = content[/^[[:print:]]{20,256}[.!?:*][[:space:]]/]
 end
 
 def thumbnail_for item
