@@ -2,7 +2,7 @@
 title: Stilles Wasser im Blindtest
 published: 2015-10-12T20:03+0200
 thumbnail: abfuellvorgang.jpg
-tags: review
+tags: german, review
 ---
 
 Blindtests sind toll! Ich habe in der Vergangenheit schon Blindtests von Vollmilchschokoladen, [Colasorten](https://twitter.com/blinry/status/287611766458941442) und [Koffeinbrausen](https://twitter.com/blinry/status/537918023206969347) gemacht. Vor einigen Wochen stieß ich dann auf [diesen Tweet von dome](https://twitter.com/0x530302/status/601948917610192896), in dem es um die Verkostung von stillem Wasser ging. Ich beschloss, einen ähnlichen Test durchzuführen, denn ich hatte in Restaurants schon öfter unangenehm salziges Wasser serviert bekommen, und war dementsprechend neugierig darauf, wie groß die geschmacklichen Unterschiede sein würden.
