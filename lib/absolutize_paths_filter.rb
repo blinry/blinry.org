@@ -1,4 +1,4 @@
-class AbsolutizePathsFilter < Nanoc3::Filter
+class AbsolutizePathsFilter < Nanoc::Filter
     identifier :absolutize_paths
     type :text
 

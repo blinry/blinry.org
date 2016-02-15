@@ -36,7 +36,7 @@
 
             <% groups = [["About"], categories.keys]; groups.each do |group| %>
                 <ul>
-                    <% group.each do |name| item = @items["/#{name.downcase}/"] %>
+                    <% group.each do |name| item = @items.find_all("/#{name.downcase}/index.md").first %>
                         <li<%= " class=\"current\"" if @item.path == item.path %>>
                             <%= link_to(item, name) %>
                         </li>

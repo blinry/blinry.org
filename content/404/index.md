@@ -11,5 +11,5 @@ If you don't find what you are looking for, just [ask me](/about/).
 url = /^.*?:\/\/.*?\/(.*)$/.exec(document.URL)[1];
 keywords = url.match(/[a-zA-Z]+/g);
 keywords = keywords.join("+");
-document.getElementById("google").href = "http://www.google.de/search?q=site:<%= domain %>+" + keywords;
+document.getElementById("google").href = "http://www.google.com/search?q=site:<%= domain %>+" + keywords;
 </script>

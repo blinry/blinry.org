@@ -24,7 +24,7 @@ def favs
 end
 
 def calculate_things
-    newest_first(@items['/'].children.select{|i| i[:published]})
+    newest_first(@items.find_all("/**/*").select{|i| i[:published]})
 end
 
 def link_to item, text=nil
@@ -78,7 +78,7 @@ def thumbnail_for item
     if item[:thumbnail]
         item.path+item[:thumbnail]
     else
-        candidates = item.children
+        candidates = @items.find_all(@item.identifier.to_s.sub(/[^\/]+$/, "") + "*")
 
         images = candidates.select{|c| c.path =~ Regexp.new("\.(png|jpg|svg|gif)$")}
         thumbnail = images.find{|i| i.path =~ Regexp.new("/thumbnail\....$")}
@@ -86,11 +86,11 @@ def thumbnail_for item
 
         pdfs = candidates.select{|c| c.path =~ Regexp.new("\.pdf$")}
         thumbnail = pdfs.find{|p| p.path =~ Regexp.new("talk")}
-        return thumbnail.rep_named(:titlepage).path if thumbnail
+        return thumbnail.reps[:titlepage].path if thumbnail
 
         return images.first.path unless images.empty?
 
-        return pdfs.first.rep_named(:titlepage).path unless pdfs.empty?
+        return pdfs.first.reps[:titlepage].path unless pdfs.empty?
 
         return ""
     end
@@ -113,7 +113,7 @@ end
 def box(items)
     ret = "<div class=\"boxes\">"
     items.each do |item|
-        ret << render("box", {:item => item})
+        ret << render("/box.*", {:item => item})
     end
     ret << "</div>"
     ret

@@ -1,7 +1,6 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-gem "nanoc"
+gem "nanoc", "~> 4.0"
 gem "kramdown"
 gem "sass"
 gem "adsf"

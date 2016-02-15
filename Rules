@@ -12,17 +12,19 @@ preprocess do
             item[:tags] = item[:tags].split(",").map{|t| t.strip}
         end
     end
+
     tags.each do |tag|
         content = '<%= box(with_tag("'+tag+'")) %>'
         title = "Content with tag '#{tag}'"
-        identifier = "/tag/#{tag}/"
-        @items << Nanoc::Item.new(content, {:title => title, :noindex => true}, identifier)
+        identifier = "/tag/#{tag}/index.md"
+        @items.create(content, {:title => title, :noindex => true}, identifier)
     end
+
     categories.each do |name, items|
         content = "<%= box(categories[\"#{name}\"]) %>"
         title = "#{name}"
-        identifier = "/#{name.downcase}/"
-        @items << Nanoc::Item.new(content, {:title => title, :headless => true, :noindex => true}, identifier)
+        identifier = "/#{name.downcase}/index.md"
+        @items.create(content, {:title => title, :headless => true, :noindex => true}, identifier)
     end
 
     # rebuild these variables for each compilation
@@ -30,66 +32,34 @@ preprocess do
     $things = nil
 end
 
-compile '/assets/style/' do
+compile "/**/*.scss" do
     filter :sass, syntax: :scss
+    write item.identifier.without_ext + ".css"
 end
 
-compile '/feed/' do
+compile "/**/*.xml" do
     filter :erb
+    write item.identifier.without_ext + ".html"
 end
 
-compile '/googlec25b04cecd642132/' do
+compile "/**/thumbnail.{jpg,png}" do
+    filter :thumbnailize, :width => 200
 end
 
-compile '*/view/' do
+compile "/**/*.md" do
+    filter :erb
+    filter :absolutize_paths
+    filter :kramdown
+    layout "/default.*"
+    filter :tidy
+    write item.identifier.without_ext + ".html"
 end
 
-compile '*/thumbnail/' do
-    unless item[:extension] == "svg"
-        filter :thumbnailize, :width => 200
-    end
+compile "/**/*.pdf", :rep => :titlepage do
+    filter :titlepageize
+    write item.identifier.without_ext + "-titlepage.svg"
 end
 
-compile '*' do
-    unless item.binary?
-        filter :erb
-        filter :absolutize_paths
-        filter :kramdown
-        layout 'default'
-        if item[:title]
-            filter :tidy
-        end
-    end
-end
+passthrough "/**/*"
 
-compile '*', :rep => :titlepage do
-    if item[:extension] =~ Regexp.new("pdf$")
-        filter :titlepageize
-    end
-end
-
-route '/assets/style/' do
-    item.identifier.chop + '.css'
-end
-
-route '/googlec25b04cecd642132/' do
-    item.identifier.chop + '.html'
-end
-
-route '*' do
-    if item.binary?
-        item.identifier.chop + '.' + item[:extension]
-    else
-        item.identifier + 'index.html'
-    end
-end
-
-route '*', :rep => :titlepage do
-    if item[:extension] =~ Regexp.new("pdf$")
-        item.identifier.chop + '-titlepage.svg'
-    else
-        nil
-    end
-end
-
-layout '*', :erb
+layout "/**/*", :erb
