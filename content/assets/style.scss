@@ -156,6 +156,10 @@ code {
     h2 {
         font-size: 1.1em;
     }
+    td {
+        vertical-align: top;
+        font-size: 80%;
+    }
     .meta {
         font-size: 0.8em;
         margin-bottom: $spacing/0.8;
