@@ -43,7 +43,7 @@ tags: project, software
     - Setup
         - Complete minimal example
             - [Source code](https://github.com/blinry/almightree/blob/master/demo.html)
-            - [Result](https://rawgit.com/blinry/almightree/master/demo.html)
+            - [Result](https://cdn.rawgit.com/blinry/almightree/v0.1.0/demo.html)
             - Alternatively, follow the step-by-step instructions below
         - Step 1: Take a nested HTML list, and tag it with a unique id, for example `#almightree`
             - Of course, you can (and should ;-) generate the lists [using Markdown](https://raw.githubusercontent.com/blinry/morr.cc/master/content/almightree/index.md)
