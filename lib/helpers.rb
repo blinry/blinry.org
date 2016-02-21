@@ -120,7 +120,7 @@ def box(items)
 end
 
 def newest_first(items)
-    items.sort_by{|i| i[:updated] || i[:published]}.reverse
+    items.select{|i| i[:updated] || i[:published] }.sort_by{|i| i[:updated] || i[:published]}.reverse
 end
 
 def similar(item)
