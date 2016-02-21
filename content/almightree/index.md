@@ -1,7 +1,7 @@
 ---
 title: almightree
-notpublished: 2012-08-18
-notupdated: 2015-10-15
+published: 2012-08-18
+updated: 2016-02-21
 tags: project, software
 ---
 
@@ -46,10 +46,10 @@ tags: project, software
             - [Result](https://rawgit.com/blinry/almightree/master/demo.html)
             - Alternatively, follow the step-by-step instructions below
         - Step 1: Take a nested HTML list, and tag it with a unique id, for example `#almightree`
-            - Of course, you can (and should ;-) generate the lists [using Markdown](https://github.com/blinry/morr.cc/tree/master/content/almightree/index.md)
-        - Step 2: Download [almightree](https://github.com/blinry/almightree/archive/master.zip) and extract it somewhere
+            - Of course, you can (and should ;-) generate the lists [using Markdown](https://raw.githubusercontent.com/blinry/morr.cc/master/content/almightree/index.md)
+        - Step 2: Download [almightree](https://github.com/blinry/almightree/releases) and extract it somewhere
         - Step 3: Insert the following lines into your HTML:
-            - `<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>`
+            - `<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>`
                 - ... if you haven't included jQuery already
             - `<script src="path/to/jquery.almightree.js"></script>`
                 - ... to include the almightree plugin
@@ -63,10 +63,11 @@ tags: project, software
     - History
         - Inspired by <https://workflowy.com/>
         - Coded in 2012 to power an [old version of my homepage](http://tree.morr.cc)
+        - Minor rewrite in 2015
         - Properly published in 2016 :)
 {:#almightree}
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="jquery.almightree.js"></script>
 <script>
     $(function(){
