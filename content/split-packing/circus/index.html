@@ -1,0 +1,35 @@
+<!doctype>
+<html>
+    <head>
+        <title>Circus</title>
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #footer {
+            position: absolute;
+            bottom: 1em;
+            left: 1em;
+            z-index: -1;
+        }
+        #strategy, #object, #container {
+            font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" width="800" height="800"></canvas>
+        <div id="footer">
+            <p>Up/down/mousewheel - change instance</p>
+            <p>Click/drag - modify instance, circles and container</p>
+            <p>1 - change container shape: <span id="container"></span></p>
+            <p>2 - change object shape: <span id="object"></span></p>
+            <p>3 - change strategy: <span id="strategy"></span></p>
+            <p>4 - export TikZ figure</p>
+            <p>5 - export TikZ figure with help lines</p>
+        </div>
+    </body>
+</html>
+
+<script src="circus.js"></script>
