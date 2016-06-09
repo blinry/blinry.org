@@ -10,8 +10,12 @@ In the thesis, I invented an algorithm which can pack circles and other objects 
 
 The thesis contains a large number of figures, I'd like to invite you to take a look! :-)
 
-<%= titlepage("split-packing", "Thesis") %>
+<%= titlepage("split-packing", "Thesis") %> <%= titlepage("split-packing-presentation", "Presentation") %>
 
-While working on this thesis, I wrote an interactive visualization tool called [*Circus*](./circus/), which I used as a personal thinking and explaining tool. You can try it out by clicking on the image below, usage instructions are located in the lower left. The tool is written in plain CoffeeScript and uses the HTML5 canvas for drawing, the [source code is on GitHub](https://github.com/blinry/circus).
+For the presentation I created a nonverbal description of the central algorithm in the style of IKEA assembly instructions:
+
+[![SPLIT-PÄCK](split-paeck.png)](split-paeck.png)
+
+Also, while working on this thesis, I wrote an interactive visualization tool called [*Circus*](./circus/), which I used as a personal thinking and explaining tool. You can try it out by clicking on the image below, usage instructions are located in the lower left. The tool is written in plain CoffeeScript and uses the HTML5 canvas for drawing, the [source code is on GitHub](https://github.com/blinry/circus).
 
 [![Screenshot of the Circus visualization tool](circus.png)](./circus/)
