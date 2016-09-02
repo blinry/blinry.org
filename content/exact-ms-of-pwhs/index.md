@@ -2,7 +2,7 @@
 title: "Exact Minkowski Sums of Polygons With Holes"
 published: 2015-02-22
 updated: 2015-10-01
-tags: paper
+tags: paper, talk
 ---
 
 This is the first "real" scientific paper which I coauthored. It's about the design and implementation of an algorithm which computes the so called *Minkowski sum* of two polygons.

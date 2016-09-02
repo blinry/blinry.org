@@ -208,7 +208,7 @@ You stared blankly at me.                                | sina lukin pi wawa al
 “Now you’re getting it,”                                 | mi toki e ni: "lon. tenpo ni la sina sona."
 I said, with a congratulatory slap on the back.          | mi pilin e sewi pi monsi sina tan ni: mi pilin pona.
                                                          |
-“I’m every human being who ever lived?”                  | "tenpo pini la mi jan ali ala jan ali?
+“I’m every human being who ever lived?”                  | "tenpo pini la mi jan ali ala jan ali?"
                                                          |
 “Or who will ever live, yes.”                            | "jan ali. tenpo kama kin la sina jan ali."
                                                          |
@@ -393,7 +393,7 @@ sina lukin pi wawa ala e mi. "taso jan ali pi lon ma sike..."
 mi toki e ni: "lon. tenpo ni la sina sona." mi pilin e sewi pi monsi sina tan
 ni: mi pilin pona.
 
-"tenpo pini la mi jan ali ala jan ali?
+"tenpo pini la mi jan ali ala jan ali?"
 
 "jan ali. tenpo kama kin la sina jan ali."
 

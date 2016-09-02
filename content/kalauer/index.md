@@ -38,6 +38,7 @@ imgtitle: "Bundesarchiv, Bild 183-T0425-0005, Jürgen Sindermann, CC-BY-SA 3.0 d
 - Meine Freundin meint, ich wäre neugierig... zumindestens steht das in ihrem Tagebuch.
 - Wenn Atheismus eine Religion ist, dann ist "Aus" auch ein Fernsehsender.
 - Kann ich mein Leben mal kurz speichern und was ausprobieren?
+- Bevor man stirbt, zieht das ganze Leben an einem vorbei. In Echtzeit.
 
 - A balanced diet is a chocolade in *both* hands.
 - If I agreed with you, we'd both be wrong.

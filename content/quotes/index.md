@@ -96,5 +96,5 @@ Not asking a question for fear of looking stupid means giving my own ego a very 
 > Everyone in life has a purpose, even if it's to serve as a bad example.  
 > --- *Carroll Bryant*
 
-> Life isn't about waiting for the rain to pass, it's about learnong how to dance in the rain.  
+> Life isn't about waiting for the rain to pass, it's about learning how to dance in the rain.  
 > --- *Vivian Greene*
