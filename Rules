@@ -57,7 +57,7 @@ end
 
 compile "/**/*.pdf", :rep => :titlepage do
     filter :titlepageize
-    write item.identifier.without_ext + "-titlepage.svg"
+    write item.identifier.to_s.split(".")[0..-2].join(".") + "-titlepage.svg"
 end
 
 passthrough "/**/*"

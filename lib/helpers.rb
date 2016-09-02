@@ -107,7 +107,7 @@ def subtitle
 end
 
 def domain
-    "http://morr.cc/"
+    "https://morr.cc/"
 end
 
 def box(items)
