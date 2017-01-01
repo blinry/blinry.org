@@ -12,7 +12,7 @@ headless: true
 
 ## This site
 
-You can subscribe to new posts using the [Atom feed](/feed/). There's also a [chronologic archive of all posts](/archive/).
+You can subscribe to new posts using the [Atom feed](/feed/). There's also a chronologic overview of all posts on the [front page](/).
 
 ## Colophon
 
