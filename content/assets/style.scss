@@ -53,6 +53,10 @@ code {
         vertical-align: bottom;
         margin-bottom: 0;
         height: 5em;
+        transition: transform 0.4s ease-in-out;
+    }
+    img:hover {
+        transform: rotate(14deg);
     }
     ul {
         margin-top: 1.3em;
