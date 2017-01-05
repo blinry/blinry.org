@@ -167,6 +167,9 @@ code {
         a {
             color: inherit;
         }
+        a:hover {
+            color: $offblack;
+        }
     }
     .intro {
         margin-bottom: 4em;
