@@ -18,7 +18,7 @@ You can subscribe to new posts using the [Atom feed](/feed/). There's also a chr
 
 This site is written in [Markdown](http://daringfireball.net/projects/markdown/) and compiled to HTML5 by the awesome [nanoc](http://nanoc.ws). If you are interested in the source code, it's on [GitHub](https://github.com/blinry/morr.cc). You can also learn more about [how this site is generated](/how-to-blog-with-nanoc/).
 
-The fonts are [Open Sans](https://en.wikipedia.org/wiki/Open_Sans) and [`Inconsolata`](http://www.levien.com/type/myfonts/inconsolata.html).
+The fonts are [Open Sans](https://en.wikipedia.org/wiki/Open_Sans), [<span style="font-family: Bree Serif">Bree Serif</span>](https://fonts.google.com/specimen/Bree+Serif) and [`Inconsolata`](http://www.levien.com/type/myfonts/inconsolata.html).
 
 ## License
 
