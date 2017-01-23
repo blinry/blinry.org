@@ -1,7 +1,7 @@
 ---
 title: Keeping a personal wiki
 published: 2013-06-05T18:18+0200
-tags: software, life, tech
+tags: life, tech
 fav: true
 ---
 

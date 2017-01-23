@@ -1,7 +1,7 @@
 ---
 title: Was ist das für 1 Room?
 published: 2016-12-12
-tags: project, software, game
+tags: software, game
 ---
 
 This was my contribution to the game jam Ludum Dare 37, and my third participation in a row. The theme was "One Room", and we worked in a three-person team. We also had to do this half-remotely, as I was still in Japan at the time, but that worked out pretty well!

@@ -1,7 +1,7 @@
 ---
 title: "Freie Software: Eine Analogie"
 published: 2007-05-07
-tags: german, software, tech
+tags: german, tech
 imgtitle: "David Monniaux, CC-BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Cooks_050918_154402.jpg"
 ---
 

@@ -1,22 +1,22 @@
 include Nanoc::Helpers::Rendering
 
 def categories
-    $categories ||= calculate_categories
+    calculate_categories
 end
 
 def calculate_categories
     c = {}
 
-    c["Software"] = with_tag("project")
-    c["Documents"] = newest_first((with_tag("document") + with_tag("talk") + with_tag("paper")).uniq) - c.values.flatten
-    c["Design"] = with_tag("art") - c.values.flatten
+    c["Software"] = with_tag("software")
+    c["Documents"] = newest_first((with_tag("document") + with_tag("talk") + with_tag("paper")).uniq)
+    c["Art"] = with_tag("art")
     c["Blog"] = things - c.values.flatten
 
     c
 end
 
 def things
-    $things ||= calculate_things
+    calculate_things
 end
 
 def favs

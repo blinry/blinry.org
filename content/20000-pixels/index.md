@@ -1,7 +1,7 @@
 ---
 title: 20,000 Pixels Into the Sea
 published: 2016-08-29
-tags: project, software, game
+tags: software, game
 fav: true
 ---
 

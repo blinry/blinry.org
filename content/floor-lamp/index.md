@@ -1,7 +1,7 @@
 ---
 title: You're a Floor Lamp Now
 published: 2016-04-17
-tags: project, software, game
+tags: software, game
 fav: true
 ---
 

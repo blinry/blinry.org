@@ -2,7 +2,7 @@
 title: almightree
 published: 2012-08-18
 updated: 2016-02-21
-tags: project, software
+tags: software
 ---
 
 <input type="text" id="almightree-search" name="hopefullyuniquename" value="" placeholder="Type to search..."> <a href="#">clear</a>
