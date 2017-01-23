@@ -9,3 +9,11 @@ def tweet id
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 HERE
 end
+
+def youtube id
+<<HERE
+<iframe width="550px" height="310px"
+src="https://www.youtube.com/embed/#{id}?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+HERE
+end
