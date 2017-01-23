@@ -61,6 +61,10 @@
                 </div>
             <% end %>
 
+            <% if @item[:url] %>
+            <p>Refer to this URL for more information: <a href="<%= @item[:url] %>"><%= @item[:url] %></a></p>
+            <% end %>
+
             <%= yield %>
 
             <% if @item[:tags] %>
