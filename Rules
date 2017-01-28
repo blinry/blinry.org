@@ -62,4 +62,4 @@ end
 
 passthrough "/**/*"
 
-layout "/**/*", :erb
+layout "/**/*", :slim

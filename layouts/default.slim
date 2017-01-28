@@ -1,0 +1,64 @@
+doctype html
+html lang=lang_for(@item)
+  head
+    meta charset="utf-8"
+    title
+      - if @item.path != "/" and @item[:title]
+        = @item[:title]
+        |  · 
+      | Sebastian Morr's homepage
+
+    meta name="author" content="Sebastian Morr"
+    - if @item[:published]
+      meta name="date" content=@item[:published].strftime("%Y-%m-%d")
+      meta name="description" content=abstract_for(@item)
+    - if @item[:noindex]
+      meta name="robots" content="noindex"
+    meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes"
+
+    link rel="shortcut icon" href="/favicon.ico"
+    link rel="alternate" type="application/atom+xml" href="/feed/"
+
+    link rel="stylesheet" href="/assets/style.css"
+    link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700"
+    link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree+Serif:400"
+
+  body
+    #nav
+      a href="/"
+        img src="/assets/images/hanko.svg" alt="morr.cc"
+
+      - [["About"], categories.keys].each do |group|
+        ul
+          - group.each do |name|
+            - item = @items.find_all("/#{name.downcase}/index.md").first
+            li class=("current" if @item.path == item.path)
+                == link_to(item, name)
+    #content
+      - unless @item[:headless]
+        h1= @item[:title]
+        .meta
+          - if @item[:published]
+            => @item[:published].strftime("%Y-%m-%d")
+            - if @item[:updated]
+              ' (last update: #{@item[:updated].strftime("%Y-%m-%d")})
+            | /
+            a<> href="/about/" Sebastian Morr
+            | /
+            a<> href="https://creativecommons.org/licenses/by-nc-sa/4.0/" CC BY-NC-SA 4.0
+            - if @item[:tags]
+              | /
+              ==< tags_for(@item)
+
+      - if @item[:url]
+        p
+          | Refer to this URL for more information:
+          a< href=@item[:url] = @item[:url]
+
+      == yield
+
+      - if @item[:tags]
+        - items = similar(@item)
+        - if items.size > 0
+          h1 Similar content:
+          == box(newest_first(items[0..2]))

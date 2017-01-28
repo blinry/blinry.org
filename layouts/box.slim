@@ -1,0 +1,14 @@
+.box
+  a href=link_for(@item)
+    img src=thumbnail_for(@item) alt="" title=@item[:imgtitle]
+    .info
+      h2= @item[:title]
+      .meta
+        - if @item[:published]
+          = @item[:published].year
+          - if @item[:updated] and @item[:published].year != @item[:updated].year
+            | –
+            == @item[:updated].year
+        - if @item[:tags]
+          |  /
+          ==< tags_for(@item, false)
