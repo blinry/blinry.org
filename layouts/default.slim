@@ -28,7 +28,7 @@ html lang=lang_for(@item)
       a href="/"
         img src="/assets/images/hanko.svg" alt="morr.cc"
 
-      - [["About"], categories.keys].each do |group|
+      - [categories.keys, ["About"]].each do |group|
         ul
           - group.each do |name|
             - item = @items.find_all("/#{name.downcase}/index.md").first

@@ -1,5 +1,5 @@
 ---
-title: Congress Centrum Hamburg
+title: Goodbye, CCH
 published: 2016-12-31T20:32+01:00
 tags: art
 thumbnail: cch.png
