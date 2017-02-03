@@ -12,6 +12,13 @@ html lang=lang_for(@item)
     - if @item[:published]
       meta name="date" content=@item[:published].strftime("%Y-%m-%d")
       meta name="description" content=abstract_for(@item)
+
+      meta name="twitter:card" content="summary_large_image"
+      meta name="twitter:site" content="@blinry"
+      meta name="twitter:title" content=@item[:title]
+      meta name="twitter:description" content=abstract_for(@item)
+      meta name="twitter:creator" content="@blinry"
+      meta name="twitter:image" content=domain[0..-2]+thumbnail_for(@item)
     - if @item[:noindex]
       meta name="robots" content="noindex"
     meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes"
