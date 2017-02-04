@@ -19,6 +19,13 @@ html lang=lang_for(@item)
       meta name="twitter:description" content=abstract_for(@item)
       meta name="twitter:creator" content="@blinry"
       meta name="twitter:image" content=domain[0..-2]+thumbnail_for(@item)
+
+      meta property="og:title" content=@item[:title]
+      meta property="og:type" content="website"
+      meta property="og:url" content=domain[0..-2]+@item.path
+      meta property="og:image" content=domain[0..-2]+thumbnail_for(@item)
+      meta property="og:description" content=abstract_for(@item)
+
     - if @item[:noindex]
       meta name="robots" content="noindex"
     meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes"
