@@ -1,5 +1,6 @@
 ---
 title: Sand Child
+subtitle: An ongoing poll-based Twitter adventure
 published: 2015-11-09T20:21+02:00
 updated: 2016-07-17T19:42+02:00
 tags: story

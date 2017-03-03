@@ -1,5 +1,6 @@
 ---
 title: You're a Floor Lamp Now
+subtitle: My first Ludum Dare game
 published: 2016-04-17
 tags: software, game
 fav: true

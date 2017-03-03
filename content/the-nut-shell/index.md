@@ -1,5 +1,6 @@
 ---
 title: "Bachelor Thesis: The Nut Shell"
+subtitle: Implementation and evaluation of an interactive bash tutorial
 published: 2013-11-03
 tags: document
 ---

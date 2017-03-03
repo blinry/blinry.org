@@ -1,5 +1,6 @@
 ---
 title: almightree
+subtitle: jQuery plugin for navigating large nested lists
 published: 2012-08-18
 updated: 2016-02-21
 tags: software

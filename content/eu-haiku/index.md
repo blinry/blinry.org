@@ -1,5 +1,6 @@
 ---
 title: EU-Haiku
+subtitle: A Pan-European haiku
 published: 2016-04-29T18:25+02:00
 tags: poetry
 ---

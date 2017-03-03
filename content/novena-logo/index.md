@@ -1,5 +1,6 @@
 ---
 title: Novena logo
+subtitle: A logo for an open hardware laptop
 tags: art, logo
 published: 2014-05-12
 ---

@@ -1,5 +1,6 @@
 ---
 title: 20,000 Pixels Into the Sea
+subtitle: "A sailing simulator"
 published: 2016-08-29
 tags: software, game
 fav: true

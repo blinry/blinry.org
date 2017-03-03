@@ -1,5 +1,6 @@
 ---
 title: sike mama
+subtitle: '"The Egg" in Toki Pona'
 published: 2015-10-26T15:30+0100
 tags: translation
 imgtitle: "NASA, ESA and the Hubble Heritage Team (STScI/AURA), CC-BY 3.0, http://www.spacetelescope.org/images/heic1107a/"

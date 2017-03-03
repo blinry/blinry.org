@@ -2,6 +2,7 @@
 title: Kunstprojekt "Babel"
 published: 2005-09-06
 tags: german, art, photo
+thumbnail: 3-Familiensinn.jpg
 ---
 
 Diese Fotoserie entstand in der zehnen Klasse. Es stellt in achtzehn Bildern zwischenmenschliche Beziehungen mit Büchern dar.

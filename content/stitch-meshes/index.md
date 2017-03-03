@@ -1,5 +1,6 @@
 ---
 title: "Seminar talk: Stitch Meshes"
+subtitle: Modeling knitted clothing
 published: 2013-02-15
 tags: talk
 ---

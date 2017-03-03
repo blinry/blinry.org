@@ -1,5 +1,6 @@
 ---
 title: Was ist das für 1 Room?
+subtitle: Sokoban meets IKEA
 published: 2016-12-12
 tags: software, game
 ---

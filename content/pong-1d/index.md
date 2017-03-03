@@ -1,5 +1,6 @@
 ---
 title: Pong 1D
+subtitle: A Flatlander's perspective
 published: 2011-09-26
 tags: software, game
 ---

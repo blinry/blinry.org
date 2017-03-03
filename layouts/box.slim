@@ -3,12 +3,16 @@
     img src=thumbnail_for(@item) alt="" title=@item[:imgtitle]
     .info
       h2= @item[:title]
-      .meta
-        - if @item[:published]
+      - if @item[:subtitle]
+        h3
+          = @item[:subtitle]
+          br
+      - if @item[:published]
+        .meta
           = @item[:published].year
           - if @item[:updated] and @item[:published].year != @item[:updated].year
             | –
             == @item[:updated].year
-        - if @item[:tags]
-          |  /
-          ==< tags_for(@item, false)
+          - if @item[:tags]
+            |  /
+            ==< tags_for(@item, false)

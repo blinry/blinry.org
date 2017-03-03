@@ -1,5 +1,6 @@
 ---
 title: Voctocat logo
+subtitle: A new logo for media.ccc.de
 tags: art, logo
 published: 2017-03-01T16:43+01:00
 thumbnail: voctocat-twitter.png

@@ -1,5 +1,6 @@
 ---
-title: "Exact Minkowski Sums of Polygons With Holes"
+title: Exact Minkowski Sums of Polygons With Holes
+subtitle: A GSoC project for CGAL
 published: 2015-02-22
 updated: 2015-10-01
 tags: paper, talk

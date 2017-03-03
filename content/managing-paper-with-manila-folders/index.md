@@ -1,5 +1,6 @@
 ---
 title: Managing paper with manila folders
+subtitle: Why ring binders suck
 published: 2015-04-25T12:05+0200
 tags: life
 thumbnail: tabs.jpg

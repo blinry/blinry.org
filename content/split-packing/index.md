@@ -1,5 +1,6 @@
 ---
 title: "Master's Thesis: Split Packing"
+subtitle: Circle packing algorithms
 tags: document, paper, talk
 published: 2016-06-01
 updated: 2016-07-13

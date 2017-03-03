@@ -1,5 +1,6 @@
 ---
 title: Stratum 0 logo
+subtitle: A logo for Hackerspace Braunschweig
 tags: art, logo
 published: 2011-06-16T10:29+01:00
 updated: 2012-01-08T19:00+01:00

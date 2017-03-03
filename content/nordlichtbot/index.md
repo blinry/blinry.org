@@ -1,5 +1,6 @@
 ---
 title: nordlichtbot
+subtitle: Automated art gallery and testing platform
 tags: software, bot, art
 published: 2017-01-08T21:18+01:00
 ---
