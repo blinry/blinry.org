@@ -1,4 +1,5 @@
 include Nanoc::Helpers::Rendering
+include Nanoc::Helpers::ChildParent
 
 def categories
     calculate_categories
@@ -81,24 +82,18 @@ def abstract_for item
 end
 
 def thumbnail_for item
-    if item[:thumbnail]
-        item.path+item[:thumbnail]
+    thumbnail = if item[:thumbnail]
+                    @items[item.path+item[:thumbnail]]
+                else
+                    @items[item.path+"*thumbnail*{png,jpg,gif,svg}"] ||
+                        @items[item.path+"*talk*.pdf"] ||
+                        @items[item.path+"*.{png,jpg,gif,svg,pdf}"]
+                end
+
+    if thumbnail
+        thumbnail.reps[:thumbnail].path
     else
-        candidates = @items.find_all(@item.identifier.to_s.sub(/[^\/]+$/, "") + "*")
-
-        images = candidates.select{|c| c.path =~ Regexp.new("\.(png|jpg|svg|gif)$")}
-        thumbnail = images.find{|i| i.path =~ Regexp.new("/thumbnail\....$")}
-        return thumbnail.path if thumbnail
-
-        pdfs = candidates.select{|c| c.path =~ Regexp.new("\.pdf$")}
-        thumbnail = pdfs.find{|p| p.path =~ Regexp.new("talk")}
-        return thumbnail.reps[:titlepage].path if thumbnail
-
-        return images.first.path unless images.empty?
-
-        return pdfs.first.reps[:titlepage].path unless pdfs.empty?
-
-        return ""
+        ""
     end
 end
 

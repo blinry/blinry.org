@@ -47,8 +47,9 @@ compile "/**/*.xml" do
     write item.identifier.without_ext + ".html"
 end
 
-compile "/**/thumbnail.{jpg,png}" do
+compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
     filter :thumbnailize, :width => 200
+    write item.identifier + "-thumbnail.png"
 end
 
 compile "/**/*.md" do
@@ -69,7 +70,13 @@ end
 
 compile "/**/*.pdf", :rep => :titlepage do
     filter :titlepageize
-    write item.identifier.to_s.split(".")[0..-2].join(".") + "-titlepage.svg"
+    write item.identifier + "-titlepage.svg"
+end
+
+compile "/**/*.pdf", :rep => :thumbnail do
+    filter :titlepageize
+    filter :thumbnailize, :width => 200
+    write item.identifier + "-titlepage.svg-thumbnail.png"
 end
 
 passthrough "/**/*"

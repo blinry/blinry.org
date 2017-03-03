@@ -1,6 +1,6 @@
 def titlepage file, title, url=nil
     link = url || "#{file}.pdf"
-    "[![#{title}](#{file}-titlepage.svg)](#{link}){:.titlepage title=\"#{title}\"}"
+    "[![#{title}](#{file}.pdf-titlepage.svg)](#{link}){:.titlepage title=\"#{title}\"}"
 end
 
 def tweet id

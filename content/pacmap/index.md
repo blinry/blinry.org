@@ -4,6 +4,7 @@ subtitle: Geocaching meets crossword puzzles
 tags: cs, software
 published: 2012-03-23
 tags: software, document, talk
+thumbnail: pacmap-screenshot.png
 ---
 
 PacMap is a little Android game that combines elements of Geocaching with those of crossword puzzles.
