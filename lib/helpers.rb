@@ -68,12 +68,16 @@ def lang_for item
 end
 
 def abstract_for item
-    content = item.raw_content.dup
-    content.gsub!(/!\[([^\]]*)\]\([^)]*\)/,"") # remove images
-    content.gsub!(/\[([^\]]*)\]\([^)]*\)/,"\\1") # replace links with link text
-    content.gsub!(/[*"]/,"") # remove italic and bold markers and quotations
-    content.strip!
-    abstract = content[/^[[:print:]]{20,256}[.…!?:*]/]
+    if item[:description]
+        item[:description]
+    else
+        content = item.raw_content.dup
+        content.gsub!(/!\[([^\]]*)\]\([^)]*\)/,"") # remove images
+        content.gsub!(/\[([^\]]*)\]\([^)]*\)/,"\\1") # replace links with link text
+        content.gsub!(/[*"]/,"") # remove italic and bold markers and quotations
+        content.strip!
+        abstract = content[/^[[:print:]]{20,256}[.…!?:*]/]
+    end
 end
 
 def thumbnail_for item
