@@ -37,6 +37,11 @@ compile "/**/*.scss" do
     write item.identifier.without_ext + ".css"
 end
 
+compile "/**/*.coffee" do
+    filter :coffeescript
+    write item.identifier.without_ext + ".js"
+end
+
 compile "/**/*.xml" do
     filter :erb
     write item.identifier.without_ext + ".html"
@@ -50,6 +55,13 @@ compile "/**/*.md" do
     filter :erb
     filter :absolutize_paths
     filter :kramdown
+    layout "/default.*"
+    filter :tidy
+    write item.identifier.without_ext + ".html"
+end
+
+compile "/**/*.slim" do
+    filter :slim
     layout "/default.*"
     filter :tidy
     write item.identifier.without_ext + ".html"
