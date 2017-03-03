@@ -3,7 +3,3 @@ guard "nanoc" do
   watch("Rules")
   watch(%r{^(content|layouts|lib)/.*$})
 end
-
-guard "livereload" do
-    watch(%r{output/.+\.(css|js|html)})
-end

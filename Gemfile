@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
-gem "nanoc", "~> 4.0"
-gem "kramdown"
-gem "slim"
-gem "sass"
-gem "adsf"
-gem "guard-nanoc"
-gem "guard-livereload"
+group :nanoc do
+    gem "nanoc", "~> 4.3"
+    gem "guard-nanoc"
+    gem "adsf"
+    gem "kramdown"
+    gem "slim"
+    gem "sass"
+    gem "coffee-script"
+end
