@@ -1,7 +1,7 @@
 ---
 title: Emergency Card Template
 published: 2017-02-16T12:04+01:00
-tags: art, template
+tags: template
 ---
 
 I originally created this emergency and organ donation card in 2012. Recently, I gave it an update to translate it to English and make it as international as possible otherwise. I figured it might be useful for other people, so I'm providing a template here. Click on the image to open the SVG, you can edit it using a vector graphics program like [Inkscape](https://inkscape.org).

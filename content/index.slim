@@ -1,0 +1,44 @@
+---
+title: Home
+headless: true
+---
+
+#intro
+    img src="/assets/images/avatar.png" alt="Simpson-style avatar"
+
+    p
+        | Hey there! My name is 
+        strong<> Sebastian Morr
+        | , I'm doing
+        a< href="#cs" computer science
+        | , create
+        a< href="#game" games
+        |  and other
+        a< href="#software" software
+        | , as well as
+        a<> href="#logo" logos
+        | and general
+        a<> href="#art" art stuffs
+        | .
+
+    p
+        | I'm
+        strong<> blinry
+        | on
+        a<> href="https://twitter.com/blinry" Twitter
+        | and
+        a<> href="https://github.com/blinry" GitHub
+        | , see the
+        a<> href="/about/" about page
+        | for more contact information. And now, let's look at what you can find here:
+
+#search
+    input id="morr-search" placeholder="Type to filter…"
+    a< href="#" id="morr-clear" ✕
+
+- things.group_by{|t| [t[:published].year, t[:updated] ? t[:updated].year : 0].max}.sort_by{|y,t| -y}.each do |year, things|
+    h1= year
+    == box(things)
+
+/h1 Timeless
+/== box(@items.select{|i| i[:title] and not things.include?(i)})

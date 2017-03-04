@@ -1,31 +1,13 @@
 include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::ChildParent
 
-def categories
-    calculate_categories
-end
-
-def calculate_categories
-    c = {}
-
-    c["Software"] = with_tag("software")
-    c["Documents"] = newest_first((with_tag("document") + with_tag("talk") + with_tag("paper")).uniq)
-    c["Art"] = with_tag("art")
-    c["Blog"] = things - c.values.flatten
-
-    c
-end
-
 def things
-    calculate_things
-end
-
-def favs
-    things.select{|i| i[:fav]}.sort_by{|i| i[:fav]}
-end
-
-def calculate_things
-    newest_first(@items.find_all("/**/*").select{|i| i[:published]})
+    blk = -> { newest_first(@items.find_all("/**/*").select{|i| i[:published]}) }
+    if @items.frozen?
+        @things ||= blk.call
+    else
+        blk.call
+    end
 end
 
 def link_to item, text=nil
@@ -33,8 +15,12 @@ def link_to item, text=nil
     "<a href=\"#{link_for(item)}\">#{text}</a>"
 end
 
+def calculate_tags
+    @items.select{|i| i[:tags]}.map{|i| i[:tags]}.flatten.uniq.sort
+end
+
 def tags
-    things.select{|i| i[:tags]}.map{|i| i[:tags]}.flatten.uniq
+    calculate_tags
 end
 
 def link_for item
@@ -53,7 +39,7 @@ def tags_for item, link=true
             text = tag
         end
         if link
-            "<a href=\"/tag/#{tag}/\">#{text}</a>"
+            "<a href=\"/##{tag}\">#{text}</a>"
         else
             text
         end
@@ -103,10 +89,6 @@ def with_tag tag
     end
 end
 
-def subtitle
-    "morr.cc"
-end
-
 def domain
     "https://morr.cc/"
 end
@@ -122,13 +104,4 @@ end
 
 def newest_first(items)
     items.select{|i| i[:updated] || i[:published] }.sort_by{|i| i[:updated] || i[:published]}.reverse
-end
-
-def similar(item)
-    items.select { |i|
-        next unless i[:tags]
-        (i[:tags] & item[:tags]).size > 0 and i != item
-    }.sort_by { |i|
-        (i[:tags] & item[:tags]).size
-    }.reverse
 end

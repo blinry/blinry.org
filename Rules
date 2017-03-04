@@ -12,24 +12,6 @@ preprocess do
             item[:tags] = item[:tags].split(",").map{|t| t.strip}
         end
     end
-
-    tags.each do |tag|
-        content = '<%= box(with_tag("'+tag+'")) %>'
-        title = "Content with tag '#{tag}'"
-        identifier = "/tag/#{tag}/index.md"
-        @items.create(content, {:title => title, :noindex => true}, identifier)
-    end
-
-    categories.each do |name, items|
-        content = "<%= box(categories[\"#{name}\"]) %>"
-        title = "#{name}"
-        identifier = "/#{name.downcase}/index.md"
-        @items.create(content, {:title => title, :headless => true, :noindex => true}, identifier)
-    end
-
-    # rebuild these variables for each compilation
-    $categories = nil
-    $things = nil
 end
 
 compile "/**/*.scss" do

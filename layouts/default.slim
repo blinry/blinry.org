@@ -37,17 +37,22 @@ html lang=lang_for(@item)
     link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700"
     link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree+Serif:400"
 
+    script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    script src="/assets/filter.js"
+
   body
     #nav
       a href="/"
         img src="/assets/images/hanko.svg" alt="morr.cc"
 
-      - [categories.keys, ["About"]].each do |group|
-        ul
-          - group.each do |name|
-            - item = @items.find_all("/#{name.downcase}/index.md").first
-            li class=("current" if @item.path == item.path)
-                == link_to(item, name)
+      ul
+        li: a href="/#software" Software
+        li: a href="/#document+talk+paper" Documents
+        li: a href="/#art" Art
+        li: a href="/" Blog
+      ul
+        li: a href="/about/" About
+
     #content
       - unless @item[:headless]
         h1= @item[:title]
@@ -70,9 +75,9 @@ html lang=lang_for(@item)
           a< href=@item[:url] = @item[:url]
 
       == yield
-
-      - if @item[:tags]
-        - items = similar(@item)
-        - if items.size > 0
-          h1 Similar content:
-          == box(newest_first(items[0..2]))
+/
+/      /- if @item[:tags]
+/      /  - items = similar(@item)
+/      /  - if items.size > 0
+/      /    h1 Similar content:
+/      /    == box(newest_first(items[0..2]))

@@ -1,7 +1,7 @@
 ---
 title: Kiel Panorama
 published: 2010-07-05
-tags: art, foto
+tags: art, photo
 fav: true
 ---
 
