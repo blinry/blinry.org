@@ -2,7 +2,7 @@
 title: "Bachelor Thesis: The Nut Shell"
 subtitle: Implementation and evaluation of an interactive bash tutorial
 published: 2013-11-03
-tags: document
+tags: document, cs
 ---
 
 In my bachelor thesis, I designed and implemented a framework for creating interactive command line tutorials, called *The Nut Shell*. Here you can find the final thesis and the presentation:

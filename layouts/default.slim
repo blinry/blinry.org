@@ -46,12 +46,17 @@ html lang=lang_for(@item)
         img src="/assets/images/hanko.svg" alt="morr.cc"
 
       ul
+        - ["about", "tip-jar"].each do |name|
+          - item = @items["/"+name+"/index.md"]
+          li class=("current" if @item.path == item.path)
+            ==link_to(item)
+      /ul
+        li: a href="/#fav" Best-of
         li: a href="/#software" Software
         li: a href="/#document+talk+paper" Documents
+        li: a href="/#logo" Logos
         li: a href="/#art" Art
         li: a href="/" Blog
-      ul
-        li: a href="/about/" About
 
     #content
       - unless @item[:headless]

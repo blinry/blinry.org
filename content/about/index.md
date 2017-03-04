@@ -1,6 +1,5 @@
 ---
 title: About
-headless: true
 ---
 
 ## Contact

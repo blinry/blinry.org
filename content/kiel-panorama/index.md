@@ -1,8 +1,7 @@
 ---
 title: Kiel Panorama
 published: 2010-07-05
-tags: art, photo
-fav: true
+tags: art, photo, fav
 ---
 
 *This panorama photo was taken in summer 2010 on a vacation in Kiel. I like how the natural, green beach slowly fades into the industrial, human made, gigantic ship dock.*

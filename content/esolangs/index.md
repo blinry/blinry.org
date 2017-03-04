@@ -1,8 +1,7 @@
 ---
 title: "Seminar paper: Esoteric Programming Languages"
 published: 2015-02-01
-tags: document, talk
-fav: true
+tags: document, talk, cs, fav
 ---
 
 This was a fun overview paper written in my university seminar "Programming languages through the ages". I was very lucky to receive the awesome topic *Esoteric Programming Languages* :-)

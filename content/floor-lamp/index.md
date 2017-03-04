@@ -3,7 +3,6 @@ title: You're a Floor Lamp Now
 subtitle: My first Ludum Dare game
 published: 2016-04-17
 tags: software, game
-fav: true
 ---
 
 This is my contribution to Ludum Dare 35, the world's largest game jam. You get a theme, and have 48 hours to create a game around this topic, from scratch, including artwork and sound effects. This was my first time ever I participated in such an event, and I don't think it will be the last! :-)

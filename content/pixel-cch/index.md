@@ -2,7 +2,7 @@
 title: Goodbye, CCH
 subtitle: Post-congress depression coping strategy
 published: 2016-12-31T20:32+01:00
-tags: art
+tags: art, fav
 thumbnail: cch.png
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Master's Thesis: Split Packing"
 subtitle: Circle packing algorithms
-tags: document, paper, talk
+tags: document, paper, talk, cs, art, fav
 published: 2016-06-01
-updated: 2016-07-13
+updated: 2017-01-20
 ---
 
 The full name of my master's thesis is **Split Packing: An Algorithm for Packing Circles with up to Critical Density**. It covers a topic from the field of *Computational Geometry*: Packing circles into various containers, like squares and triangles.

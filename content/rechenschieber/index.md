@@ -1,6 +1,6 @@
 ---
 title: "Aufsatz: Der Rechenschieber"
-tags: german, document
+tags: german, document, math
 published: 2011-09-05
 ---
 

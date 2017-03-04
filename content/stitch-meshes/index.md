@@ -2,7 +2,7 @@
 title: "Seminar talk: Stitch Meshes"
 subtitle: Modeling knitted clothing
 published: 2013-02-15
-tags: talk
+tags: talk, cs
 ---
 
 For a computer graphics seminar, I and presented Cam Yuksel et al.'s (awesome) paper [Stitch Meshes for Modeling Knitted Clothing with Yarn-level Detail](http://www.cemyuksel.com/research/stitchmeshes/):
