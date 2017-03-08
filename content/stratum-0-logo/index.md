@@ -25,7 +25,7 @@ it appeared in a [comic](https://stratum0.org/wiki/Datei:Stratumtroll.png),
 has been [3D](https://stratum0.org/wiki/Datei:Stratum0_Test-Tag.jpg)-[printed](http://www.thingiverse.com/thing:38861),
 [sawn out of wood](https://stratum0.org/wiki/Datei:20120430-Holzschild-01.jpg),
 [3D-modelled](https://twitter.com/lichtfeind/status/606562532510199808),
-[quadtree'd](https://stratum0.org/wiki/Datei:Foobla.jpg),
+[quadtree'd](https://www.youtube.com/watch?v=MXpDKzeS1OU),
 ended up in another logo for the [CTF team Stratum Auhuur](https://twitter.com/stratumauhuur)…
 and is used by the band [Downshifter](https://www.downshifter-music.de/) (yes, they asked, and yes, the license was meant to be that permissive).
 
