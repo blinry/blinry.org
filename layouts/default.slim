@@ -37,8 +37,9 @@ html lang=lang_for(@item)
     link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700"
     link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree+Serif:400"
 
-    script src="https://code.jquery.com/jquery-3.1.1.min.js"
-    script src="/assets/filter.js"
+    - if @item.path == "/"
+      script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      script src="/assets/filter.js"
 
   body
     #nav
