@@ -81,9 +81,21 @@ html lang=lang_for(@item)
           a< href=@item[:url] = @item[:url]
 
       == yield
-/
-/      /- if @item[:tags]
-/      /  - items = similar(@item)
-/      /  - if items.size > 0
-/      /    h1 Similar content:
-/      /    == box(newest_first(items[0..2]))
+
+      - if @item[:published]
+        h2 Comments?
+        p
+          | You can reach me at
+          a<> href="https://twitter.com/blinry" @blinry
+          | or at <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc
+          | , see the
+          a< href="/about/" about page
+          | .
+        p
+          | For more like this, check out the
+          a< href="/" home page
+          | , follow me
+          a<> href="https://twitter.com/blinry" on Twitter
+          | and subscribe to this site's
+          a< href="/feed/" feed
+          | .
