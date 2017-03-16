@@ -55,15 +55,15 @@ def lang_for item
 end
 
 def abstract_for item
-    if item[:description]
-        item[:description]
+    if item[:subtitle]
+        item[:subtitle]
     else
         content = item.raw_content.dup
         content.gsub!(/!\[([^\]]*)\]\([^)]*\)/,"") # remove images
         content.gsub!(/\[([^\]]*)\]\([^)]*\)/,"\\1") # replace links with link text
         content.gsub!(/[*"]/,"") # remove italic and bold markers and quotations
         content.strip!
-        abstract = content[/^[[:print:]]{20,256}[.…!?:*]/]
+        abstract = content[/^[[:print:]]{20,256}[.…!?:*]/] || item[:title]
     end
 end
 

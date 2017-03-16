@@ -131,6 +131,17 @@ code {
     dd {
         margin-left: 1em;
     }
+    .underline {
+        text-decoration: underline;
+    }
+    hr {
+        border: none;
+        text-align: center;
+    }
+    hr:after {
+        content: "...";
+        letter-spacing: 0.6em;
+    }
     img {
         max-width: 100%;
         display: block;
@@ -163,6 +174,11 @@ code {
     td {
         vertical-align: top;
         font-size: 80%;
+    }
+    .subtitle {
+        font-family: "Bree Serif", serif;
+        font-style: italic;
+        margin-bottom: 0.2em;
     }
     .meta {
         font-size: 0.8em;

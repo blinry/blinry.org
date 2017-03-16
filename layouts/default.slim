@@ -9,25 +9,28 @@ html lang=lang_for(@item)
       | Sebastian Morr's homepage
 
     meta name="author" content="Sebastian Morr"
+
     - if @item[:published]
       meta name="date" content=@item[:published].strftime("%Y-%m-%d")
-      meta name="description" content=abstract_for(@item)
 
-      meta name="twitter:card" content="summary_large_image"
-      meta name="twitter:site" content="@blinry"
-      meta name="twitter:title" content=@item[:title]
-      meta name="twitter:description" content=abstract_for(@item)
-      meta name="twitter:creator" content="@blinry"
-      meta name="twitter:image" content=domain[0..-2]+thumbnail_for(@item)
+    meta name="description" content=abstract_for(@item)
 
-      meta property="og:title" content=@item[:title]
-      meta property="og:type" content="website"
-      meta property="og:url" content=domain[0..-2]+@item.path
-      meta property="og:image" content=domain[0..-2]+thumbnail_for(@item)
-      meta property="og:description" content=abstract_for(@item)
+    meta name="twitter:card" content="summary_large_image"
+    meta name="twitter:site" content="@blinry"
+    meta name="twitter:title" content=@item[:title]
+    meta name="twitter:description" content=abstract_for(@item)
+    meta name="twitter:creator" content="@blinry"
+    meta name="twitter:image" content=domain[0..-2]+thumbnail_for(@item)
+
+    meta property="og:title" content=@item[:title]
+    meta property="og:type" content="website"
+    meta property="og:url" content=domain[0..-2]+@item.path
+    meta property="og:image" content=domain[0..-2]+thumbnail_for(@item)
+    meta property="og:description" content=abstract_for(@item)
 
     - if @item[:noindex]
       meta name="robots" content="noindex"
+
     meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes"
 
     link rel="shortcut icon" href="/favicon.ico"
@@ -62,15 +65,20 @@ html lang=lang_for(@item)
     #content
       - unless @item[:headless]
         h1= @item[:title]
+        - if @item[:subtitle]
+            .subtitle= @item[:subtitle]
         .meta
-          - if @item[:published]
-            => @item[:published].strftime("%Y-%m-%d")
+            - if @item[:published]
+              => @item[:published].strftime("%Y-%m-%d")
+            - else
+              | unpublished 
             - if @item[:updated]
               ' (last update: #{@item[:updated].strftime("%Y-%m-%d")})
             | /
             a<> href="/about/" Sebastian Morr
-            | /
-            a<> href="https://creativecommons.org/licenses/by-nc-sa/4.0/" CC BY-NC-SA 4.0
+            - if not @item[:license]
+              | /
+              a<> href="https://creativecommons.org/licenses/by-nc-sa/4.0/" CC BY-NC-SA 4.0
             - if @item[:tags]
               | /
               ==< tags_for(@item)
@@ -82,7 +90,7 @@ html lang=lang_for(@item)
 
       == yield
 
-      - if @item[:published]
+      - if @item[:tags]
         h2 Comments?
         p
           | You can reach me at
@@ -96,6 +104,6 @@ html lang=lang_for(@item)
           a< href="/" home page
           | , follow me
           a<> href="https://twitter.com/blinry" on Twitter
-          | and subscribe to this site's
+          | or subscribe to this site's
           a< href="/feed/" feed
           | .
