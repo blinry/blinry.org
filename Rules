@@ -30,7 +30,7 @@ compile "/**/*.xml" do
 end
 
 compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
-    filter :thumbnailize, :width => 200
+    filter :thumbnailize, :width => 600
     write item.identifier + "-thumbnail.png"
 end
 
@@ -57,7 +57,7 @@ end
 
 compile "/**/*.pdf", :rep => :thumbnail do
     filter :titlepageize
-    filter :thumbnailize, :width => 200
+    filter :thumbnailize, :width => 600
     write item.identifier + "-titlepage.svg-thumbnail.png"
 end
 
