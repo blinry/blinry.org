@@ -33,15 +33,10 @@ end
 
 def tags_for item, link=true
     item[:tags].map do |tag|
-        if tag == "german"
-            text = "<img class=\"flag\" src=\"/assets/images/de.svg\" alt=\"german\" />"
-        else
-            text = tag
-        end
         if link
-            "<a href=\"/##{tag}\">#{text}</a>"
+            "<a href=\"/##{tag}\">#{tag}</a>"
         else
-            text
+            tag
         end
     end.join(", ")
 end
