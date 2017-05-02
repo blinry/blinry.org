@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="git-sheet.svg"
+   inkscape:export-filename="/home/seb/work/git-sheet/git-sheet.png"
+   inkscape:export-xdpi="300.01077"
+   inkscape:export-ydpi="300.01077">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8393"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8391"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8389"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8387"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8385"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8383"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8381"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7887"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect7883"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect7644"
+       effect="spiro" />
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path7028"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(0,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6206"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6164"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6162"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5393"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5391"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5389"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5387"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5385"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5383"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5381"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5379"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5377"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5375"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5373"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5371"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5369"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5367"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5365"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5363"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5361"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5359"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5357"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5355"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4289"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4287"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4285"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4283"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4281"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4279"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4277"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4275"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4273"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4271"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4269"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4267"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4265"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4263"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4261"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4259"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4257"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4255"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4253"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3457"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3453"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3445"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3346"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3342"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3609"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3431"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3413"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3385"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3379"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3375"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3357"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3337"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3333"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3329"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3325"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3321"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3211"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6373"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6369"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5703"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5699"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5695"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5691"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5403"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5395"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5372"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5291"
+       effect="spiro" />
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3930"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path4045"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3924"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3906"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3129"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="703.82895"
+     inkscape:cy="386.58765"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1008"
+     inkscape:window-height="292"
+     inkscape:window-x="432"
+     inkscape:window-y="608"
+     inkscape:window-maximized="0"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false">
+    <sodipodi:guide
+       orientation="1,0"
+       position="350.52293,598.01031"
+       id="guide8155" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="701.04587,743.47227"
+       id="guide8157" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="289.91378,699.02556"
+       id="guide8165" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="385.71429,51.428571"
+       id="guide8167" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="528.30978,676.80221"
+       id="guide8175" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="683.57143,530.35714"
+       id="guide8197" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="880.85302,468.71078"
+       id="guide8221" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="177.78685,562.65497"
+       id="guide9200" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g3213"
+       transform="matrix(0.46460451,0,0,0.46460451,1100.6318,58.906226)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="571.42859"
+           height="735.71429"
+           x="98.571426"
+           y="259.50504"
+           style="font-size:40px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara2991" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2993"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       transform="matrix(0.63402962,0,0,0.63468201,286.89489,130.92022)"><flowRegion
+         id="flowRegion2995"><rect
+           id="rect2997"
+           width="619.70813"
+           height="1213.9171"
+           x="67.14286"
+           y="232.36218"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;fill:#000000;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium" /></flowRegion><flowPara
+         id="flowPara2999"
+         style="font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara5677" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara5679" /><flowPara
+         style="font-size:39.4100647px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:Arial"
+         id="flowPara3255" /><flowPara
+         style="font-size:39.4100647px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:Arial"
+         id="flowPara6024">(Dateien bearbeiten)</flowPara><flowPara
+         id="flowPara3031"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara3033"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         style="font-size:39.4100647px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3257">git status / git diff</flowPara><flowPara
+         id="flowPara3005"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara3019"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3259">git add <flowSpan
+   style="font-size:39.4100647px;font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+   id="flowSpan6375">datei</flowSpan></flowPara><flowPara
+         id="flowPara3035"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara3037"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3262">git commit</flowPara><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8071" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8073" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8075" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8077">git log [--graph]</flowPara><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8095" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8097">git checkout <flowSpan
+   style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+   id="flowSpan8185">name</flowSpan></flowPara><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8107" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8109">git branch [-d] <flowSpan
+   style="font-weight:normal;-inkscape-font-specification:Courier New"
+   id="flowSpan8189"><flowSpan
+     style="font-weight:bold;-inkscape-font-specification:Courier New Bold"
+     id="flowSpan8191"><flowSpan
+       style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+       id="flowSpan8193">name </flowSpan></flowSpan></flowSpan></flowPara><flowPara
+         id="flowPara3039"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara3041"
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         style="font-size:39.4100647px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3264" /></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text5709"
+       y="391.23618"
+       x="524.78424"
+       style="font-size:28.41767693px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       xml:space="preserve"><tspan
+         y="391.23618"
+         x="524.78424"
+         id="tspan5711"
+         sodipodi:role="line"
+         style="font-size:37px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bevan;-inkscape-font-specification:Bevan Bold">Workflow:</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3047"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"><flowRegion
+         id="flowRegion3049"><rect
+           id="rect3051"
+           width="500"
+           height="561.42859"
+           x="127.14286"
+           y="258.07648"
+           style="font-size:14px" /></flowRegion><flowPara
+         id="flowPara3053" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3055"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       transform="matrix(0.82121744,0,0,0.86759567,263.08462,204.66591)"><flowRegion
+         id="flowRegion3057"><rect
+           id="rect3059"
+           width="391.2009"
+           height="711.6012"
+           x="124.28571"
+           y="266.64789" /></flowRegion><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3290">Nicht zu viel auf einmal machen: Kleine Commits schaffen mehr Übersicht und verursachen weniger Konflikte.</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3077" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3305" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3307" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3079" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3359">Welche Dateien sind noch nicht vorgemerkt? Was wurde genau geändert?</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3085" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3311" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3087" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3089" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3294">Merkt aktuellen Zustand von <flowSpan
+   style="font-style:italic;-inkscape-font-specification:TeX Gyre Heros Italic"
+   id="flowSpan8177">datei</flowSpan> für den nächsten Commit vor.</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3099" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3309" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3276" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3101" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3292">Speichert vorgemerkte Änderungen ab.</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8079" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8081" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8083" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8085" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8087" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8089" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8091" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8093">Zeigt die Versionsgeschichte an. Beenden mit <flowSpan
+   style="font-style:italic;-inkscape-font-specification:TeX Gyre Heros Italic"
+   id="flowSpan8179">q</flowSpan>.</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8099" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8101" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8105" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8113">Wechselt zu Branch oder Commit <flowSpan
+   style="font-style:italic;-inkscape-font-specification:TeX Gyre Heros Italic"
+   id="flowSpan8187">name</flowSpan>.</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8115" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8117" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8119" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8121">Erzeugt [löscht] den Branch <flowSpan
+   style="font-style:italic;-inkscape-font-specification:TeX Gyre Heros Italic"
+   id="flowSpan8195">name</flowSpan>.</flowPara><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3339" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3341" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3343" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3345" /><flowPara
+         style="font-size:14.33499813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3349" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5279"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       transform="matrix(0.78095348,0,0,0.78175702,481.16212,417.61486)"><flowRegion
+         id="flowRegion5281"><rect
+           id="rect5283"
+           width="220.21326"
+           height="226.27417"
+           x="469.72095"
+           y="745.27582" /></flowRegion><flowPara
+         id="flowPara5287" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1"
+       d="m 701.55825,308.85773 0,13.06072"
+       id="path3344"
+       inkscape:path-effect="#path-effect3346"
+       inkscape:original-d="m 701.55825,308.85773 0,13.06072"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 350.89855,308.50059 0,13.06076"
+       inkscape:path-effect="#path-effect5695"
+       id="path5693"
+       d="m 350.89855,308.50059 0,13.06076"
+       style="fill:none;stroke:#000000;stroke-width:1.00000012" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.66397858px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="17.569315"
+       y="958.30396"
+       id="text5713"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="17.569315"
+         y="958.30396"
+         id="tspan5719"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;fill:#000080;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">http://git-scm.com/documentation</tspan><tspan
+         sodipodi:role="line"
+         x="17.569315"
+         y="981.63391"
+         id="tspan5721"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;fill:#000080;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium" /></text>
+    <flowRoot
+       transform="matrix(0.40352261,0,0,0.40393781,-16.493102,293.38641)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Courier New Bold"
+       id="flowRoot5741"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5743"><rect
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;fill:#000000;font-family:Inconsolata;-inkscape-font-specification:Courier New Bold"
+           y="232.36218"
+           x="67.14286"
+           height="1573.8169"
+           width="806.32166"
+           id="rect5745" /></flowRegion><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3258" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3260" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3244" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8143">git init</flowPara><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara6316" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3527">git clone <flowSpan
+   style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+   id="flowSpan9206">url [dir]</flowSpan></flowPara><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara4061" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara4063" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4067" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8227">git checkout <flowSpan
+   style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+   id="flowSpan8405">datei</flowSpan></flowPara><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8455" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8461">git blame <flowSpan
+   style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+   id="flowSpan8463">datei</flowSpan></flowPara><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8233" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8235" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8447" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara8451" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara9194">git help <flowSpan
+   style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic"
+   id="flowSpan9208">cmd</flowSpan></flowPara><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3477" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3481" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3489" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3326" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3517" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3521" /><flowPara
+         style="font-size:61.92254639px;font-style:normal;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara3555" /></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text3445"
+       y="390.45425"
+       x="176.05077"
+       style="font-size:37px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Bevan;-inkscape-font-specification:Bevan Bold"
+       xml:space="preserve"><tspan
+         y="390.45425"
+         x="176.05077"
+         id="tspan3447"
+         sodipodi:role="line">Setup:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:37px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Bevan;-inkscape-font-specification:Bevan Bold"
+       x="174.37709"
+       y="656.91913"
+       id="text6312"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6314"
+         x="174.37709"
+         y="656.91913">Nützliches:</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 528.50631,468.06319 c 7.62028,15.15021 -17.60241,31.94986 0.57037,35.59974"
+       inkscape:path-effect="#path-effect3329"
+       id="path3327"
+       d="m 528.50631,468.06319 0.57037,35.59974"
+       style="fill:none;stroke:#000000;stroke-width:3.99999976;marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 585.19992,546.83403 c 9.00858,23.4839 -20.80929,40.0789 0.67428,45.73647"
+       inkscape:path-effect="#path-effect3333"
+       id="path3331"
+       d="m 585.19992,546.83403 0.67428,45.73647"
+       style="fill:none;stroke:#000000;stroke-width:3.99999976;marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 528.67755,653.40517 0.32943,36.14003"
+       id="path3411"
+       inkscape:path-effect="#path-effect3413"
+       inkscape:original-d="m 528.67755,653.40517 c 4.40127,18.5565 -10.16669,31.66952 0.32943,36.14003"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3234"
+       y="874.75592"
+       x="178.07106"
+       style="font-size:37px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Bevan;-inkscape-font-specification:Bevan Bold"
+       xml:space="preserve"><tspan
+         y="874.75592"
+         x="178.07106"
+         sodipodi:role="line"
+         id="tspan3348">Hilfe:</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.99999976;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 469.41118,595.86685 0.67428,-45.73647"
+       id="path3355"
+       inkscape:path-effect="#path-effect3357"
+       inkscape:original-d="m 469.41118,595.86685 c 9.00858,-23.4839 -20.80929,-40.0789 0.67428,-45.73647"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="csssc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 429.77777,703.3674 c -11.49535,-12.71156 -59.14945,-30.65693 -57.02867,-35.65909 8.84095,-20.85267 -18.91322,-44.17296 -24.97048,-73.38636 -5.42306,-26.15472 7.1151,-63.28661 7.71472,-82.9315 1.40442,-46.01184 1.60328,-25.02041 26.26594,-50.15649"
+       inkscape:path-effect="#path-effect3385"
+       id="path3383"
+       d="m 429.77777,703.3674 c -22.46529,-4.50968 -43.13812,-17.43605 -57.02867,-35.65909 -15.87189,-20.82235 -22.50865,-47.32055 -24.97048,-73.38636 -2.62862,-27.83175 -0.86494,-56.32501 7.71472,-82.9315 5.8202,-18.04911 14.74548,-35.09249 26.26594,-50.15649"
+       style="fill:none;stroke:#000000;stroke-width:4;marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3421"
+       style="fill:#000080;fill-opacity:1;-inkscape-font-specification:Inconsolata Bold;font-family:Inconsolata;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.1px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;stroke-dashoffset:0"><flowRegion
+         id="flowRegion3423"><rect
+           id="rect3425"
+           width="86.428574"
+           height="13.571428"
+           x="784.28571"
+           y="610.52307" /></flowRegion><flowPara
+         id="flowPara3427" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3449"
+       style="fill:#000080;fill-opacity:1;-inkscape-font-specification:Courier New;font-family:Courier New;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.09999999999999964px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;stroke-dashoffset:0"><flowRegion
+         id="flowRegion3451"><rect
+           id="rect3453"
+           width="291.93408"
+           height="253.54829"
+           x="35.355339"
+           y="324.88116"
+           style="font-style:normal;-inkscape-font-specification:Courier New;font-weight:normal" /></flowRegion><flowPara
+         id="flowPara3455" /></flowRoot>    <g
+       id="g3363"
+       transform="matrix(0.9041401,0,0,0.9041401,83.886068,-28.099448)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5705"
+         y="902.34808"
+         x="-647.4696"
+         style="font-size:141.46531677px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         xml:space="preserve"
+         transform="matrix(0.46460451,0,0,0.46460451,1100.6318,58.90623)"><tspan
+           dy="0 -3.2989715e-07"
+           y="902.34808"
+           x="-647.4696"
+           id="tspan5707"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#666666;fill-opacity:1;font-family:Bevan;-inkscape-font-specification:Bevan Bold">Spick-</tspan><tspan
+           dx="-2.9007819"
+           dy="-26.343073"
+           id="tspan3358"
+           y="1079.1797"
+           x="-647.4696"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#666666;fill-opacity:1;font-family:Bevan;-inkscape-font-specification:Bevan Bold">Zettel!</tspan></text>
+      <image
+         width="65.244682"
+         height="126.45361"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAAC8CAIAAADnxFcFAAAAA3NCSVQICAjb4U/gAAAIIUlEQVR4 nO2dMWzbRhRAL46BmgQCBGBQeyCBLKU6pJAKdKG2ghk6SKuDdJGATnZHbYYNZPLm1doKaUiLcMkg Dx1KoBO10kgCJJwCnIa0CAEDLY4BEjQdTpEYWdIX70iKkv4bAkoxj+fnuxP5/93pxsePHwkyl+2c r/f9n3XJEhp3Hzbv/phKZRZkK8+LrSjoCAYdwaAjGHQEg45g0BEMOoJBRzDoCAYdwaAjGHQEg45g 0BEMOoJBRzDoCAYdwaAjGHQEg45gtgkhb979/fubP5Zdk0Xxr551Xv+aw4X2dnZ/2LPJJ0d/dV// lsNVU+Hy6vnl1fMcLlS+fY87wr4Gg45g0BEMOoJBRzDoCAYdwaAjGHQEg45g0BEMOoJBRzDoCAYd waAjGHQEg45g0BHMNiFkb2e3cfdhPteTD5yXb9+r3P4mlcrMZ29nlx/cyHndEa6pWU/QEQw6gkFH MOgIBh3BoCMYdASDjmDQEQw6gkFHMOgIBh3BoCMYdASDjmDQEQw6gkFHMHnH/P2rZ5Il7O3s7u18 mUplFiRvR6sI9jUYdASDjmC2CSH//fvPu+DlsmtSOG7euvXFV18T7uhd8JL+/NOyq1Q41G+/M85/ IdjXFgEdwaAjGHQEg45g0BEMOoJBRzDoCAYdwaAjGHQEg45g0BEMOoJBRzDoCAYdwaAjGHQEg3la GGxHMOgIBh3BoCMYdASDjmCy+j5ISimlNAxDQki9Dq9X73Q6/X4/o8oI0Gg0qtUqP07z/igMQ9/3 fd8PgiD+vq7rrVZLVdVZJxZNEOfg4KBSqZBU2hFjzPd913UHg8HUHxgMBoPBwDTNWSUUUBAhhFKa giPGmOu6rutGUZRSxYqIuKNer7f2djgijiilnU5nVs9aPxI76vV6FxcXWVSlsCRwxBhrt9sTn1mb wKKOwjA8Pz/fnP4VZyFHlNKzs7NNGJ6nAj+LbLggAjriY9AmCyLzHTHGzs7O+DPXJjPPkeM4mzlI TzDTked5xXyMyp/pn2thGDqOk3NVioNpmpqmlUol/nK6o06nsznjNDfCpfCDiR+Y4uh6AGi9sSxr FE6bypTxaNN6Wbfb9Txvzg9MOvI8bwM/7OdrmuxrK/RMX6vVoijyfT+VP2q32yWETO10nzlK63oT 8EEx9WJLpZJpmvv7+zxSLD+GOo5jGIZhGBPvf+ZofrdMimVZlUqFh4QzhV8lCIJerydjKoqidrt9 fHw8kZ4YO2KMXV5eitc0Rq1Ws217TiIkC0zTbLVaruvKfObwG8Nmsxl/czxmp3JXrev66elpvV7P WdAI27aPj48VRREuod/vTzTGsaNXr16JV40QQohlWScnJ1kMPYkwDKPVasloevLkSfzl2JFkR7Ms a6KJLhFJTYPBID40Dx1Jfijoul4cQRzDMA4PD4VPj98DDR3JdDRFUWRqkx2madZqNbFzwzActZsU 2pFt20sfg2ZRr9eF6zbqbkNHlFKxghRFsW1b7Nx8EG5Kvu/zgy1CCGNMOBKS/31QUqrVqlhT4g86 hDuSCcjOjyoUBMuyxE7kQ9CwHYkVoet6YUeiOMLPQ/yjbItIDEajaGbBMQxD7G/Je5jUfMg5066K hq7rYicGQbBFCBEesFeio3GuRzwW5O3bt1J9TfjC+SP85wzDsBBzjwU6gqIoiX7tO3fuJL0EJ4qi QjhqtVqJNCmK0mq18unplNKs5mcnQlXVk5OTZddiJoVoRwUHHcFIOVqhTJxM8GeLSNwKrpAjmapK tSP5EHhuCN8DEklHqzJ1gjEmE9vYIhKPpkEQCMcM8mQULRNA07QtQohkNkr43NyQqeTQkcxjl+u6 wufmA6VUZkxQVXU4HgmHDsIwLLimXq8nc7phGFujI5lKFHZUCoJAMreq6/rQkUy0jE+3kKlHdkxk pZOiadq4r0lGXfm8FpkSskB+fjkfgoaOps4nTcTFxUW605ck4RO3JAvhTWd8Dyk/mQqcfJkbfKWm fDncydiRcBIqTrfbXfq03LQWSo361tiRcIJlAtd1l7gSJwiCtFaSjRrNzUePHsX/48WLF/Klh2Ho ed779+/zTMAxxp4+ffr48eMPHz6kUmCz2eRp+s/2iWCMHR0dpbgKQtM027Yty8p6ToDneY7jpFhz PruSH0/upZHFthaKolQ+kW7JlNJ+v+95XuqrW0YbaZDrjsIwPDo6Svd6ccrlsmEYpVJJ13WxxhWG IX8Ey2g2OSFE07TT09PRyyl7suS2gl9RFMMw+L/8nevj1yiMx59L84lYxTetIVMdpT4qrRbxkYgz JQ6pqur+/n5eVSoc13/36bHaarW6QnNCUsS27eshkJnx7IODA5n45Cqi6/rUyZMzHamqWswZxdkx ummcYF5ehK98yqxKxaLRaMwKNAK5I36XnEGVioVt23Mmv8L5tWazud6aLMua310WykGusaZFlgIt mqddS00LrpVKkMteM02LLyZLvIem53l8CfNKU6vVFtn9lCOyzyiltN1ur9DEmjiKojSbzURRGsG9 WBljnU4nrTXKuaHr+uHhYdKQtNR+tb7vO46zEg2KryFbvH/Fkd3TdyW2Yy2Xyw8ePBDOaKSz7zFj jOcgi2bKNM16vS4Zw0hzb2jepvr9fhF6X7lcvn//fioRnky+X8T3fc/zljKia5rG9zNKcRVAht/B wvfV5sH5rPugruulUsmyrCyW+eT0PTU8k8E3sE9rr0DTNA3D4HYyXTuynO/yoZRGUcRzHvyYvz+R 9oinTHj2XVVVnnPPc+kcft8RDK4XgfkfFVZmR71r46kAAAAASUVORK5CYII= "
+         id="image3283"
+         x="718.0163"
+         y="423.44009" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3275"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:126%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       transform="matrix(0.46135858,0,0,0.46183328,-41.615427,184.12341)"><flowRegion
+         id="flowRegion3277"><rect
+           id="rect3279"
+           width="690.76794"
+           height="1567.264"
+           x="124.28571"
+           y="266.64789"
+           style="line-height:126%" /></flowRegion><flowPara
+         id="flowPara3344"
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3985" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3987" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3989" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3991" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3993" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3995" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3997" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara3999" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4015">Name und Email einstellen (einmalig).</flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4023" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4025" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4027" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4029">Erzeugt neues Repository im aktuellen Verzeichnis.</flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4039" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4041" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4043" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4045">Dupliziert das angegebene Repository ins Verzeichnis dir.</flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4031" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8409" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8411" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8413" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8415" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8417" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8419" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8421">Verwirft Änderungen an <flowSpan
+   style="font-style:italic;-inkscape-font-specification:TeX Gyre Heros Italic;line-height:126%"
+   id="flowSpan9188">datei</flowSpan> seit dem letzten Commit.</flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8465" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8467" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4071" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4073">Wer hat diese Zeile in <flowSpan
+   style="font-style:italic;line-height:126%;-inkscape-font-specification:TeX Gyre Heros Italic"
+   id="flowSpan8477">datei</flowSpan> verbrochen? </flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara4075" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8253" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8255" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8257" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8259" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8261" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:126%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8263" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara8269" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara9196" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara9198">Zeigt Hilfe für den Git-Befehl <flowSpan
+   style="font-style:italic;-inkscape-font-specification:TeX Gyre Heros Italic"
+   id="flowSpan9210">cmd</flowSpan> an.</flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara8123" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara8125" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara8127">Tutorials und Videos auf der offiziellen Website</flowPara><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara4033" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara4035" /><flowPara
+         style="font-size:26.86332511999999895px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros;line-height:126%"
+         id="flowPara4037" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6116"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
+       transform="matrix(0.51738557,0,0,0.51791793,681.68913,346.78601)"><flowRegion
+         id="flowRegion6118"><rect
+           id="rect6120"
+           width="618.57141"
+           height="1030.6096"
+           x="67.14286"
+           y="232.36218"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;fill:#000000;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium" /></flowRegion><flowPara
+         id="flowPara6122"
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara6124"
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold">git commit -a</flowPara><flowPara
+         id="flowPara6126"
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara6128"
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara7730" /><flowPara
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara7921" /><flowPara
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara7925">git pull</flowPara><flowPara
+         id="flowPara6130"
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara6132"
+         style="font-size:48.29502487px;font-weight:bold;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><flowPara
+         id="flowPara6134"
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros">(Konflikte beheben,</flowPara><flowPara
+         id="flowPara6136"
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros">Konfliktmarker entfernen)</flowPara><flowPara
+         id="flowPara6138"
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><flowPara
+         id="flowPara6140"
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold">git add <flowSpan
+   id="flowSpan6142"
+   style="font-style:italic;-inkscape-font-specification:Courier New Bold Italic">dateien</flowSpan></flowPara><flowPara
+         id="flowPara6144"
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold">git commit</flowPara><flowPara
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara7777" /><flowPara
+         style="font-size:48.29502487px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+         id="flowPara7779">git push</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6146"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       transform="matrix(0.46135858,0,0,0.46183328,678.28066,375.13587)"><flowRegion
+         id="flowRegion6148"><rect
+           id="rect6150"
+           width="620.28998"
+           height="1075.3489"
+           x="124.28571"
+           y="266.64789" /></flowRegion><flowPara
+         id="flowPara6152"
+         style="font-size:26.21340561px;font-weight:normal;-inkscape-font-specification:Arial" /><flowPara
+         id="flowPara6154"
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros" /><flowPara
+         id="flowPara6156"
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros">Coole Abkürzung: Addet automatisch alle nicht-neuen Dateien.</flowPara><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7889" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7891" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7893" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7895" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7897" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7899" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7907" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7917" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:179.99999523%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8205">Immer zuerst Änderungen vom Server holen.</flowPara><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:179.99999523%;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8031" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8043" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8045" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8047" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8049" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8051" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8053" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8055" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8057" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8059" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8061" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8063" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara8203">Schiebt die neuen Commits auf den Server. </flowPara><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7783" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7785" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7787" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7789" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7791" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7793" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7795" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7797" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7799" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7801" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7803" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7805" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7807" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7809" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7811" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7813" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7857" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7859" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7861" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7863" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7865" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7867" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7869" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7871" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7873" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7875" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7877" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7879">Schiebt die neuen Commits auf den Server. </flowPara><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7815" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7817" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7819" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7821" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7823" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7825" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7827" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7829" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7831" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7833" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7835" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7837" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7839" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7841" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7843" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7845" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7847" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7849" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7851" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7853" /><flowPara
+         style="font-size:26.21340561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         id="flowPara7855" /></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 849.73071,706.22204 c 3.51715,28.45466 -8.12439,31.89174 0.26323,38.74686"
+       inkscape:path-effect="#path-effect6162"
+       id="path6158"
+       d="m 849.73071,706.22204 0.26323,38.74686"
+       style="fill:none;stroke:#000000;stroke-width:4;marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 882.0858,810.75797 0.20459,34.17866"
+       id="path6160"
+       inkscape:path-effect="#path-effect6164"
+       inkscape:original-d="m 882.0858,810.75797 c 2.73339,17.54942 -6.314,29.95077 0.20459,34.17866"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:none"
+       d="m 767.29723,553.76609 c -30.37912,16.27596 -66.25093,22.069 -100.20904,16.18303 -17.37699,-3.01196 -34.234,-9.0011 -49.61601,-17.62811"
+       id="path6204"
+       inkscape:path-effect="#path-effect6206"
+       inkscape:original-d="m 767.29723,553.76609 c -0.28255,2.21894 -89.63731,50.06144 -100.20904,16.18303 -6.29867,-20.18483 -39.83838,-7.22511 -49.61601,-17.62811"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       sodipodi:nodetypes="csc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 668.91654,459.57531 c -0.28255,2.21894 51.44823,61.45666 40.8765,27.57825 -6.29867,-20.18483 59.18991,34.12807 49.41228,23.72507"
+       inkscape:path-effect="#path-effect7644"
+       id="path7642"
+       d="m 668.91654,459.57531 c 12.96877,10.11939 26.63764,19.34139 40.8765,27.57825 15.83096,9.15784 32.36652,17.09731 49.41228,23.72507"
+       style="fill:none;stroke:#000000;stroke-width:4;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:28.41767693px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       x="876.21277"
+       y="640.52368"
+       id="text7744"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:37px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bevan;-inkscape-font-specification:Bevan Bold"
+         sodipodi:role="line"
+         id="tspan7746"
+         x="876.21277"
+         y="640.52368">Teamwork:</tspan></text>
+    <text
+       transform="scale(0.99948596,1.0005143)"
+       sodipodi:linespacing="125%"
+       id="text7752"
+       y="728.49036"
+       x="813.70624"
+       style="font-size:9.10301113px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:12.10000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
+         y="728.49036"
+         x="813.70624"
+         id="tspan7754"
+         sodipodi:role="line">Konflikt?</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 881.07776,902.68185 c 2.67744,17.2196 -6.18473,29.38789 0.2004,33.53632"
+       inkscape:path-effect="#path-effect7883"
+       id="path7881"
+       d="m 881.07776,902.68185 0.2004,33.53632"
+       style="fill:none;stroke:#000000;stroke-width:3.99999976;marker-mid:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;marker-mid:none;marker-end:url(#Arrow2Mend)"
+       d="m 911.48137,708.09737 c -0.11895,10.118 4.81646,20.17114 12.89435,26.26505 4.84021,3.65143 10.62069,5.87869 16.49985,7.36058 5.87916,1.48189 11.90858,2.25896 17.88349,3.28901 11.43479,1.97131 22.81454,4.91915 33.12789,10.2366 10.31335,5.31744 19.55635,13.15342 25.17705,23.30471 5.5545,10.03189 7.3117,21.76128 7.3992,33.22793 0.1637,21.45951 -5.2244,42.78197 -14.2916,62.2325 -14.07752,30.19837 -37.17038,56.12448 -65.54574,73.5875"
+       id="path7885"
+       inkscape:path-effect="#path-effect7887"
+       inkscape:original-d="m 911.48137,708.09737 c 4.96065,5.48549 -5.08684,19.94554 12.89435,26.26505 8.7737,3.08353 21.67599,6.90961 34.38334,10.64959 21.59925,6.35702 59.06384,31.75102 58.30494,33.54131 -16.7552,39.52252 12.6547,74.50122 7.3992,33.22793 -0.2826,-2.21894 -3.7199,28.35409 -14.2916,62.2325 -6.2987,20.18483 -55.7681,63.1845 -65.54574,73.5875"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssc" />
+    <text
+       xml:space="preserve"
+       style="font-size:28.41767693px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       x="524.78424"
+       y="799.5625"
+       id="text8067"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:37px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bevan;-inkscape-font-specification:Bevan Bold"
+         sodipodi:role="line"
+         id="tspan8069"
+         x="524.78424"
+         y="799.5625">History:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.74121284px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Inconsolata;-inkscape-font-specification:Courier New Bold"
+       x="20.236389"
+       y="422.64407"
+       id="text8131"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8133"
+         x="20.236389"
+         y="422.64407"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold Italic">git config --global user.name &quot;Your Name&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="20.236389"
+         y="438.57059"
+         id="tspan8137"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New Bold Italic">git config --global user.email &quot;x@y.com&quot;</tspan></text>
+  </g>
+</svg>
