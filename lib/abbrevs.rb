@@ -17,3 +17,11 @@ src="https://www.youtube.com/embed/#{id}?rel=0" frameborder="0" allowfullscreen>
 </iframe>
 HERE
 end
+
+def media_ccc_de id
+<<HERE
+<iframe width="663px" height="376px"
+src="https://media.ccc.de/v/#{id}/oembed" frameborder="0" allowfullscreen>
+</iframe>
+HERE
+end
