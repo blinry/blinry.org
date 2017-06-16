@@ -104,15 +104,20 @@ code {
         font-family: "Bree Serif", serif;
     }
     h2, h3, h4 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
+        margin-top: 2em;
+        margin-bottom: 1em;
     }
     li, pre {
         margin-left: 2em;
     }
     li {
         margin-bottom: 0.5em;
-        list-style: disc;
+    }
+    ul {
+        list-style-type: disc;
+    }
+    ol {
+        list-style-type: decimal;
     }
     pre {
         font-size: 0.75em;
