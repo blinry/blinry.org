@@ -5,8 +5,8 @@ html lang=lang_for(@item)
     title
       - if @item.path != "/" and @item[:title]
         = @item[:title]
-        |  · 
-      | Sebastian Morr's homepage
+      - else
+        | Sebastian Morr's homepage
 
     meta name="author" content="Sebastian Morr"
 
