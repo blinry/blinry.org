@@ -12,9 +12,9 @@ A friend and I wanted to find out. We had both heard of Juan Mann, who started h
 
 So we wrote two cardboard signs, one in English ("Free hugs"), one in German ("Gratis Umarmungen"). As we walked toward the city center of Brunswick, I started looking at the people passing by and tried to guess whether or not they would accept a hug. To be honest, I was pretty nervous, because the whole thing was so unpredictable. Doing this this was definitely part of my ongoing efforts to leave my comfort zone every now and then.
 
-We selected a busy crossroad in a pedestrian zone, stood at one corner of it, and raised out our signs.
+We selected a busy crossroad in a pedestrian zone, stood at one corner of it, and raised our signs.
 
-Nervously, we waited. Would anyone actually come up to us, or would be simply be ignored?
+Nervously, we waited. Would anyone actually come up to us, or would we simply be ignored?
 
 Our initial anxiety disappeared quickly. It turned out to be quite fun to watch people's reactions: Some kept a straight face, some looked surprised or narrowed their eyebrows, but the overwhelming majority smiled and talked about us when they realized what we were doing.
 
@@ -48,7 +48,7 @@ Guessing which people would come for a hug turned out to be rather difficult. We
 
 The waitress of the café across the street came over: "I've been watching you the whole time, and I wanted a hug myself!"
 
-A boy of about 7 years sneaked up on us. "Do you want a hug?" He beamed with joy. "Yeah!!" I wondered where his parents were, but then he also walked back to café, his parents smiling at us from there.
+A boy of about 7 years sneaked up on us. "Do you want a hug?" He beamed with joy. "Yeah!!" I wondered where his parents were, but then he also walked back to the café, his parents smiling at us from there.
 
 A 12-people bachelor party group came roaming about, and we wiggled our signs, hoping to score a group hug. But they were focused on selling stuff to raise money for the wedding. None of them wanted a hug, one of them even asked for money. I pointed at the word *free*: "Sorry, this is not how this works."
 
