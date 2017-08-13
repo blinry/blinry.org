@@ -152,6 +152,9 @@ code {
         display: block;
         margin: auto;
     }
+    iframe {
+        margin: 1em 0;
+    }
     a.titlepage {
         display: inline-block;
         box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
