@@ -98,3 +98,6 @@ Not asking a question for fear of looking stupid means giving my own ego a very 
 
 > Life isn't about waiting for the rain to pass, it's about learning how to dance in the rain.  
 > --- *Vivian Greene*
+
+> Design is removal of the irrelevant.  
+> --- *@pyrtsa*
