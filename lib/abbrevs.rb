@@ -10,10 +10,10 @@ def tweet id
 HERE
 end
 
-def youtube id
+def youtube id, classes: nil, start: nil
 <<HERE
-<iframe width="550px" height="310px"
-src="https://www.youtube.com/embed/#{id}?rel=0" frameborder="0" allowfullscreen>
+<iframe #{classes ? "" : "class=\"#{classes}\""} width="550px" height="310px"
+src="https://www.youtube.com/embed/#{id}?#{start ? "start=#{start}&" : ""}rel=0" frameborder="0" allowfullscreen>
 </iframe>
 HERE
 end
