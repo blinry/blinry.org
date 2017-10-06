@@ -1,0 +1,564 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>CSS Art</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel="stylesheet" href="lib/css/columns.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>CSS Art Workshop</h1>
+
+                    <div id="floppy"></div>
+                    <style>
+                        #floppy {
+                            transform: scale(0.8, 0.8);
+                            margin: 0 auto;
+                            width: 400px;
+                            height: 400px;
+                            background: linear-gradient(
+                                to right,
+                                #333 0%,
+                                #333 10%,
+                                transparent 10%,
+                                transparent 90%,
+                                #333 90%,
+                                #333 100%
+                                ),
+                            linear-gradient(
+                                to top,
+                                #60a582 0%,
+                                #60a582 5%,
+                                transparent 5%,
+                                transparent 56%,
+                                #60a582 56%,
+                                #60a582 60%,
+                                #333 60%,
+                                #333 100%
+                                ),
+                            repeating-linear-gradient(
+                                to top,
+                                #c2c6c4 0px,
+                                #c2c6c4 30px,
+                                #60a582 30px,
+                                #60a582 32px
+                                );
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            box-shadow: -3px 3px 10px #111;
+                        }
+
+                        #floppy:before {
+                            content: "\A\A\A\A\A\A<div> </div>";
+                            font-size: 27px;
+                                text-align: left;
+                            font-style: italic;
+                            font-family: "Comic Sans MS";
+                            color: #007;
+                            white-space: pre;
+                            width: 200px;
+                            height: 130px;
+                            background: linear-gradient(to top right, #555, #ccc);
+                            position: absolute;
+                            top: 0;
+                            left: 100px;
+                            border-radius: 0 0 12px 12px;
+                            box-shadow: -50px 0 0 #444;
+                        }
+
+                        #floppy:after {
+                            content: "◥";
+                            font-size: 30px;
+                            color: #222;
+                            text-align: right;
+                            font-family: Arial;
+                            width: 45px;
+                            height: 100px;
+                            background: transparent;
+                            position: absolute;
+                            border-radius: 0 0 0 0;
+                            top: -11px;
+                            left: 360px;
+                            box-shadow: -140px 30px 0 0px #333,
+                                -2px 287px 0 -14px #333,
+                                -2px 300px 0 -15px #222;
+                        }
+                    </style>
+
+                    <p>blinry<br>Hackover 2017</p>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Setting the stage</h1>
+                        <div class="live" id="live0"><div></div></div>
+                        <pre class="small"><code class="liveCoding html" data-livecoding-id="live0" contenteditable><!-- HTML -->
+
+<div></div></code></pre>
+                        <pre class="medium"><code class="liveCoding css" data-livecoding-id="live0" contenteditable>/* CSS */
+
+
+</code></pre>
+
+                    </section>
+                    <section>
+                        <h2>Setting the stage</h2>
+                        <div class="live" id="live0b"><div></div></div>
+                        <pre class="small"><code class="liveCoding html" data-livecoding-id="live0b" contenteditable><!-- HTML -->
+
+<div></div></code></pre>
+                        <pre class="medium"><code class="liveCoding css" data-livecoding-id="live0b" contenteditable>/* CSS */
+
+div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                    </section>
+                </section>
+                <section>
+                    <center><a href="https://codepen.io/anon/pen/zERqLQ">codepen.io/anon/pen/zERqLQ</a></center>
+                </section>
+                <section>
+                    <section>
+                        <h1>Shapes: Circle</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live5" contenteditable>/* codepen.io/anon/pen/zERqLQ */
+
+div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                        <div class="live" id="live5"><div></div></div>
+                    </section>
+
+                    <section>
+                        <h1>Shapes: Circle</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live5b" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    border-radius: 100px;
+}</code></pre>
+                        <div class="live" id="live5b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Shapes: Oval</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live55" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    border-radius: 0px;
+}</code></pre>
+                        <div class="live" id="live55"><div></div></div>
+                    </section>
+                    <section>
+                        <h1>Shapes: Oval</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live55b" contenteditable>div {
+    width: 200px;
+    height: 100px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    border-radius: 100px / 50px;
+}</code></pre>
+                        <div class="live" id="live55b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Shapes: Triangle</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live6" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: blue;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                        <div class="live" id="live6"><div></div></div>
+                    </section>
+                    <section>
+                        <h1>Shapes: Triangle</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live6b" contenteditable>div {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 100px;
+    top: 130px;
+    border-color: transparent transparent blue transparent;
+    border-width: 0px 150px 250px 150px;
+    border-style: solid;
+}</code></pre>
+                        <div class="live" id="live6b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Gradients</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live2" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                        <div class="live" id="live2"><div></div></div>
+                    </section>
+                    <section>
+                        <h1>Gradients</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live2b" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: repeating-radial-gradient(at 20% 20%,
+        blue, blue 10px, transparent 10px, transparent 20px),
+        linear-gradient(to top, red, yellow);
+    position: relative;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                        <div class="live" id="live2b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Box Shadows</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live3" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                        <div class="live" id="live3"><div></div></div>
+                    </section>
+                    <section>
+                        <h1>Box Shadows</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live3b" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    box-shadow: 50px 100px 0px -30px white,
+                100px -20px 0px 10px red;
+}</code></pre>
+                        <div class="live" id="live3b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Pseudo Elements</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live4" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}</code></pre>
+                        <div class="live" id="live4"><div></div></div>
+                    </section>
+                    <section>
+                        <h1>Pseudo Elements</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live4b" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+div:before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    left: -50px;
+    top: 50px;
+}
+
+div:after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}</code></pre>
+                        <div class="live" id="live4b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>2D Transforms</h2>
+                        <div class="live" id="live7"><div></div></div>
+                        <pre><code class="liveCoding css" data-livecoding-id="live7" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+div:before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}</code></pre>
+                    </section>
+                    <section>
+                        <h2>2D Transforms</h2>
+                        <div class="live" id="live7b"><div></div></div>
+                        <pre><code class="liveCoding css" data-livecoding-id="live7b" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+div:before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(10deg) scale(0.7);
+    transform-origin: bottom left;
+}</code></pre>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Text Content</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live8" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: blue;
+    left: 150px;
+    top: 150px;
+}
+
+div:before {
+    content: "";
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}</code></pre>
+                        <div class="live" id="live8"><div></div></div>
+                    </section>
+                    <section>
+                        <h1>Text Content</h1>
+                        <pre><code class="liveCoding css" data-livecoding-id="live8b" contenteditable>div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: blue;
+    left: 150px;
+    top: 150px;
+}
+
+div:before {
+    content: "Foo\A\A Bar";
+    white-space: pre;
+    background: red;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 170px
+}</code></pre>
+                        <div class="live" id="live8b"><div></div></div>
+                    </section>
+                </section>
+
+                <section>
+                    <h1>Putting it together</h1>
+                    <pre><code class="liveCoding css" data-livecoding-id="live9" contenteditable>div {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(
+        to right,
+        #333 0%,
+        #333 10%,
+        transparent 10%,
+        transparent 90%,
+        #333 90%,
+        #333 100%
+        ),
+    linear-gradient(
+        to top,
+        #60a582 0%,
+        #60a582 5%,
+        transparent 5%,
+        transparent 56%,
+        #60a582 56%,
+        #60a582 60%,
+        #333 60%,
+        #333 100%
+        ),
+    repeating-linear-gradient(
+        to top,
+        #c2c6c4 0px,
+        #c2c6c4 30px,
+        #60a582 30px,
+        #60a582 32px
+        );
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+div:before {
+    color: #007;
+    white-space: pre;
+    width: 200px;
+    height: 130px;
+    background: linear-gradient(to top right, #555, #ccc);
+    position: absolute;
+    top: 0;
+    left: 100px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: -50px 0 0 #444;
+    content: "\A\A\A\A\A\A<div> </div>";
+    font-size: 27px;
+    text-align: left;
+    font-style: italic;
+    font-family: "Comic Sans MS";
+}
+
+div:after {
+    width: 45px;
+    height: 100px;
+    background: transparent;
+    position: absolute;
+    border-radius: 0 0 0 0;
+    top: -11px;
+    left: 360px;
+    box-shadow: -140px 30px 0 0px #333,
+        -2px 287px 0 -14px #333,
+        -2px 300px 0 -15px #222;
+    content: "◥";
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    font-family: Arial;
+}</code></pre>
+                    <div class="live" id="live9"><div></div></div>
+                </section>
+
+                <section>
+                    <h1>Workshop time!</h1>
+                    <ul>
+                        <li>Use a reference image/drawing
+                            <ul><li>Sunset? House? Pickle Rick?</li></ul>
+                        </li>
+                        <li>Identify up to three basic shapes</li>
+                        <li>Use linear/radial gradients whereever possible</li>
+                        <li>Tweet it with <a href="https://twitter.com/search?q=%23hackover%20%23cssart">#hackover #cssart</a></li>
+                        <li>Slides: <a href="https://morr.cc/css-art-workshop/">morr.cc/css-art-workshop/</a></li>
+                        <li>I'm <a href="https://twitter.com/blinry">@blinry</a>, thanks for being here!</li>
+                        <li><strong>Fork this: <a href="https://codepen.io/anon/pen/aLqpGB">codepen.io/anon/pen/aLqpGB</a></strong></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                width: 1280,
+                height: 720,
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/live-coding/live-coding.js', async: true, condition: function() { return !!document.body.classList; }}
+
+                ]
+            });
+        </script>
+
+        <!-- capture Tab key -->
+        <script>
+            var codes = document.getElementsByClassName('liveCoding');
+            for (var i = 0; i < codes.length; ++i) {
+                var item = codes[i];
+                item.addEventListener("keydown", function(e) {
+                    if(e.keyCode == 9) {
+                        document.execCommand("insertHTML", false, "    ");
+                        e.preventDefault();
+                    }
+                }, false);
+            }
+        </script>
+    </body>
+</html>
