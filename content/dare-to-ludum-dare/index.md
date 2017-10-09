@@ -4,9 +4,9 @@ tags: talk
 published: 2017-10-08T12:00+02:00
 ---
 
-At [Hackover 2017](https://hackover.de/), I gave a talk about my experiences with Game Jams, especially with *Ludum Dare*. Click on this image to open the slides (SVG, made with JessyInk):
+At [Hackover 2017](https://hackover.de/), I gave a talk about my experiences with Game Jams, especially with *Ludum Dare*:
 
-[![](title.png)](dare-to-ludum-dare.svg)
+<%= titlepage("dare-to-ludum-dare", "Dare to Ludum Dare") %>
 
 ## Links
 
