@@ -11,6 +11,10 @@ We used the (awesome) 2D game engine [LÖVE](https://love2d.org/), which uses th
 
 [![Screenshot of "20,000 Pixels Into The Sea"](title.png)](http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=64665)
 
+Alice kindly recorded a fun playthrough:
+
+<%= twitch("88809110", start: "18m40s") %>
+
 ## Results
 
 Ludum Dare 36 was special because it was community-organized (instead of Mike doing all the work), and there were no ratings. This led to very constructive and in-depth feedback, which I liked!

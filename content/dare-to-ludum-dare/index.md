@@ -8,6 +8,10 @@ At [Hackover 2017](https://hackover.de/), I gave a talk about my experiences wit
 
 <%= titlepage("dare-to-ludum-dare", "Dare to Ludum Dare") %>
 
+Here's a (German) recording of the talk, given at my home hackerspace, Stratum 0:
+
+<%= youtube("4vhIPkgbjoU") %>
+
 ## Links
 
 - [New Ludum Dare Website](https://ldjam.com/)

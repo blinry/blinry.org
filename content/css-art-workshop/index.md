@@ -8,7 +8,7 @@ A workshop I gave at [Hackover 2017](https://hackover.de/) about making minimali
 
 Here are the interactive slides – you probably want to [open them in fullscreen](slides/). Note that the "solutions" to the various topics are subslides, which you can reach with the *down key*. Press *Escape* to see an overview.
 
-<iframe src="slides/"></iframe>
+<iframe src="slides/" width="620" height="378"></iframe>
 
 And here are two codepens I provided as a starting framework:
 

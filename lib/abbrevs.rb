@@ -31,3 +31,9 @@ def soundcloud name
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/#{name}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 HERE
 end
+
+def twitch id, start: nil
+<<HERE
+<iframe src="https://player.twitch.tv/?autoplay=false&video=v#{id}#{start ? "&time=#{start}" : "" }" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+HERE
+end

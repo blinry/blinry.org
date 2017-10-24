@@ -3,7 +3,7 @@ title: Pixel Art Workshop
 subtitle: "Let's draw very tiny pictures!"
 published: 2016-10-08
 updated: 2017-05-26
-tags: talk, workshop
+tags: talk, workshop, pixelart
 thumbnail: slide-00.png
 ---
 

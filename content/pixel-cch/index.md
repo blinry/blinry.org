@@ -2,7 +2,7 @@
 title: Goodbye, CCH
 subtitle: Post-congress depression coping strategy
 published: 2016-12-31T20:32+01:00
-tags: art, fav
+tags: art, pixelart, fav
 thumbnail: cch.png
 ---
 
@@ -13,4 +13,3 @@ For five years, the Congress Centrum in Hamburg, Germany has been the venue for 
 To the left is one of the CCC's logos, the rocket *Fairy Dust*.
 
 Like everything on this site, the image is released under a [Creative Commons license](/about/). Here's a ["high-res" version](cch-high-res.png) (23800x11200 pixels, 200 dpi at 3 meters width), in case you want to print a poster of it or something.
-
