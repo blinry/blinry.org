@@ -12,15 +12,21 @@ end
 
 def youtube id, classes: nil, start: nil
 <<HERE
-<iframe #{classes ? "" : "class=\"#{classes}\""} width="550px" height="310px"
+<iframe #{classes ? "" : "class=\"#{classes}\""} width="550" height="310"
 src="https://www.youtube.com/embed/#{id}?#{start ? "start=#{start}&" : ""}rel=0" frameborder="0" allowfullscreen>
 </iframe>
 HERE
 end
 
+def vimeo id
+<<HERE
+<iframe src="https://player.vimeo.com/video/#{id}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+HERE
+end
+
 def media_ccc_de id
 <<HERE
-<iframe width="663px" height="376px"
+<iframe width="663" height="376"
 src="https://media.ccc.de/v/#{id}/oembed" frameborder="0" allowfullscreen>
 </iframe>
 HERE
