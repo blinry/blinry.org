@@ -50,10 +50,10 @@ html lang=lang_for(@item)
         img src="/assets/images/hanko.svg" alt="morr.cc"
 
       ul
-        - ["about", "tip-jar"].each do |name|
+        - {"About" => "about", "<3" => "support"}.each do |text, name|
           - item = @items["/"+name+"/index.md"]
           li class=("current" if @item.path == item.path)
-            ==link_to(item)
+            ==link_to(item, text)
       /ul
         li: a href="/#fav" Best-of
         li: a href="/#software" Software
@@ -107,4 +107,5 @@ html lang=lang_for(@item)
           a<> href="https://twitter.com/blinry" on Twitter
           | or subscribe to this site's
           a< href="/feed/" feed
-          | .
+          | . Wanna
+          a< href="/support" leave me a tip?
