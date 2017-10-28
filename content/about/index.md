@@ -22,4 +22,4 @@ The fonts are [Open Sans](https://en.wikipedia.org/wiki/Open_Sans), [<span style
 
 ## License
 
-Unless credited otherwise, all content on this site is available under the terms of the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Wanna [leave me a tip?](/tip-jar/)
+Unless credited otherwise, all content on this site is available under the terms of the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Please consider [supporting me on Patreon](). There are also other ways of [leaving me a tip](/tip-jar/).

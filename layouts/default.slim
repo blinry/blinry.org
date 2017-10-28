@@ -28,6 +28,8 @@ html lang=lang_for(@item)
     meta property="og:image" content=domain[0..-2]+thumbnail_for(@item)
     meta property="og:description" content=abstract_for(@item)
 
+    meta name="flattr:id" content="12e3r3"
+
     - if @item[:noindex]
       meta name="robots" content="noindex"
 
@@ -50,17 +52,13 @@ html lang=lang_for(@item)
         img src="/assets/images/hanko.svg" alt="morr.cc"
 
       ul
-        - {"About" => "about", "<3" => "support"}.each do |text, name|
-          - item = @items["/"+name+"/index.md"]
-          li class=("current" if @item.path == item.path)
-            ==link_to(item, text)
-      /ul
-        li: a href="/#fav" Best-of
-        li: a href="/#software" Software
-        li: a href="/#document+talk+paper" Documents
-        li: a href="/#logo" Logos
-        li: a href="/#art" Art
-        li: a href="/" Blog
+        - item = @items["/index.slim"]
+        li class=("current" if @item.path == item.path)
+            ==link_to(item, "Home")
+        li
+            a href="https://twitter.com/blinry" Twitter
+        li
+            a href="https://www.patreon.com/blinry" Patreon
 
     #content
       - unless @item[:headless]
@@ -94,18 +92,8 @@ html lang=lang_for(@item)
         hr
         h2 Comments?
         p
-          | You can reach me at
+          | Send a tweet to
           a<> href="https://twitter.com/blinry" @blinry
-          | or at <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc
-          | , see the
-          a< href="/about/" about page
-          | .
-        p
-          | For more like this, check out the
-          a< href="/" home page
-          | , follow me
-          a<> href="https://twitter.com/blinry" on Twitter
-          | or subscribe to this site's
-          a< href="/feed/" feed
-          | . Wanna
-          a< href="/support" leave me a tip?
+          | or drop me a mail at <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc. If you enjoyed this, please consider supporting me
+          a< href="https://www.patreon.com/blinry" on Patreon
+          | !

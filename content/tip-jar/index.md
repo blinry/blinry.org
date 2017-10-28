@@ -1,5 +1,5 @@
 ---
-title: Support me
+title: Tip jar
 ---
 
 Unless otherwise stated, all content on this website is released under a [Creative Commons license](/about/), which means I'm giving it to the world for free.
