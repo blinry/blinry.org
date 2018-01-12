@@ -22,4 +22,16 @@ The fonts are [Open Sans](https://en.wikipedia.org/wiki/Open_Sans), [<span style
 
 ## License
 
-Unless credited otherwise, all content on this site is available under the terms of the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Please consider [supporting me on Patreon](). There are also other ways of [leaving me a tip](/tip-jar/).
+Unless noted otherwise, all content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license, or *CC BY-SA 4.0* for short.
+
+This means that you’re free to **share** and to **adapt** them: You can copy and redistribute them in any medium or format. You can give them to your kids or students, include them in presentations or on flyers. You can also remix, modify, and build upon the material.
+
+As long as you respect the following terms:
+
+- **attribution** – give appropriate credit, read Creative Commons' [best practises page](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) to learn how
+
+- **share-alike** – if make modifications, you must distribute them under the same license as the original
+
+## Support
+
+Please consider [supporting me on Patreon](http://patreon.com/blinry). There are also other ways of [leaving me a tip](/tip-jar/).
