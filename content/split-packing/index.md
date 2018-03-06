@@ -14,7 +14,7 @@ The thesis contains a large number of figures, I'd like to invite you to take a 
 
 <%= titlepage("split-packing", "Thesis") %> <%= titlepage("split-packing-presentation", "Presentation") %>
 
-For the presentation I created a nonverbal description of the central algorithm in the style of IKEA assembly instructions. **I'd love to see more algorithms presented like this, if you'd like to try for yourself, you can use [my SVG](split-paeck.svg) as a starting point!**
+For the presentation I created a nonverbal description of the central algorithm in the style of IKEA assembly instructions. (Later, in 2017, I started a whole series of these, the [IDEA](/idea/) project.)
 
 [![SPLIT-PÄCK](split-paeck.png)](split-paeck.png)
 
