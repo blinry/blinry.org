@@ -1,6 +1,12 @@
 WIDTH = 500;
 
 function initIframe(iframe) {
+    var style = "";
+    var klass = iframe.attr("class");
+    if (klass) {
+        style = klass.match(/nordlicht(-\w+)/)[1];
+    }
+
     iframe.attr("src", iframe.attr("src")+"&enablejsapi=1&controls=0&modestbranding=1&rel=0&iv_load_policy=3");
     iframe.attr("style", (iframe.attr("style")||"")+"margin-bottom: 0; padding-bottom: 0");
 
@@ -10,16 +16,16 @@ function initIframe(iframe) {
     var url = iframe.attr("src");
     var regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
     var vid = url.match(regExp)[1];
-    iframe.attr("id", vid);
+    iframe.attr("id", vid+style);
 
     var timebardiv = $(document.createElement("div"));
     iframe.after(timebardiv.get(0))
 
     timebardiv.attr("class", "timebar");
-    timebardiv.attr("style", "width: "+width);
+    timebardiv.attr("style", "width: "+width+"px");
 
     var bar = $(document.createElement("img"));
-    bar.attr("src", "timebars/"+vid+".png");
+    bar.attr("src", "timebars/"+vid+style+".png");
     bar.attr("draggable", "false");
     timebardiv.append(bar.get(0));
     bar.click(function(event) {
@@ -39,7 +45,6 @@ function initIframe(iframe) {
     bar.mousemove(function(event) {
         if (bar.data("mousedown")) {
             //bar.click(event);
-            console.log("!");
             x = event.offsetX?(event.offsetX):event.pageX-bar.offsetLeft;
             x = x/bar.width()*player.getDuration();
             player.seekTo(x, true);
@@ -49,7 +54,7 @@ function initIframe(iframe) {
     var marker = document.createElement("div");
     timebardiv.append(marker);
 
-    var player = new YT.Player(vid, {
+    var player = new YT.Player(vid+style, {
         playerVars: { 'controls': 0, 'modestbranding': 1, 'rel': 0, 'iv_load_policy': 3 },
         events: {
             'onReady': function() {

@@ -68,7 +68,7 @@ This gives an impression of the color development over time, where you can diffe
 
 There are many other styles of timebars which could be interesting. For example, here's one visualizing the audio track of the video:
 
-<%= youtube("R6MlUcmOul8", classes: "nordlicht-spectrogram") %> <!-- Tears of Steel -->
+<%= youtube("GGyLP6R4HTE", classes: "nordlicht-spectrogram") %> <!-- Madame Tutli-Putli -->
 
 ## In which places would timebars be useful?
 
@@ -78,9 +78,11 @@ Imagine having timebars...
 
 ... on Vimeo:
 
+... in VLC:
+
 ## Is there usable software already?
 
-
+https://nordlicht.github.io/
 
 ## How you can help
 
