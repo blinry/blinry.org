@@ -23,6 +23,6 @@ He also made a improved version 2.0, *Fairy Dubst*:
 
 ## Sticker
 
-In late 2017, I made a sticker version, with slightly modified colors and a different aspect ratio. It is designed to be printed at size 3.5 x 10.5 cm, and already includes 1 mm bleed on all sides.
+In late 2017, I made a sticker version, with slightly modified colors and a different aspect ratio. It is designed to be printed at size 3.5 x 10.5 cm, and already includes 1 mm bleed on all sides. If you want to modify it, here's the [Aseprite source file](sticker.ase).
 
 [![Sticker version](sticker.png)](sticker.png)
