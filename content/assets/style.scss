@@ -179,9 +179,17 @@ code {
     h2 {
         font-size: 1.5em;
     }
+    th {
+        text-align: left;
+        padding-right: 1em;
+    }
     td {
         vertical-align: top;
         font-size: 80%;
+        padding-right: 1em;
+    }
+    table {
+        margin-bottom: 1em;
     }
     .subtitle {
         font-family: "Bree Serif", serif;
