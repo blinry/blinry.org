@@ -8,7 +8,7 @@ data_sources:
 deploy:
   default:
     kind: rsync
-    dst: "morr.cc:/web/default"
+    dst: "morr.cc:/web/morr.cc/default"
     options: [
       '--group',
       '--links',
