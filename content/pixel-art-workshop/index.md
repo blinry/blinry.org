@@ -2,12 +2,18 @@
 title: Pixel Art Workshop
 subtitle: "Let's draw very tiny pictures!"
 published: 2016-10-08
-updated: 2017-05-26
+updated: 2017-12-26
 tags: talk, workshop, pixelart
 thumbnail: slide-00.png
 ---
 
-I gave this workshop at [Hackover 2016](https://hackover.de) and the [33rd Chaos Communication Congress](https://events.ccc.de/congress/2016/wiki/Main_Page). The current version of the slides are from the [17. Gulaschprogrammiernacht](https://entropia.de/GPN17).
+This is a workshop I'm regularly giving at Chaos events. The first iteration took place at [Hackover 2016](https://hackover.de).
+
+Here's a recording of the "theoretical part" from the [34th Chaos Communication Congress](https://events.ccc.de/congress/2016/wiki/Main_Page):
+
+<%= youtube("i3wSPmg8sKM") %>
+
+## Slides
 
 The 8x8 pixel characters are by [Johan Vinet](http://johanvinet.tumblr.com/post/127476776680/here-are-100-characters-8x8-pixels-using-the).
 
