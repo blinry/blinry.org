@@ -29,18 +29,19 @@
      inkscape:window-height="1369"
      id="namedview156"
      showgrid="false"
-     inkscape:zoom="2.1459759"
-     inkscape:cx="491.36079"
-     inkscape:cy="69.054528"
+     inkscape:zoom="0.75871709"
+     inkscape:cx="184.8516"
+     inkscape:cy="582.06667"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      units="mm"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-global="false"
-     inkscape:snap-page="true" />
+     inkscape:snap-global="true"
+     inkscape:snap-page="true"
+     borderlayer="true" />
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -112,6 +113,18 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4967"
+       width="793.70081"
+       height="1122.5197"
+       x="0"
+       y="0" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
@@ -191,12 +204,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994"
        x="405.66852"
-       y="845.51196"
+       y="838.04962"
        id="text4905"
        transform="scale(1.0008721,0.99912865)"><tspan
          id="tspan4903"
          x="405.66852"
-         y="845.51196"
+         y="838.04962"
          style="font-size:14.66666698px;stroke-width:0.99999994">Bitte fügen Sie folgende Anlagen bei:</tspan></text>
     <text
        id="text4925"
@@ -213,10 +226,10 @@
        transform="scale(1.000072,0.999928)"
        xml:space="preserve"
        style="color:#000000;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:end;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33728635;marker:none;enable-background:accumulate"
-       x="1002.913"
+       x="1148.1744"
        y="1084.7844"
        id="text5811"><tspan
-         x="466.5975"
+         x="611.85895"
          y="1084.7844"
          id="tspan5809"
          style="font-size:14.66666698px;text-align:end;text-anchor:end;stroke-width:1.33728635">Wegbeschreibung zum Hafen bitte umseitig zur Kenntnis nehmen.</tspan></text>
@@ -479,21 +492,21 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:125%;font-family:Arial;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994"
-       x="283.68378"
-       y="910.43292"
+       x="422.84799"
+       y="992.70563"
        id="text5367"
        transform="scale(1.000072,0.999928)"><tspan
          id="tspan5365"
-         x="283.68378"
-         y="910.43292"
+         x="422.84799"
+         y="992.70563"
          style="font-size:12px;stroke-width:0.99999994">Batman-Regelung?</tspan></text>
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect5369"
        width="10"
        height="10"
-       x="268.69556"
-       y="901.00128" />
+       x="407.86984"
+       y="983.26819" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;line-height:100%;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';font-variant-ligatures:discretionary-ligatures historical-ligatures;font-variant-caps:normal;font-variant-numeric:lining-nums tabular-nums slashed-zero;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -595,21 +608,21 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial Bold';font-variant-ligatures:discretionary-ligatures historical-ligatures;font-variant-caps:normal;font-variant-numeric:lining-nums tabular-nums slashed-zero;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       x="530.65485"
-       y="984.92297"
+       x="530.49829"
+       y="1040.3256"
        id="text5530"><tspan
          sodipodi:role="line"
-         x="530.65485"
-         y="984.92297"
+         x="530.49829"
+         y="1040.3256"
          id="tspan5532"
          style="font-size:14.66666698px;text-align:end;text-anchor:end;stroke-width:0.99999994">Unterwäsche</tspan></text>
     <path
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.99999999, 3.99999994;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 563.02484,967.37492 H 407.39345"
+       d="M 562.86827,1022.7776 H 407.23688"
        id="path5534"
        inkscape:connector-curvature="0"
        inkscape:path-effect="#path-effect5536"
-       inkscape:original-d="m 563.02484,967.37492 c -51.87681,-3e-4 -103.75394,-3e-4 -155.63139,0" />
+       inkscape:original-d="m 562.86827,1022.7776 c -51.87681,-3e-4 -103.75394,-3e-4 -155.63139,0" />
     <text
        transform="scale(0.9996707,1.0003294)"
        y="915.83691"
@@ -636,56 +649,56 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;line-height:100%;font-family:Arial;-inkscape-font-specification:'Arial Bold';font-variant-ligatures:discretionary-ligatures historical-ligatures;font-variant-caps:normal;font-variant-numeric:lining-nums tabular-nums slashed-zero;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="406.19086"
-       y="693.26636"
+       y="685.81055"
        id="text5651"><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="693.26636"
+         y="685.81055"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5899">Dieser Antrag wird maschinell eingelesen und</tspan><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="707.93304"
+         y="700.47723"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5318">ist auch ohne Ihre Unterschrift gültig.</tspan><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="722.59967"
+         y="715.14386"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5905" /><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="737.26636"
+         y="729.81055"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5911">Mit Berühren dieses Formulars stimmen Sie</tspan><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="751.93304"
+         y="744.47723"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5213">der Verarbeitung Ihrer DNA zu.</tspan><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="766.59967"
+         y="759.14386"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5913" /><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="781.26636"
+         y="773.81055"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5915">Eine Braille-Version dieses Formulars senden</tspan><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="795.93304"
+         y="788.47723"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5917">wir Ihnen auf Wunsch gern als PDF zu.</tspan><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="810.59967"
+         y="803.14386"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5901" /><tspan
          sodipodi:role="line"
          x="406.19086"
-         y="825.26636"
+         y="817.81055"
          style="font-size:14.66666698px;text-align:start;text-anchor:start;stroke-width:0.99999994"
          id="tspan5903" /></text>
     <rect
@@ -919,7 +932,7 @@
          x="-198.49046">Die kleingedruckten Randbemerkungen bitte nicht lesen.</tspan></text>
     <circle
        r="2.6657267"
-       cy="874.94098"
+       cy="867.48517"
        cx="409.42072"
        id="circle5115"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78125;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
@@ -982,10 +995,10 @@
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78125;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle5161"
        cx="409.42072"
-       cy="859.59082"
+       cy="852.13501"
        r="2.6657267" />
     <rect
-       y="1029.53"
+       y="967.58502"
        x="407.96402"
        height="10"
        width="10"
@@ -993,13 +1006,13 @@
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
     <text
        id="text5360"
-       y="1038.421"
+       y="976.47601"
        x="423.24103"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.79392052px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:discretionary-ligatures historical-ligatures;font-variant-caps:normal;font-variant-numeric:lining-nums tabular-nums slashed-zero;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan5358"
          style="font-size:12px;stroke-width:1.5"
-         y="1038.421"
+         y="976.47601"
          x="423.24103"
          sodipodi:role="line">Ich ziehe meinen Antrag zurück. <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
@@ -1029,7 +1042,7 @@
        y="470.70016" />
     <g
        id="g5094"
-       transform="translate(-80.684073,35.061007)">
+       transform="translate(-80.684073,-26.884005)">
       <rect
          y="962.63544"
          x="488.59512"
@@ -1087,31 +1100,26 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;line-height:100%;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';font-variant-ligatures:discretionary-ligatures historical-ligatures;font-variant-caps:normal;font-variant-numeric:lining-nums tabular-nums slashed-zero;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="418.1041"
-       y="863.66791"
+       y="856.21155"
        id="text5029"><tspan
          id="tspan5027"
          sodipodi:role="line"
          x="418.1041"
-         y="863.66791"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:120.00000477%;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1">Blaues Formular von Schalter I</tspan><tspan
+         y="856.21155"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:120.00000477%;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1">blaues Formular von Schalter I</tspan><tspan
          sodipodi:role="line"
          x="418.1041"
-         y="879.20557"
+         y="871.74921"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:120.00000477%;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1"
-         id="tspan5452">Rosa Formular von Schalter XII, Stiege B, Korridor J</tspan><tspan
+         id="tspan5452">rosa Formular von Schalter XII, Stiege B, Korridor J</tspan><tspan
          sodipodi:role="line"
          x="418.1041"
-         y="894.74323"
+         y="887.28687"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:120.00000477%;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1"
-         id="tspan5448">ausgefülltes Antragsformular für den</tspan><tspan
-         sodipodi:role="line"
-         x="418.1041"
-         y="910.28088"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:120.00000477%;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1"
-         id="tspan5035">Passierschein A38</tspan></text>
+         id="tspan5035">ausgefülltes Antragsformular für den Passierschein A38</tspan></text>
     <circle
        r="2.6657267"
-       cy="891.31555"
+       cy="883.85974"
        cx="409.42072"
        id="circle5031"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78125;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
@@ -1285,12 +1293,12 @@
          y="700.62958">Gesetzliche Vorschriften</tspan></text>
     <text
        id="text5034"
-       y="663.8382"
+       y="656.38184"
        x="405.38412"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.54654884px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994"
        xml:space="preserve"
        transform="scale(1.000072,0.999928)"><tspan
-         y="663.8382"
+         y="656.38184"
          x="405.38412"
          id="tspan5032"
          style="font-size:24px;stroke-width:0.99999994">Hinweise</tspan></text>
@@ -1312,12 +1320,12 @@
          y="543.33478"
          x="405.89203"
          sodipodi:role="line"
-         id="tspan5150">Die Anzahl der auf diesem Antrag</tspan><tspan
+         id="tspan5166">Die Anzahl der angekreuzten Felder</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.99999994"
          y="558.27045"
          x="405.89203"
          sodipodi:role="line"
-         id="tspan5166">angekreuzten Felder ist:</tspan></text>
+         id="tspan4973">auf diesem Formular ist:</tspan></text>
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect5154"
