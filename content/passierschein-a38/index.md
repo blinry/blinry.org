@@ -4,7 +4,7 @@ tags: german, art
 published: 2018-03-19T22:52+01:00
 ---
 
-Auf dieser Seite stellen wir Ihnen das **Antragsformular für den Passierschein A38** (nach Rundschreiben B64) zur Verfügung. Bitte senden Sie das ausgefüllte Formular an:
+Auf dieser Seite stellen wir Ihnen das **Antragsformular für den Passierschein A38** (nach Rundschreiben B64) als PDF zur Verfügung. Bitte senden Sie das ausgefüllte Formular an:
 
 > Bundesbehörde für Rautavistik  
 > c/o Sebastian Morr  

@@ -12,10 +12,10 @@
    height="297mm"
    width="210mm"
    sodipodi:docname="passierschein-a38.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   inkscape:export-filename="/home/seb/wip/passierschein-a38/a38.png"
-   inkscape:export-xdpi="241.89999"
-   inkscape:export-ydpi="241.89999">
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:export-filename="/home/seb/wip/passierschein-a38/passierschein-a38.png"
+   inkscape:export-xdpi="302.38"
+   inkscape:export-ydpi="302.38">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,17 +25,17 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="2556"
-     inkscape:window-height="1369"
+     inkscape:window-width="1916"
+     inkscape:window-height="2119"
      id="namedview156"
      showgrid="false"
-     inkscape:zoom="0.75871709"
-     inkscape:cx="184.8516"
-     inkscape:cy="582.06667"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:zoom="4.291952"
+     inkscape:cx="569.88779"
+     inkscape:cy="761.87666"
+     inkscape:window-x="4480"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      units="mm"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -109,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -547,7 +547,7 @@
          x="405.84802"
          y="263.75024"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.99999994"
-         id="tspan5431">Noten ihres Lieblingsliedes:</tspan></text>
+         id="tspan5431">Noten Ihres Lieblingsliedes:</tspan></text>
     <text
        transform="scale(1.000072,0.999928)"
        id="text5477"
