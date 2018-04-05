@@ -1,5 +1,6 @@
 ---
 title: About
+nometa: true
 ---
 
 ## Contact
@@ -9,6 +10,13 @@ title: About
 - Mastodon: [@blinry@chaos.social](https://chaos.social/@blinry)
 - GitHub: [blinry](https://github.com/blinry)
 - Signal: Please ask for my phone number! :)
+
+Snail mail (German law requires this):
+
+> Sebastian Morr  
+> Jasperallee 35 B  
+> 38102 Braunschweig  
+> Germany
 
 ## This site
 

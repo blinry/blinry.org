@@ -52,9 +52,9 @@ html lang=lang_for(@item)
         img src="/assets/images/hanko.svg" alt="morr.cc"
 
       ul
-        - item = @items["/index.slim"]
+        - item = @items["/about/index.md"]
         li class=("current" if @item.path == item.path)
-            ==link_to(item, "Home")
+            ==link_to(item, "About")
         li
             a href="https://twitter.com/blinry" Twitter
         li
@@ -65,24 +65,25 @@ html lang=lang_for(@item)
         h1= @item[:title]
         - if @item[:subtitle]
             .subtitle= @item[:subtitle]
-        .meta
-            - if @item[:published]
-              => @item[:published].strftime("%Y-%m-%d")
-            - else
-              | unpublished 
-            - if @item[:updated]
-              ' (last update: #{@item[:updated].strftime("%Y-%m-%d")})
-            | /
-            a<> href="/about/" Sebastian Morr
-            - if not @item[:license]
+        - unless @item[:nometa]
+          .meta
+              - if @item[:published]
+                => @item[:published].strftime("%Y-%m-%d")
+              - else
+                | unpublished 
+              - if @item[:updated]
+                ' (last update: #{@item[:updated].strftime("%Y-%m-%d")})
               | /
-              a<> href="/about/#license" CC BY-SA 4.0
-            - else
-              | /
-              ==<>@item[:license]
-            - if @item[:tags]
-              | /
-              ==< tags_for(@item)
+              a<> href="/about/" Sebastian Morr
+              - if not @item[:license]
+                | /
+                a<> href="/about/#license" CC BY-SA 4.0
+              - else
+                | /
+                ==<>@item[:license]
+              - if @item[:tags]
+                | /
+                ==< tags_for(@item)
 
       - if @item[:url]
         p
