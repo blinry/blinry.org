@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Build your own Twitter bot!</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel="stylesheet" href="lib/css/columns.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>Build your own<br>Twitter bot!</h1>
+
+                    <p>blinry</p>
+
+                    <pre><code class="liveCoding small" data-livecoding-id="live1" contenteditable>{
+"food": ["Gulasch", "Milchreis", "Schnitzel", "Obstsalat", "Risotto", "Kartoffelbrei"],
+"activity": ["programmier", "debug", "hack", "code", "frickel", "löt", "strick", "häkel"],
+"event": ["nacht", "tag", "abend", "wochenende", "morgen", "vormittag", "mittag", "woche"],
+"origin": ["#food##activity##event# 2018"]
+}</code></pre>
+                    <div class="live" id="live1"></div>
+                </section>
+
+                <section>
+                    <h2>Tracery!</h2>
+                    <p>by Kate Compton (@GalaxyKate)</p>
+                    <p>Editor: <a href="http://www.brightspiral.com/tracery/">brightspiral.com/tracery/</a></p>
+                </section>
+
+                <section>
+                    <h2>Getting started</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live0" contenteditable>{
+"origin": ["Medientheather", "Studio", "Vortragssaal", "OpenHUB", "CodeHUB", "AckerSpace"]
+}</code></pre>
+                    <div class="live" id="live0"></div>
+                </section>
+
+                <section>
+                    <h2>Expansions</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live0b" contenteditable>{
+"day": ["Donnerstag", "Freitag", "Samstag", "Sonntag"],
+"time": ["11:30", "15:00", "17:00", "22:30"],
+"place": ["Medientheather", "Studio", "Vortragssaal", "OpenHUB", "CodeHUB", "Ackerspace"],
+
+"origin": ["am #day# um #time# im #place#"]
+}</code></pre>
+                    <div class="live" id="live0b"></div>
+                </section>
+
+                <section>
+                    <h2>Modifiers: .a</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live5b" contenteditable>{
+"person": ["computer scientist", "engineer", "pentester", "open source developer"],
+"origin": ["#person.a# walks into a bar..."]
+}
+</code></pre>
+                    <div class="live" id="live5b"></div>
+                </section>
+
+                <section>
+                    <h2>Modifiers: .s</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live5" contenteditable>{
+"person": ["computer scientist", "engineer", "pentester", "open source developer"],
+"origin": ["two #person.s# walk into a bar..."]
+}
+</code></pre>
+                    <div class="live" id="live5"></div>
+                </section>
+
+                <section>
+                    <h2>Modifiers: .capitalize</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live5c" contenteditable>{
+"person": ["computer scientist", "engineer", "pentester", "open source developer"],
+"sentence": ["#person.a# walks into a bar..."],
+
+"origin": ["#sentence.capitalize#"]
+}
+</code></pre>
+                    <div class="live" id="live5c"></div>
+                </section>
+
+                <section>
+                    <h2>Modifiers: .capitalizeAll</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live5d" contenteditable>{
+"person": ["computer scientist", "engineer", "pentester", "open source developer"],
+"sentence": ["#person.a# walks into a bar..."],
+
+"origin": ["#sentence.capitalizeAll#"]
+}
+</code></pre>
+                    <div class="live" id="live5d"></div>
+                </section>
+
+                <section>
+                    <h2>Example: HTTP status codes</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live6" contenteditable>{
+"firstdigit": ["1", "2", "3", "4", "5"],
+"seconddigit": ["0", "1", "2", "3", "4", "5", "9"],
+"digit": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+"number": ["#firstdigit##seconddigit##digit#"],
+
+"simplething": ["content", "range", "payload", "length", "entity", "upgrade", "request",
+                "gateway", "timeout", "information", "choice", "payment", "expectation",
+                "teapot", "precondition", "request header field", "loop",
+                 "network authentication"],
+"thing": ["#simplething#", "#property# #simplething#", "multi-#simplething#"],
+"property": ["long", "short", "large", "non-authoritative", "partial", "permanent",
+             "unauthorized", "misdirected", "unprocessable"],
+"what": ["OK", "detected", "found", "allowed", "required", "created", "accepted", "used",
+         "moved", "forbidden", "acceptable", "gone", "failed", "satisfiable", "locked",
+         "implemented", "unavailable", "extended"],
+"verb": ["reset", "repeat", "use", "switch"],
+"explanation": ["#thing# not #what#", "no #thing#", "use #thing#", "bad #thing#",
+                "switch #thing#", "too many #thing#s", "insufficient #thing#",
+                "#thing# detected", "#thing# too #property#", "#thing# #what#",
+                "#thing# error", "switching #thing#s", "processing #thing#",
+                "#property# #thing#", "#verb# #thing#", "already #what#", "multiple #thing#s",
+                "#what# permanently", "not #what#", "#what#", "I'm a #thing#",
+                "#thing# timeout"],
+
+"origin": ["#number# #explanation.capitalize#"]
+}
+</code></pre>
+                    <div class="live" id="live6"></div>
+                </section>
+
+                <section>
+                    <h2>Example: Technologic</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live2" contenteditable>{
+"verb": ["buy", "use", "break", "fix", "trash", "change", "mail", "charge", "point", "zoom",
+         "press", "snap", "work", "write", "cut", "paste", "save", "load", "check"],
+"longverb": ["upgrade", "erase", "rewrite", "unzip", "unlock", "update", "rename", "format"],
+"line1": ["#verb# it, #verb# it, #verb# it, #verb# it"],
+"line2": ["#verb# it, #verb# it, #verb# - #longverb# it"],
+"origin": ["#line1#<br>#line2#<br>#line1#<br>#line2#"]
+}</code></pre>
+                    <div class="live" id="live2"></div>
+                </section>
+
+
+                <section>
+                    <h2>Example: Cooking inspiration</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live6b" contenteditable>{
+"wholesimplesolid": ["apple", "pear", "potato", "chocolate bar", "onion", "red onion", "walnut", "carrot", "pineapple", "chicken", "corn cob", "tomato", "cucumber", "egg", "fig", "garlic clove", "zucchini", "avocado", "kiwi", "kohlrabi", "leek", "lemon", "lime", "litchi", "watermelon", "olive", "orange", "oyster", "mushroom", "fish", "bell pepper", "ice cube", "pumpkin", "anchovy", "cherry", "squid", "coconut", "mango", "strawberry", "cauliflower", "broccoli", "almond", "apricot", "aubergine", "artichoke", "banana", "beetroot", "raspberry", "blackberry", "blueberry", "chili"],
+"nonwholesimplesolid": ["pork", "beef", "ham", "minced meat",  "spinach", "pasta", "tofu", "corn", "cheese", "feta cheese", "spaghetti", "garlic", "peanuts", "popcorn", "quark", "pizza dough", "bread", "tortellini", "gnocchi", "aspargus", "bacon", "shrimps", "beans", "brussel sprouts", "mozzarella", "cabbage", "cashews", "celery"],
+"solidadjective": ["sliced", "peeled", "raw", "cooked", "frozen", "roasted", "dried", "steamed", "organic", "fresh", "whole", "shredded", "boiled", "chopped", "minced", "smoked", "ground", "aged", "blanched", "canned"],
+"nonwholesolid": ["#nonwholesimplesolid#", "#solidadjective# #nonwholesimplesolid#", "#solidadjective# #solidadjective# #nonwholesimplesolid#"],
+"wholesolid": ["#wholesimplesolid#", "#solidadjective# #wholesimplesolid#", "#solidadjective# #solidadjective# #wholesimplesolid#"],
+"solidingredient": ["#wholesolid#", "#nonwholesimplesolid#", "#nonwholesimplesolid#", "#wholesolid.s#", "#wholesolid.a#"],
+
+"looseingredient": ["flour", "sugar", "salt", "rice", "bulgur", "cardamom", "caviar", "peanut butter", "dill", "marmelade", "mustard", "yoghurt", "nutmeg", "vanilla extract", "brown rice", "brown sugar", "wasabi", "nutritional yeast", "yeast", "chili powder", "oregano", "ground pepper", "butter", "cinnamon", "ground nutmeg", "miso paste", "cocoa powder", "baking powder", "chickpeas", "caramel",  "basil", "rolled oats", "lentils", "raisins", "mayonnaise", "ground almonds", "ground coffee", "amaranth", "anise", "baking soda", "bay leaf", "breadcrumbs", "buckwheat", "camenbert", "cayenne pepper"],
+
+"simplefluid": ["milk", "water", "chicken broth", "buttermilk", "rum", "red wine", "white wine", "coffee", "sweet cream", "espresso", "tea", "honey", "ketchup", "lemon juice", "vegetable oil", "olive oil", "sake", "barbecue sauce", "vegetable stock", "soy sauce", "soy milk", "corn syrup", "oyster sauce", "hot sauce", "squid ink", "orange juice", "apple juice", "food coloring", "#wholesimplesolid# juice", "#wholesimplesolid# oil", "#wholesimplesolid# concentrate", "absinthe", "beer", "brandy", "champagne"],
+"fluidadjective": ["frozen", "warm", "boiling", "hot", "cold", "chilled", "fresh", "concentrated", "aged", "strong"],
+"fluidingredient": ["#simplefluid#", "#fluidadjective# #simplefluid#"],
+
+"ingredient": ["#solidingredient#", "#looseingredient#", "#fluidingredient#"],
+
+"dish": ["sandwich", "cocktail", "croquette", "baguette", "terrine", "tart", "smoothie", "shake", "ragout", "quiche", "salad", "pie", "burger", "cake", "beverage", "drink", "appetizer", "snack", "soup", "pizza", "cookies", "stew", "casserole", "ice cream", "jelly", "waffles", "risotto", "pudding", "noodles", "lemonade", "curry", "rice", "pralines", "wraps", "lasagne", "bread", "hotpot", "dessert", "lasagna",  "lunch", "dinner", "pancakes", "spread", "biscuits", "candy"],
+"style": ["breakfast", "rustic", "special", "dairy free", "vegan", "birthday", "british", "belgian", "chinese", "easy", "french", "halal", "indian", "japanese", "exotic", "mexican", "party", "soul", "summer", "thanksgiving", "vietnamese", "wedding", "winter", "greek", "italian", "gluten free", "german", "family reunion", "arabic", "simple", "fast", "quick", "halloween", "christmas", "new year's", "romantic", "traditional", "delicious", "healthy", "fitness", "savory", "tasty", "sweet", "light", "hot", "spicy", "incredible", "awesome", "world's best", "moist", "grandma's", "modern", "classic", "new-style", "surprise", "budget", "easter", "thai", "african", "no-cook"],
+"nameproperties": ["#style#", "#dish#", "#style# #style#", "#style# #dish#", "#wholesimplesolid#", "#fluidingredient#", "#simplefluid#", "#style# #wholesimplesolid#", "#style# #fluidingredient#"],
+"name": ["#nameproperties# #dish#", "#dish# with #ingredient#"],
+
+"combination": ["#ingredient# and #ingredient#", "#ingredient# + #ingredient#", "#ingredient# & #ingredient#", "#ingredient#, #ingredient#, and #ingredient#", "#ingredient# + #ingredient# + #ingredient#", "#ingredient# & #ingredient# & #ingredient#"],
+"preorigin": ["#combination#", "#name#"],
+"origin": ["#preorigin.capitalize#"]
+}
+</code></pre>
+                    <div class="live" id="live6b"></div>
+                </section>
+
+                <section>
+                    <h2>More ideas</h2>
+
+                    <ul>
+                        <li>RFCs</li>
+                        <li>Git commands</li>
+                        <li>source code</li>
+                        <li>memes</li>
+                        <li>poems</li>
+                        <li>bug reports</li>
+                    </ul>
+
+                    <pre><code contenteditable style="height: 4em"></code></pre>
+                </section>
+
+                <section>
+                    <h2>Recommendations</h2>
+
+                    <ul>
+                        <li>many top-level forks</li>
+                        <li>rules with many options (find a corpus?)</li>
+                        <li>crowd-source variants</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Workshop time!</h2>
+
+                    <ol>
+                        <li>prototype an idea in <a href="http://www.brightspiral.com/tracery/">brightspiral.com/tracery/</a></li>
+                        <li>find a nice Twitter handle (up to 15 characters)</li>
+                        <li>register the account</li>
+                        <li>turn off mail notifications!</li>
+                        <li>(verify the account)</li>
+                        <li>link it to <a href="https://cheapbotsdonequick.com/">cheapbotsdonequick.com</a></li>
+                        <li>paste your grammar, refine it, save it</li>
+                        <li>add avatar, header, and bio</li>
+                        <li>tweet about it! #GPN18 @blinry</li>
+                    </ol>
+
+                    <p>Thanks for being here! <3</p>
+                </section>
+
+                <section>
+                    <h2>Advanced Tracery feature: Saving data</h2>
+                    <pre><code class="liveCoding" data-livecoding-id="live7" contenteditable>{
+"person": ["computer scientist", "engineer", "pentester", "open source developer"],
+"sentence": ["#subject1.a# and #subject2.a# walk into a bar. The #subject1# says to the #subject2#: ..."],
+
+"origin": ["#[subject1:#person#]sentence.capitalize#"]
+}
+</code></pre>
+                    <div class="live" id="live7"></div>
+                </section>
+
+                <section>
+                    <h2>Advanced CBDQ feature: SVG</h2>
+                    <pre><code>{
+"origin": ["Tweet text {svg &lt;svg xmlns=\"http://www.w3.org/2000/svg\"
+                             xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+                             width=\"1000\" height=\"1000\"&gt;&lt;/svg&gt;}"]
+}
+</code></pre>
+                    <div class="live" id="live8"></div>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script src="js/tracery.js"></script>
+        <script src="js/mods-eng-basic.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                width: 1280,
+                height: 720,
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/live-coding/live-coding.js', async: true, condition: function() { return !!document.body.classList; }}
+
+                ]
+            });
+        </script>
+
+        <!-- capture Tab key -->
+        <script>
+            var codes = document.getElementsByClassName('liveCoding');
+            for (var i = 0; i < codes.length; ++i) {
+                var item = codes[i];
+                item.addEventListener("keydown", function(e) {
+                    if(e.keyCode == 9) {
+                        document.execCommand("insertHTML", false, "    ");
+                        e.preventDefault();
+                    }
+                }, false);
+            }
+        </script>
+    </body>
+</html>
