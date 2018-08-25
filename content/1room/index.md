@@ -12,11 +12,27 @@ This time, we created a puzzle game about placing furniture in rooms. One beta t
 
 Again, we used the [LÖVE](https://love2d.org/) engine. You can download the game [from the Ludum Dare website](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=64665)!
 
-[![Screenshot of "Was ist das für 1 Room?"](title.png)](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=64665)
+[![Title of "Was ist das für 1 Room?"](title.png)](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=64665)
+
+![Screenshot of "Was ist das für 1 Room?"](ingame1.jpg)
+
+![Screenshot of "Was ist das für 1 Room?"](ingame2.jpg)
+
+## Development
+
+Working remotely was challenging for the team – we talked via Skype a lot, but struggled to sync our sleeping cycles because of the different time zones. Even though, we had a lot of fun!
+
+## Recordings
 
 *rnlf* recorded a nice playthrough. He got stuck on one of the more tricky levels, but told us he came back to it later and completed the game. :)
 
 <%= youtube("KZBHX8cfwxc", start: 2555) %>
+
+## Comments
+
+*Wow, I löved everything about this game. I like (and make) optimization puzzles in general, but this one I liked a lot. Finally beat it after about an hour. The puzzles were challenging but not frustrating, and it was very satisfying every time I solved a level.* --BoltKey
+
+*Arrrrrgh! Who the hell puts four book shelves and a Queen Size Bed in a single room with windows all around?!* --Moritz
 
 ## Results
 

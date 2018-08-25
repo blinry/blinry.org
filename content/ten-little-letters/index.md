@@ -22,6 +22,12 @@ The theme for Ludum Dare 39 was "Running out of Power". I spent a few hours draf
 
 To be honest, this is kind of a recycled idea which I already thought of in preparation to [managore's bit jam](https://itch.io/jam/bit-jam). The challenge there was to create a game in 1-bit color, on a 1px x 1px display, without any other form of feedback. I didn't realize it back then, and I think this version with audio and graphical output is probably much more satisfying to play.
 
+## Recordings
+
+Jupi covered the game and discovered that letters *are* hard:
+
+<%= youtube("Jtt-Piir6X0", start: 1089) %>
+
 ## Results
 
 I'm rather proud of the innovation rating. All other categories are in the upper third, except for "Theme":
