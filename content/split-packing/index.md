@@ -6,7 +6,7 @@ published: 2016-06-01
 updated: 2018-07-20
 ---
 
-This page links to a number of scientific texts, which all were a result of my 2016 Master's Thesis: The thesis itself, a paper presented at [SODA '17](https://archive.siam.org/meetings/da17/), a paper presented at [WADS 2017](http://wads.org/), and a journal article which appeared in the [Discrete & Computational Geometry](https://www.springer.com/mathematics/journal/454) journal.
+This page links to a number of scientific texts, which all were a result of my 2016 Master's Thesis: The thesis itself (which is the most complete version), a paper presented at [SODA '17](https://archive.siam.org/meetings/da17/), a paper presented at [WADS 2017](http://wads.org/), and a journal article which appeared in the [Discrete & Computational Geometry](https://www.springer.com/mathematics/journal/454) journal.
 
 ## Master's Thesis
 
@@ -40,4 +40,4 @@ This paper covers packing circles into triangular containers. I presented it at 
 
 ## DCG article
 
-To appear. See the [preprint at arXiv.org](https://arxiv.org/abs/1705.00924).
+This article combines the two paper versions. You can read the [preprint at arXiv.org](https://arxiv.org/abs/1705.00924), or a [view-only version](https://link.springer.com/epdf/10.1007/s00454-018-0020-2?author_access_token=RmiFgn-97O3fhs0Ed5CyJve4RwlQNchNByi7wbcMAY4QWIrzGF-bs_5XJBDGOoG3h5JuyZQPoXODFN7HS9lZArRhW9cj1XMxJko2MiyfX4lvde60lErw5ikvaOXDgOLVMKWF1ACqUIQ0LX07XlZRPA%3D%3D) of the published article.
