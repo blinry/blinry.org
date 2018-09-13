@@ -83,7 +83,7 @@ code {
 }
 
 #content {
-    margin-bottom: 2*$spacing;
+    margin-bottom: 2 * $spacing;
     margin-top: 3em;
     max-width: 36em;
     float: right;
@@ -95,19 +95,30 @@ code {
         -ms-hyphens: auto;
         text-align: justify;
     }
-    p, ul, ol, pre, hr, dl {
+    p,
+    ul,
+    ol,
+    pre,
+    hr,
+    dl {
         margin-bottom: 1em;
     }
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
         color: $grey;
         line-height: 1;
         font-family: "Bree Serif", serif;
     }
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
         margin-top: 2em;
         margin-bottom: 1em;
     }
-    li, pre {
+    li,
+    pre {
         margin-left: 2em;
     }
     li {
@@ -152,12 +163,15 @@ code {
         display: block;
         margin: auto;
     }
+    video {
+        width: 100%;
+    }
     iframe {
         margin: 1em 0;
     }
     a.titlepage {
         display: inline-block;
-        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
         vertical-align: middle;
         margin: 0.5em;
         background: white;
@@ -168,7 +182,7 @@ code {
         }
     }
     a.titlepage:hover {
-        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.8);
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.8);
     }
     h1 {
         font-size: 2.2em;
@@ -223,16 +237,16 @@ code {
         }
     }
     #search {
-      clear: both;
-      margin-bottom: 1em;
-      #morr-search {
-          padding: 0.4em;
-          font-size: 1.2em;
-      }
-      #morr-clear {
-          font-size: 1.5em;
-          vertical-align: middle;
-      }
+        clear: both;
+        margin-bottom: 1em;
+        #morr-search {
+            padding: 0.4em;
+            font-size: 1.2em;
+        }
+        #morr-clear {
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
     }
     .boxes {
         margin: -0.75em;
@@ -242,7 +256,7 @@ code {
         transition: all 0.2s ease;
     }
     .box:hover {
-        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.8);
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.8);
         .meta {
             height: auto !important;
             margin-top: 0.6em !important;
@@ -251,7 +265,7 @@ code {
     }
     .box {
         position: relative;
-        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
         float: left;
         width: 11em;
         height: 11em;
@@ -271,10 +285,10 @@ code {
             left: 0;
             right: 0;
             padding: 0.5em;
-            box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+            box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
             background: white;
             h2 {
-                font-size: 1.0em;
+                font-size: 1em;
                 font-family: "Open Sans", sans-serif;
                 color: $offblack;
                 margin-top: 0;
