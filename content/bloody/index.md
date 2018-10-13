@@ -6,7 +6,7 @@ tags: software, game
 thumbnail: cover.jpg
 ---
 
-This is our contribution Ludum Dare 38. This time, I was part of a four-person team together with Pecca, Winnie, and Moritz. We built a little, hectic racing game!
+This is our contribution Ludum Dare 38. This time, I was part of a four-person team together with [Pecca](https://twitter.com/pecc0r), Winnie, and Moritz. We built a little, hectic racing game!
 
 Only an event like Ludum Dare gets me into a flow-like state which allows me to work on something without interruptions for 16 hours straight...
 

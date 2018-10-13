@@ -6,7 +6,7 @@ published: 2018-04-24
 thumbnail: title.jpg
 ---
 
-The theme of Ludum Dare 41 was "Combine two incompatible genres". I absolutely loved this theme, and we had a lot of fun brainstorming! Together with larkinia, Mai, rohieb, and Winnie, we set out to make a crossover between a platformer, a text adventure, and a children's book. Graphics, music, and code was created by us in 72 hours.
+The theme of Ludum Dare 41 was "Combine two incompatible genres". I absolutely loved this theme, and we had a lot of fun brainstorming! Together with [larkinia](https://ldjam.com/users/larkinia), [Mai](https://dasmaichen.de), [rohieb](https://rohieb.name), and [Winnie](https://winniehell.de), we set out to make a crossover between a platformer, a text adventure, and a children's book. Graphics, music, and code was created by us in 72 hours.
 
 You play the web version on [the Ludum Dare website](https://ldjam.com/events/ludum-dare/41/splendid-adventures-on-a-sunday-afternoon).
 

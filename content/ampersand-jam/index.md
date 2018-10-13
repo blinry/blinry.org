@@ -7,7 +7,7 @@ thumbnail: clef.png
 
 ![Development path of the three designs](overview.png)
 
-TQ **&** Pecca made me aware of the [Saint J&an](http://velvetyne.fr/saintjean/) event hosted by the open source foundry [Velvetyne](http://velvetyne.fr/). It was both a workshop held in Paris, as well as a location-independent design event, where participants could create **&** submit their "contemporary ampersand" designs.
+TQ **&** [Pecca](https://twitter.com/pecc0r) made me aware of the [Saint J&an](http://velvetyne.fr/saintjean/) event hosted by the open source foundry [Velvetyne](http://velvetyne.fr/). It was both a workshop held in Paris, as well as a location-independent design event, where participants could create **&** submit their "contemporary ampersand" designs.
 
 You can click on the images below to download a clean SVG of each design.
 

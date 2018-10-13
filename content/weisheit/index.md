@@ -9,7 +9,7 @@ published: 2017-03-15T23:32+01:00
 [When Wisdom Comes](https://medium.com/@edelwax/what-are-feelings-d54a741ea134),
 das mich sehr berührt und geprägt hat. Wenn ihr könnt, lest das Original!*
 
-*Herzlichen Dank an [rixx](https://cutebit.de), Pecca und Wolfgang für's Korrekturlesen! <3*
+*Herzlichen Dank an [rixx](https://cutebit.de), [Pecca](https://twitter.com/pecc0r) und Wolfgang für's Korrekturlesen! <3*
 
 ---
 
