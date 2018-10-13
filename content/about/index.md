@@ -30,9 +30,9 @@ The fonts are [Open Sans](https://en.wikipedia.org/wiki/Open_Sans), [<span style
 
 ## License
 
-Unless noted otherwise, all content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license, or *CC BY-SA 4.0* for short.
+Most content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license, or *CC BY-SA 4.0* for short. Check below the header of the individual pages to confirm.
 
-This means that you’re free to **share** and to **adapt** them: You can copy and redistribute them in any medium or format. You can give them to your kids or students, include them in presentations or on flyers. You can also remix, modify, and build upon the material.
+This means that you’re free to **share** and to **adapt** the contents: You can copy and redistribute them in any medium or format. You can give them to your kids or students, include them in presentations or on flyers. You can also remix, modify, and build upon the material.
 
 As long as you respect the following terms:
 

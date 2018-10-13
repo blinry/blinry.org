@@ -78,7 +78,7 @@ html lang=lang_for(@item)
               - if not @item[:license]
                 | /
                 a<> href="/about/#license" CC BY-SA 4.0
-              - else
+              - elsif @item[:license] != "nope"
                 | /
                 ==<>@item[:license]
               - if @item[:tags]

@@ -1,7 +1,7 @@
 ---
 title: Writespace
 subtitle: A puzzle game where you type to move
-tags: game
+tags: game, fav
 published: 2018-08-14
 thumbnail: cover.jpg
 ---
