@@ -344,9 +344,6 @@ code {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        ul {
-            display: inline;
-        }
         li {
             display: inline;
         }
@@ -355,5 +352,25 @@ code {
         float: none;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #content #intro img {
+        float: none;
+        padding-bottom: $spacing;
+        padding-right: 0;
+    }
+    #nav li {
+        display: block;
+    }
+}
+
+@media screen and (pointer: coarse) {
+    #content {
+        line-height: 1.8em;
+        #intro {
+            line-height: 1.8em;
+        }
     }
 }
