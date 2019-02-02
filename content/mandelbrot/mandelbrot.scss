@@ -1,0 +1,56 @@
+#content {
+    .demo {
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 2em;
+        clear: both;
+        p, button, input {
+            font-size: 120%;
+        }
+        .layers {
+            background: #00cc66;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+
+    .left {
+        float: left;
+        width: 49%;
+        padding-top: 1em;
+    }
+
+    .right {
+        float: right;
+        width: 49%;
+        background: #ddd;
+        padding-top: 1em;
+        p {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+    }
+
+    .instruction {
+        padding-top: 1em;
+        clear: both;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: center !important;
+    }
+
+    button {
+        padding: 0 0.5em;
+        margin-right: 0.2em;
+    }
+
+    .controls {
+        margin: 0.2em 0;
+    }
+}

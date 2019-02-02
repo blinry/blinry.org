@@ -1,0 +1,142 @@
+p
+    em
+        | This is a work-in-progress interactive explanation. I'd love feedback! You can reach me at 
+        a href="https://twitter.com/blinry"
+            | @blinry
+        |  or <span>s<span title="ihate@spam.com&lt;/span&gt;">e</span>bastian</span>@morr<i title="&lt;/i&gt;mailto:">.</i>cc.<br><br>
+
+p Maybe you've seen an image of the Mandelbrot Set before. It's trippy, it's wonderous, it's beautiful. Here it is, have a look:
+p.instruction Click to zoom.
+.demo#plain
+
+p#zoom-remark
+p The Mandelbrot Set is a so-called <em>fractal</em>, which means it's self-similar. Zooming in, you can always find smaller copies of itself. Maybe you encountered some yourself when exploring the above image?
+/p You can also find fractals in nature. For example, in ferns or Romanesco broccoli:
+/p IMAGES HERE
+p But what does this image mean? How is it constructed? It all begins with a sleeping bunny.
+
+h2 Part 1: What is the Mandelbrot Set?
+
+p The Mandelbrot Set is the result of <strong>repeated application of a very simple rule</strong>.
+.left
+    p I'll attempt to explain to you how this works in a purely visual way, without any math. If, on the other hand, the math interests you, you can read up on this in the gray columns, but this is purely optional!
+    p In our little world, there is a bunny, and a flag. You can place the flag everywhere you want. The bunny has its own free will. Psssst, it's still asleep! ... z z Z Z Z
+.right
+    p The flag represents something which mathematicians call a <em>complex number</em>. It's just like a normal number, but is has a funny little extra number attached to it, which tells you how far it is above or below the number line. Mathematicians call it the <em>imaginary component</em>, and mark it with an <em>i</em>. For example, in the demo below, f = <span id="c">?</span>. Try placing the flag on -1.0+0.5i!
+p.instruction Drag the flag around. No surprises here.
+.demo#complex
+
+.left
+    p The bunny always sleeps in the center of the lawn. But look, it woke up! It will now start to walk and hop around. The first thing it always does is to <strong>walk</strong> to the position of the flag. We call this movement <em>Step 1</em>.
+.right
+    p The bunny's position is another complex number, which is initially <em>b<sub>0</sub> = 0</em>. The <strong>walk</strong> movement is equivalent to adding <em>f</em>, so the next position will be <em>b<sub>1</sub> = f</em>.
+p.instruction Pull the slider to Step 1, then drag the flag around.
+.demo#walk
+
+.left
+    p Step 2 consists of two movements: First, the bunny will <strong>hop</strong>! It has a very particular way of hopping: It hops so that its angle to the right-direction <em>doubles</em>, and the distance to its sleeping position <em>squares</em>. Intuitively, if its distance to its sleeping position is less than 1, it will hop a little bit closer, and if the distance is larger than 1, it will hop a little bit farther away.
+.right
+    p The <strong>hop</strong> movement is equivalent to squaring the current position. The square of a complex number can be calculated using the binomial formula and the fact that <em>i<sup>2</sup> = -1</em>: <em>(x + yi)<sup>2</sup> = x<sup>2</sup> + 2xyi + (yi)<sup>2</sup> = x<sup>2</sup> - y<sup>2</sup> + 2xyi</em>. The behaviour described on the left can be explained using the <a href="https://en.wikipedia.org/wiki/Complex_number#Polar_form">polar form</a> of complex numbers.
+p.instruction Pull the slider to Step 1.5, then drag the flag around.
+.demo#hop
+
+.left
+    p The second movement of Step 2 is another <strong>walk</strong>. The bunny will walk in the same direction and distance as it initially walked towards the flag:
+.right
+    p After squaring <em>b<sub>1</sub></em>, we add <em>f</em> again. This gives us <em>b<sub>2</sub> = b<sub>1</sub><sup>2</sup>+f</em>.
+.demo#step
+
+/.left
+p And after that, the bunny just repeats these two movements: A hop, a walk, another hop, another walk. Let's look at how this looks for up to Step 4:
+/.right
+    p And then we repeat this: We square the current <em>z</em> value, then we add <em>c</em>. And so on.
+.demo#steps
+
+.left
+    p Let's get rid of the half-steps! From now on, we will treat the hopp-and-walk as a single movement.
+    p Here's the same demo as before, but the the bunny directly goes full steps. The flag positions of this and the last demo are in sync, so you can compare the resulting path.
+.right
+    p If we want to calculate the new position <em>b<sub>i+1</sub></em>, and we know the old position <em>b<sub>i</sub></em>, we can calculate <em>b<sub>i+1</sub> = b<sub>i</sub><sup>2</sup>+f</em>. This is the only formula needed to calculate the Mandelbrot Set!
+.demo#fullsteps
+
+p And NOW it gets exciting! What if we let our bunny do many, many, steps? Like, 100 of them? Look:
+p.instruction Pull the slider to Step 100, then drag the flag around.<br>Can you find another spiral? A star? A triangle?
+.demo#iteration
+
+.left
+    p Whaaaat. Crazy patterns everywhere!
+    p You can see that for some flag positions, the bunny escapes the dashed circle (into FREEEEDOM!), while for others, it stays inside. Let's do an experiment: In the next demo, if the bunny's path leads it to freedom, we will color the current flag position white. If the bunny stays inside the circle, we will color it black (because it's so sad!)
+.right
+    p This is the definition of the Mandelbrot Set: It consists of all flag positions for which the bunny does not escape, if it does an <em>infinite number</em> of steps. Here, we can only approximate: If the bunny hasn't escaped after 100 steps, it's probably close to the Mandelbrot Set, and we will color the flag's position black.
+p.instruction Drag the flag around to scribble.
+.demo#scribble
+
+p Why, helllll~o! You drew yourself a teeny tiny Mandelbrot set!
+
+/h2 Part 2: How to color the Mandelbrot Set?
+
+p Let's add more color. So far, we only used white (for when the bunny escapes) and black (for when it doesn't). In the next demo, let's count <em>how many</em> steps it took the bunny to escape from the circle. If it took one step, we color the flag's position red. If it took two, we color it orange, and so on. You can see the colors we use below the step slider.
+p.instruction Drag the flag around to scribble.
+.demo#color
+
+p And that's really all there is to it! Repeated application of a very simple rule, leading to incredibly complex detail.
+
+p Here's the last demo for now, which does all the drawing for you, and where you can zoom in. This one has a lot to explore.
+p Some things you can try:
+
+ul
+    li What happens to the path at the centers of the outer "bulbs"?
+    li Can you find out which period numbers are connected to each bulb? Do you see a relation to the "antennas" extending outward from that bulb?</li
+    li Zoom in on one of the bulbs. What happens to the path at the centers of its sub-bulbs?
+    li What is the period of the bulbs going "outward"? What happens if you follow a number of them?
+p.instruction Click to zoom. Middle-click to zoom out.
+
+#explore.demo
+
+h2 Planned content
+
+p More fractals, for example:
+
+p.instruction The Tricorn: <em>b<sub>i+1</sub> = (b<sub>i</sub><sup>*</sup>)<sup>2</sup>+f</em>
+#tricorn.demo
+
+p.instruction The Burning Ship: <em>b<sub>i+1</sub> = (|Re(b<sub>i</sub>)| + |Im(b<sub>i</sub>)|)<sup>2</sup>+f</em>
+#ship.demo
+
+p What happens for other exponents than 2?
+
+p.instruction The Multibrot: <em>b<sub>i+1</sub> = b<sub>i</sub><sup>6</sup>+f</em>
+#exp.demo
+
+p
+    | And what the hell are Julia Sets? Follow me on Twitter to get updated when the full thing comes out: 
+    a href="https://twitter.com/blinry"
+        | @blinry
+p Thanks for reading!
+
+/<p>(HERE BE DRAGONS) Lorem ipsum Mandelbrot sit amet!</p
+    | <div class="example"
+    | <p>Click to zoom</p
+    | <button type="button" id="exp-reset">Reset</button
+    | <span>f_c(z) = z^n+f, where n =</span> <span>0</span><input type="range" id="exp-exp" min="0" max="5" value="2" step="0.1"><span>5</span
+    | <canvas id="exp"
+    | </div
+
+/h2 Sandbox
+
+/p Here's a huge big sandbox:
+/.demo#sandbox
+
+//
+/    | <p>Click to zoom</p
+/    | <button type="button" id="sandbox-reset">Reset</button
+/    | <select id="sandbox-f"
+/    | <option value="z^2+f">z^2+f</option
+/    | <option value="(z*)^2+f">(z*)^2+f</option
+/    | </select
+/    | <canvas id="sandbox"></canvas
+/    | <input type="range" id="sandbox-slider" min="0" max="50" value="5" style="width: 800px"
+/    | </div
+
+script src="mandelbrot.js"
+link rel="stylesheet" href="mandelbrot.css"
