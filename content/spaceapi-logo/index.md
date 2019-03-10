@@ -13,7 +13,7 @@ This is the normal version, which can be used in website headers, on stickers, a
 
 [![SpaceAPI logo](spaceapi.png)](spaceapi.png)
 
-There's also a [SVG](spaceapi.svg) of this, which can be scaled up for large print sizes, as well as a [clean, plain SVG](spaceapi-plain.svg), which does not include the fancy texture, suitable for 3D printing, milling, plotting, and so on.
+There's also a [SVG](spaceapi.svg) of this, which can be scaled up for large print sizes, as well as a [clean, plain SVG](spaceapi-plain.svg), which does not include the fancy texture, suitable for 3D printing, milling, plotting, and so on. There are also variants for dark backgrounds of the [default](spaceapi-dark.svg) and the [plain](spaceapi-plain-dark.svg) version.
 
 ## Avatar version
 
@@ -21,7 +21,7 @@ This is a reduced version, which looks pretty in a square and a circle, and can 
 
 [![SpaceAPI avatar](spaceapi-avatar.png)](spaceapi-avatar.png)
 
-This also has a [SVG](spaceapi-avatar.svg) version as well as a [plain SVG](spaceapi-avatar-plain.svg) version.
+This also has a [SVG](spaceapi-avatar.svg) version as well as a [plain SVG](spaceapi-avatar-plain.svg) version. And also for this avatar, there are variants for dark backgrounds of the [default](spaceapi-avatar-dark.svg) and the [plain](spaceapi-avatar-plain-dark.svg) version.
 
 ## Favicon
 
