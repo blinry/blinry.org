@@ -293,6 +293,12 @@ code {
                 color: $offblack;
                 margin-top: 0;
                 margin-bottom: 0;
+                img {
+                    height: 1em;
+                    display: inline;
+                    margin-left: 0.4em;
+                    vertical-align: bottom;
+                }
             }
             h3 {
                 font-size: 0.8em;
