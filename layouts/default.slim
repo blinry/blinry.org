@@ -56,9 +56,11 @@ html lang=lang_for(@item)
         li class=("current" if @item.path == item.path)
             ==link_to(item, "About")
         li
-            a href="https://twitter.com/blinry" Twitter
+            a href="https://twitter.com/blinry" target="_blank" Twitter
         li
-            a href="/tip-jar/" Tip Jar
+            a href="/tip-jar/" target="_blank" Tip Jar
+        li
+            a href="https://tinyletter.com/blinry" target="_blank" Newsletter!
 
     #content
       - unless @item[:headless]
@@ -97,7 +99,11 @@ html lang=lang_for(@item)
         h2 Comments?
         p
           | Send a tweet to
-          a<> href="https://twitter.com/blinry" @blinry
-          | or drop me a mail at <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc. If you enjoyed this, please consider supporting me
-          a< href="https://www.patreon.com/blinry" on Patreon
+          a<> href="https://twitter.com/blinry" target="_blank" @blinry
+          | or drop me a mail at <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc. Also, you can support me
+          a<> href="https://www.patreon.com/blinry" target="_blank" on Patreon
+          | or subscribe to
+          a< href="https://tinyletter.com/blinry" target="_blank" my newsletter 
           | !
+        /h2 Similar projects
+        /== box(things[0..2])
