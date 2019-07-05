@@ -1,5 +1,6 @@
 ---
 title: The Recurse Center, month 2
+subtitle: Fun with Linux kernel modules, Binary exploitation, and alumni
 tags: software, art, life, tech
 published: 2019-06-02T23:53-04:00
 thumbnail: screenshot-2019-05-20_200549.png

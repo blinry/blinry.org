@@ -1,5 +1,6 @@
 ---
 title: The Recurse Center, month 1
+subtitle: x86 assembly, boot sectors, and a weird programming language
 tags: software, art, life, tech
 published: 2019-05-01T00:09-04:00
 thumbnail: screenshot-2019-04-19_153306.png
