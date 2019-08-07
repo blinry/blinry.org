@@ -10,6 +10,6 @@ But it sounds rather dark, so I gave it a depressing name! :P
 
 You can listen to it on SoundCloud or download it as [MP3](no-way-out.mp3) or [FLAC](no-way-out.flac). The SunVox project file is available [here](no-way-out.sunvox).
 
-<%= soundcloud("blinry/no-way-out-2") %>
+<%= soundcloud("blinry/no-way-out") %>
 
 Thanks to Bobo_PK for reviewing the track, and giving helpful feedback! Cover art by [Bleeptrack](https://www.bleeptrack.de/).
