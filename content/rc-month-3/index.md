@@ -107,7 +107,7 @@ Thursday
 
 - Paired with @**Vidhi S Shah (SP1'19)** on training a GAN on the photos in the RC directory. Interesting to see how such a setup can be coded from scratch – we mostly sticked to [this PyTorch tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html). While the results are not realistic per se, I'm (again) super amazed by that training a this from scratch for a few hours gives so good results!
 ![screenshot-2019-06-10_130441.png](screenshot-2019-06-10_130441.png)
-- Gave a demo on thisrecurserdoesnotexist.recurse.com (user: never, password: graduate), which was super fun!
+- Gave a demo on *This Recurser does not exist*, which was super fun!
 
 Friday
 

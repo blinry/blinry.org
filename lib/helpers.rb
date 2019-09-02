@@ -100,3 +100,12 @@ end
 def newest_first(items)
     items.select{|i| i[:updated] || i[:published] }.sort_by{|i| i[:updated] || i[:published]}.reverse
 end
+
+def similar(item)
+    things.select { |i|
+        next unless i[:tags]
+        (i[:tags] & item[:tags]).size > 0 and i != item
+    }.sort_by { |i|
+        (i[:tags] & item[:tags]).size
+    }.reverse
+end

@@ -110,6 +110,7 @@ code {
         color: $grey;
         line-height: 1;
         font-family: "Bree Serif", serif;
+        letter-spacing: -0.02em;
     }
     h2,
     h3,
@@ -137,6 +138,8 @@ code {
     blockquote {
         margin-left: 1em;
         margin-right: 1em;
+        border-left: 3px solid #999;
+        padding-left: 1em;
         small {
             font-style: italic;
         }

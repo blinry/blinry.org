@@ -1,7 +1,7 @@
 ---
 title: Nerd Metal Shirt
 published: 2018-06-22T15:08+02:00
-tags: shirt, art, fav
+tags: shirt, art, fav, famous
 thumbnail: closeup.png
 license: nope
 ---

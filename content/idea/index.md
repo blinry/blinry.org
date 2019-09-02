@@ -1,7 +1,7 @@
 ---
 title: IDEA
 subtitle: Nonverbal algorithm assembly instructions
-tags: cs, art, education, comic
+tags: cs, art, education, comic, famous
 published: 2018-02-15T15:00
 url: https://idea-instructions.com/
 ---

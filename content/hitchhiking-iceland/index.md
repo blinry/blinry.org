@@ -5,7 +5,7 @@ tags: story
 thumbnail: rohieb.jpg
 ---
 
-[Rohieb](https://rohieb.name) and me just spent 10 days in Iceland! When we initially planned this trip, we realized that Iceland is an expensive country, so we figured that, instead of renting a car, or booking apartments, like many people seem to do, we could bring a tent, and hitchhike around! The two of us had already hitchhiked for a short section of our trip in the Scottish Highlands last year, which was the first hitchhiking experience ever for both of us. That had been exciting, and also went reasonably well, so we agreed to try that again in Iceland. We didn't really know what to expect, of course. Here's what happened.
+[Rohieb](https://rohieb.name) and me just spent 10 days in Iceland! When we initially planned this trip, we realized that Iceland is an expensive country. So we figured that, instead of renting a car, or booking apartments, like many people seem to do, we could bring a tent, and hitchhike around! The two of us had already hitchhiked for a short section of our trip in the Scottish Highlands last year, which was the first hitchhiking experience ever for both of us. That had been exciting, and also went reasonably well, so we agreed to try that again in Iceland. We didn't really know what to expect, of course. Here's what happened.
 
 ![](hellissandur.jpg)
 
