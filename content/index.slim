@@ -17,9 +17,9 @@ thumbnail: assets/images/preview.png
     input id="morr-search" placeholder="Type to filter…"
     a< href="#" id="morr-clear" ✕
 
-h1 You might know me for...
+h1 Popular projects
 
-== box(with_tag("famous"))
+== box(with_tag("popular"))
 
 - things.group_by{|t| [t[:published].year, t[:updated] ? t[:updated].year : 0].max}.sort_by{|y,t| -y}.each do |year, things|
     h1= year
