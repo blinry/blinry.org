@@ -11,6 +11,24 @@ preprocess do
         if item[:tags]
             item[:tags] = item[:tags].split(",").map{|t| t.strip}
         end
+        if item[:title]
+            dir = item.identifier.to_s.split("/")[0..-2].join("/")+"/"
+            if item[:thumbnail]
+                if item[:thumbnail][0] != "/"
+                    # Thumbnail path is relative, make it absolute.
+                    item[:thumbnail] = dir+item[:thumbnail]
+                end
+            else
+                thumb = @items[dir+"*thumbnail*{png,jpg,gif,svg}"] ||
+                    @items[dir+"*talk*.pdf"] ||
+                    @items[dir+"*.{png,jpg,gif,svg,pdf}"]
+                if thumb
+                    item[:thumbnail] = thumb.identifier
+                else
+                    item[:thumbnail] = "/assets/images/avatar.png"
+                end
+            end
+        end
     end
 end
 
@@ -30,17 +48,21 @@ compile "/**/*.xml" do
 end
 
 compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
-    filter :thumbnailize, :width => 600
-    write item.identifier + "-thumbnail.png"
+    if @items.any?{|i| i[:thumbnail] == item.identifier}
+        filter :thumbnailize, :width => 600
+        write item.identifier + "-thumbnail.png"
+    end
 end
 
 compile "/**/*.md" do
-    filter :erb
-    filter :absolutize_paths
-    filter :kramdown
-    layout "/default.*"
-    filter :tidy
-    write item.identifier.without_ext + ".html"
+    if item[:title]
+        filter :erb
+        filter :absolutize_paths
+        filter :kramdown
+        layout "/default.*"
+        filter :tidy
+        write item.identifier.without_ext + ".html"
+    end
 end
 
 compile "/**/*.slim" do

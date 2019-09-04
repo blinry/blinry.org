@@ -63,20 +63,9 @@ def abstract_for item
 end
 
 def thumbnail_for item
-    thumbnail = if item[:thumbnail]
-                    @items[item.path+item[:thumbnail]]
-                else
-                    @items[item.path+"*thumbnail*{png,jpg,gif,svg}"] ||
-                        @items[item.path+"*talk*.pdf"] ||
-                        @items[item.path+"*.{png,jpg,gif,svg,pdf}"]
-                end
-
-    if thumbnail
-        thumbnail.reps[:thumbnail].path
-    else
-        ""
-    end
+    @items[item[:thumbnail]].reps[:thumbnail].path
 end
+
 
 def with_tag tag
     things.select do |item|
