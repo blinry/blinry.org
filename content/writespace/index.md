@@ -10,7 +10,7 @@ Writespace is a puzzle game with simple mechanics, but interesting implications.
 
 As for the story: *You’re exploring a haunted house and find a strange parchment scroll. When you touch it, something terrible happens: You’re turned into a typewriter! Use your surroundings and find the magic words to lift the curse! Oh, and you can’t type spaces, of course.*
 
-You download the game from [the Ludum Dare website](https://ldjam.com/events/ludum-dare/42/writespace).
+You can download the game from [the Ludum Dare website](https://ldjam.com/events/ludum-dare/42/writespace).
 
 [![Title screen](title.png)](https://ldjam.com/events/ludum-dare/42/writespace)
 
