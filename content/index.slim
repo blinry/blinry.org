@@ -1,26 +1,27 @@
 ---
 title: Sebastian Morr's homepage
 headless: true
-subtitle: Hey there! My name is Sebastian Morr, I'm doing computer science, create games and other software, do art and logo design. Come have a look!
 thumbnail: assets/images/preview.png
 ---
 
 #intro
-    img src="/assets/images/avatar.png" alt="Simpson-style avatar"
+    p: markdown: Hi, my name is **Sebastian Morr**, but my friends call me **blinry**!
 
-    p class="filter"
-        markdown: Hey there! My name is **Sebastian Morr**, I'm doing [computer science](#cs), create [games](#games) and other [software](#software). Another one of my passions is [art](#art), especially [logo design](#logo). Have a look at the [things I'm most proud of](#fav), or [show everything](#) again.
-    p
-        markdown: I'm **blinry** on [Twitter](https://twitter.com/blinry) and [GitHub](https://github.com/blinry), see the [about page](/about/) for more contact information.
+/#filters
+    a href="#" all
+    a href="#game" games
+    a href="#talk" talks
+    a href="#logo" logos
+    a href="#popular" popular
+    a href="#fav" favorites
 
-#search
-    input id="morr-search" placeholder="Type to filter…"
-    a< href="#" id="morr-clear" ✕
+#filters
+    a href="#" all
+    - tags.select{|t| with_tag(t).size > 2}.each do |tag|
+        a> href=("#"+tag) =tag
 
-h1 Popular projects
+/h1 Popular projects
 
-== box(with_tag("popular"))
+/== box(with_tag("popular"))
 
-- things.group_by{|t| [t[:published].year, t[:updated] ? t[:updated].year : 0].max}.sort_by{|y,t| -y}.each do |year, things|
-    h1= year
-    == box(things)
+== box(things)

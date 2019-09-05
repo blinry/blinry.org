@@ -45,16 +45,17 @@ html lang=lang_for(@item)
     - if @item.path == "/"
       script src="https://code.jquery.com/jquery-3.1.1.min.js"
       script src="/assets/filter.js"
+      script src="/assets/scroll.js"
 
   body
     #nav
       a href="/"
-        img src="/assets/images/hanko.svg" alt="morr.cc"
+        img src="/assets/images/avatar.png" alt="morr.cc"
 
       ul
         - item = @items["/about/index.md"]
         li class=("current" if @item.path == item.path)
-            ==link_to(item, "About")
+            ==link_to(item, "About me")
         li
             a href="https://twitter.com/blinry" target="_blank" Twitter
         li

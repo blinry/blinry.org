@@ -53,10 +53,11 @@ code {
         vertical-align: bottom;
         margin-bottom: 0;
         height: 5em;
-        transition: transform 0.4s ease-in-out;
+        transition: filter 0.2s ease-in-out;
+        border-radius: 0.2em;
     }
     img:hover {
-        transform: rotate(14deg);
+        filter: brightness(90%);
     }
     ul {
         margin-top: 1.3em;
@@ -237,6 +238,32 @@ code {
             max-width: 100%;
             max-height: 11em;
             padding-right: 1em;
+        }
+    }
+    #filters {
+        position: sticky;
+        white-space: wrap;
+        top: 0;
+        padding-top: $spacing;
+        padding-bottom: 0;
+        box-shadow: 0 0 0 20px white;
+        z-index: 1;
+        background: white;
+        font-variant: small-caps;
+        margin-bottom: $spacing;
+        line-height: 2em;
+        a {
+            border: 1px solid #888;
+            padding: 0 0.5em 0.1em 0.5em;
+            margin-right: 0.5em;
+            border-radius: 999em;
+            color: #777;
+            transition-duration: 0s;
+        }
+
+        a:hover, a.selected {
+            color: white;
+            background: #888;
         }
     }
     #search {

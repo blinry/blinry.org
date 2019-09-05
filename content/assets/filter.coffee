@@ -18,9 +18,14 @@ filter = (term, updateBox) ->
         else
             window.history.replaceState("", "", window.originalURL+"#"+term)
 
+    $("#filters a").removeClass("selected")
+
     if term == ""
         $("#content .box").show()
-        $("#content .boxes").show().prev().show()
+        #$("#content .boxes").show().prev().show()
+
+        selected = $("#filters a").filter ->
+            return $(this).attr("href") == "#"
     else
         $("#content .box").hide()
 
@@ -34,8 +39,13 @@ filter = (term, updateBox) ->
                 boxes = boxes.has(":contains("+a+")")
             boxes.show()
 
-        $("#content .boxes").show().prev().show()
-        $("#content .boxes").not(":has(:visible)").hide().prev().hide()
+        #$("#content .boxes").show().prev().show()
+        #$("#content .boxes").not(":has(:visible)").hide().prev().hide()
+
+        selected = $("#filters a").filter ->
+            return $(this).attr("href") == "#"+term
+
+    selected.addClass("selected")
 
 $ ->
     window.originalURL = window.location.pathname
