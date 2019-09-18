@@ -1,7 +1,7 @@
 ---
 title: "Aufruf: Benutzt Jabber!"
 published: 2006-12-18
-tags: german, rant
+tags: german, blog
 ---
 
 Hallo! Ich bin der Sebastian! Und ich erklär euch heute, wie man sich übers Internet unterhalten sollte und wie nicht.

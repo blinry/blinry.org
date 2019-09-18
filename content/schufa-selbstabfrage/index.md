@@ -1,7 +1,7 @@
 ---
 title: SCHUFA-Selbstabfrage
 published: 2010-09-29T09:52+0200
-tags: german, privacy
+tags: german, blog
 ---
 
 Dadurch, dass es mir bei einer Online-Bestellung untersagt wurde, per Rechnung zu bezahlen, wurde ich auf die SCHUFA aufmerksam. Das ist ein Unternehmen, das auf den Personendaten von drei Vierteln der Deutschen sitzt und für jeden davon einschätzt, wie wahrscheinlich es ist, dass er seine Rechnung nicht bezahlt.

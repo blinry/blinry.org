@@ -1,7 +1,7 @@
 ---
 title: Watching Movies Backwards
 subtitle: "\"How on earth did THIS happen?\""
-tags: tech, story
+tags: tech, blog, software
 published: 2017-10-30T15:47+01:00
 ---
 

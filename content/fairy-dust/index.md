@@ -2,7 +2,7 @@
 title: Fairy Dust
 published: 2017-01-02T01:10+02:00
 updated: 2017-10-11
-tags: art, pixelart
+tags: art, pixelart, sticker
 ---
 
 [![Fairy Dust](fairy-dust.gif)](fairy-dust.gif)

@@ -1,7 +1,7 @@
 ---
 title: Small Recipes
 subtitle: A generative cookbook
-tags: generative, art, bot
+tags: art, bot
 published: 2018-01-22
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 36 Cube gelöst!
 published: 2010-08-21T00:00+0200
-tags: german, riddle, fun
+tags: german, fun, blog
 ---
 
 Gestern Abend habe ich mit Jan den *36 Cube* gelöst. Es geht darum, 36 Plastik-Türmchen in verschiedenen Farben und Größen so auf einem Brett anzuordnen, dass in jeder Reihe und Spalte jede Farbe genau einmal vorkommt - und die Türmchen auf der gleichen Höhe abschließen (es gibt eine [Online-Version](http://www.thinkfun.com/flash/36Cube/) davon).

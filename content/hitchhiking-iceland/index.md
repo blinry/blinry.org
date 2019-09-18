@@ -1,7 +1,7 @@
 ---
 title: The Hitchhiker's Guide to Iceland
 published: 2019-08-05T14:32+02:00
-tags: story
+tags: fav, travel, blog
 thumbnail: rohieb.jpg
 ---
 

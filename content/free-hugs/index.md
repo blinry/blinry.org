@@ -1,6 +1,6 @@
 ---
 title: What happened when we offered Free Hugs to people
-tags: campaign, story
+tags: campaign, blog, fav
 published: 2017-07-16T19:02+02:00
 ---
 

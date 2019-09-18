@@ -1,7 +1,7 @@
 ---
 title: legit
 subtitle: Git commits as an esoteric programming language
-tags: software, language, fav
+tags: software, esolang, fav
 published: 2019-05-01T17:07-04:00
 thumbnail: thumbnail.svg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Der Mann mit dem Schlüsselbund
 published: 2010-09-04T11:30+0200
-tags: german, story
+tags: german, blog
 imgtitle: "TheEgyptian, CC-BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Leather_key_chain.JPG"
 ---
 

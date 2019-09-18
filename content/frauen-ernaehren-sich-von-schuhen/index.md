@@ -1,7 +1,7 @@
 ---
 title: Frauen ernähren sich von Schuhen!
 published: 2010-09-15T20:00+0200
-tags: german, story
+tags: german, blog
 imgtitle: "Birgit Brånvall, CC-BY 3.0 no, https://commons.wikimedia.org/wiki/File:Skor_från_1700-_till_1960-talet_-_Nordiska_Museet_-_NMA.0056302.jpg"
 ---
 

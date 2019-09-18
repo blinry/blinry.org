@@ -9,9 +9,9 @@ thumbnail: assets/images/preview.png
     p: markdown: I'm available for **freelance work**, so please feel free to contact me! I'm always excited to work on new projects!
 
 #filters
-    - defaults = [["", "all"], ["game", "games"], ["talk", "talks"], ["workshop", "workshops"], ["logo", "logos"], ["bot", "bots"], ["popular", "popular"], ["fav", "my favs"]]
+    - defaults = [["", "all"], ["game", "games"], ["talk", "talks"], ["workshop", "workshops"], ["logo", "logos"], ["bot", "bots"], ["popular", "popular"], ["fav", "favs <img class=\"pre\" src=\"/assets/icons/star.svg\">"]]
     - defaults.each do |tag, label|
-        a> href=("#"+tag) =label
+        a> href=("#"+tag) ==label
     div> id="toggle" +
     - (tags - defaults.map{|t,l| t}).select{|t| with_tag(t).size > 0}.sort_by{|t| with_tag(t).size}.reverse.each do |tag|
         a> href=("#"+tag) class="hidden" =tag

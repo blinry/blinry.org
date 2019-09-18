@@ -1,6 +1,6 @@
 ---
 title: Font quiz for Anki
-tags: software, text
+tags: software
 published: 2017-06-06T15:14+02:00
 ---
 

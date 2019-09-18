@@ -1,7 +1,7 @@
 ---
 title: Waldi in Gefahr
 published: 2010-04-23T00:00+0100
-tags: german, story
+tags: german, blog
 imgtitle: "Jonnie Nord, CC-BY-SA 1.0, https://commons.wikimedia.org/wiki/File:Leyland_double_decker_bus.JPG"
 ---
 

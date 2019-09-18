@@ -2,7 +2,7 @@
 title: Pong 1D
 subtitle: A Flatlander's perspective
 published: 2011-09-26
-tags: software, game
+tags: game
 ---
 
 Inspired by the movie *Flatland*, I wrote this one-dimensional game. For those who don't know this movie (go watch it, seriously!), let me briefly explain the concept: Pong, as you know it, is a two-dimensional game: Everything happens in a flat plane. Now imagine you *were* one of the paddles - you'd see your surroundings as a line, one-dimensional. The rest is just normal Pong.

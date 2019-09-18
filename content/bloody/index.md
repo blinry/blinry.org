@@ -2,7 +2,7 @@
 title: A Bloody Small World
 subtitle: A hectic racing game
 published: 2017-04-25
-tags: software, game
+tags: game
 thumbnail: cover.jpg
 ---
 

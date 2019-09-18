@@ -262,6 +262,13 @@ code {
             border-radius: 999em;
             color: #777;
             transition-duration: 0s;
+            img {
+                height: 1.1em;
+                display: inline;
+                margin-left: 0.4em;
+                padding-bottom: 0.3em;
+                vertical-align: middle;
+            }
         }
 
         a:hover, div:hover, a.selected {

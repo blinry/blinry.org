@@ -1,6 +1,6 @@
 ---
 title: Wikidata Card Game Generator
-tags: code, game
+tags: software, game
 published: 2019-02-24
 ---
 

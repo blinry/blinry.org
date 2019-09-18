@@ -1,7 +1,7 @@
 ---
 title: Ich, Ersatzteillager
 subtitle: Stammzellspende aus Spendersicht
-tags: talk, de
+tags: talk, german
 published: 2017-11-16T22:39+01:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Git Cheat Sheet
-tags: german, tech, documentation
+tags: german, tech
 published: 2012-04-17
 updated: 2014-06-04
 ---

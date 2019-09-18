@@ -1,7 +1,7 @@
 ---
 title: 'MRMCD17 CTF: "Sanity Check"'
 published: 2017-09-03T20:03+02:00
-tags: ctf, story
+tags: ctf, blog
 ---
 
 At [MRMCD17](https://2017.mrmcd.net/), [Bine](http://bleeptrack.de/), [Maxi](http://robbi5.de/) and I participated in our first *Capture The Flag* event ever. I wanted to do a quick writeup of how we solved the *Sanity Check* challenge from the "Misc" category.

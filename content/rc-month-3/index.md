@@ -1,7 +1,7 @@
 ---
 title: The Recurse Center, month 3
 subtitle: Machine learning, GIFs, and friendship
-tags: software, art, life, tech
+tags: software, art, life, tech, travel
 published: 2019-07-05T13:42+02:00
 thumbnail: screenshot-2019-06-25_124239.png
 ---
