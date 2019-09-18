@@ -22,7 +22,6 @@ filter = (term, updateBox) ->
 
     if term == ""
         $("#content .box").show()
-        #$("#content .boxes").show().prev().show()
 
         selected = $("#filters a").filter ->
             return $(this).attr("href") == "#"
@@ -36,11 +35,12 @@ filter = (term, updateBox) ->
             boxes = $("#content .box")
             for a in ands
                 a = trim(a)
-                boxes = boxes.has(":contains("+a+")")
+                boxes = boxes.has(".meta:contains("+a+")")
             boxes.show()
 
-        #$("#content .boxes").show().prev().show()
-        #$("#content .boxes").not(":has(:visible)").hide().prev().hide()
+            if $("#filters a.hidden:contains("+o+")").length > 0
+                $("#filters a.hidden").show()
+                $("#toggle").html("-")
 
         selected = $("#filters a").filter ->
             return $(this).attr("href") == "#"+term
@@ -59,3 +59,11 @@ $ ->
         filter($("#morr-search").val(), false)
 
     $(window).trigger("hashchange")
+
+    $("#toggle").on "click", ->
+        if $("#toggle").html().trim() == "+"
+            $("#filters a.hidden").show()
+            $("#toggle").html("-")
+        else
+            $("#filters a.hidden").hide()
+            $("#toggle").html("+")
