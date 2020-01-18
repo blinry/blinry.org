@@ -2,7 +2,7 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>Sebastian Morr's blog</title>
+    <title>blinry's homepage</title>
     <link href="<%= domain %><%= @item.path[1..-1] %>" rel="self" />
     <link href="<%= domain %>" />
     <icon><%= domain %>favicon.ico</icon>
@@ -16,7 +16,7 @@
             <id><%= item.path.split("/").last %></id>
             <updated><%= item[:published].xmlschema %></updated>
             <author>
-                <name>Sebastian Morr</name>
+                <name>blinry</name>
                 <email>sebastian@morr.cc</email>
             </author>
             <content type="html"><![CDATA[
