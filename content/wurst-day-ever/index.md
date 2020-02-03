@@ -4,4 +4,4 @@ notpublished: 2016-12-12
 tags: game, pixelart, fav
 ---
 
-[Play here!](/play/)
+[Play here!](play/)
