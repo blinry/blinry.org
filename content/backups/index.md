@@ -2,6 +2,7 @@
 title: How I do backups
 published: 2019-11-17T19:08+01:00
 tags: tech
+thumbnail: thumbnail.png
 ---
 
 Until 2019, my backup strategy was not very sophisticated: I occasionally made backups of my notebook on an external hard drive, using the command line tool `rsync`. It was a manual process, and I didn't have a regular schedule, which meant that I basically only made a backup "when I thought of it" (often several months apart). If my notebook had been stolen, I would've lost a lot of work.

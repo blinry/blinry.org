@@ -10,7 +10,7 @@ thumbnail: assets/images/preview.png
     p: markdown: I'm available for **freelance work**, and always excited to work on new projects! If you're looking for an experienced programmer and designer, [let's talk](/about/)!
 
 #filters
-    - defaults = [["", "all"], ["game", "games"], ["talk", "talks"], ["workshop", "workshops"], ["logo", "logos"], ["bot", "bots"], ["popular", "popular"], ["fav", "favs <img class=\"pre\" src=\"/assets/icons/star.svg\">"]]
+    - defaults = [["", "all"], ["popular", "popular"], ["fav", "favs <img class=\"pre\" src=\"/assets/icons/star.svg\">"], ["game", "games"], ["talk", "talks"], ["workshop", "workshops"], ["logo", "logos"], ["bot", "bots"]]
     - defaults.each do |tag, label|
         a> href=("#"+tag) ==label
     div> id="toggle" +
