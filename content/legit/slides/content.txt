@@ -1,0 +1,565 @@
+class: title
+<h1>A <i>legit</i><br>programming<br>language</h1>
+### Sebastian "blinry" Morr
+### PromptConf 2019
+---
+class: left
+
+.leftcol[
+# blinry
+
+### (they/them)
+
+### Recurse Center alumn
+]
+.rightcol[![](me.png)]
+---
+class: center
+
+# Try scary shit!
+
+--
+### Deep Learning!!
+
+--
+### x86 assembly??
+
+--
+### Write a compiler?!
+
+---
+class: section
+# Inspiration
+---
+# Esoteric programming languages
+---
+## proof-of-concept
+--
+
+## artistic expression
+--
+
+## challenge 
+--
+(for the designer and/or user)
+--
+
+## joke :)
+---
+# Brainfuck
+
+```
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>
+---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+```
+---
+class: left
+
+# Shakespeare
+
+```
+A drama by the numbers.
+
+Juliet, a young Italian lady.
+Romeo, the rich Count.
+Mercutio, his spacy rival.
+
+Act I: The Act where it all happens.
+Scene I: Juliet insults everyone.
+```
+---
+class: left
+
+```
+[Enter Juliet and Mercutio]
+
+Mercutio: You charming angel! You are as beautiful
+          as a flower!
+Juliet: You are a disgusting smelly lying
+        rotten dirty pig! You are as small as
+        the difference between nothing and
+        thyself!
+
+[Exit Mercutio]
+[Enter Romeo]
+
+Juliet: You devil! You are nothing!
+Romeo: Open your heart! Remember me!
+```
+---
+# Malbolge
+
+```
+(=<`$9]7<5YXz7wT.3,+O/o'K%$H"'~D|#z@b=`{^Lx8%$X
+mrkpohm-kNi;gsedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFE
+DCBA@?>=<;:9876543s+O<oLm
+```
+--
+### Output:
+
+--
+```
+HEllO WORld
+```
+---
+class: left
+
+# Befunge
+
+```
+>~:"`"`!v
+,v      _:"z"`v
+ v            _:"m"`v  >9-4-v
+^                   ># |#   <
+^             _:"M"`^  >9+4+^
+^       _:"Z"`^
+ >:"@"`!^
+```
+---
+class: left
+
+# INTERCAL
+
+```
+PLEASE WRITE IN .1
+
+DO COME FROM (42)
+
+DO :1 <- .1$#0
+DO :2 <- #65535$#1
+DO .1 <- :1~:2
+
+(42) DO READ OUT .1
+
+PLEASE GIVE UP
+```
+---
+# Folders
+
+--
+![](folders.png)
+---
+class: fullscreen
+
+![](folders-pure.png)
+---
+class: fullscreen
+
+![](folders-size.png)
+---
+class: left, top
+
+```
+$ cd linux
+$ git log --graph --oneline --all
+```
+--
+```
+| | | | | * | | | 954a03be033c iommu/arm-smmu: Break insecure users by disabling bypass
+| | | * | | | | | 1eb8e4e2b35b iommu/mediatek: Fix leaked of_node references
+| | | |/ / / / /  
+| | * | | | | | 43d957b13346 iommu/tegra-smmu: Respect IOMMU API read-write protections
+| | * | | | | | 4f97031ff860 iommu/tegra-smmu: Properly release domain resources
+| | * | | | | | 43a0541e312f iommu/tegra-smmu: Fix invalid ASID bits on Tegra30/114
+| | | |_|/ / /  
+| | |/| | | |   
+* | | | | | |   55472bae5331 Merge tag 'linux-watchdog-5.2-rc1'
+|\ \ \ \ \ \ \  
+| * | | | | | | a9f0bda567e3 watchdog: Enforce at least one pretimeout governor
+| * | | | | | | e9974166a53a watchdog: stm32: add dynamic prescaler support
+| * | | | | | | 345f16251063 watchdog: Improve Kconfig entry ordering and dependencies
+| * | | | | | | ec2429292538 watchdog: npcm: Enable modular builds
+```
+---
+class: section
+
+# Language Design
+---
+class: fullscreen
+
+![](stack.png)
+---
+class: fullscreen
+
+![](tape.png)
+---
+class: fullscreen3
+
+![](whynotboth1.png)
+---
+class: fullscreen3
+
+![](whynotboth2.png)
+---
+class: left, top
+
+# Instructions
+
+--
+
+get, put, dup, pop, add, sub, cmp, read, write, left, right,<br>&lt;Number&gt;, "&lt;Letters&gt;"
+
+--
+
+- `42 dup add put`
+--
+
+- `"Hi\n" put put put`
+--
+
+- `"Hi\n" write left write left write read put right read put right read put`
+--
+
+- (Everything but the first line is ignored)
+---
+class: left, top
+
+# Control flow
+
+- Execution starts at `master` branch
+--
+
+- Instructions in that commit are executed
+--
+
+    - Only has one parent? Go to that one!
+--
+    - Multiple parents? Pop the top stack element. If it has value n, go to n-th parent, or to the last one
+--
+- `[tag]`: jump to the specified Git tag
+--
+
+- `quit`: you guessed it
+---
+class: top, left
+
+# Hello World
+
+--
+
+```
+* b9e1e95 (HEAD -> master) "Hello world\n"
+```
+--
+```
+*   8013037 (tag: reverse-loop) dup
+|\  
+| * 6883822 write 1 left [reverse-loop]
+```
+--
+```
+*   e0a4d04 (tag: print-loop) 1 right read dup
+|\  
+| * d646ef4 put [print-loop]
+```
+--
+```
+* 25a3a62 quit
+```
+---
+# Naming things is hard
+---
+class: fullscreen
+
+![](legit.png)
+---
+class: fullscreen
+
+![](fun.png)
+---
+# Implementation
+---
+class: left, top
+
+```
+$ ruby compiler.rb examples/hello/
+```
+--
+```
+$ cat hello.ll
+...
+define i32 @main() {
+  br label %commitb9e1e956
+commitb9e1e956:
+  call void @push(i64 72)
+  call void @push(i64 101)
+  call void @push(i64 108)
+  call void @push(i64 108)
+...
+  call void @push(i64 114)
+  call void @push(i64 108)
+  call void @push(i64 100)
+  call void @push(i64 10)
+  br label %commit8013037b
+commit8013037b:
+  %c8013037b0 = call i64 @pop()
+  call void @push(i64 %c8013037b0)
+  call void @push(i64 %c8013037b0)
+  %val8013037b = call i64 @pop()
+  switch i64 %val8013037b, label %commit6883822c
+    [i64 0, label %commite0a4d04a ]
+}
+```
+---
+class: left, top
+
+```
+$ clang -O3 -o hello hello.ll
+```
+--
+```
+$ ./hello
+Hello world
+```
+---
+class: section
+
+# A Larger Program
+---
+# A Brainfuck interpreter!
+---
+class: left
+
+```
+* f1c255e 500 write 2 right 2 write 4 right
+*   b778b3b get dup
+|\  
+| *   f35a773 dup ">" sub
+| |\  
+| | *   7156e32 dup "<" sub
+| | |\  
+| | | *   1ef4826 dup "+" sub
+| | | |\  
+| | | | *   2044e69 dup "-" sub
+| | | | |\  
+| | | | | *   541ee34 dup "." sub
+| | | | | |\  
+| | | | | | *   eeadcde dup "," sub
+| | | | | | |\  
+| | | | | | | *   90330ed dup "[" sub
+| | | | | | | |\  
+| | | | | | | | *   952afa5 dup "]" sub
+| | | | | | | | |\  
+| | | | | | | | | * 3cbb5e4 pop [read-loop]
+```
+---
+class: left
+
+```
+| | | | | | | | * c569e79 8
+| | | | | | | * | 4a9124f 7
+| | | | | | | |/  
+| | | | | | * | 44f3ba1 6
+| | | | | | |/  
+| | | | | * | 0948bc1 5
+| | | | | |/  
+| | | | * | fbea40f 4
+| | | | |/  
+| | | * | e75d326 3
+| | | |/  
+| | * | 0f67bdc 2
+| | |/  
+| * | b84dccd 1
+| |/  
+| * 4ebda1c write 2 right pop [read-loop]
+```
+---
+class: left
+
+```
+*   faa44a8 pop 2 left read
+|\  
+| * b6a6feb [read-back]
+* 1481220 2 right
+* 18253fb read
+*   423ee39 2 left read
+|\  
+| * fbcbe96 [pc-loop]
+```
+---
+class: left
+
+```
+*-------------.   0b67411 1 left write 1 left read 1 add write 1 right
+| | | | | | | |           read 1 left
+|\ \ \ \ \ \ \ \  
+| | | | | | | | *   faad01f 2 left read dup dup add left 1 right write
+| | | | | | | | |           1 left read 1 right read 1 left dup add
+| | | | | | | | |           right 2 right
+| | | | | | | | |\  
+| | | | | | | | | * 50ed7bc dup write dup dup add right
+| | | | | | | | * | ab0add6 pop read dup add right
+| | | | | | | | |/  
+| | | | | | | * |   97febdc 2 left read dup dup add left 1 right write
+| | | | | | | | |           1 left read 1 right read 1 left dup add
+| | | | | | | | |           right 2 right
+| | | | | | | |\ \  
+| | | | | | | | * | 798ca81 read dup dup add right
+| | | | | | | | |/  
+| | | | | | | * | 3e123bb read dup add right 1
+| | | | | | | * |   fae7ba0 read 7 sub
+| | | | | | | |\ \  
+| | | | | | | | * \   c559115 read 8 sub
+| | | | | | | | |\ \  
+| | | | | | | | | * \   c88408d dup
+| | | | | | | | | |\ \  
+| | | | | | | | * | \ \   40b19f4 1 sub dup
+| | | | | | | | |\ \ \ \  
+```
+---
+class: left
+
+```
+| | | | | | | | | |/ / /  
+| | | | | | | | |/| / /   
+| | | | | | | | | |/ /    
+| | | | | | | * | | |   e0ac410 1 add dup
+| | | | | | | |\ \ \ \  
+| | | | | | | | |/ / /  
+| | | | | | | |/| / /   
+| | | | | | | | |/ /    
+| | | | | | | | * | eca4d2c 2 right [count]
+| | | | | | | |  /  
+| | | | | | | * | 367380c 0 left
+| | | | | | | * |   6447e86 2 left read
+| | | | | | | |\ \  
+| | | | | | | | * | 73dd69a 1 add [whereami]
+| | | | | | | |  /  
+| | | | | | | * | 0c9fed0 2 left 2 add write read dup dup add right
+| | | | | | | |/  
+| | | | | | * | 167675b 2 left read dup dup add left get write dup add
+| | | | | | | |         right 2 right read dup add right
+| | | | | | |/  
+```
+---
+class: left
+
+```
+| | | | | * | fad4bdd 2 left read dup dup add left read put
+| | | | | | | dup add right 2 right read dup add right
+| | | | | |/  
+| | | | * | fada657 2 left read dup dup add left read 1 sub write dup
+| | | | | |         add right 2 right read dup add right
+| | | | |/  
+| | | * | ccc5f17 2 left read dup dup add left read 1 add write dup
+| | | | |         add right 2 right read dup add right
+| | | |/  
+| | * | 654703b 2 left read 1 sub write 2 right read dup add right
+| | |/  
+| * | 6453bef 2 left read 1 add write 2 right read dup add right
+| |/  
+| * a81c5bd [main-loop]
+* 25a3a62 quit
+```
+---
+class: left, top
+
+```
+$ ruby compiler.rb examples/brainfuck/
+```
+--
+```
+$ clang -O3 -o brainfuck brainfuck.ll
+```
+--
+```
+$ ./brainfuck < hello.bf
+Hello world
+```
+---
+class: left
+
+# The final challenge
+
+--
+
+**Write a quine!** (A program that prints *its own source code*!)
+
+--
+
+```
+$ cat quine.py
+s='s=%r;print(s%%s)';print(s%s)
+```
+--
+```
+$ python3 quine.py
+s='s=%r;print(s%%s)';print(s%s)
+```
+---
+class: section
+
+# Aftermath
+---
+class: fullscreen2
+
+![](hate.png)
+---
+class: fullscreen
+
+![](gif.png)
+---
+class: fullscreen
+
+![](fixtypo.png)
+---
+class: left, top
+
+```
+*   1f44c51 (rohieb/master) 0
+|\  
+* | fbb02fe "Hello world!\n"
+```
+--
+```
+| * b9e1e95 (HEAD -> master) "Hello world\n"
+|/  
+*   8013037 (tag: reverse-loop) dup
+|\  
+| * 6883822 write 1 left [reverse-loop]
+*   e0a4d04 (tag: print-loop) 1 right read dup
+|\  
+| * d646ef4 put [print-loop]
+* 25a3a62 quit
+```
+---
+class: fullscreen
+
+![](quine1.png)
+---
+class: fullscreen2
+
+![](quine2.png)
+---
+class: fullscreen2
+
+![](quine3.png)
+---
+class: left
+
+```
+$ ./quine
+git init .
+git config --local alias.c "commit --allow-empty -m"
+git config --local alias.m "merge --no-ff --commit -m"
+git config --local alias.b "checkout -b"
+
+git c "quit"
+
+git c "92 put 34 put 34 put 10 put 10 put"
+
+git b PRINT
+git c "put [PLOOP_THREE]"
+git b ESCAPE
+git c "\"\\\\\" dup dup put put put"
+...
+```
+---
+class: center, middle
+
+# Thank you <3
+
+![](octopus.svg)
+
+### Specification, implementation, and examples: [morr.cc/legit/](https://morr.cc/legit/)
+### @blinry

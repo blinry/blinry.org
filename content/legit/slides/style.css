@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,800,800italic,400italic);
+
+@import url(
+    https://fonts.googleapis.com/css?family=Ubuntu+Mono
+);
+
+h1, h2, h3, ul, p, .remark-slide-number {
+    font-family: "Montserrat";
+}
+
+h1, h2 {
+    font-weight: 800;
+}
+
+ul, p {
+    font-weight: 400;
+}
+
+.title h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+}
+
+.title h3 {
+    font-size: 40px;
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+}
+
+.remark-slide-content p,
+.remark-slide-content ul {
+    font-size: 28px;
+}
+
+.remark-slide-content {
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: #639bff;
+}
+
+.leftcol {
+    width: 50%;
+    float: left;
+}
+
+.rightcol {
+    width: 50%;
+    float: right;
+}
+
+.remark-slide video {
+    max-height: 600px;
+}
+
+.rightcol img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fullscreen {
+    padding: 0;
+}
+
+.fullscreen p {
+    margin: 0;
+    display: block;
+}
+
+.fullscreen img {
+    max-width: 100%;
+    max-height: 685px;
+}
+
+.fullscreen2 img {
+    width: 100%;
+}
+
+.fullscreen3 img {
+    width: 75%;
+}
+
+.remark-slide-number {
+    display: none;
+}
+
+.remark-code,
+.remark-inline-code {
+    font-family: "Ubuntu Mono" !important;
+    font-size: 1.5rem;
+}
+
+.remark-code-line-highlighted {
+    background: lightblue;
+}
+
+.title-slide .remark-slide-number {
+    display: none;
+}
+
+.section {
+    background-color: #ac3232;
+    color: white;
+    text-shadow: 0 0 20px #333;
+}
+
+.remark-slide-content {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 80px !important;
+}
