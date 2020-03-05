@@ -1,6 +1,6 @@
 ---
 title: Operation Mindfuck Vol. 3
-tags: talk
+tags: talk, german
 published: 2019-12-29T21:00+01:00
 ---
 
