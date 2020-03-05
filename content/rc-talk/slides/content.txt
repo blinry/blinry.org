@@ -1,0 +1,331 @@
+class: title
+<img src="rc-logo.svg" style="max-width: 4em; background: white; padding: 0.3em; ">
+<h1 style="margin-top: 0.2em;">Meine Zeit im<br>Recurse Center</h1>
+### blinry
+### MRMCD 2019
+---
+.left[
+# blinry
+]
+.right[![](me.png)]
+---
+class: section
+# What is the Recurse Center?
+---
+## "a self-directed,<br>
+--
+community-driven<br>
+--
+educational retreat<br>
+--
+for programmers<br>
+--
+in New York City"
+---
+class: fullscreen
+# 1, 6, or 12 weeks
+![](batches.png)
+---
+class: fullscreen
+![](map.jpg)
+---
+class: fullscreen
+![](entrance.jpg)
+---
+class: fullscreen
+![](map-of-rc-v0.3.png)
+---
+class: fullscreen
+![](4thfloor.jpg)
+---
+class: fullscreen
+![](retrocomputers.jpg)
+---
+class: fullscreen
+![](kitchen.jpg)
+---
+class: fullscreen
+![](sideroom.jpg)
+---
+class: fullscreen
+![](ritchie.jpg)
+---
+class: fullscreen
+![](heap.jpg)
+---
+class: fullscreen
+![](5thfloor.jpg)
+---
+class: fullscreen
+![](library.jpg)
+---
+class: fullscreen
+![](noschool.jpg)
+---
+class: section
+# How did I get into the Recurse Center?
+---
+# Written application
+---
+### You enjoy programming.
+### You want to get dramatically better.
+### You’re self-directed.
+### You’re sharp.
+### You’re friendly.
+### You’re intellectually curious.
+---
+# Conversational interview
+---
+# Pairing interview
+---
+# Money
+???
+RC is free!
+
+Grants ("if you're unable to attend without financial assistance")
+Fellowships
+---
+# RC's business model 
+
+???
+25% of first year's salary
+--
+**2010**: Hackruiter
+
+--
+
+**2011**: Hacker School
+
+--
+
+**2015**: Recurse Center
+---
+# Housing
+---
+class: fullscreen
+![](adina1.jpg)
+---
+class: fullscreen
+![](adina2.jpg)
+---
+class: fullscreen
+![](adina3.jpg)
+---
+class: fullscreen
+![](adina4.jpg)
+---
+class: section
+# What did I do at the Recurse Center?
+---
+x86,
+LLVM,
+Rust,
+ELF format,
+boot sectors,
+System V AMD64 ABI,
+dynamic linking,
+WebAssembly,
+gdb,
+Linux kernel modules,
+Linux device drivers, 
+--
+CTFs,
+radare2,
+binary analysis,
+shellcodes,
+NOP slides, 
+--
+Tensorflow,
+PyTorch,
+GPT-2 finetuning,
+generated fantasy novels,
+generated love songs,
+This Recurser Does Not Exist, 
+--
+L-systems,
+p5 animations,
+raymarching,
+WebGL,
+coding from life, 
+--
+esolangs,
+Vim buffers,
+Prettier,
+React,
+Flask,
+a game in LÖVE,
+Map of RC,
+deployment via Heroku,
+Tracery,
+Observables,
+APL,
+multiple mice in Xorg?!,
+Surrealist Rails Apps,
+Haskell,
+NLP toys
+---
+gave 17 tiny presentations,
+pair programmed a lot,
+Coffee Chats,
+made close friends,
+fell in love,
+company meet and greets,
+danced,
+Abstract Salad Factory,
+taught juggling,
+visited MoMA together,
+went for authentic Thai food,
+organized non-technical talks,
+played a bunch of co-op games,
+visited the School for Poetic Computation,
+indoor picnic,
+discussed the political ethics of tech,
+gave guided tours through RC,
+Plotter People meetup,
+NYU Game Center showcase,
+NYC Resistor party,
+meditated a lot,
+tried watercolors for the first time,
+hung out to sick techno beats,
+weekend trip to DC,
+ate a lot of cheap pizza
+---
+class: section
+# What's did I like about RC's culture?
+---
+class: fullscreen
+![](askanything.jpg)
+---
+# Social rules
+
+https://www.recurse.com/social-rules
+---
+class: fullscreen
+![](rules.jpg)
+---
+# No feigning surprise
+--
+
+**Dan**: What’s the command line?
+--
+
+
+**Carol**: Wait, you’ve never used the command line?
+???
+https://xkcd.com/1053/
+---
+# No well-actually's
+--
+
+**Alice**: I just installed Linux on my computer!
+
+--
+
+**Bob**: It’s actually called GNU/Linux.
+---
+# No backseat driving
+???
+Kein Einmischen
+--
+
+**Bob**: What’s the name of the string copy function?
+
+--
+
+**Alice**: Strncpy.
+
+--
+
+**Eve**: (from across the room) You should use strlcpy. It’s safer.
+---
+# No subtle -isms
+--
+
+**Carol**: Windows is hard to use.
+
+--
+
+**Bob**: No way. Windows is so easy to use that even my mom can use it.
+---
+## "we expect people to break these rules from time to time"
+---
+# Code of Conduct
+
+https://www.recurse.com/code-of-conduct
+
+https://www.recurse.com/code-of-conduct/response-protocol
+---
+# Diversity and inclusion
+---
+class: fullscreen
+![](50percent.png)
+---
+class: section
+# Traditions
+---
+# Pair programming
+---
+# Pairing stations
+---
+class: fullscreen
+![](pairingstations.jpg)
+---
+class: fullscreen
+![](types.jpg)
+---
+# Calendar
+---
+class: fullscreen
+![](calendar.png)
+---
+# Coffee chat bot
+---
+# Zulip
+---
+class: fullscreen
+![](zulip.png)
+---
+# Check-ins
+
+--
+<https://morr.cc/rc-month-1/>
+
+<https://morr.cc/rc-month-2/>
+
+<https://morr.cc/rc-month-3/>
+---
+# Feelings check-in
+---
+# Impostor syndrome
+---
+# Niceties
+---
+# Alumn community
+---
+## "the world's best<br>
+--
+programming community<br>
+--
+with a three-month<br>
+--
+onboarding process"
+---
+class: fullscreen
+![](nevergraduate.jpg)
+---
+# Apply?
+
+https://www.recurse.com/apply
+
+https://www.recurse.com/faq
+
+https://www.recurse.com/manual
+---
+# Talk to me! :)
+---
+class: center, middle
+
+![](octopus.svg)
+
+### [morr.cc/rc-talk/](https://morr.cc/rc-talk/)
+### @blinry
