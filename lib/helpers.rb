@@ -66,6 +66,9 @@ def thumbnail_for item
     @items[item[:thumbnail]].reps[:thumbnail].path
 end
 
+def minithumbnail_for item
+    @items[item[:thumbnail]].reps[:minithumbnail].path
+end
 
 def with_tag tag
     things.select do |item|

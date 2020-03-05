@@ -50,7 +50,14 @@ end
 compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
     if @items.any?{|i| i[:thumbnail] == item.identifier}
         filter :thumbnailize, :width => 600
-        write item.identifier + "-thumbnail.png"
+        write item.identifier + "-thumbnail.jpg"
+    end
+end
+
+compile "/**/*.{png,jpg,gif,svg}", :rep => :minithumbnail do
+    if @items.any?{|i| i[:thumbnail] == item.identifier}
+        filter :thumbnailize, :width => 350
+        write item.identifier + "-minithumbnail.jpg"
     end
 end
 
@@ -80,7 +87,13 @@ end
 compile "/**/*.pdf", :rep => :thumbnail do
     filter :titlepageize
     filter :thumbnailize, :width => 600
-    write item.identifier + "-titlepage.svg-thumbnail.png"
+    write item.identifier + "-titlepage.svg-thumbnail.jpg"
+end
+
+compile "/**/*.pdf", :rep => :minithumbnail do
+    filter :titlepageize
+    filter :thumbnailize, :width => 350
+    write item.identifier + "-titlepage.svg-minithumbnail.jpg"
 end
 
 passthrough "/**/*"
