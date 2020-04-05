@@ -2,7 +2,7 @@
 title: xkcd in Toki Pona
 tags: comic, translation, tokipona
 published: 2019-10-23T14:56+02:00
-updated: 2019-11-03T20:35+01:00
+updated: 2020-04-05T18:00+02:00
 license: CC BY-NC 2.5
 thumbnail: 505.png
 ---
@@ -26,3 +26,9 @@ Thanks to [jan Ne](https://twitter.com/nena_esun) for proofreading! ([Original v
 Thanks to [jan Kiki](https://twitter.com/mi_jan_Kiki) for proofreading! ([Original version](https://xkcd.com/1133/))
 
 ![](1133.png "pakala ike ante li ni: sina tawa mun. tomo nanpa tu li tawa weka nanpa wan. tan ni la sina tawa ala mun lon tenpo suno ni. ken la sina tawa mun lon tenpo ala.")
+
+<h2 id="2287">2287: jaki li ken ala pakala</h2>
+
+This was a collaborative translation with [jan Kiki](https://twitter.com/mi_jan_Kiki). ([Original version](https://xkcd.com/2287/))
+
+![](2287.png "mi mute li ken ala tawa weka tan lon ni poka jaki kolona anu seme? ala. jaki kolona li ken ala tawa weka tan lon ni poka mi mute.")
