@@ -13,3 +13,15 @@ For five years, the Congress Centrum in Hamburg, Germany has been the venue for 
 To the left is one of the CCC's logos, the rocket *Fairy Dust*.
 
 Like everything on this site, the image is released under a [Creative Commons license](/about/). Here's a ["high-res" version](cch-high-res.png) (23800x11200 pixels, 200 dpi at 3 meters width), in case you want to print a poster of it or something.
+
+## Wallpapers
+
+Here's a landscape 16:9 version (3840x2160), for use as a desktop wallpaper:
+
+[![](cch-desktop-wallpaper.png)](cch-desktop-wallpaper.png)
+
+And here are three different portrait 16:9 versions (1080x1920), for use as smartphone wallpapers:
+
+[![](cch-smartphone-wallpaper-1.png){: .small }](cch-smartphone-wallpaper-1.png)
+[![](cch-smartphone-wallpaper-2.png){: .small }](cch-smartphone-wallpaper-2.png)
+[![](cch-smartphone-wallpaper-3.png){: .small }](cch-smartphone-wallpaper-3.png)
