@@ -26,6 +26,8 @@ There's also an outro version, which is softer, has a reduced instrumentation, a
 
 <audio src="ihro-mayastaet-outro.mp3" controls></audio>
 
+I used the open-source DAW [Ardour](https://www.ardour.org) to produce these, as well as the Creative Commons-licensed orchestral sample library [Virtual Playing Orchestra](http://virtualplaying.com).
+
 ## The podcast
 
 Make sure to check out "Ihro Mayastät" here:

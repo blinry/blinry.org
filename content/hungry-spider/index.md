@@ -8,7 +8,7 @@ Ever since I'd seen [RujiK's tweet](https://twitter.com/therujik/status/96958164
 
 So for the *Berlin Mini Jam* in March 2020, I made a tiny prototype about a human-eating giant spider in Godot! :)
 
-You can [play it in your browser](/play/)! Move your mouse, and click-and-hold to jump/eat people! :>
+You can [play it in your browser](play/)! Move your mouse, and click-and-hold to jump/eat people! :>
 
 <video src="hungry-spider.mp4" autoplay controls muted></video>
 
