@@ -2,3 +2,4 @@ Gemfile.lock
 /output
 /tmp
 /.sass-cache
+/.bundle
