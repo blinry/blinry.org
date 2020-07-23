@@ -28,6 +28,7 @@ preprocess do
                     item[:thumbnail] = "/assets/images/avatar.png"
                 end
             end
+            @items[item[:thumbnail]][:thumbnailize] = true
         end
     end
 end
@@ -48,14 +49,14 @@ compile "/**/*.xml" do
 end
 
 compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
-    if @items.any?{|i| i[:thumbnail] == item.identifier}
+    if item[:thumbnailize]
         filter :thumbnailize, :width => 600
         write item.identifier + "-thumbnail.jpg"
     end
 end
 
 compile "/**/*.{png,jpg,gif,svg}", :rep => :minithumbnail do
-    if @items.any?{|i| i[:thumbnail] == item.identifier}
+    if item[:thumbnailize]
         filter :thumbnailize, :width => 350
         write item.identifier + "-minithumbnail.jpg"
     end
@@ -67,7 +68,6 @@ compile "/**/*.md" do
         filter :absolutize_paths
         filter :kramdown
         layout "/default.*"
-        filter :tidy
         write item.identifier.without_ext + ".html"
     end
 end
@@ -75,7 +75,6 @@ end
 compile "/**/*.slim" do
     filter :slim
     layout "/default.*"
-    filter :tidy
     write item.identifier.without_ext + ".html"
 end
 
@@ -85,15 +84,19 @@ compile "/**/*.pdf", :rep => :titlepage do
 end
 
 compile "/**/*.pdf", :rep => :thumbnail do
-    filter :titlepageize
-    filter :thumbnailize, :width => 600
-    write item.identifier + "-titlepage.svg-thumbnail.jpg"
+    if item[:thumbnailize]
+        filter :titlepageize
+        filter :thumbnailize, :width => 600
+        write item.identifier + "-titlepage.svg-thumbnail.jpg"
+    end
 end
 
 compile "/**/*.pdf", :rep => :minithumbnail do
-    filter :titlepageize
-    filter :thumbnailize, :width => 350
-    write item.identifier + "-titlepage.svg-minithumbnail.jpg"
+    if item[:thumbnailize]
+        filter :titlepageize
+        filter :thumbnailize, :width => 350
+        write item.identifier + "-titlepage.svg-minithumbnail.jpg"
+    end
 end
 
 passthrough "/**/*"
