@@ -28,7 +28,10 @@ preprocess do
                     item[:thumbnail] = "/assets/images/avatar.png"
                 end
             end
-            @items[item[:thumbnail]][:thumbnailize] = true
+            if ENV["NANOC_ENV"] != "dev"
+                # We don't build thumbnails in dev mode.
+                @items[item[:thumbnail]][:thumbnailize] = true
+            end
         end
     end
 end
@@ -79,8 +82,11 @@ compile "/**/*.slim" do
 end
 
 compile "/**/*.pdf", :rep => :titlepage do
-    filter :titlepageize
-    write item.identifier + "-titlepage.svg"
+    if ENV["NANOC_ENV"] != "dev"
+        # In dev mode, we don't build titlepages.
+        filter :titlepageize
+        write item.identifier + "-titlepage.svg"
+    end
 end
 
 compile "/**/*.pdf", :rep => :thumbnail do

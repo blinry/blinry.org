@@ -63,11 +63,20 @@ def abstract_for item
 end
 
 def thumbnail_for item
-    @items[item[:thumbnail]].reps[:thumbnail].path
+    if ENV["NANOC_ENV"] == "dev"
+        # We don't build thumbnails in dev mode.
+        @items[item[:thumbnail]].path
+    else
+        @items[item[:thumbnail]].reps[:thumbnail].path
+    end
 end
 
 def minithumbnail_for item
-    @items[item[:thumbnail]].reps[:minithumbnail].path
+    if ENV["NANOC_ENV"] == "dev"
+        @items[item[:thumbnail]].path
+    else
+        @items[item[:thumbnail]].reps[:minithumbnail].path
+    end
 end
 
 def with_tag tag
