@@ -29,4 +29,4 @@ I designed and tweaked the ring using a Prusa Mini+.
 
 ## Make modifications!
 
-If you want to make changes to the models, you can find the OpenSCAD source file [on GitHub](https://github.com/blinry/counter-ring). It has a lot of comments! :)
+If you want to make changes to the models (like changing the inner diamete), you can find the OpenSCAD source file [on GitHub](https://github.com/blinry/counter-ring). It has a lot of comments! :)

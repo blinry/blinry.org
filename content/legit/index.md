@@ -119,3 +119,11 @@ As an alternative to the second step, you can use the provided Makefile and simp
 So, after I had written that Brainfuck interpreter, I thought would be the final milestone for my language. But then, Kate-Laurel sat down next to me and asked: "Could you write a quine?"
 
 So this is the challenge I now give to you, dear reader: Write a *legit* program that prints the Git commands required to create itself! Good luck.
+
+## Aftermath
+
+Turns out at least two people were up to the challenge, and *actually* wrote a quine! I can't believe it!
+
+One is by remuladgryta, you can find a script to generate the legit program [here](https://github.com/remuladgryta/legit-quine)! Daniel Temkin published a neat [article about legit and remuladgryta's quine](https://esoteric.codes/blog/legit-and-its-quine-source-control-as-a-programming-language) on esoteric.codes!
+
+Another one is by LegionMammal978, you can find the legit program [here](https://github.com/blinry/legit-quine)!
