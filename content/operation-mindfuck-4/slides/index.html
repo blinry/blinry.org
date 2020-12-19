@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+
+        <title>Operation Mindfuck Vol. 4</title>
+
+        <link rel="stylesheet" href="css/reveal.css" />
+        <link rel="stylesheet" href="css/theme/black.css" />
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css" />
+
+        <style>
+            @keyframes blink {
+                0% {
+                    transform: scale(1.1) rotate(-10deg);
+                    filter: hue-rotate(0);
+                }
+                100% {
+                    transform: scale(0.9) rotate(10deg);
+                    filter: hue-rotate(360deg);
+                }
+            }
+
+            .new {
+                display: inline-block;
+                color: green;
+                text-shadow: 0px 0px 30px red;
+                animation: blink 1s infinite alternate ease-in-out;
+                text-decoration: underline;
+            }
+
+            img {
+                max-height: 13em !important;
+            }
+        </style>
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement("link")
+            link.rel = "stylesheet"
+            link.type = "text/css"
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? "css/print/pdf.css"
+                : "css/print/paper.css"
+            document.getElementsByTagName("head")[0].appendChild(link)
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <img src="img/resistors.png" style="height: 8em" />
+                    <h2>Operation Mindfuck <span class="new">Vol. 4</span></h2>
+                    <h4>bleeptrack &amp; blinry</h4>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Isomorphic keyboard layouts</h2>
+                    </section>
+                    <section>
+                        <img src="img/piano.jpg">
+                    </section>
+                    <section>
+                        <img src="img/piano-chords.jpg">
+                    </section>
+                    <section>
+                        <h3>"Dodeka"</h3>
+                        <img src="img/dodeka.jpg">
+                    </section>
+                    <section>
+                        <h3>Harmonic table layout</h3>
+                        <img src="img/harmonic.png">
+                    </section>
+                    <section>
+                        <h3>Wicki-Hayden layout</h3>
+                        <img src="img/wicki-hayden.png">
+                    </section>
+                    <!--
+                    <section>
+                        <img src="img/jammer-chords.png">
+                    </section>
+                    -->
+                    <section>
+                        <a href="http://brandlew.com/keyboard/keys.htm?fundamental=261.6255653&right=2&upright=7&size=50&rotation=0&instrument=piano&enum=false&equivSteps=12&spectrum_colors=false&fundamental_color=41FF2E&no_labels=false&scale=!%2012-ed2%20Wicki-Hayden.scl%0A!%2012-tone%20equal%20tempered%20scale%20consisting%20of%2012%20sonically%20equal%20divisions%20per%20frequency%20halving%2Fdoubling%2C%20mapped%20on%20the%20Wicki-Hayden%20layout%2C%20originally%20devised%20for%20the%20bandoneon%20and%20concertina%20(free-reed%20aerophones%20of%20the%20harmonica%2Faccordion%20family).%0A!%0ATerpstra%20Keyboard%20WebApp%20%7C%2012-ed2%20Wicki-Hayden%0A12%0A!%0A100.00000%0A200.00000%0A300.00000%0A400.00000%0A500.00000%0A600.00000%0A700.00000%0A800.00000%0A900.00000%0A1000.00000%0A1100.00000%0A1200.00000&names=C%0AD%E2%99%AD%2FC%E2%99%AF%0AD%0AE%E2%99%AD%2FD%E2%99%AF%0AE%0AF%0AG%E2%99%AD%2FF%E2%99%AF%0AG%0AA%E2%99%AD%2FG%E2%99%AF%0AA%0AB%E2%99%AD%2FA%E2%99%AF%0AB&note_colors=ffffff%0Aff9f40%0Affffff%0Aff9f40%0Affffff%0Affffff%0Aff9f40%0Affffff%0Aff9f40%0Affffff%0Aff9f40%0Affffff" target="_blank">Demo!</a>
+                    </section>
+                    <section>
+                        <h3>"Jammer keyboard"</h3>
+                        <img src="img/jammer.jpg">
+                    </section>
+                    <section>
+                        <img src="img/accordion.png">
+                    </section>
+                    <section>
+                        <img src="img/accordion-keyboard.png" style="background: white; max-width: 40%;">
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Truchet Tiles</h2>
+                    </section>
+                    <section>
+                        <img src="img/truchet.png">
+                    </section>
+                    <section>
+                        <img src="img/10print.png">
+                    </section>
+                    <section>
+                        <img height="500" src="img/truchet2.png">
+                    </section>
+                    <section>
+                        <img src="img/truchet_dither.png">
+                    </section>
+                    <section>
+                        <img src="img/truchet_scale.png"><br>
+                        by Christopher Carlson
+                    </section>
+                    <section>
+                        <img src="img/scaledtileassembly.png"><br>
+                        by Christopher Carlson
+                    </section>
+                    <section>
+                        <img src="img/tilingexamples.png"><br>
+                        by Christopher Carlson
+                    </section>
+                    <section>
+                        <img src="img/tilings.png"><br>
+                        by Christopher Carlson
+                    </section>
+                    <section>
+                        <img src="img/multiscape_truchet.png"><br>
+                        by Christopher Carlson
+                    </section>
+                    <section>
+                        <img src="img/mixedmotiftilings2.png"><br>
+                        by Christopher Carlson
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>What even <em>is</em> art?</h2>
+                    </section>
+                    <section>
+                        <h3>"Comedian" (Cattelan, 2019)</h3>
+                        <img src="img/banana.jpg">
+                    </section>
+                    <section>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9ZqdfUHtkk8?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    <section>
+                        <img src="img/black.jpg">
+                    </section>
+                    <section>
+                        <h3>"Descent into Limbo" (Kapoor, 1992)</h3>
+                        <img src="img/limbo.jpg">
+                    </section>
+                    <section>
+                        <img src="img/pink.png">
+                    </section>
+                    <section>
+                        <img src="img/up-yours.jpg">
+                    </section>
+                    <section>
+                        <h3>"Love is in the Bin" (Banksy, 2018)</h3>
+                        <a href="https://www.instagram.com/p/BomXijJhArX/" target="_blank"><img src="img/love.jpg"></a>
+                    </section>
+                    <section>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GRLK2I6hKLQ?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    <!--
+                    <section>
+                        <h3>"The Artist is Present" (Abramović, 2010)</h3>
+                        <img src="img/present.jpg">
+                    </section>
+                    -->
+                    <section>
+                        <h3>"Fettecke" (Beuys, 1982)</h3>
+                        <img src="img/fettecke.jpg">
+                    </section>
+                    <section>
+                        <h3>"Reste einer staatlich zerstörten Fettecke" (2014)</h3>
+                        <img src="img/schnaps.jpg">
+                    </section>
+                    <!--
+                    <section>
+                        <h3>"Rhythm 0" (Abramović, 1974)</h3>
+                        <img src="img/schnaps.jpg">
+                    </section>
+                    -->
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Pen Plotter</h2>
+                    </section>
+                    <section data-background-image="img/graphomat.jpg"></section>
+                    <section data-background-image="img/hp_plotter.jpg"></section>
+                    <section data-background-video="img/roland.mp4"></section>
+                    <section data-background-image="img/roland_text.jpg"></section>
+                    <section><img height="550" src="img/MakelangeloFive.webp"></section>
+                    <section data-background-image="img/lineus.png"></section>
+                    <section data-background-image="img/axidraw.jpg"></section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>April fools' RFCs</h2>
+                    </section>
+                    <section>
+                        <h3>RFC 1149: IP over Avian Carriers</h3>
+                        <pre class="fragment nohighlight"><code data-trim>
+The carriers have an intrinsic collision avoidance system, which
+increases availability.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+Multiple types of service can be provided with a prioritized pecking
+order.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+With time, the carriers are self-regenerating.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+An additional property is built-in worm detection and eradication.
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Implementation:</h3>
+                        <pre class="fragment nohighlight"><code data-trim>
+Script started on Sat Apr 28 11:24:09 2001
+$ /sbin/ifconfig tun0
+tun0      Link encap:Point-to-Point Protocol
+          inet addr:10.0.3.2  P-t-P:10.0.3.1  Mask:255.255.255.255
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:150  Metric:1
+          RX packets:1 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0
+          RX bytes:88 (88.0 b)  TX bytes:168 (168.0 b)
+
+$ ping -c 9 -i 900 10.0.3.1
+PING 10.0.3.1 (10.0.3.1): 56 data bytes
+64 bytes from 10.0.3.1: icmp_seq=0 ttl=255 time=6165731.1 ms
+64 bytes from 10.0.3.1: icmp_seq=4 ttl=255 time=3211900.8 ms
+64 bytes from 10.0.3.1: icmp_seq=2 ttl=255 time=5124922.8 ms
+64 bytes from 10.0.3.1: icmp_seq=1 ttl=255 time=6388671.9 ms
+
+--- 10.0.3.1 ping statistics ---
+9 packets transmitted, 4 packets received, 55% packet loss
+round-trip min/avg/max = 3211900.8/5222806.6/6388671.9 ms
+
+
+Script done on Sat Apr 28 14:14:28 2001
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>RFC 6592: The Null Packet</h3>
+                        <pre class="fragment nohighlight"><code data-trim>
+Null Packets are neither sent nor acknowledged when not received.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+2.  The Null Packet
+
+   The Null Packet is a zero-dimensional packet.  The Null Packet exists
+   since it is non-self-contradictorily definable.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+2.1.  Formal Definition
+
+   [This section is intentionally left blank, see also Section 0 of
+   [NULL].]
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+6.1.  Normative References
+
+   [NULL]     "".
+                        </code></pre>
+                    </section>
+                    <section>
+                        <pre class="nohighlight"><code data-trim>
+4.2.  The Null Packet is Good
+
+    The Null Packet cannot have the Evil Bit ("E") [RFC3514] set, by
+    definition (see Section 2.1).  Consequently, it is rather clear and
+    undeniable that the Null Packet is harmless, having no evil intent.
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>RFC 3514: The Evil Bit</h3>
+                        <pre class="fragment nohighlight"><code data-trim>
+The high-order bit of the IP fragment offset field is the only unused
+bit in the IP header.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+The bit field is laid out as follows:
+
+         0
+        +-+
+        |E|
+        +-+
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+Currently-assigned values are defined as follows:
+
+0x0  If the bit is set to 0, the packet has no evil intent.  Hosts,
+    network elements, etc., SHOULD assume that the packet is
+    harmless, and SHOULD NOT take any defensive measures.
+                        </code></pre>
+                        <pre class="fragment nohighlight"><code data-trim>
+0x1  If the bit is set to 1, the packet has evil intent.  Secure
+    systems SHOULD try to defend themselves against such packets.
+    Insecure systems MAY chose to crash, be penetrated, etc.
+                        </code></pre>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="fragment">RFC 2324: Hyper Text Coffee Pot Control Protocol</li>
+                            <li class="fragment">RFC 5841: TCP Option to Denote Packet Mood</li>
+                            <li class="fragment">RFC 7511: Scenic Routing for IPv6</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Unrealistic Expectations</h2>
+                    </section>
+                    <section>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P_DeN2B8VR8?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    <section>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kEB11PQ9Eo8?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    <section>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yY9GAyJtuJ0?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Fun with topology</h2>
+                    </section>
+                    <section>
+                        <img src="img/topology.png">
+                    </section>
+                    <section>
+                        <img src="img/mobius.jpg">
+                    </section>
+                    <section>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5T2CHNpeBN4?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    <section>
+                        <img src="img/simon-tweet.png">
+                        <video controls src="img/no-way.mp4"></video>
+                    </section>
+                    <section>
+                        <img src="img/pretzel.jpg" style="max-width: 70%">
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>PCB Art</h2>
+                    </section>
+                    <section>
+                        <img height="550" src="img/pcb_color.png">
+                    </section>
+                    <section>
+                        <img src="img/pcb_color2.png">
+                    </section>
+                    <section>
+                        <img height="550" src="img/pcb_blatt.png">
+                    </section>
+                    <section>
+                        <img src="img/boldport_chameleon.gif"><br>
+                        by boldport
+                    </section>
+                    <section>
+                        <img src="img/picoplanet.jpg">
+                    </section>
+                </section>
+
+                <section>
+                    <h3>Rabbit holes!</h3>
+
+                    <ul>
+                        <li class="fragment">mechanical keyboards</li>
+                        <li class="fragment">skincare addiction</li>
+                        <li class="fragment">amateur astronomy</li>
+                        <li class="fragment">baking your own bread</li>
+                        <li class="fragment">ultralight backpacking</li>
+                        <li class="fragment">sharpening knives with a wet stone</li>
+
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Thanks!</h2>
+                    <img src="img/itsfun.png" style="height: 7em" />
+                    <p>
+                        <a href="https://patreon.com/bleeptrack">patreon.com/bleeptrack</a>
+                    </p>
+                    <p>
+                        <a href="https://patreon.com/blinry">patreon.com/blinry</a>
+                    </p>
+                    <p>
+                        Slides:
+                        <a href="https://morr.cc/operation-mindfuck-4/"
+                            >morr.cc/operation-mindfuck-4/</a
+                        >
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    {src: "plugin/markdown/marked.js"},
+                    {src: "plugin/markdown/markdown.js"},
+                    {src: "plugin/notes/notes.js", async: true},
+                    {
+                        src: "plugin/highlight/highlight.js",
+                        async: true,
+                        callback: function() {
+                            hljs.initHighlightingOnLoad()
+                        },
+                    },
+                ],
+            })
+        </script>
+    </body>
+</html>
