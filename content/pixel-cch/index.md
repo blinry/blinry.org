@@ -14,6 +14,14 @@ To the left is one of the CCC's logos, the rocket *Fairy Dust*.
 
 Like everything on this site, the image is released under a [Creative Commons license](/about/). Here's a ["high-res" version](cch-high-res.png) (23800x11200 pixels, 200 dpi at 3 meters width), in case you want to print a poster of it or something.
 
+## Poster
+
+For the 34th Chaos Communication Congress, I made an extended poster version in the "long DIN" format (aspect ratio 1:2.82):
+
+![](cch-poster.png)
+
+There's also a [high-res version](cch-poster-high-res.png) (23800x8409 pixels, 200 dpi at 3 meters width), the [PDF I used for printing](cch-poster.pdf) (which already includes 1 mm bleed on all sides, for a total size of 842 x 299 mm), and the [Aseprite source file](cch-poster.ase). I printed 2500 of these and brought them to the first C3 in Leipzig. :)
+
 ## Wallpapers
 
 Here's a landscape 16:9 version (3840x2160), for use as a desktop wallpaper:
