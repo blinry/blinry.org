@@ -13,7 +13,7 @@ nometa: true
 
 Snail mail (German law requires this):
 
-> Sebastian Morr  
+> blinry  
 > Jasperallee 35 B  
 > 38102 Braunschweig  
 > Germany
