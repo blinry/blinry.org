@@ -9,3 +9,5 @@ group :nanoc do
     gem "sass"
     gem "coffee-script"
 end
+
+gem "webrick", "~> 1.7"
