@@ -35,7 +35,7 @@ html lang=lang_for(@item)
 
     meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes"
 
-    link rel="shortcut icon" href="/favicon.ico"
+    link rel="shortcut icon" type="image/png" href="/assets/images/avatar.png"
     link rel="alternate" type="application/atom+xml" href="/feed/"
 
     link rel="stylesheet" href="/assets/style.css"
@@ -50,7 +50,7 @@ html lang=lang_for(@item)
   body
     #nav
       a href="/"
-        img src="/assets/images/avatar.png" alt="morr.cc"
+        img src="/assets/images/avatar.png" alt="A cartoon face with orange hair and beard, and a hat."
 
       ul
         - item = @items["/about/index.md"]

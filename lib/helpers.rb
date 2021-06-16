@@ -86,7 +86,7 @@ def with_tag tag
 end
 
 def domain
-    "https://morr.cc/"
+    "https://blinry.org/"
 end
 
 def box(items)
