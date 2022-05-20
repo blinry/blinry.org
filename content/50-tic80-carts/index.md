@@ -1,9 +1,17 @@
 ---
-title: Fifty TIC-80 carts
+title: Making fifty TIC-80 carts in a weekend
 tags: art, game, software
 license: CC0
 published: 2021-12-05
 ---
+
+Ever since I read about the "Make 50 of Something" technique in Vi Hart's blog post about [Fifty Fizzbuzzes](http://vihart.com/fifty-fizzbuzzes/), I wanted to try it for myself! Creating 50 of, well, anything, in quick succession seemed like a fun challenge!
+
+So, on a free weekend in early December, I decided to try to make **50 programs for the open-source retro fantasy console [TIC-80](https://tic80.com)!**
+
+On this page, I document my experience, and release all resulting programs/"carts" under the free CC0 license, so you can study, modify and reuse them however you like!
+
+**You can click on "play in browser" below each video to see the cart in action! To see the source code, press escape, click "Close game", and press escape again!**
 
 <%
     def v i, tweet, audio=false
@@ -20,17 +28,11 @@ published: 2021-12-05
         %{
 #{media}
 <a href='#{"%02d" % i}/' target="_blank">play in browser</a> –
-<a href='https://twitter.com/blinry/status/#{tweet}' target="_blank">view tweet</a> –
-<a href='#{"%02d" % i}.tic'>download .tic file</a>
+<a href='#{"%02d" % i}.tic'>download .tic file</a> –
+<a href='https://twitter.com/blinry/status/#{tweet}' target="_blank">view tweet</a>
         }
     end
 %>
-
-Ever since I read about the "Make 50 of Something" technique in Vi Hart's blog post about [Fifty Fizzbuzzes](http://vihart.com/fifty-fizzbuzzes/), I wanted to try it for myself! Creating 50 of, well, anything, in quick succession seemed like a fun challenge!
-
-So, on a free weekend in early December, I decided to try to make 50 programs for the open-source retro fantasy console [TIC-80](https://tic80.com)!
-
-On this page, I document my experience, and release all resulting programs/"carts" under the free CC0 license, so you can study, modify and reuse them however you like!
 
 ## Saturday morning
 
