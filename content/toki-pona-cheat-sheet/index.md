@@ -16,6 +16,9 @@ If you want to modify it, you can also download the [ODT file](toki-pona-cheat-s
 
 ## Translations
 
-- Russian (by /dev/urandom): [PDF](https://rnd.neocities.org/tokipona/toki-pona-cheat-sheet-ru.pdf), [ODT](https://rnd.neocities.org/tokipona/toki-pona-cheat-sheet-ru.odt)
-- French (by David): [PDF](https://oldschooldev.io/toki-pona-cheat-sheet_fr.pdf), [ODT](https://oldschooldev.io/toki-pona-cheat-sheet_fr.odt)
+A number of people kindly translated the cheat sheet! More translations very welcome!
 
+- Russian (by /dev/urandom): [PDF](toki-pona-cheat-sheet-ru.pdf), [ODT](toki-pona-cheat-sheet-ru.odt)
+- French (by David): [PDF](toki-pona-cheat-sheet-fr.pdf)
+- Italian (by Lorenzo): [PDF](toki-pona-cheat-sheet-it.pdf), [ODT](toki-pona-cheat-sheet-it.odt), [GitHub](https://github.com/lorenzobotti/toki-pona-foglio-trucchi)
+- Brazilian Portugese (by Felipe): [PDF](toki-pona-cheat-sheet-pt_br.pdf)
