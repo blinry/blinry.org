@@ -6,7 +6,7 @@ published: 2017-12-05
 thumbnail: title.png
 ---
 
-A game for Ludum Dare 40 I made with [Kiki](http://metakiki.net). Original score by [Winnie](https://winniehell.de), character graphics by [Mai](https://dasmaichen.de)! The theme was "The more you have, the worse it is".
+A game for Ludum Dare 40 I made with [Kiki](http://flauschzelle.de). Original score by [Winnie](https://winniehell.de), character graphics by [Mai](https://dasmaichen.de)! The theme was "The more you have, the worse it is".
 
 *Spring cleaning time! But be careful to protect your increasing number of cats from your roomba by drawing lots and lots of barrier tapes!*
 

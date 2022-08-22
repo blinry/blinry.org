@@ -5,7 +5,7 @@ nometa: true
 
 ## Contact
 
-- Email: <span>s<span title="ihate@spam.com</span>">e</span>bastian</span>&#64;morr<i title="</i>mailto:">.</i>cc ([PGP key](http://pgp.mit.edu/pks/lookup?op=vindex&search=0x457598F2A624F8B6))
+- Email: <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;blinry<i title="</i>mailto:">.</i>org
 - Twitter: [@blinry](https://twitter.com/blinry)
 - Mastodon: [@blinry@chaos.social](https://chaos.social/@blinry)
 - GitHub: [blinry](https://github.com/blinry)

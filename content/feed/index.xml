@@ -17,7 +17,7 @@
             <updated><%= item[:published].xmlschema %></updated>
             <author>
                 <name>blinry</name>
-                <email>sebastian@morr.cc</email>
+                <email>mail@blinry.org</email>
             </author>
             <content type="html"><![CDATA[
                 <% if item[:url] %>

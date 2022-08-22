@@ -58,10 +58,10 @@ Here's the recording - you can switch between English audio and a German live tr
 - [Spring Clean - DO NOT CROSS](/spring-clean/)
 - [Splendid Adventures on a Sunday Afternoon](/splendid-adventures/)
 - [Writespace](/writespace/)
-- [Arden's Artisan Artefacts](http://metakiki.net/ardens-artisan-artefacts/)
+- [Arden's Artisan Artefacts](http://flauschzelle.de/ardens-artisan-artefacts/)
 - [Capitalist Piggies](/capitalist-piggies/)
 
 ### One Hour Game Jam
 
-- [The Floor is Lava](http://metakiki.net/the-floor-is-lava/)
+- [The Floor is Lava](http://flauschzelle.de/the-floor-is-lava/)
 - [Nuts and Bolts](/nuts-and-bolts/)
