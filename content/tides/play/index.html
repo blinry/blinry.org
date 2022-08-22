@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            #sliders {
+                width: 64rem;
+                height: 64rem;
+                transform: scale(0.75);
+            }
+            input[type="range"] {
+                height: 64rem;
+                width: 1rem;
+                -webkit-appearance: slider-vertical;
+                margin: 0;
+            }
+            input[type="text"]{
+                margin: 1rem;
+                padding: 0.5rem;
+                display: block;
+                width: 60rem;
+                font-size: 1.5rem;
+                font-family: monospace;
+            }
+        </style>
+        <title>Tides</title>
+    </head>
+    <body>
+        <div>
+        <input id="formula" type="text"></input><br>
+        <audio src="smooth-sliders.mp3" controls></audio><br>
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+</html>
