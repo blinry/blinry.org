@@ -1,8 +1,12 @@
 ---
 title: Operation Mindfuck Vol. 4
 tags: talk
-notpublished: 2020-12-29
+published: 2020-12-29
 ---
+
+## Recording
+
+<%= media_ccc_de("rc3-501024-operation_mindfuck_vol_4") %>
 
 ## Slides
 
