@@ -1569,7 +1569,7 @@ var app = (function () {
     const { Object: Object_1, console: console_1 } = globals;
     const file = "src/App.svelte";
 
-    // (168:8) {#if showXY}
+    // (169:12) {#if showXY}
     function create_if_block_3(ctx) {
     	let h2;
     	let t1;
@@ -1584,10 +1584,10 @@ var app = (function () {
     			t1 = space();
     			div = element("div");
     			if (if_block) if_block.c();
-    			add_location(h2, file, 168, 12, 4255);
+    			add_location(h2, file, 169, 16, 4308);
     			attr_dev(div, "id", "percentages");
-    			attr_dev(div, "class", "svelte-15b77j2");
-    			add_location(div, file, 169, 12, 4288);
+    			attr_dev(div, "class", "svelte-21qvve");
+    			add_location(div, file, 170, 16, 4345);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -1623,14 +1623,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(168:8) {#if showXY}",
+    		source: "(169:12) {#if showXY}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (171:16) {#if isFinite(x)}
+    // (172:20) {#if isFinite(x)}
     function create_if_block_4(ctx) {
     	let t0;
     	let t1_value = Math.round(/*x*/ ctx[9] * 100) + "";
@@ -1682,14 +1682,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(171:16) {#if isFinite(x)}",
+    		source: "(172:20) {#if isFinite(x)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (200:8) {#if showCone || showCones}
+    // (201:12) {#if showCone || showCones}
     function create_if_block_2(ctx) {
     	let h2;
     	let t1;
@@ -1729,7 +1729,7 @@ var app = (function () {
     			h2.textContent = "X cone";
     			t1 = space();
     			create_component(spectrum.$$.fragment);
-    			add_location(h2, file, 200, 12, 5302);
+    			add_location(h2, file, 201, 16, 5463);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -1775,14 +1775,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(200:8) {#if showCone || showCones}",
+    		source: "(201:12) {#if showCone || showCones}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (209:8) {#if showCones}
+    // (210:12) {#if showCones}
     function create_if_block_1(ctx) {
     	let h20;
     	let t1;
@@ -1852,8 +1852,8 @@ var app = (function () {
     			h21.textContent = "Z cone";
     			t4 = space();
     			create_component(spectrum1.$$.fragment);
-    			add_location(h20, file, 209, 12, 5536);
-    			add_location(h21, file, 211, 12, 5641);
+    			add_location(h20, file, 210, 16, 5733);
+    			add_location(h21, file, 212, 16, 5846);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h20, anchor);
@@ -1925,14 +1925,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(209:8) {#if showCones}",
+    		source: "(210:12) {#if showCones}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (217:8) {#if showChromaticityDiagram}
+    // (218:12) {#if showChromaticityDiagram}
     function create_if_block(ctx) {
     	let h2;
     	let t1;
@@ -1952,7 +1952,7 @@ var app = (function () {
     			h2.textContent = "xy chromaticity diagram";
     			t1 = space();
     			create_component(chromaticitydiagram.$$.fragment);
-    			add_location(h2, file, 217, 12, 5834);
+    			add_location(h2, file, 218, 16, 6063);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -1985,7 +1985,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(217:8) {#if showChromaticityDiagram}",
+    		source: "(218:12) {#if showChromaticityDiagram}",
     		ctx
     	});
 
@@ -1994,6 +1994,7 @@ var app = (function () {
 
     function create_fragment(ctx) {
     	let main;
+    	let div4;
     	let div1;
     	let h20;
     	let t1;
@@ -2035,6 +2036,12 @@ var app = (function () {
     	let t22;
     	let t23;
     	let div3;
+    	let t24;
+    	let div5;
+    	let b;
+    	let t26;
+    	let a;
+    	let t28;
     	let current;
     	let mounted;
     	let dispose;
@@ -2059,6 +2066,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			main = element("main");
+    			div4 = element("div");
     			div1 = element("div");
     			h20 = element("h2");
     			h20.textContent = "Light";
@@ -2076,25 +2084,25 @@ var app = (function () {
     			h22.textContent = "Options";
     			t8 = space();
     			input0 = element("input");
-    			t9 = text("\n        cone ");
+    			t9 = text("\n            cone ");
     			input1 = element("input");
-    			t10 = text("\n        more cones");
+    			t10 = text("\n            more cones");
     			br0 = element("br");
     			t11 = space();
     			input2 = element("input");
-    			t12 = text("\n        percentages");
+    			t12 = text("\n            percentages");
     			br1 = element("br");
     			t13 = space();
     			input3 = element("input");
-    			t14 = text("\n        chromaticity diagram");
+    			t14 = text("\n            chromaticity diagram");
     			br2 = element("br");
     			t15 = space();
     			input4 = element("input");
-    			t16 = text("\n        spectral locus");
+    			t16 = text("\n            spectral locus");
     			br3 = element("br");
     			t17 = space();
     			input5 = element("input");
-    			t18 = text("\n        sRGB Gamut");
+    			t18 = text("\n            sRGB Gamut");
     			br4 = element("br");
     			t19 = space();
     			button = element("button");
@@ -2107,38 +2115,54 @@ var app = (function () {
     			t23 = space();
     			div3 = element("div");
     			if (if_block3) if_block3.c();
-    			add_location(h20, file, 163, 8, 4040);
-    			add_location(h21, file, 165, 8, 4133);
+    			t24 = space();
+    			div5 = element("div");
+    			b = element("b");
+    			b.textContent = "Instruction:";
+    			t26 = text(" Draw on the light spectrum to change the incoming\n        light. – Draw on the cone graphs to change them. – Draw on the\n        chromaticity diagram to create an RGB mix. – Watch the\n        ");
+    			a = element("a");
+    			a.textContent = "talk";
+    			t28 = text(".");
+    			add_location(h20, file, 164, 12, 4073);
+    			add_location(h21, file, 166, 12, 4174);
     			attr_dev(div0, "id", "htmlColor");
     			set_style(div0, "background", /*htmlColor*/ ctx[18]);
-    			attr_dev(div0, "class", "svelte-15b77j2");
-    			add_location(div0, file, 166, 8, 4167);
-    			add_location(h22, file, 177, 8, 4555);
+    			attr_dev(div0, "class", "svelte-21qvve");
+    			add_location(div0, file, 167, 12, 4212);
+    			add_location(h22, file, 178, 12, 4644);
     			attr_dev(input0, "type", "checkbox");
-    			add_location(input0, file, 178, 8, 4580);
+    			add_location(input0, file, 179, 12, 4673);
     			attr_dev(input1, "type", "checkbox");
-    			add_location(input1, file, 179, 13, 4643);
-    			add_location(br0, file, 180, 18, 4712);
+    			add_location(input1, file, 180, 17, 4740);
+    			add_location(br0, file, 181, 22, 4813);
     			attr_dev(input2, "type", "checkbox");
-    			add_location(input2, file, 182, 8, 4728);
-    			add_location(br1, file, 183, 19, 4795);
+    			add_location(input2, file, 183, 12, 4833);
+    			add_location(br1, file, 184, 23, 4904);
     			attr_dev(input3, "type", "checkbox");
-    			add_location(input3, file, 185, 8, 4811);
-    			add_location(br2, file, 186, 28, 4904);
+    			add_location(input3, file, 186, 12, 4924);
+    			add_location(br2, file, 187, 32, 5021);
     			attr_dev(input4, "type", "checkbox");
-    			add_location(input4, file, 188, 8, 4920);
-    			add_location(br3, file, 189, 22, 5001);
+    			add_location(input4, file, 189, 12, 5041);
+    			add_location(br3, file, 190, 26, 5126);
     			attr_dev(input5, "type", "checkbox");
-    			add_location(input5, file, 191, 8, 5017);
-    			add_location(br4, file, 192, 18, 5090);
-    			add_location(button, file, 194, 8, 5106);
-    			attr_dev(div1, "class", "column svelte-15b77j2");
-    			add_location(div1, file, 162, 4, 4011);
-    			attr_dev(div2, "class", "column svelte-15b77j2");
-    			add_location(div2, file, 198, 4, 5233);
-    			attr_dev(div3, "class", "column svelte-15b77j2");
-    			add_location(div3, file, 215, 4, 5763);
-    			attr_dev(main, "class", "svelte-15b77j2");
+    			add_location(input5, file, 192, 12, 5146);
+    			add_location(br4, file, 193, 22, 5223);
+    			add_location(button, file, 195, 12, 5243);
+    			attr_dev(div1, "class", "column svelte-21qvve");
+    			add_location(div1, file, 163, 8, 4040);
+    			attr_dev(div2, "class", "column svelte-21qvve");
+    			add_location(div2, file, 199, 8, 5386);
+    			attr_dev(div3, "class", "column svelte-21qvve");
+    			add_location(div3, file, 216, 8, 5984);
+    			attr_dev(div4, "id", "container");
+    			attr_dev(div4, "class", "svelte-21qvve");
+    			add_location(div4, file, 162, 4, 4011);
+    			add_location(b, file, 224, 8, 6226);
+    			attr_dev(a, "href", "/what-is-color/");
+    			attr_dev(a, "target", "_blank");
+    			add_location(a, file, 227, 8, 6438);
+    			add_location(div5, file, 223, 4, 6212);
+    			attr_dev(main, "class", "svelte-21qvve");
     			add_location(main, file, 161, 0, 4000);
     		},
     		l: function claim(nodes) {
@@ -2146,7 +2170,8 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, main, anchor);
-    			append_dev(main, div1);
+    			append_dev(main, div4);
+    			append_dev(div4, div1);
     			append_dev(div1, h20);
     			append_dev(div1, t1);
     			mount_component(spectrum, div1, null);
@@ -2188,14 +2213,20 @@ var app = (function () {
     			append_dev(div1, br4);
     			append_dev(div1, t19);
     			append_dev(div1, button);
-    			append_dev(main, t21);
-    			append_dev(main, div2);
+    			append_dev(div4, t21);
+    			append_dev(div4, div2);
     			if (if_block1) if_block1.m(div2, null);
     			append_dev(div2, t22);
     			if (if_block2) if_block2.m(div2, null);
-    			append_dev(main, t23);
-    			append_dev(main, div3);
+    			append_dev(div4, t23);
+    			append_dev(div4, div3);
     			if (if_block3) if_block3.m(div3, null);
+    			append_dev(main, t24);
+    			append_dev(main, div5);
+    			append_dev(div5, b);
+    			append_dev(div5, t26);
+    			append_dev(div5, a);
+    			append_dev(div5, t28);
     			current = true;
 
     			if (!mounted) {
