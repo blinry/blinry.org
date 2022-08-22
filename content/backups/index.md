@@ -5,11 +5,31 @@ tags: tech
 thumbnail: thumbnail.png
 ---
 
+**I updated my backup strategy and this page in 2022.**
+
 Until 2019, my backup strategy was not very sophisticated: I occasionally made backups of my notebook on an external hard drive, using the command line tool `rsync`. It was a manual process, and I didn't have a regular schedule, which meant that I basically only made a backup "when I thought of it" (often several months apart). If my notebook had been stolen, I would've lost a lot of work.
 
-So I put some more thought into it. Here's how I do backups on Linux, as of 2019. My backup strategy revolves around two devices: my notebook "thinkerbell" and my server "morr.cc". At this point, Internet connections are fast, and online storage is cheap, so I just store a backup of my server on the notebook, and a backup of my notebook on the server, using a combination of `rsync`, `borgmatic`, and `gopass`. The backups are fully automated and run once per day.
+In 2019, I set up automated backups using [borg](https://www.borgbackup.org), [borgmatic](https://torsion.org/borgmatic/), and rsync. My server had a backup of my notebook on it, and the other way around. If one of them exploded, I could've restored it using the other. This worked as long as my server had enough free storage.
 
-The motivation for this post is threefold: first and foremost, I wanted to write documentation for myself on how I do backups, and how to restore them. Second, I want to give you all the resources you need to set up a similar system for yourself. And third, this might be useful information in an emergency – some people I trust have access to my secrets [listed below](#secrets).
+In 2022, I switched to [restic](https://restic.net), another great open source de-duplicated backup solution, which felt a bit simpler and faster compared to borg. The only downside is that it needs more storage space, because it doesn't compress the backups.
+
+For storing the (encrypted) backups, I'm using [Backblaze](https://www.backblaze.com). They charge 5 USD to store 1 TB of data for a month, that seems very fair to me. I currently pay around 2 USD per month. I'd like something self-hosted even better, but I also badly needed to make automated backups happen again.
+
+## Notebook
+
+### Setup
+
+- Register a Backblaze account, and create a bucket.
+- Then, follow [this guide](https://help.backblaze.com/hc/en-us/articles/4403944998811-Quickstart-Guide-for-Restic-and-Backblaze-B2-Cloud-Storage).
+
+### Restore
+
+- If your notebook explodes, get a new machine, and install restic.
+- Log into backblaze.com using my main email account. You'll need the **Backblaze password**.
+- At "Account -> App Keys", create a new application key, and write down the keyID and the actual keyphrase.
+- Set the environment variable `B2_ACCOUNT_ID` to the keyID, and `B2_ACCOUNT_KEY` to the keyphrase.
+- Run `restic -r b2:blinry-restic mount directory/to/mount/to`, you'll need the **password of the blinry-restic backup** for this step.
+- Copy out all of what you need.
 
 ## Passwords
 
@@ -22,6 +42,15 @@ To install and set up gopass, basically follow the instructions on [gopass.pw](h
 ### Restore
 
 To access the passwords, you need physical access to your notebook and the passphrase for your GPG key. If you don't have access to your notebook, you'll need the password for the user account on your server, the keyfile (see below) and the passphrase for the backup of your notebook, *and* the passphrase for your GPG key.
+
+
+
+
+
+So I put some more thought into it. My backup strategy revolves around two devices: my notebook "thinkerbell" and my server "morr.cc". At this point, Internet connections are fast, and online storage is cheap, so I just store a backup of my server on the notebook, and a backup of my notebook on the server, using a combination of `rsync`, `borgmatic`, and `gopass`. The backups are fully automated and run once per day.
+
+The motivation for this post is threefold: first and foremost, I wanted to write documentation for myself on how I do backups, and how to restore them. Second, I want to give you all the resources you need to set up a similar system for yourself. And third, this might be useful information in an emergency – some people I trust have access to my secrets [listed below](#secrets).
+
 
 ## Server
 
