@@ -3,10 +3,12 @@ title: legit
 subtitle: Git commits as an esoteric programming language
 tags: software, esolang, fav
 published: 2019-05-01T17:07-04:00
-thumbnail: thumbnail.svg
+thumbnail: thumbnail.png
 ---
 
-Ever since I gave [that talk](/esolangs/) about esoteric programming languages, I wanted to create my own one. Well, some years later, at the [Recurse Center](/rc-month-1/), I wanted to learn how to build compilers with LLVM, so that seemed like a good opportunity to try that! Presenting:
+<%= youtube("Cpiz2wE4MZU") %>
+
+Ever since I gave [my first talk](/esolangs/) about esoteric programming languages, I wanted to create my own one. Well, some years later, at the [Recurse Center](/rc-month-1/), I wanted to learn how to build compilers with LLVM, so that seemed like a good opportunity to try that! Presenting:
 
 ![](legit.svg)
 
