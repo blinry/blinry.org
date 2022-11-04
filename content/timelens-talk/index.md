@@ -19,8 +19,8 @@ And here are the slides:
 ## Links
 
 - [Moviebarcode Tumblr](http://moviebarcode.tumblr.com/)
-- [Quiz](https://timelens.io/quiz/)
-- [Timelens](https://timelens.io/)
+- [Quiz](https://timelens.blinry.org/quiz/)
+- [Timelens](https://timelens.blinry.org/)
 - [Wikipedia: Moodbar](https://en.wikipedia.org/wiki/Moodbar)
 - [Explorable Explanations](https://explorabl.es/)
 - [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)

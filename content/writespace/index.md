@@ -27,17 +27,9 @@ This game got quite a bit of coverage. There were some short articles written ab
 - [Alpha Beta Gamer](https://www.alphabetagamer.com/writespace-game-jam-build/)
 - [gamejamcurator](https://gamejamcurator.tumblr.com/post/177162841106/ludum-dare-42-writespace)
 
-Joshua did a rather long stream, with fun commentary:
-
-<%= twitch("298094346", start: "01h25m45s") %>
-
 Randomise User recorded a short playthrough:
 
 <%= youtube("u3EkWjGULzg", start: 541) %>
-
-Pixtxa recorded a full playthrough (with German commentary):
-
-<%= youtube("297622477", start: "00h01m55s") %>
 
 And EliteKessu also did a full playthrough with hilarious meta commentary through the game's user interface:
 
@@ -52,3 +44,7 @@ And EliteKessu also did a full playthrough with hilarious meta commentary throug
 *Brilliant game. I spent the last 40 minutes playing this game and enjoying myself with puzzles and the beautiful aesthetics. Love the seemly simple mechanics can actually generate4 so many interesting puzzle especially the later ones involving finding out clever ways of getting around tight spaces and dead ends.* --jackyjjc
 
 *Wow, this game blew my mind, supernice, this is incredible 5/5* --oskarOlausson
+
+## Results
+
+*Writespace* won second place, out of over 2000 jam entries!
