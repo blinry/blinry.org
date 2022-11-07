@@ -112,7 +112,6 @@ PLATFORMS
 DEPENDENCIES
   adsf
   erb
-  ffi (~> 1.14)
   kramdown
   nanoc (~> 4.12)
   nanoc-live
