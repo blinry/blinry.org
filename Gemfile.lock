@@ -110,7 +110,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  adsf
   erb
   kramdown
   nanoc (~> 4.12)

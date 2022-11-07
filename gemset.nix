@@ -12,7 +12,7 @@
   };
   adsf = {
     dependencies = ["rack"];
-    groups = ["nanoc"];
+    groups = ["default" "nanoc"];
     platforms = [];
     source = {
       remotes = ["http://rubygems.org"];
