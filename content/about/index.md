@@ -6,8 +6,8 @@ nometa: true
 ## Contact
 
 - Email: <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;blinry<i title="</i>mailto:">.</i>org
+- Fediverse: [@blinry@chaos.social](https://chaos.social/@blinry)
 - Twitter: [@blinry](https://twitter.com/blinry)
-- Mastodon: [@blinry@chaos.social](https://chaos.social/@blinry)
 - GitHub: [blinry](https://github.com/blinry)
 - Signal: Please ask for my phone number! :)
 

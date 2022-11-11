@@ -55,9 +55,9 @@ html lang=lang_for(@item)
       ul
         - item = @items["/about/index.md"]
         li class=("current" if @item.path == item.path)
-            ==link_to(item, "About me")
+            ==link_to(item, "Contact")
         li
-            a href="https://twitter.com/blinry" target="_blank" Twitter
+            a href="https://chaos.social/@blinry" target="_blank" Fediverse
         li
             a href="https://www.patreon.com/blinry" target="_blank" Support me
         li
@@ -100,7 +100,7 @@ html lang=lang_for(@item)
         h2 Comments?
         p
           | Send a tweet to
-          a<> href="https://twitter.com/blinry" target="_blank" @blinry
+          a<> href="https://chaos.social/@blinry" target="_blank" @blinry@chaos.social
           | or drop me a mail at <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;blinry<i title="</i>mailto:">.</i>org. Also, you can support me
           a<> href="https://www.patreon.com/blinry" target="_blank" on Patreon
           | or subscribe to
