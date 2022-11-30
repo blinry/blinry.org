@@ -1,8 +1,12 @@
 ---
 title: Operation Mindfuck Vol. 5
 tags: talk
-notpublished: 2021-12-23
+published: 2021-12-27
 ---
+
+## Recording
+
+<%= media_ccc_de("rc3-2021-haecksen-243-operation-mindfuck") %>
 
 ## Slides
 
