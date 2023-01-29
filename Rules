@@ -11,6 +11,11 @@ preprocess do
         if item[:tags]
             item[:tags] = item[:tags].split(",").map{|t| t.strip}
         end
+        if item[:url]
+            if item[:url] !~ /:\/\//
+                item[:url] = "https://" + item[:url]
+            end
+        end
         if item[:title]
             dir = item.identifier.to_s.split("/")[0..-2].join("/")+"/"
             if item[:thumbnail]
