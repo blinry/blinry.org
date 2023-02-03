@@ -44,6 +44,8 @@ html lang=lang_for(@item)
 
     - if @item.path == "/"
       script src="/assets/filter.js"
+    - if @item[:toot]
+      script src="/assets/iframeResizer.min.js"
 
   body
     #nav
@@ -95,14 +97,27 @@ html lang=lang_for(@item)
 
       - if @item[:tags]
         hr
-        h2 Comments?
-        p
-          | Send a message to
-          a<> href="https://chaos.social/@blinry" target="_blank" @blinry@chaos.social
-          | or drop me a mail at <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;blinry<i title="</i>mailto:">.</i>org. Also, you can support me
-          a<> href="https://www.patreon.com/blinry" target="_blank" on Patreon
-          | or subscribe to
-          a< href="https://tinyletter.com/blinry" target="_blank" my newsletter 
-          | !
+        - if @item[:toot]
+          h2 Join the discussion!
+          p
+            | You can add your comment
+            a<> href=@item[:toot] target="_blank" in the Fediverse!
+            | Alternatively, drop me a mail at <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;blinry<i title="</i>mailto:">.</i>org. Also, you can support me
+            a<> href="https://www.patreon.com/blinry" target="_blank" on Patreon
+            | or subscribe to
+            a< href="https://tinyletter.com/blinry" target="_blank" my newsletter 
+            | !
+          iframe class="toot" id="toot" src="https://toot-embedder.blinry.org/#url=#{@item[:toot]}"
+          script iFrameResize({ log: true }, '#toot')
+        - else
+          h2 Comments?
+          p
+            | Send a message to
+            a<> href="https://chaos.social/@blinry" target="_blank" @blinry@chaos.social
+            | or drop me a mail at <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;blinry<i title="</i>mailto:">.</i>org. Also, you can support me
+            a<> href="https://www.patreon.com/blinry" target="_blank" on Patreon
+            | or subscribe to
+            a< href="https://tinyletter.com/blinry" target="_blank" my newsletter 
+            | !
         /h2 Similar projects
         /== box(things[0..2])

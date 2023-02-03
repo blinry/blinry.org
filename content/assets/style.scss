@@ -259,7 +259,8 @@ code {
         margin-bottom: $spacing;
         line-height: 2.5em;
 
-        a, div {
+        a,
+        div {
             display: inline;
             border: 1px solid #ccc;
             padding: 0.3em 0.6em 0.2em 0.6em;
@@ -276,7 +277,8 @@ code {
             }
         }
 
-        a:hover, div:hover {
+        a:hover,
+        div:hover {
             cursor: pointer;
             background: #eee;
         }
@@ -387,6 +389,11 @@ code {
     }
     .spoiler {
         background: $offblack;
+    }
+    iframe.toot {
+        width: 1px;
+        min-width: 100%;
+        border: none;
     }
 }
 
