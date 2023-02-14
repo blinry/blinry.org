@@ -2,6 +2,7 @@
 title: Floppiness
 tags: music
 published: 2023-01-27T19:40+01:00
+toot: https://chaos.social/@blinry/109762736023267718
 ---
 
 A chiptunes track made in [Ardour](https://ardour.org) in a week! I'm... not too fond of Ardour, to be honest. It had weird behaviour, crashed a couple of times, and forgot instrument setting after re-opening a project. Anyway, I made a song! :)

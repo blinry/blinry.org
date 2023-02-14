@@ -2,6 +2,7 @@
 title: Alarm Clock Arcade
 tags: game
 published: 2022-10-03
+toot: https://chaos.social/@blinry/109109994577784631
 ---
 
 For the Ludum Dare 51 game jam, [Kiki](https://flauschzelle.de) and me made another game!

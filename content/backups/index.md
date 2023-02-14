@@ -9,11 +9,13 @@ thumbnail: thumbnail.png
 
 Until 2019, my backup strategy was not very sophisticated: I occasionally made backups of my notebook on an external hard drive, using the command line tool `rsync`. It was a manual process, and I didn't have a regular schedule, which meant that I basically only made a backup "when I thought of it" (often several months apart). If my notebook had been stolen, I would've lost a lot of work.
 
-In 2019, I set up automated backups using [borg](https://www.borgbackup.org), [borgmatic](https://torsion.org/borgmatic/), and rsync. My server had a backup of my notebook on it, and the other way around. If one of them exploded, I could've restored it using the other. This worked as long as my server had enough free storage.
+In 2019, I set up automated backups using [borg](https://www.borgbackup.org), [borgmatic](https://torsion.org/borgmatic/), and rsync. My server had a backup of my notebook on it, and the other way around. If one of them exploded, I could've restored it using the other. This worked well, but eventually, my server ran out of disk space, and adding more storage would've been rather expensive.
 
 In 2022, I switched to [restic](https://restic.net), another great open source de-duplicated backup solution, which felt a bit simpler and faster compared to borg. The only downside is that it needs more storage space, because it doesn't compress the backups.
 
 For storing the (encrypted) backups, I'm using [Backblaze](https://www.backblaze.com). They charge 5 USD to store 1 TB of data for a month, that seems very fair to me. I currently pay around 2 USD per month. I'd like something self-hosted even better, but I also badly needed to make automated backups happen again.
+
+This page is documenting how I set up my backups, and how to restore them, mostly for myself. :P
 
 ## Notebook
 

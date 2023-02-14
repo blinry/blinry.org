@@ -5,6 +5,7 @@ published: 2020-01-07T11:53+01:00
 updated: 2022-10-21
 tags: tokipona
 license: CC0
+toot: https://chaos.social/@blinry/103441773848063945
 ---
 
 In the beginning of 2020, I did a [workshop](/toki-pona-workshop/) about the constructed, minimalist language Toki Pona. I always wanted to try to put the entire grammar of Toki Pona on one page, and I'm super glad that worked out pretty well!
