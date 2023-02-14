@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: "Cabin";
+    text-transform: none;
+}
+
+.reveal h3, .reveal h4 {
+    font-weight: normal;
+}
+
+body {
+    background: black;
+}
+
+img {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}

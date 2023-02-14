@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+
+        <title>Building a Git learning game</title>
+
+        <link rel="stylesheet" href="css/reveal.css" />
+        <link rel="stylesheet" href="css/theme/black.css" />
+        <link rel="stylesheet" href="css/mods.css" />
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css" />
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement("link")
+            link.rel = "stylesheet"
+            link.type = "text/css"
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? "css/print/pdf.css"
+                : "css/print/paper.css"
+            document.getElementsByTagName("head")[0].appendChild(link)
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <img src="img/head.svg" style="height: 5em" />
+                    <h2>BUILDING A GIT LEARNING GAME</h2>
+                    <h3>A playful approach to version control</h3>
+                    <br />
+                    <h4>bleeptrack &amp; blinry</h4>
+                </section>
+
+                <section>
+                    <h2>Git is hard!</h2>
+                    <img src="img/xkcd1597.png" />
+                </section>
+
+                <section>
+                    <h2>Human Resource Machine</h2>
+                    <img src="img/hrm.jpg" />
+                </section>
+
+                <section>
+                    <h2>A Git learning game!</h2>
+                    <ul>
+                        <li>open-source</li>
+                        <li>cross-platform</li>
+                        <li>extremely interactive</li>
+                        <li>builds intuition</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <div style="background: white; padding: 1em">
+                        <a href="https://www.bmbf.de/en/"
+                            ><img
+                                src="https://timelens.io/assets/images/bmbf.svg"
+                                alt="Logo of the German Ministry for Education and Research"
+                                height="150px" /></a
+                        >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <a href="https://prototypefund.de/en/"
+                            ><img
+                                src="https://timelens.io/assets/images/prototypefund.svg"
+                                alt="Logo of the Prototype Fund"
+                                height="150px" /></a
+                        >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <a href="https://okfn.de/en/"
+                            ><img
+                                src="https://timelens.io/assets/images/okfde.svg"
+                                alt="Logo of the Open Knowledge Foundation Germany"
+                                height="150px"
+                        /></a>
+                    </div>
+                </section>
+
+                <section>
+                    <img src="img/godot.svg" />
+                </section>
+
+                <section
+                    data-background-video="vid/repository.mp4"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain"
+                ></section>
+                <section
+                    data-background-video="vid/cards.mp4"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain"
+                ></section>
+                <section
+                    data-background-video="vid/terminal.mp4"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain"
+                ></section>
+                <section>
+                    <h2>Staging</h2>
+                    <img src="img/staging.png" width="50%" />
+                </section>
+                <section
+                    data-background-video="vid/terminal-git.mp4"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain"
+                ></section>
+                <section
+                    data-background-video="vid/remote.mp4"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain"
+                ></section>
+                <section>
+                    <h2>Level Format</h2>
+                    <pre class="nohighlight"><code data-trim data-noescape>
+                        title = Working together
+                        cards = clone checkout commit-auto pull push
+
+                        [description]
+                        "A friend has asked you to help with an essay about hobbies!
+                        She has already started to write a list, and started
+                        tracking it with her own time machine!"
+
+                        [congrats]
+                        "Thanks, these are some really nice hobbies!
+                        Hope we can do that together soon!"
+                    </code></pre>
+                </section>
+                <section>
+                    <h2>Level Format</h2>
+                    <pre class="nohighlight"><code data-trim data-noescape>
+                        [setup]
+
+                        rm -rf .git
+
+                        [setup friend]
+
+                        echo "~ Best hobbies ~" > hobbies.txt
+                        git add .
+                        git commit -m "Initial version"
+                    </code></pre>
+                </section>
+                <section>
+                    <h2>Level Format</h2>
+                    <pre class="nohighlight"><code data-trim data-noescape>
+                        [win]
+
+                        # Add at least two more lines to hobbies.txt
+                        test "$(cat hobbies.txt |wc -l)" -ge 6
+
+                        # Commit your result.
+                        test "$(git show main:hobbies.txt |wc -l)" -ge 6
+
+                        [win friend]
+
+                        # And use `git push` to send it to your friend!
+                        test "$(git show main:hobbies.txt |wc -l)" -ge 6
+                    </code></pre>
+                </section>
+
+                <section
+                    data-background-video="vid/levels.mp4"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain"
+                ></section>
+
+                <section>
+                    <h2>Next steps</h2>
+
+                    <ul>
+                        <li>More story: time travel + solarpunk?</li>
+                        <li>More content: submodules?</li>
+                        <li>A lot of polishing!</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What can beginners get out of the game?</h2>
+
+                    <ul>
+                        <li>A fun introduction to Git</li>
+                        <li>An intuitive understanding</li>
+                        <ul>
+                            <li>Merging/rebasing</li>
+                            <li>Staging/unstaging</li>
+                        </ul>
+                        <li>Real-world knowledge</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What can advanced users get out of the game?</h2>
+
+                    <ul>
+                        <li>Get to know advanced features</li>
+                        <ul>
+                            <li>Finding bugs with <code>git bisect</code></li>
+                            <li>
+                                Patching things with <code>git replace</code>
+                            </li>
+                        </ul>
+                        <li>Deep-dive into Git's internals</li>
+                        <ul>
+                            <li>What's inside of <code>.git/</code>?</li>
+                            <li>"Distributed graph theory tree model"?</li>
+                        </ul>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Reach out to us if you want to:</h2>
+
+                    <ul>
+                        <li>Spread the word (educators? mentors?)</li>
+                        <li>Test the game (at all experience levels)</li>
+                        <li>Build your own levels</li>
+                    </ul>
+
+                    <br />
+                    <br />
+
+                    <p><a href="">morr.cc/git-game/</a></p>
+                    <p>@bleeptrack / @blinry</p>
+                    <p><a href="mailto:bb@morr.cc">bb@morr.cc</a></p>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    {src: "plugin/markdown/marked.js"},
+                    {src: "plugin/markdown/markdown.js"},
+                    {src: "plugin/notes/notes.js", async: true},
+                    {
+                        src: "plugin/highlight/highlight.js",
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad()
+                        },
+                    },
+                ],
+            })
+        </script>
+    </body>
+</html>
