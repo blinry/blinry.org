@@ -16,7 +16,7 @@ thumbnail: assets/images/preview.png
 </div>
 
 <div class="content">
-    <h1>Latest</h1>
+    <h1 id="latest">Latest</h1>
 
     <p>Here's the 6 newest things I've released!</p>
 </div>
@@ -24,7 +24,7 @@ thumbnail: assets/images/preview.png
 <%= box(things[0..5]) %>
 
 <div class="content">
-    <h1>Popular</h1>
+    <h1 id="popular">Popular</h1>
 
     <p>Here's some of my most popular projects!</p>
 </div>
@@ -32,7 +32,7 @@ thumbnail: assets/images/preview.png
 <%= box(with_tag("popular")) %>
 
 <div class="content">
-    <h1>My favorites</h1>
+    <h1 id="favs">My favorites</h1>
 
     <p>And here's the things I'm most proud of!</p>
 </div>
@@ -54,3 +54,11 @@ thumbnail: assets/images/preview.png
 </div>
 
 <%= box(with_tag("talk")) %>
+
+<div class="content">
+    <h1>Everything</h1>
+
+    <p>Besides that, I make a lot of other things! Here's everything at once!</p>
+</div>
+
+<%= box(things) %>
