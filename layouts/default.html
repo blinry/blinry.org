@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>TITEL</title>
+
+        <link rel="stylesheet" href="/assets/style.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="home">
+                    <a href="/"
+                        ><img
+                            src="/assets/images/avatar.png"
+                            alt="Cartoon avatar of blinry"
+                    /></a>
+                </li>
+                <li><a href="/latest/">Latest</a></li>
+                <li><a href="/popular/">Popular</a></li>
+                <li class="end"><a href="/about/">Contact</a></li>
+            </ul>
+        </nav>
+        <% if @item[:headless] %> <%= yield %> <% else %>
+        <div class="content">
+            <h1><%= @item[:title] %></h1>
+            <%= yield %>
+        </div>
+        <% end %>
+    </body>
+</html>

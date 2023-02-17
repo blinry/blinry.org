@@ -80,6 +80,12 @@ compile "/**/*.md" do
     end
 end
 
+compile "/index.html.erb" do
+    filter :erb
+    layout "/default.*"
+    write item.identifier.to_s[0..-10] + ".html"
+end
+
 compile "/**/*.slim" do
     filter :slim
     layout "/default.*"
@@ -112,4 +118,4 @@ end
 
 passthrough "/**/*"
 
-layout "/**/*", :slim
+layout "/**/*", :erb

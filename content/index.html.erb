@@ -1,0 +1,56 @@
+---
+title: blinry's homepage
+subtitle: "Hi, I'm blinry! I make a lot of visual and interactive things - you can browse my projects below!"
+headless: true
+thumbnail: assets/images/preview.png
+---
+
+<div id="intro">
+    <img src="/assets/images/avatar.png" alt="Cartoon avatar of blinry" />
+    <div>
+    Hi, I'm <b>blinry</b>! I make a lot of visual and interactive things – you can
+    browse my projects below! I'm available for <b>freelance work</b>, and always
+    excited to work on new projects! If you're looking for an experienced
+    programmer and designer, <a href="/about/">let's talk</a>!
+    </div>
+</div>
+
+<div class="content">
+    <h1>Latest</h1>
+
+    <p>Here's the 6 newest things I've released!</p>
+</div>
+
+<%= box(things[0..5]) %>
+
+<div class="content">
+    <h1>Popular</h1>
+
+    <p>Here's some of my most popular projects!</p>
+</div>
+
+<%= box(with_tag("popular")) %>
+
+<div class="content">
+    <h1>My favorites</h1>
+
+    <p>And here's the things I'm most proud of!</p>
+</div>
+
+<%= box(with_tag("fav")) %>
+
+<div class="content">
+    <h1>Games</h1>
+
+    <p>I love to create video games, especially for game jams!</p>
+</div>
+
+<%= box(with_tag("game")) %>
+
+<div class="content">
+    <h1>Talks</h1>
+
+    <p>I often give talks about things that fascinate me!</p>
+</div>
+
+<%= box(with_tag("talk")) %>

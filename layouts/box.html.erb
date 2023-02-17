@@ -1,0 +1,25 @@
+<a class="box" href="<%= link_for(@item) %>" <%= @item[:url] ? "target=\"_blank\"" : "" %>">
+    <div class="image" style="background-image: url('<%= minithumbnail_for(@item) %>')"></div>
+    <div class="meta">
+        <h2><%= @item[:title] %>
+        <% if @item[:url] %>
+            <img class="icon" src="/assets/icons/external-link.svg" alt="External link">
+        <% end %>
+        </h2>
+        <% if @item[:subtitle] %>
+            <h3><%= @item[:subtitle] %></h3>
+        <% end %>
+        <p class="details">
+        <% if @item[:published] %>
+            <%= @item[:published].year %>
+        <% end %>
+        <% if @item[:updated] and @item[:published].year != @item[:updated].year %>
+            – <%= @item[:updated].year %>
+        <% end %>
+        <% if @item[:tags] %>
+            /
+            <%= tags_for(@item, false) %>
+        <% end %>
+        </p>
+    </div>
+</a>

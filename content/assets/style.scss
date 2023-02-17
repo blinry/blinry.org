@@ -1,444 +1,203 @@
-$spacing: 1.5em;
-$offblack: #3a4145;
-$grey: #222;
+// https://www.joshwcomeau.com/css/custom-css-reset/
 
-@font-face {
-    font-family: "Inconsolata";
-    src: url("/assets/fonts/Inconsolata.otf");
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 * {
     margin: 0;
-    padding: 0;
-    font-size: inherit;
-}
-
-a {
-    text-decoration: none;
-    color: #57a3e8;
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    color: $grey;
 }
 
 body {
-    margin: 0 auto;
-    padding: $spacing;
-    max-width: 48em;
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.6em;
-    overflow-y: scroll;
-    color: $offblack;
+    line-height: 1.5;
 }
 
-code {
-    font-family: "Inconsolata", monospace;
-    font-size: 1.3em;
+body {
+    -webkit-font-smoothing: antialiased;
 }
 
-#nav {
-    float: left;
-    width: 8em;
-    margin-top: 3em;
-    margin-right: 4em;
-    position: fixed;
-    text-align: right;
-    color: $grey;
-    > a {
-        margin-right: 0.5em;
-    }
-    img {
-        vertical-align: bottom;
-        margin-bottom: 0;
-        height: 5em;
-        transition: filter 0.2s ease-in-out;
-        border-radius: 0.2em;
-    }
-    img:hover {
-        filter: brightness(90%);
-    }
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    padding: 10px 0 15px 0;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: sticky;
+    top: 0;
     ul {
-        margin-top: 1.3em;
-        margin-right: 0.5em;
-        font-size: 1.1em;
-        font-weight: bold;
-    }
-    li {
-        list-style-type: none;
-        transition: all 0.2s ease;
+        flex-grow: 1;
+        list-style: none;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
         a {
-            display: inline;
-            color: inherit;
-            padding: 0em 0.3em;
+            text-decoration: none;
+            color: black;
         }
-        a:hover {
-            background: #eee;
+        .home {
+            font-size: 150%;
+            margin-right: 1rem;
+            font-weight: 900;
+            a {
+                color: green;
+            }
+            img {
+                height: 4rem;
+            }
         }
-    }
-    li.current a {
-        color: white;
-        background: $grey;
+        .end {
+            margin-left: auto;
+        }
     }
 }
 
-#content {
-    margin-bottom: 2 * $spacing;
-    margin-top: 3em;
-    max-width: 36em;
-    float: right;
-    p {
-        -hyphens: auto;
-        -moz-hyphens: auto;
-        -o-hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        text-align: justify;
+.content,
+nav ul,
+#intro {
+    max-width: 60rem;
+    padding: 20px;
+}
+
+.content {
+    border-radius: 10px;
+    font-size: 120%;
+    h1 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
     }
-    p,
-    ul,
-    ol,
-    pre,
-    hr,
-    dl {
-        margin-bottom: 1em;
-    }
-    h1,
+
     h2,
     h3,
-    h4 {
-        color: $grey;
-        line-height: 1;
-        font-family: "Bree Serif", serif;
-        letter-spacing: -0.02em;
-    }
-    h2,
-    h3,
-    h4 {
+    h4,
+    h5,
+    h6 {
         margin-top: 2em;
         margin-bottom: 1em;
     }
-    li,
-    pre {
-        margin-left: 2em;
-    }
-    li {
-        margin-bottom: 0.5em;
-    }
-    ul {
-        list-style-type: disc;
-    }
-    ol {
-        list-style-type: decimal;
-    }
-    pre {
-        font-size: 0.75em;
-        white-space: pre-wrap;
-    }
-    blockquote {
-        margin-left: 1em;
-        margin-right: 1em;
-        border-left: 3px solid #999;
-        padding-left: 1em;
-        small {
-            font-style: italic;
-        }
-    }
-    dt {
-        font-weight: bold;
-    }
-    dd {
-        margin-left: 1em;
-    }
-    .underline {
-        text-decoration: underline;
-    }
-    hr {
-        border: none;
-        text-align: center;
-    }
-    hr:after {
-        content: "...";
-        letter-spacing: 0.6em;
-    }
-    img {
-        max-width: 100%;
-        display: block;
-        margin: auto;
-    }
-    img.small {
-        max-width: 30%;
-        margin-right: 1%;
-        display: inline;
-    }
-    video {
-        width: 100%;
-    }
-    iframe {
-        margin: 1em 0;
-    }
-    a.titlepage {
-        display: inline-block;
-        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
-        vertical-align: middle;
-        margin: 0.5em;
-        background: white;
-        img {
-            max-width: 16.5em;
-            max-height: 30em;
-            margin: 0;
-        }
-    }
-    a.titlepage:hover {
-        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.8);
-    }
-    h1 {
-        font-size: 2.2em;
-        a {
-            color: inherit;
-        }
-    }
-    h2 {
-        font-size: 1.5em;
-    }
-    th {
-        text-align: left;
-        padding-right: 1em;
-    }
-    td {
-        vertical-align: top;
-        font-size: 80%;
-        padding-right: 1em;
-    }
-    table {
+    p {
         margin-bottom: 1em;
     }
-    .subtitle {
-        font-family: "Bree Serif", serif;
-        font-style: italic;
-        margin-bottom: 0.2em;
-    }
-    .meta {
-        font-size: 0.8em;
-        margin-bottom: $spacing/0.8;
-        color: #9eabb3;
-        a {
-            color: inherit;
-        }
-        a:hover {
-            color: $offblack;
-        }
-    }
-    #intro {
-        margin-bottom: 2em;
-        line-height: 1.4em;
+}
 
-        .filter a {
-            border-bottom: 1px dashed;
-        }
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        img {
-            float: left;
-            max-width: 100%;
-            max-height: 11em;
-            padding-right: 1em;
-        }
-    }
-    #filters {
-        position: sticky;
-        white-space: wrap;
-        top: 0;
-        padding-top: $spacing;
-        padding-bottom: 0;
-        box-shadow: 0 0 0 20px white;
-        z-index: 1;
-        background: white;
-        font-size: 0.75em;
-        text-transform: uppercase;
-        margin-bottom: $spacing;
-        line-height: 2.5em;
+#intro {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+    font-size: 150%;
+}
 
-        a,
-        div {
-            display: inline;
-            border: 1px solid #ccc;
-            padding: 0.3em 0.6em 0.2em 0.6em;
-            margin-right: 0.5em;
-            border-radius: 999em;
-            color: #777;
-            transition-duration: 0s;
-            img {
-                height: 1.1em;
-                display: inline;
-                margin-left: 0.4em;
-                padding-bottom: 0.3em;
-                vertical-align: middle;
-            }
-        }
-
-        a:hover,
-        div:hover {
-            cursor: pointer;
-            background: #eee;
-        }
-
-        a.selected {
-            color: white;
-            background: #888;
-            border-color: #888;
-        }
-
-        a.hidden {
-            display: none;
-        }
-    }
-    #search {
-        clear: both;
-        margin-bottom: 1em;
-        #morr-search {
-            padding: 0.4em;
-            font-size: 1.2em;
-        }
-        #morr-clear {
-            font-size: 1.5em;
-            vertical-align: middle;
-        }
-    }
-    .boxes {
-        margin: -0.75em;
-        padding-top: 1.75em;
-        padding-bottom: 2.75em;
-        overflow: auto;
-        transition: all 0.2s ease;
-    }
-    .box:hover {
-        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.8);
-        .meta {
-            height: auto !important;
-            margin-top: 0.6em !important;
-            top: 0 !important;
-        }
-    }
+.boxes {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
     .box {
-        position: relative;
-        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
-        float: left;
-        width: 11em;
-        height: 11em;
-        margin: 0.75em;
-        overflow: hidden;
-        transition: all 0.2s ease;
-        > a > img {
-            width: 100%;
-            height: 9em;
-            object-fit: cover;
-            object-position: 50% 50%;
+        height: 15rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        .image {
+            background-size: cover;
+            background-position: center;
+            margin-bottom: auto;
+            flex-grow: 1;
         }
-        .info {
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 0.5em;
-            box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
-            background: white;
+        .meta {
+            padding: 0.5rem;
+            color: #333;
             h2 {
-                font-size: 1em;
-                font-family: "Open Sans", sans-serif;
-                color: $offblack;
-                margin-top: 0;
-                margin-bottom: 0;
-                img {
-                    height: 1em;
-                    display: inline;
-                    margin-left: 0.4em;
-                    vertical-align: bottom;
+                font-size: 1.2rem;
+                img.icon {
+                    height: 1rem;
+                    display: inline-block;
+                    margin-left: 0.5rem;
                 }
             }
             h3 {
-                font-size: 0.8em;
-                font-family: "Open Sans", sans-serif;
-                font-weight: normal;
-                color: #9eabb3;
-                margin-top: 0.6em;
-                margin-bottom: 0;
+                font-size: 1rem;
+                font-weight: 400;
                 font-style: italic;
+                color: grey;
             }
-            .meta {
-                font-size: 0.8em;
-                line-height: 90%;
+            .details {
                 height: 0;
-                margin-top: 0.6;
-                margin-bottom: 0;
-                transition: all 0.2s ease;
-                position: relative;
-                top: 0.6em;
-                color: $offblack;
+                transition: all 0.2s;
+                overflow: hidden;
+                opacity: 0;
             }
         }
-        > a {
-            height: 100%;
-        }
     }
-    .flag {
-        height: 0.6em;
-        width: auto;
-        display: inline;
-    }
-    .spoiler {
-        background: $offblack;
-    }
-    iframe.toot {
-        width: 1px;
-        min-width: 100%;
-        border: none;
-    }
-}
-
-#about {
-    font-size: 0.8em;
-    padding-top: 0.5em;
-}
-
-@media screen and (max-width: 53em) {
-    #nav {
-        position: relative;
-        float: none;
-        width: 100%;
-        max-width: 36em;
-        margin-right: 0;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        li {
-            display: inline;
-        }
-    }
-    #content {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #content #intro img {
-        float: none;
-        padding-bottom: $spacing;
-        padding-right: 0;
-    }
-    #nav li {
-        display: block;
-    }
-}
-
-@media screen and (pointer: coarse) {
-    #content {
-        line-height: 1.8em;
-        #intro {
-            line-height: 1.8em;
+    .box:hover {
+        transform: scale(1.05);
+        .details {
+            height: 1.3rem;
+            opacity: 1;
         }
     }
 }
