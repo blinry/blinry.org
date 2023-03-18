@@ -27,6 +27,16 @@ You can define an upload path in `nanoc.yaml` and then use `bundle exec nanoc de
 
 If you encounter any problems, don't hesitate to ask me!
 
+Nix setup
+=========
+
+How to update the Ruby gems:
+
+```
+bundler update
+bundix
+```
+
 License
 =======
 
