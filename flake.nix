@@ -1,5 +1,5 @@
 {
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/staging";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }:
@@ -7,7 +7,7 @@
       devShells.default =
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          ruby = pkgs.ruby_3_1;
+          ruby = pkgs.ruby_3_2;
           gems = pkgs.bundlerEnv {
             name = "homepage-env";
             inherit ruby;
