@@ -187,10 +187,21 @@ nav ul,
     }
     code {
         font-family: "Inconsolata", monospace;
-        font-size: 1.2em;
     }
-    pre, ul, ol {
+    p code {
+        font-weight: bold;
+    }
+    pre,
+    ul,
+    ol {
         margin-bottom: 1rem;
+    }
+    pre {
+        background: #111;
+        color: white;
+        border-radius: 10px;
+        padding: 1rem;
+        white-space: pre-wrap;
     }
 }
 
