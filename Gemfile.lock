@@ -13,6 +13,10 @@ GEM
       listen (~> 3.0)
       rack-livereload (~> 0.3)
     cgi (0.3.6)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     colored (1.2)
     concurrent-ruby (1.2.2)
     cri (2.15.11)
@@ -25,6 +29,7 @@ GEM
     erb (4.0.2)
       cgi (>= 0.3.3)
     eventmachine (1.2.7)
+    execjs (2.8.1)
     ffi (1.15.5)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
@@ -114,6 +119,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  coffee-script
   erb
   kramdown
   nanoc (~> 4.12)

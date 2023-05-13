@@ -7,6 +7,7 @@ group :nanoc do
     gem "kramdown"
     gem "slim"
     gem "sass"
+    gem "coffee-script"
 end
 
 gem "webrick", "~> 1.7"
