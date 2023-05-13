@@ -10,6 +10,12 @@ def tweet id
 HERE
 end
 
+def toot id
+<<HERE
+<iframe src="https://#{id}/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
+HERE
+end
+
 def youtube id, classes: nil, start: nil
 <<HERE
 <iframe #{classes ? "class=\"#{classes}\"" : ""} width="550" height="310"
