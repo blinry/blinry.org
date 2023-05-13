@@ -42,6 +42,27 @@
     };
     version = "0.3.6";
   };
+  coffee-script = {
+    dependencies = ["coffee-script-source" "execjs"];
+    groups = ["nanoc"];
+    platforms = [];
+    source = {
+      remotes = ["http://rubygems.org"];
+      sha256 = "0rc7scyk7mnpfxqv5yy4y5q1hx3i7q3ahplcp4bq2g5r24g2izl2";
+      type = "gem";
+    };
+    version = "2.4.1";
+  };
+  coffee-script-source = {
+    groups = ["default" "nanoc"];
+    platforms = [];
+    source = {
+      remotes = ["http://rubygems.org"];
+      sha256 = "1907v9q1zcqmmyqzhzych5l7qifgls2rlbnbhy5vzyr7i7yicaz1";
+      type = "gem";
+    };
+    version = "1.12.2";
+  };
   colored = {
     groups = ["default" "nanoc"];
     platforms = [];
@@ -133,6 +154,16 @@
       type = "gem";
     };
     version = "1.2.7";
+  };
+  execjs = {
+    groups = ["default" "nanoc"];
+    platforms = [];
+    source = {
+      remotes = ["http://rubygems.org"];
+      sha256 = "121h6af4i6wr3wxvv84y53jcyw2sk71j5wsncm6wq6yqrwcrk4vd";
+      type = "gem";
+    };
+    version = "2.8.1";
   };
   ffi = {
     groups = ["default" "nanoc"];

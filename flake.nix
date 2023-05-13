@@ -15,7 +15,7 @@
           };
         in
         pkgs.mkShell {
-          nativeBuildInputs = [ ruby ] ++ (with pkgs; [ gems nodejs inkscape poppler_utils imagemagick pdf2svg ]);
+          nativeBuildInputs = [ ruby ] ++ (with pkgs; [ bundix gems nodejs inkscape poppler_utils imagemagick pdf2svg ]);
         };
     }
     );
