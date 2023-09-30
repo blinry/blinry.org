@@ -30,6 +30,8 @@ If you encounter any problems, don't hesitate to ask me!
 Nix setup
 =========
 
+The included Nix flake bundles all dependencies in a reproducible way! To use it, install Nix, and run `nix develop`. This will put you in a shell that has the `nanoc` command ready to go!
+
 How to update the Ruby gems:
 
 ```
