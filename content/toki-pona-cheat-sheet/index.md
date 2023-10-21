@@ -14,7 +14,7 @@ Here's the cheat sheet, with the entire grammar on one side, and the entire voca
 
 <%= titlepage("toki-pona-cheat-sheet", "Toki Pona cheat sheet") %>
 
-If you want to modify it, you can also download the [ODT file](toki-pona-cheat-sheet.odt).
+If you want to modify it, you can also download the [ODT file](toki-pona-cheat-sheet.odt). You'll need the fonts [Fira Sans](https://en.wikipedia.org/wiki/Fira_(typeface)) and [Roboto](https://en.wikipedia.org/wiki/Roboto).
 
 ## Translations
 
@@ -25,3 +25,4 @@ A number of people kindly translated the cheat sheet! More translations very wel
 - Italian (by Lorenzo): [PDF](toki-pona-cheat-sheet-it.pdf), [ODT](toki-pona-cheat-sheet-it.odt), [GitHub](https://github.com/lorenzobotti/toki-pona-foglio-trucchi)
 - Brazilian Portugese (by Felipe): [PDF](toki-pona-cheat-sheet-pt_br.pdf), [ODT](toki-pona-cheat-sheet-pt_br.odt)
 - Esperanto (by Vaughn): [PDF](toki-pona-cheat-sheet-eo.pdf), [ODT](toki-pona-cheat-sheet-eo.odt)
+- Persian (by Ali): [PDF](toki-pona-cheat-sheet-fa.pdf), [DOCX](toki-pona-cheat-sheet-fa.docx) (fonts available on request)
