@@ -38,7 +38,7 @@ As long as you respect the following terms:
 
 - **attribution** – give appropriate credit, read Creative Commons' [best practises page](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) to learn how
 
-- **share-alike** – if make modifications, you must distribute them under the same license as the original
+- **share-alike** – if you make modifications, you must distribute them under the same license as the original
 
 ## Support
 

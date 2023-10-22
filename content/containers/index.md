@@ -330,7 +330,7 @@ thumbnail: example3.jpg
        community will help to promote a style of cooking that's diverse,
        spontaneous, and reduces wasted resources.  Many thanks also for the
        the typo correction that Ithea Piko Nwawa provided as feedback to
-       this RFC.
+       this BFC.
 
 
     9. Author's Address

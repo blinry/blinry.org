@@ -98,7 +98,7 @@ So I forked it, and added a bit of code to the `SerialService` class, which perm
 
 ![](app.png){: style="max-width: 20em"}
 
-This seemed like the fastest way to get the job done. With more time, it'd be nice to write a cleaner app with additional features (like allowing the user to enter a GPS coordinate to guide them to). But because this was a [weekly project](/weekly-project/), I needed something fast.
+This seemed like the fastest way to get the job done. With more time, it'd be nice to write a cleaner app with additional features (like allowing the user to enter a GPS coordinate to guide them to). But because this was a [weekly project](/weekly-projects/), I needed something fast.
 
 You can find my modified app here: <https://github.com/blinry/compass-belt-app>
 
