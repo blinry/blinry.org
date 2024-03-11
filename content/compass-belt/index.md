@@ -3,6 +3,7 @@ title: Haptic compass belt 🧭
 published: 2023-08-04
 thumbnail: worn-side.jpg
 tags: hardware
+toot: https://chaos.social/@blinry/110815166479763365
 ---
 
 I've always wanted to build a compass belt! The idea is to attach a couple of vibration motors to a belt, use a compass sensor to find north, and then to let the motor that points north vibrate!
