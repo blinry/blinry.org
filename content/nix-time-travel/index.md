@@ -18,7 +18,7 @@ This post is written for two audiences: If you're actually interested in buildin
 
 But also, if you're just curious about solving computer problems in a more general sense, this post will show you some methods and tools you can use when attempting to fix bugs yourself!
 
-If you **just want to try these old software versions yourself**, you can use my [modified nixpkgs repository](https://github.com/blinry/nixpkgs), which includes all the described changes I made.
+If you **just want to try these old software versions yourself**, you can use my [modified nixpkgs repository](https://github.com/blinry/nixpkgs) (the *2008* branch), which includes all the described changes I made.
 
 ## Blender 2.45 (from 2008)
 
@@ -116,7 +116,7 @@ Often, plugging broken links into the [Wayback Machine](https://archive.org/web/
 - [fontconfig-2.4.2.tar.gz](http://web.archive.org/web/20220226170444/https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.4.2.tar.gz)
 - [libxml2-2.6.30.tar.gz](http://xmlsoft.org/sources/old/libxml2-2.6.30.tar.gz)
 
-In [my modified nixpkgs repo](https://github.com/blinry/nixpkgs), I already replaced the specified URLs, so you won't have to download them manually.
+In [my modified nixpkgs repo](https://github.com/blinry/nixpkgs) (on the *2008* branch), I already replaced the specified URLs, so you won't have to download them manually.
 
 ## Problem 3: Impurity in Python package
 
@@ -392,4 +392,4 @@ Other open questions:
 
 ## Wanna time travel to 2008 yourself?
 
-Again, I published a [modified nixpkgs repository](https://github.com/blinry/nixpkgs), which **includes all required changes to build an run Firefox, GIMP, Inkscape and Blender from 2008** on my Arch Linux machine in 2023. Give it a try and let me know how it went for you!
+Again, I published a [modified nixpkgs repository](https://github.com/blinry/nixpkgs) (the *2008* branch), which **includes all required changes to build an run Firefox, GIMP, Inkscape and Blender from 2008** on my Arch Linux machine in 2023. Give it a try and let me know how it went for you!
