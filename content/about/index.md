@@ -14,8 +14,8 @@ nometa: true
 Snail mail (German law requires this):
 
 > blinry  
-> Jasperallee 35 B  
-> 38102 Braunschweig  
+> Heinrich-Hertz-Str. 104  
+> 22083 Hamburg  
 > Germany
 
 ## This site
