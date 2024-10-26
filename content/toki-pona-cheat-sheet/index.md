@@ -2,7 +2,7 @@
 title: Toki Pona cheat sheet
 subtitle: An entire language on one page
 published: 2020-01-07T11:53+01:00
-updated: 2022-10-21
+updated: 2024-10-26
 tags: tokipona
 license: CC0
 toot: https://chaos.social/@blinry/103441773848063945
@@ -26,3 +26,5 @@ A number of people kindly translated the cheat sheet! More translations very wel
 - Brazilian Portugese (by Felipe): [PDF](toki-pona-cheat-sheet-pt_br.pdf), [ODT](toki-pona-cheat-sheet-pt_br.odt)
 - Esperanto (by Vaughn): [PDF](toki-pona-cheat-sheet-eo.pdf), [ODT](toki-pona-cheat-sheet-eo.odt)
 - Persian (by Ali): [PDF](toki-pona-cheat-sheet-fa.pdf), [DOCX](toki-pona-cheat-sheet-fa.docx) (fonts available on request)
+- Japanese (by jan wanashi): [PDF](toki-pona-cheat-sheet-ja.pdf), [DOCX](toki-pona-cheat-sheet-ja.docx)
+- Icelandic (by jan ilo Satasa): [PDF](toki-pona-cheat-sheet-is.pdf), [ODT](toki-pona-cheat-sheet-is.odt)
