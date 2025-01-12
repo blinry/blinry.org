@@ -193,6 +193,14 @@ nav ul,
     p code {
         font-weight: bold;
     }
+    blockquote {
+        margin-left: 0.4rem;
+        padding-left: 0.8rem;
+        margin-right: 1rem;
+        border-left: 0.3rem solid #555;
+        font-style: italic;
+        color: #555;
+    }
     pre,
     ul,
     ol {
