@@ -16,6 +16,16 @@ Here's the cheat sheet, with the entire grammar on one side, and the entire voca
 
 If you want to modify it, you can also download the [ODT file](toki-pona-cheat-sheet.odt). You'll need the fonts [Fira Sans](https://en.wikipedia.org/wiki/Fira_(typeface)) and [Roboto](https://en.wikipedia.org/wiki/Roboto).
 
+## Version 2
+
+In 2022, jan Sa (with the help of jan Deni, jan Ke Tami, jan Kekan San and jan Seli) made an updated version: <https://jansa-tp.github.io/cheatsheet>
+
+Here's a changelog:
+
+- Updated word definitions (like akesi, nasa) from the modern usage.
+- Word list includes lipu Linku's "core" and "widespread" word list, rather than only nimi pu.
+- Grammar section has had wording updates, added clarity, and explains preverbs.
+
 ## Translations
 
 A number of people kindly translated the cheat sheet! More translations very welcome!
@@ -28,3 +38,5 @@ A number of people kindly translated the cheat sheet! More translations very wel
 - Persian (by Ali): [PDF](toki-pona-cheat-sheet-fa.pdf), [DOCX](toki-pona-cheat-sheet-fa.docx) (fonts available on request)
 - Japanese (by jan wanashi): [PDF](toki-pona-cheat-sheet-ja.pdf), [DOCX](toki-pona-cheat-sheet-ja.docx)
 - Icelandic (by jan ilo Satasa): [PDF](toki-pona-cheat-sheet-is.pdf), [ODT](toki-pona-cheat-sheet-is.odt)
+- Lojban (by la .samflir.): [PDF](toki-pona-cheat-sheet-jbo.pdf), [ODT](toki-pona-cheat-sheet-jbo.odt)
+- Czech (by Švára): [PDF](toki-pona-cheat-sheet-cs.pdf), [ODT](toki-pona-cheat-sheet-cs.odt)
