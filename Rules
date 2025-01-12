@@ -24,9 +24,9 @@ preprocess do
                     item[:thumbnail] = dir+item[:thumbnail]
                 end
             else
-                thumb = @items[dir+"*thumbnail*{png,jpg,gif,svg}"] ||
+                thumb = @items[dir+"*thumbnail*{png,jpg,jpeg,gif,svg}"] ||
                     @items[dir+"*talk*.pdf"] ||
-                    @items[dir+"*.{png,jpg,gif,svg,pdf}"]
+                    @items[dir+"*.{png,jpg,jpeg,gif,svg,pdf}"]
                 if thumb
                     item[:thumbnail] = thumb.identifier
                 else
@@ -56,14 +56,14 @@ compile "/**/*.xml" do
     write item.identifier.without_ext + ".html"
 end
 
-compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
+compile "/**/*.{png,jpg,jpeg,gif,svg}", :rep => :thumbnail do
     if item[:thumbnailize]
         filter :thumbnailize, :width => 600
         write item.identifier + "-thumbnail.jpg"
     end
 end
 
-compile "/**/*.{png,jpg,gif,svg}", :rep => :minithumbnail do
+compile "/**/*.{png,jpg,jpeg,gif,svg}", :rep => :minithumbnail do
     if item[:thumbnailize]
         filter :thumbnailize, :width => 350
         write item.identifier + "-minithumbnail.jpg"
