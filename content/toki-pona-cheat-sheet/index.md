@@ -2,7 +2,7 @@
 title: Toki Pona cheat sheet
 subtitle: An entire language on one page
 published: 2020-01-07T11:53+01:00
-updated: 2024-10-26
+updated: 2025-07-29
 tags: tokipona
 license: CC0
 toot: https://chaos.social/@blinry/103441773848063945
@@ -32,6 +32,7 @@ A number of people kindly translated the cheat sheet! More translations very wel
 
 - Russian (by /dev/urandom): [PDF](toki-pona-cheat-sheet-ru.pdf), [ODT](toki-pona-cheat-sheet-ru.odt)
 - French (by David): [PDF](toki-pona-cheat-sheet-fr.pdf)
+- French (v2.4, by jan Lim): [PDF](toki-pona-cheat-sheet-v2.4-fr.pdf), [ODT front](toki-pona-cheat-sheet-v2.4-fr-front.odt), [ODT back](toki-pona-cheat-sheet-v2.4-fr-back.odt) (require [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/))
 - Italian (by Lorenzo): [PDF](toki-pona-cheat-sheet-it.pdf), [ODT](toki-pona-cheat-sheet-it.odt), [GitHub](https://github.com/lorenzobotti/toki-pona-foglio-trucchi)
 - Brazilian Portugese (by Felipe): [PDF](toki-pona-cheat-sheet-pt_br.pdf), [ODT](toki-pona-cheat-sheet-pt_br.odt)
 - Esperanto (by Vaughn): [PDF](toki-pona-cheat-sheet-eo.pdf), [ODT](toki-pona-cheat-sheet-eo.odt)
@@ -39,4 +40,5 @@ A number of people kindly translated the cheat sheet! More translations very wel
 - Japanese (by jan wanashi): [PDF](toki-pona-cheat-sheet-ja.pdf), [DOCX](toki-pona-cheat-sheet-ja.docx)
 - Icelandic (by jan ilo Satasa): [PDF](toki-pona-cheat-sheet-is.pdf), [ODT](toki-pona-cheat-sheet-is.odt)
 - Lojban (by la .samflir.): [PDF](toki-pona-cheat-sheet-jbo.pdf), [ODT](toki-pona-cheat-sheet-jbo.odt)
-- Czech (by Švára): [PDF](toki-pona-cheat-sheet-cs.pdf), [ODT](toki-pona-cheat-sheet-cs.odt)
+- Czech (by Švára): [PDF](toki-pona-cheat-sheet-cs.pdf), [ODT](toki-pona-cheat-sheet-cs.odt), [GitHub](https://github.com/shvarra/czech-toki-pona-cheatsheet)
+- Spanish (by Vladimir): [PDF](toki-pona-cheat-sheet-es.pdf), [ODT](toki-pona-cheat-sheet-es.odt)
