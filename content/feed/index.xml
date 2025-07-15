@@ -11,9 +11,9 @@
 
     <% things.each do |item| %>
         <entry>
-            <title><%= item[:title] %></title>
+        <title><%= item[:title].encode(:xml => :text) %></title>
             <link href="<%= if item[:url] then item[:url] else domain.chop+item.path end %>" />
-            <id><%= item.path.split("/").last %></id>
+            <id><%= domain.chop+item.path %></id>
             <updated><%= item[:published].xmlschema %></updated>
             <author>
                 <name>blinry</name>
