@@ -9,7 +9,7 @@ At this point, I've lost track of how many games I've made for Ludum Dare, but I
 
 The game looks back on the soundtracks of the games I've worked on in the past, and it's a declaration of love to the people who made them with me: Agustín, Alan, Byung, Kiki, larkinia, Lena, Leslie, Mai, Moritz, Pecca, rohieb, Steffi, Tim, and Winnie! <3
 
-**Play the game [in your browser](play/)!** The submission page on the Ludum Dare website is [here](https://ldjam.com/events/ludum-dare/46/dj-hamster).
+**Play the game [in your browser](play/)!** The submission page on the Ludum Dare website is [here](https://ldj.am/46/dj-hamster).
 
 [![](title.png)](play/)
 

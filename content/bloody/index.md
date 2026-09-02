@@ -10,11 +10,11 @@ This is our contribution Ludum Dare 38. This time, I was part of a four-person t
 
 Only an event like Ludum Dare gets me into a flow-like state which allows me to work on something without interruptions for 16 hours straight...
 
-You can download the game [from the Ludum Dare website](https://ldjam.com/events/ludum-dare/38/a-bloody-small-world)!
+You can download the game [from the Ludum Dare website](https://ldj.am/38/a-bloody-small-world)!
 
-[![Title of "A Bloody Small World"](title.png)](https://ldjam.com/events/ludum-dare/38/a-bloody-small-world)
+[![Title of "A Bloody Small World"](title.png)](https://ldj.am/38/a-bloody-small-world)
 
-[![Screenshots of "A Bloody Small World"](ingame.png)](https://ldjam.com/events/ludum-dare/38/a-bloody-small-world)
+[![Screenshots of "A Bloody Small World"](ingame.png)](https://ldj.am/38/a-bloody-small-world)
 
 ## Recordings
 

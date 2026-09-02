@@ -10,9 +10,9 @@ This was my contribution to the game jam Ludum Dare 37, and my third participati
 
 This time, we created a puzzle game about placing furniture in rooms. One beta tester described it as "Sokoban meets IKEA"! Many reviewers told us the puzzles are rather hard, and it seems consistently to take about an hour to complete. We invite you to give it a go! :)
 
-Again, we used the [LÖVE](https://love2d.org/) engine. You can download the game [from the Ludum Dare website](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=64665)!
+Again, we used the [LÖVE](https://love2d.org/) engine. You can download the game [from the Ludum Dare website](https://ldj.am/37/was-ist-das-f-r-1-room)!
 
-[![Title of "Was ist das für 1 Room?"](title.png)](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=64665)
+[![Title of "Was ist das für 1 Room?"](title.png)](https://ldj.am/37/was-ist-das-f-r-1-room)
 
 ![Screenshot of "Was ist das für 1 Room?"](ingame1.jpg)
 

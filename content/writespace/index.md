@@ -6,13 +6,13 @@ published: 2018-08-14
 thumbnail: cover.jpg
 ---
 
-Writespace is a puzzle game with simple mechanics, but interesting implications. It was made in 72 hours for Ludum Dare 42, together with [Kiki](http://flauschzelle.de) and [larkinia](https://ldjam.com/users/larkinia), and [Lena](https://lenaschimmel.de) and [rohieb](https://rohieb.name) jumped in last-minute to help with the graphics!
+Writespace is a puzzle game with simple mechanics, but interesting implications. It was made in 72 hours for Ludum Dare 42, together with [Kiki](http://flauschzelle.de) and [larkinia](https://ldj.am/@larkinia), and [Lena](https://lenaschimmel.de) and [rohieb](https://rohieb.name) jumped in last-minute to help with the graphics!
 
 As for the story: *You’re exploring a haunted house and find a strange parchment scroll. When you touch it, something terrible happens: You’re turned into a typewriter! Use your surroundings and find the magic words to lift the curse! Oh, and you can’t type spaces, of course.*
 
-You can download the game from [the Ludum Dare website](https://ldjam.com/events/ludum-dare/42/writespace).
+You can download the game from [the Ludum Dare website](https://ldj.am/42/writespace).
 
-[![Title screen](title.png)](https://ldjam.com/events/ludum-dare/42/writespace)
+[![Title screen](title.png)](https://ldj.am/42/writespace)
 
 ![In-game screens](ingame.png)
 

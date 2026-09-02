@@ -10,9 +10,9 @@ This game was a very small-scope entry for Ludum Dare 39, created during a sick 
 
 In the comments, the game was praised for its *"original concept"*, and the *"clean, simple execution"*. Many found it quite hard (including myself), but see for yourself! :)
 
-You can download the game [from the Ludum Dare website](https://ldjam.com/events/ludum-dare/39/ten-little-letters)!
+You can download the game [from the Ludum Dare website](https://ldj.am/39/ten-little-letters)!
 
-[![Title screen](title.png)](https://ldjam.com/events/ludum-dare/39/ten-little-letters)
+[![Title screen](title.png)](https://ldj.am/39/ten-little-letters)
 
 ![In-game screens](ingame.png)
 

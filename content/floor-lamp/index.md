@@ -8,11 +8,11 @@ thumbnail: title.png
 
 This is my contribution to Ludum Dare 35, the world's largest game jam. You get a theme, and have 48 hours to create a game around this topic, from scratch, including artwork and sound effects. This was my first time ever I participated in such an event, and I don't think it will be the last! :-)
 
-This contest's theme was "Shapeshift". *You're a Floor Lamp Now* is a strategic skill game with surprising mechanics. You can play it [on the Ludum Dare website](http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=64665).
+This contest's theme was "Shapeshift". *You're a Floor Lamp Now* is a strategic skill game with surprising mechanics. You can play it [on the Ludum Dare website](https://ldj.am/35/you-re-a-floor-lamp-now).
 
-[![Title of "You're a Floor Lamp Now"](title.png)](http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=64665)
+[![Title of "You're a Floor Lamp Now"](title.png)](https://ldj.am/35/you-re-a-floor-lamp-now)
 
-[![Screenshot of "You're a Floor Lamp Now"](room.png)](http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=64665)
+[![Screenshot of "You're a Floor Lamp Now"](room.png)](https://ldj.am/35/you-re-a-floor-lamp-now)
 
 ## Development
 

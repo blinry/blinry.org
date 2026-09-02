@@ -11,7 +11,7 @@ It's an arcade game taking place inside an alarm clock! Inside the first digit o
 
 **Quick, start the alarm to wake up your human! But make sure not to be in a segment when it turns off!**
 
-[Play it at the Ludum Dare website!](https://ldjam.com/events/ludum-dare/51/alarm-clock-arcade)
+[Play it at the Ludum Dare website!](https://ldj.am/51/alarm-clock-arcade)
 
 This was really fun to make -- the game even has its own intro animation, and features lots of fun sounds!
 
