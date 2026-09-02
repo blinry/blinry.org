@@ -10,13 +10,13 @@ A game for Ludum Dare 40 I made with [Kiki](http://flauschzelle.de). Original sc
 
 *Spring cleaning time! But be careful to protect your increasing number of cats from your roomba by drawing lots and lots of barrier tapes!*
 
-You can download the game (or play the web version) at [the Ludum Dare website](https://ldjam.com/events/ludum-dare/40/spring-clean-do-not-cross).
+You can download the game (or play the web version) at [the Ludum Dare website](https://ldj.am/40/spring-clean-do-not-cross).
 
-[![Title screen](title.png)](https://ldjam.com/events/ludum-dare/40/spring-clean-do-not-cross)
+[![Title screen](title.png)](https://ldj.am/40/spring-clean-do-not-cross)
 
 ![In-game screens](ingame.png)
 
-We also had a sister project, [Kittychaos](https://ldjam.com/events/ludum-dare/40/kittychaos/), created under the same roof, and partially sharing assets!
+We also had a sister project, [Kittychaos](https://ldj.am/40/kittychaos), created under the same roof, and partially sharing assets!
 
 ## Development
 

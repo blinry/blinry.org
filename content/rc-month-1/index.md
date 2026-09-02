@@ -362,7 +362,7 @@ Friday:
 
 Weekend and Monday:
 
-- Participated in the 44th iteration of the game jam *Ludum Dare*, where you make a game around a given theme in three days! The theme was "Your life is currency", and @**Tim Vieregge (SP2'19)**, @**Byung Joo Shin (W2'19)**, @**Alan Chu (SP2'19)** and me made [Capitalist Piggies](https://ldjam.com/events/ludum-dare/44/capitalist-piggies), where you play as a piggybank that wants to escape from evil banker piggies! @**Agustin Ramos Anzorena (SP1'19)** joined us on Monday to create some pretty visual assets! We used the [LÖVE](https://love2d.org/) game engine, and it was super fun, and super exhausting! :D
+- Participated in the 44th iteration of the game jam *Ludum Dare*, where you make a game around a given theme in three days! The theme was "Your life is currency", and @**Tim Vieregge (SP2'19)**, @**Byung Joo Shin (W2'19)**, @**Alan Chu (SP2'19)** and me made [Capitalist Piggies](https://ldj.am/44/capitalist-piggies), where you play as a piggybank that wants to escape from evil banker piggies! @**Agustin Ramos Anzorena (SP1'19)** joined us on Monday to create some pretty visual assets! We used the [LÖVE](https://love2d.org/) game engine, and it was super fun, and super exhausting! :D
 
 Today:
 

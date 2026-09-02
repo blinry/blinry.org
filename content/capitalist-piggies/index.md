@@ -9,9 +9,9 @@ A game for Ludum Dare 44, made with [byshiny](https://twitter.com/byshinyy), [pl
 
 It's a game about fast reactions, planning, and cute piggies! You play as a piggy bank that wants to escape a real bank, guarded by cute, but rather dangerous banker piggies.
 
-You can download the game from [the Ludum Dare website](https://ldjam.com/events/ludum-dare/44/capitalist-piggies).
+You can download the game from [the Ludum Dare website](https://ldj.am/44/capitalist-piggies).
 
-[![Title screen](title.png)](https://ldjam.com/events/ludum-dare/44/capitalist-piggies)
+[![Title screen](title.png)](https://ldj.am/44/capitalist-piggies)
 
 ![In-game screens](ingame.png)
 
